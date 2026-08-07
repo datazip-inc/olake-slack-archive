@@ -52,7 +52,7 @@ jobs:
           mkdir -p "data/raw/run-${{ steps.window.outputs.run_start }}"
           slackdump export -y \
             -type standard \
-            -files=false \
+            -avatars \
             -member-only \
             -chan-types public_channel,private_channel \
             -o "data/raw/run-${{ steps.window.outputs.run_start }}" \
@@ -79,9 +79,11 @@ jobs:
             -z data/merged \
             --html-only \
             -o public \
-            --no-external-references \
             --thread-note \
             --skip-channel-member-change
+
+      - name: Inject search widget into pages
+        run: python3 scripts/inject_search.py
 
       - name: Build search index (Pagefind)
         run: npx --yes pagefind --site public

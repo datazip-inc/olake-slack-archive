@@ -93,6 +93,38 @@ def merge_channel_messages():
     return result
 
 
+def merge_binary_assets():
+    """
+    Copy downloaded avatars (top-level __avatars/) and message attachments
+    (<channel>/attachments/) across all snapshots into the merged dir.
+    Same file ID always produces the same filename, so plain overwrite-copy
+    is a safe dedup.
+    """
+    n_avatars = n_attachments = 0
+    for run_dir in sorted(RAW_DIR.glob("run-*")):
+        avatars_src = run_dir / "__avatars"
+        if avatars_src.is_dir():
+            dest = MERGED_DIR / "__avatars"
+            dest.mkdir(parents=True, exist_ok=True)
+            for f in avatars_src.iterdir():
+                if f.is_file():
+                    shutil.copy2(f, dest / f.name)
+                    n_avatars += 1
+
+        for channel_dir in run_dir.iterdir():
+            if not channel_dir.is_dir() or channel_dir.name == "__avatars":
+                continue
+            attachments_src = channel_dir / "attachments"
+            if attachments_src.is_dir():
+                dest = MERGED_DIR / channel_dir.name / "attachments"
+                dest.mkdir(parents=True, exist_ok=True)
+                for f in attachments_src.iterdir():
+                    if f.is_file():
+                        shutil.copy2(f, dest / f.name)
+                        n_attachments += 1
+    return n_avatars, n_attachments
+
+
 def main():
     if MERGED_DIR.exists():
         shutil.rmtree(MERGED_DIR)
@@ -115,7 +147,12 @@ def main():
             )
             total += len(msgs)
 
-    print(f"Merged {total} messages across {len(channel_messages)} channel(s) into {MERGED_DIR}")
+    n_avatars, n_attachments = merge_binary_assets()
+
+    print(
+        f"Merged {total} messages across {len(channel_messages)} channel(s), "
+        f"{n_avatars} avatar(s), {n_attachments} attachment(s) into {MERGED_DIR}"
+    )
     if not channel_messages:
         print("No messages found under data/raw/ — nothing to merge.", file=sys.stderr)
 
