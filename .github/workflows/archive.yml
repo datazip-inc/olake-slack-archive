@@ -65,10 +65,23 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: archive slack messages (${{ steps.window.outputs.run_start }})"
-          file_pattern: "data/**"
+          file_pattern: "data/raw/** data/.last_run"
+
+      - name: Merge snapshots into one deduped export
+        run: python3 scripts/merge_export.py
+
+      - name: Install slack-export-viewer
+        run: pip install --quiet --break-system-packages slack-export-viewer
 
       - name: Render static site
-        run: python3 scripts/render.py
+        run: |
+          slack-export-viewer \
+            -z data/merged \
+            --html-only \
+            -o public \
+            --no-external-references \
+            --thread-note \
+            --skip-channel-member-change
 
       - name: Build search index (Pagefind)
         run: npx --yes pagefind --site public

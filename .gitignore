@@ -3,3 +3,4 @@ public/
 secrets.txt
 .env
 __pycache__/
+data/merged/

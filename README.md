@@ -11,12 +11,16 @@ Automated archive of OLake's Slack community, working around the free plan's
 2. **Store** — raw export snapshots land in `data/raw/run-<timestamp>/` and get
    committed back to the repo. `data/.last_run` tracks the last successful
    export so each run only pulls new messages (1h overlap buffer to avoid gaps).
-3. **Render** — `scripts/render.py` dedups messages across all snapshots (by
-   channel + `ts`) and builds a static HTML site into `public/` — one page per
-   channel plus an index.
-4. **Search** — [Pagefind](https://pagefind.app/) builds a static full-text
+3. **Merge** — `scripts/merge_export.py` dedups messages across all snapshots
+   (by channel + `ts`) and consolidates them into a single Slack-export-format
+   directory, `data/merged/` (not committed — rebuilt each run).
+4. **Render** — [`slack-export-viewer`](https://github.com/hfaran/slack-export-viewer)
+   (`--html-only`) turns `data/merged/` into a static HTML site in `public/`.
+   Handles mrkdwn, threads, emoji, code blocks, mentions, etc. properly —
+   swapped in for a hand-rolled renderer that kept missing edge cases.
+5. **Search** — [Pagefind](https://pagefind.app/) builds a static full-text
    search index over `public/` at build time. No backend, pure client-side JS.
-5. **Publish** — the built site deploys to GitHub Pages via
+6. **Publish** — the built site deploys to GitHub Pages via
    `actions/deploy-pages`.
 
 ## Setup (one-time)
@@ -33,7 +37,9 @@ Automated archive of OLake's Slack community, working around the free plan's
 
 ```bash
 # after running slackdump export manually into data/raw/run-<ts>/
-python3 scripts/render.py
+python3 scripts/merge_export.py
+pip install slack-export-viewer
+slack-export-viewer -z data/merged --html-only -o public --no-external-references --thread-note
 npx pagefind --site public
 python3 -m http.server -d public 8000
 ```
