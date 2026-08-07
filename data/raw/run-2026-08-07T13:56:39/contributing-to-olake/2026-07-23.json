@@ -1,0 +1,173 @@
+[
+  {
+    "client_msg_id": "d9576da0-fbf7-4a9d-bf22-ceded5268a43",
+    "type": "message",
+    "user": "U0BHNPA3BQU",
+    "text": "Hello everyone,\nI'm Tanishq, a pre-final yr undergrad from Pune, been contributing to CNCF projects quite a while and recently started exploring olake.\nI've opened a PR for issue #912\n\nIssue*:* \u003chttps://github.com/datazip-inc/olake/issues/912|github.com/datazip-inc/olake/issues/912\u003e\nPR*:* \u003chttps://github.com/datazip-inc/olake/pull/1039|github.com/datazip-inc/olake/pull/1039\u003e\n\nBy default, sync skips schema discovery to keep runs fast. The `--discover-schema` flag re-runs discovery and validates configured streams against the source (sync mode, primary keys, cursor fields).\nCould someone take a look when you get a chance,\n\nThank you",
+    "ts": "1784815968.632889",
+    "thread_ts": "1784815968.632889",
+    "reply_count": 1,
+    "reply_users": [
+      "U09BK0WKBQR"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1784816879.174359"
+      }
+    ],
+    "latest_reply": "1784816879.174359",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZaP0Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello everyone,\nI'm Tanishq, a pre-final yr undergrad from Pune, been contributing to CNCF projects quite a while and recently started exploring olake.\nI've opened a PR for issue #912\n\nIssue"
+              },
+              {
+                "type": "text",
+                "text": ":",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/912",
+                "text": "github.com/datazip-inc/olake/issues/912"
+              },
+              {
+                "type": "text",
+                "text": "\nPR"
+              },
+              {
+                "type": "text",
+                "text": ":",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1039",
+                "text": "github.com/datazip-inc/olake/pull/1039"
+              },
+              {
+                "type": "text",
+                "text": "\n\nBy default, sync skips schema discovery to keep runs fast. The "
+              },
+              {
+                "type": "text",
+                "text": "--discover-schema",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " flag re-runs discovery and validates configured streams against the source (sync mode, primary keys, cursor fields).\nCould someone take a look when you get a chance,\n\nThank you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-07-15/11595078798438_93843878e956997d0fee_72.png",
+      "first_name": "Tanishq",
+      "real_name": "Tanishq Patil",
+      "display_name": "Tanishq Patil",
+      "team": "T0820LGJGRF",
+      "name": "tanishqp101204",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "6E3635F3-7DC0-441B-9BA6-A0DD515235DD",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "Hey \u003c@U0BHNPA3BQU\u003e we have noted that you have raised a PR and we will assign a reviewer soon. ",
+    "ts": "1784816879.174359",
+    "thread_ts": "1784815968.632889",
+    "parent_user_id": "U0BHNPA3BQU",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0BHNPA3BQU"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j8LFD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BHNPA3BQU"
+              },
+              {
+                "type": "text",
+                "text": " we have noted that you have raised a PR and we will assign a reviewer soon. "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

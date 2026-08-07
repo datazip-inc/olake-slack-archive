@@ -1,0 +1,139 @@
+[
+  {
+    "client_msg_id": "af5ffee6-cb38-46da-a328-8a72d2967c8f",
+    "type": "message",
+    "user": "U0B26P1ATD4",
+    "text": "Hi\nCan someone please help me with the difference between Full Refresh + Incremental and Full Refresh + CDC sync modes ? Please point me to the documentation",
+    "ts": "1781865400.544049",
+    "thread_ts": "1781865400.544049",
+    "edited": {
+      "user": "U0B26P1ATD4",
+      "ts": "1781865408.000000"
+    },
+    "reply_count": 1,
+    "reply_users": [
+      "U0A8Y735340"
+    ],
+    "replies": [
+      {
+        "user": "U0A8Y735340",
+        "ts": "1781865749.819849"
+      }
+    ],
+    "latest_reply": "1781865749.819849",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QHpH8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi\nCan someone please help me with the difference between Full Refresh + Incremental and Full Refresh + CDC sync modes ? Please point me to the documentation"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-07/11074783596326_1e8f83226b8b193dd191_72.png",
+      "first_name": "Jeevansh",
+      "real_name": "Jeevansh Gagroo",
+      "display_name": "Jeevansh Gagroo",
+      "team": "T0820LGJGRF",
+      "name": "jeevansh.gagroo",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "f7e12ce0-99ac-4110-b8f3-24d84148e5c9",
+    "type": "message",
+    "user": "U0A8Y735340",
+    "text": "Hi! You can find the explanation of sync modes in the documentation here: \u003chttps://olake.io/docs/understanding/terminologies/olake/#2-sync-modes\u003e",
+    "ts": "1781865749.819849",
+    "thread_ts": "1781865400.544049",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake Terminologies",
+        "id": 1,
+        "title": "OLake Terminologies",
+        "title_link": "https://olake.io/docs/understanding/terminologies/olake/#2-sync-modes",
+        "text": "Streams Properties Description",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/understanding/terminologies/olake/#2-sync-modes",
+        "original_url": "https://olake.io/docs/understanding/terminologies/olake/#2-sync-modes",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0B26P1ATD4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "100",
+        "count": 1,
+        "users": [
+          "U0B26P1ATD4"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SOn09",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi! You can find the explanation of sync modes in the documentation here: "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/understanding/terminologies/olake/#2-sync-modes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-25/11442579204982_728b97d1d93f2cdc455f_72.jpg",
+      "first_name": "Siddharth",
+      "real_name": "Siddharth Chevella",
+      "display_name": "Siddharth",
+      "team": "T0820LGJGRF",
+      "name": "siddharth",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

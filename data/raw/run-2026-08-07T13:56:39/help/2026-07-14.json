@@ -1,0 +1,48 @@
+[
+  {
+    "client_msg_id": "cad23bb7-4ade-44a4-a51d-5ca27c56ac76",
+    "type": "message",
+    "user": "U0ACFDEBBQB",
+    "text": "Thank you",
+    "ts": "1784024972.193129",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ztrU8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thank you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-03/10426423252181_a43fcaca0f0aec7ea3e2_72.png",
+      "first_name": "Sandeep",
+      "real_name": "Sandeep Singh",
+      "display_name": "Sandeep Singh",
+      "team": "T0820LGJGRF",
+      "name": "sandeep.singh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "client_msg_id": "ba338033-e99a-44bb-aaad-899353a1fffc",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "Are there any ways to fix this? or i must using olake CLI? \u003c@U08S0TP9R3P\u003e",
+    "ts": "1779175857.892479",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y32Kg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Are there any ways to fix this? or i must using olake CLI? "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S0TP9R3P"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7a32a31a-b7fc-4895-bfa1-ed9895e22a85",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0AQHEXPAUQ\u003e We are looking into, will get back shortly.",
+    "ts": "1779176607.310659",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U0AQHEXPAUQ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ih/Qf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " We are looking into, will get back shortly."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d84bd5bf-a75e-43df-b71b-2e9517ad2708",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0AQHEXPAUQ\u003e can we get on a quick call to debug this issue? Let us know a good time anytime today",
+    "ts": "1779177568.498759",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZQvVv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " can we get on a quick call to debug this issue? Let us know a good time anytime today"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1b86ba32-f06b-44a4-85f2-f86ef66be540",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "yes, im free now",
+    "ts": "1779177871.391539",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jctOq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "yes, im free now"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ffef2555-1e8b-44e0-be02-b70c06df81d9",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "Please join here:\n\u003chttps://meet.google.com/fwo-fugn-cyc\u003e",
+    "ts": "1779177976.588489",
+    "thread_ts": "1779165003.704089",
+    "attachments": [
+      {
+        "fallback": "Meet",
+        "id": 1,
+        "title": "Meet",
+        "title_link": "https://meet.google.com/fwo-fugn-cyc",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "service_name": "meet.google.com",
+        "service_icon": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "from_url": "https://meet.google.com/fwo-fugn-cyc",
+        "original_url": "https://meet.google.com/fwo-fugn-cyc",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0AQHEXPAUQ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gLAwv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Please join here:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/fwo-fugn-cyc"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "type": "message",
+    "user": "U081MTF4GHZ",
+    "text": "added an integration to this channel: \u003chttps://getolake.slack.com/services/B0B4T6B4FJ5|Canny\u003e",
+    "ts": "1779185016.630739",
+    "subtype": "bot_add",
+    "bot_id": "B0B4T6B4FJ5",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-19/10156045326514_654c97334f1a0da12b77_72.png",
+      "first_name": "Merlyn",
+      "real_name": "Merlyn",
+      "display_name": "Merlyn",
+      "team": "T0820LGJGRF",
+      "name": "merlyn",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d2e7c87a-8e94-4a8f-899e-13ac91eec5a1",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "Hi \u003c@U08S5BR47GA\u003e thanks for catching it, this is definitely a mistake on our end, of pushing the whole mp4 to a db row should not be intended, as for the urgency, i dont think this is very urgent as imo it shouldnt have happened in the first place, anyways, thanks again, good day",
+    "ts": "1779188826.367909",
+    "thread_ts": "1778930860.767709",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BB+u/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              },
+              {
+                "type": "text",
+                "text": " thanks for catching it, this is definitely a mistake on our end, of pushing the whole mp4 to a db row should not be intended, as for the urgency, i dont think this is very urgent as imo it shouldnt have happened in the first place, anyways, thanks again, good day"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

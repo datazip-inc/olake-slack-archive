@@ -1,0 +1,427 @@
+[
+  {
+    "client_msg_id": "330b703d-99b8-4dad-88c6-cb8267a99797",
+    "type": "message",
+    "user": "U0AMDCT444T",
+    "text": "I'm a bit curious how to get the CLI to run continuously when syncing Postgres with CDC.\nRight now I get this output when running with `--state /mnt/config/state.json` , and then exit.\nHow can I configure olake cli to run continuously as a daemon (i.e. we want to run it as a sidecar along user-defined applications)\n```(... removed ...)\n2026-08-07T13:39:55Z INFO Iceberg[50051] 13:39:55.245 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-29-6395037162323] Total time taken: 1 ms\n2026-08-07T13:39:55Z DEBUG Thread[public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9]: Sent commit message: [Thread-29-6395037162323] Successfully committed data for thread public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9                                                                                                                                                             2026-08-07T13:39:55Z DEBUG sent standby status message at LSN#0/19BD100\n2026-08-07T13:39:58Z INFO Total records read: 0 | Total bytes read: 0 B\n2026-08-07T13:39:58Z INFO Sync completed, wait 5 seconds cleanup in progress...                                                                                                          2026-08-07T13:40:03Z INFO Shutting down shared Iceberg JVM on port 50051```",
+    "ts": "1786110244.537709",
+    "thread_ts": "1786110244.537709",
+    "reply_count": 6,
+    "reply_users": [
+      "U082APQJZNC",
+      "U0AMDCT444T"
+    ],
+    "replies": [
+      {
+        "user": "U0AMDCT444T",
+        "ts": "1786110500.526099"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1786110713.751239"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1786110819.448979"
+      },
+      {
+        "user": "U0AMDCT444T",
+        "ts": "1786110861.324709"
+      },
+      {
+        "user": "U0AMDCT444T",
+        "ts": "1786110874.534849"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1786110914.375639"
+      }
+    ],
+    "latest_reply": "1786110914.375639",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1nHJy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I'm a bit curious how to get the CLI to run continuously when syncing Postgres with CDC.\nRight now I get this output when running with "
+              },
+              {
+                "type": "text",
+                "text": "--state /mnt/config/state.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " , and then exit.\nHow can I configure olake cli to run continuously as a daemon (i.e. we want to run it as a sidecar along user-defined applications)\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(... removed ...)\n2026-08-07T13:39:55Z INFO Iceberg[50051] 13:39:55.245 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-29-6395037162323] Total time taken: 1 ms\n2026-08-07T13:39:55Z DEBUG Thread[public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9]: Sent commit message: [Thread-29-6395037162323] Successfully committed data for thread public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9                                                                                                                                                             2026-08-07T13:39:55Z DEBUG sent standby status message at LSN#0/19BD100\n2026-08-07T13:39:58Z INFO Total records read: 0 | Total bytes read: 0 B\n2026-08-07T13:39:58Z INFO Sync completed, wait 5 seconds cleanup in progress...                                                                                                          2026-08-07T13:40:03Z INFO Shutting down shared Iceberg JVM on port 50051"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-19/10733824936658_c5811d706f7b878446ea_72.png",
+      "first_name": "Kim",
+      "real_name": "Kim Tore Jensen",
+      "display_name": "Kim Tore Jensen",
+      "team": "T0820LGJGRF",
+      "name": "kim.tore.jensen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "efafc544-d609-4434-9cc3-2e8cf478010b",
+    "type": "message",
+    "user": "U0AMDCT444T",
+    "text": "I copied most of the configuration directly from examples in the documentation, modifying only for our Lakekeeper destination.",
+    "ts": "1786110500.526099",
+    "thread_ts": "1786110244.537709",
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HHEXV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I copied most of the configuration directly from examples in the documentation, modifying only for our Lakekeeper destination."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-19/10733824936658_c5811d706f7b878446ea_72.png",
+      "first_name": "Kim",
+      "real_name": "Kim Tore Jensen",
+      "display_name": "Kim Tore Jensen",
+      "team": "T0820LGJGRF",
+      "name": "kim.tore.jensen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "79a32b26-014f-4c22-9bff-17a66a231385",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0AMDCT444T\u003e currently there is no continuous feature in CLI. (if you use OLake-ui, we have temporal which continuously syncs data — configurable via cron).\n\nso you need to schedule your own cron/orchestration which will keep running every 10-15mins.",
+    "ts": "1786110713.751239",
+    "thread_ts": "1786110244.537709",
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FLzch",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AMDCT444T"
+              },
+              {
+                "type": "text",
+                "text": " currently there is no continuous feature in CLI. (if you use OLake-ui, we have temporal which continuously syncs data — configurable via cron).\n\nso you need to schedule your own cron/orchestration which will keep running every 10-15mins."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2a094b4f-d33b-4b19-8c0e-da3537059844",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "Also we are planning continuous mode in next 2-3 months. You can discuss with our product team \u003c@U081MTF4GHZ\u003e about requirements.",
+    "ts": "1786110819.448979",
+    "thread_ts": "1786110244.537709",
+    "edited": {
+      "user": "U082APQJZNC",
+      "ts": "1786110833.000000"
+    },
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pilNv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Also we are planning continuous mode in next 2-3 months. You can discuss with our product team "
+              },
+              {
+                "type": "user",
+                "user_id": "U081MTF4GHZ"
+              },
+              {
+                "type": "text",
+                "text": " about requirements."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1582d810-96c0-4deb-bc84-2abbee4388e5",
+    "type": "message",
+    "user": "U0AMDCT444T",
+    "text": "Aha! Thanks for clarifying :blush:",
+    "ts": "1786110861.324709",
+    "thread_ts": "1786110244.537709",
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      },
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sMvTF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Aha! Thanks for clarifying "
+              },
+              {
+                "type": "emoji",
+                "name": "blush",
+                "unicode": "1f60a"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-19/10733824936658_c5811d706f7b878446ea_72.png",
+      "first_name": "Kim",
+      "real_name": "Kim Tore Jensen",
+      "display_name": "Kim Tore Jensen",
+      "team": "T0820LGJGRF",
+      "name": "kim.tore.jensen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8e03f98e-cf7f-4457-9f32-5f5ec924cafe",
+    "type": "message",
+    "user": "U0AMDCT444T",
+    "text": "10-15 mins because of WAL snapshot timings?",
+    "ts": "1786110874.534849",
+    "thread_ts": "1786110244.537709",
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RUEvO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "10-15 mins because of WAL snapshot timings?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-19/10733824936658_c5811d706f7b878446ea_72.png",
+      "first_name": "Kim",
+      "real_name": "Kim Tore Jensen",
+      "display_name": "Kim Tore Jensen",
+      "team": "T0820LGJGRF",
+      "name": "kim.tore.jensen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "50edc757-d35c-497a-af7e-ee5877197127",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0AMDCT444T\u003e no its not related to that. you can as low as 20-30 sec as well. depends on your use case.",
+    "ts": "1786110914.375639",
+    "thread_ts": "1786110244.537709",
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "B4/NY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AMDCT444T"
+              },
+              {
+                "type": "text",
+                "text": " no its not related to that. you can as low as 20-30 sec as well. depends on your use case."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

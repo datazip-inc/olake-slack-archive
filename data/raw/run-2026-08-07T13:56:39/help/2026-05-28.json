@@ -1,0 +1,868 @@
+[
+  {
+    "client_msg_id": "2d524682-1ee1-4c8a-850f-652f826aaeb8",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "yes I have create a new job",
+    "ts": "1779953310.925069",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5Vsu/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "yes I have create a new job"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3cb215ac-d751-470f-91f2-a97f36f9a235",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "and updated the source and destination to v0.7.3",
+    "ts": "1779953330.780679",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QscsP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "and updated the source and destination to v0.7.3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ded915a5-b5a0-4b12-93ac-9e1c69aa7eaf",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "is there an api endpoint to get the stream configuration \u003c@U08CR7HUWDC\u003e? because through the interface it takes more than 5min to pen",
+    "ts": "1779953391.507829",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3B5XP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "is there an api endpoint to get the stream configuration "
+              },
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": "? because through the interface it takes more than 5min to pen"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "295ea954-599b-4f60-a9f3-92e52e648bd9",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0A9HSU0MNZ\u003e For the API endpoint, you can copy the cURL directly from the browser’s Network tab for the stream API request.",
+    "ts": "1779953906.261659",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QouQB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": " For the API endpoint, you can copy the cURL directly from the browser’s Network tab for the stream API request."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3bcdf2e3-3dcf-4ad8-8925-c2c809f9dd91",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "here you go",
+    "ts": "1779959504.163129",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "files": [
+      {
+        "id": "F0B7HTXUHLY",
+        "created": 1779959498,
+        "timestamp": 1779959498,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A9HSU0MNZ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 162415,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B7HTXUHLY/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B7HTXUHLY/download/image.png",
+        "original_h": 1226,
+        "original_w": 1150,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B7HTXUHLY-833646e04a/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B7HTXUHLY-833646e04a/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B7HTXUHLY-833646e04a/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B7HTXUHLY-833646e04a/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 338,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B7HTXUHLY-833646e04a/image_480.png",
+        "thumb_480_w": 450,
+        "thumb_480_h": 480,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B7HTXUHLY/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B7HTXUHLY-77a6ef087b",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "10Gep",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "here you go"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2898cd71-a276-4002-ad40-3790aec81d60",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "i am sending you the full json in DM",
+    "ts": "1779959608.077869",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U08CR7HUWDC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xh14k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "i am sending you the full json in DM"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f92fbf61-fe83-4766-858a-ca7c1175fef8",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "as you can see it took 3min",
+    "ts": "1779959615.156089",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "files": [
+      {
+        "id": "F0B6PKVAU1Y",
+        "created": 1779959608,
+        "timestamp": 1779959608,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A9HSU0MNZ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 345325,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B6PKVAU1Y/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B6PKVAU1Y/download/image.png",
+        "original_h": 1080,
+        "original_w": 2154,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 181,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 241,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 361,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 481,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B6PKVAU1Y-7d0b0063ea/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 513,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B6PKVAU1Y/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B6PKVAU1Y-ebe9ebdbc1",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "S09Fu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "as you can see it took 3min"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "625fe054-43cc-4487-a162-1e127387fb3b",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hi \u003c@U0A2LAUDQQ1\u003e, could you please share the error you are receiving in Snowflake while syncing data using the \"Full Refresh\" mode in OLake?",
+    "ts": "1779962397.144609",
+    "thread_ts": "1779886900.789889",
+    "parent_user_id": "U0A2LAUDQQ1",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+vWpY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A2LAUDQQ1"
+              },
+              {
+                "type": "text",
+                "text": ", could you please share the error you are receiving in Snowflake while syncing data using the \"Full Refresh\" mode in OLake?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0996cf33-1bbd-4059-bc8c-22a18c096588",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0A9HSU0MNZ\u003e,\nCurrently, your equality delete files are going into the `null` partition. Because of that, the deletes are not being applied correctly to your data, since the records being queried belong to a different partition.\nThis is happening because, in delete operations, the MongoDB oplog only contains the `_id` field and does not include the other column values. As a result, Olake is unable to determine the correct partition for the deleted record and creates the equality delete file in the `null` partition.\n\nTo fix this, we will be releasing a new patch soon that adds support for capturing the _before image_ of delete operations from MongoDB oplogs. For this to work, you will need to enable the following setting for each collection:\n`changeStreamPreAndPostImages: { enabled: true }`\nOnce this is enabled, Olake will be able to read all column values from the delete event and create the equality delete file in the correct partition.",
+    "ts": "1779972695.473109",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o9LgT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": ",\nCurrently, your equality delete files are going into the "
+              },
+              {
+                "type": "text",
+                "text": "null",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " partition. Because of that, the deletes are not being applied correctly to your data, since the records being queried belong to a different partition.\nThis is happening because, in delete operations, the MongoDB oplog only contains the "
+              },
+              {
+                "type": "text",
+                "text": "_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " field and does not include the other column values. As a result, Olake is unable to determine the correct partition for the deleted record and creates the equality delete file in the "
+              },
+              {
+                "type": "text",
+                "text": "null",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " partition.\n\nTo fix this, we will be releasing a new patch soon that adds support for capturing the "
+              },
+              {
+                "type": "text",
+                "text": "before image",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " of delete operations from MongoDB oplogs. For this to work, you will need to enable the following setting for each collection:\n"
+              },
+              {
+                "type": "text",
+                "text": "changeStreamPreAndPostImages: { enabled: true }",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nOnce this is enabled, Olake will be able to read all column values from the delete event and create the equality delete file in the correct partition."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0c01419b-4625-4437-a662-f2955abf3d40",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "so it is an option to enable with DBAs i guess. but let me ask a question so i am sure i understand, what happens if the partition change? if you have an update of this same record where the partition is year of field sample_date. let's say i have a first record with a sample_date=2025 and then an update to fix data that says the sample_date=2024 (it will write in another patition, will this be considered an update with only one record, or since there are 2 different partitions there will be 2 records in the lakehouse?)",
+    "ts": "1779980527.912399",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vM/MR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "so it is an option to enable with DBAs i guess. but let me ask a question so i am sure i understand, what happens if the partition change? if you have an update of this same record where the partition is year of field sample_date. let's say i have a first record with a sample_date=2025 and then an update to fix data that says the sample_date=2024 (it will write in another patition, will this be considered an update with only one record, or since there are 2 different partitions there will be 2 records in the lakehouse?)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d004d90e-2e8a-41ed-8625-a8704c8c90f7",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0A9HSU0MNZ\u003e\n\u0026gt; there will be 2 records in the lakehouse\nyes, it will have 2 copies when you query. Ideally you should choose non-changing partition columns",
+    "ts": "1779990572.071849",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v+sqI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "there will be 2 records in the lakehouse"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "yes, it will have 2 copies when you query. Ideally you should choose non-changing partition columns"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ad6956a8-8eca-415d-a891-8db317892b61",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "is this a limitation of olake or iceberg? it seems a bit strange to me. because usually the sample_date does not change but it could be an error that needs to be updated and i don't see any field where it could not be an error. we are never safe of that. it s bad if we have duplicated records like that. so what could be the solution?",
+    "ts": "1780002371.326019",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BnWIU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "is this a limitation of olake or iceberg? it seems a bit strange to me. because usually the sample_date does not change but it could be an error that needs to be updated and i don't see any field where it could not be an error. we are never safe of that. it s bad if we have duplicated records like that. so what could be the solution?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "56e16956-7bbc-4638-9c5a-b9a269243f52",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0A9HSU0MNZ\u003e yes its an Iceberg limitation. \n\n\nBut there is a way to handle it. If the previous row is deleted you can identify that from deleted flag that OLake creates (as one of the columns). \n\nSo while querying we can always filter out deleted rows.",
+    "ts": "1780024289.736709",
+    "thread_ts": "1778617595.072469",
+    "edited": {
+      "user": "U082APQJZNC",
+      "ts": "1780024337.000000"
+    },
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SzhNr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": " yes its an Iceberg limitation. \n\n\nBut there is a way to handle it. If the previous row is deleted you can identify that from deleted flag that OLake creates (as one of the columns). \n\nSo while querying we can always filter out deleted rows."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

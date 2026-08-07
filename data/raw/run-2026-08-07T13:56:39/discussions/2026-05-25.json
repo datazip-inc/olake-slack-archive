@@ -1,0 +1,52 @@
+[
+  {
+    "client_msg_id": "177a36ae-3503-422d-b263-86c8013c44a1",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0B4UMFK7C3\u003e We will check on this and get back to you soon",
+    "ts": "1779709419.681179",
+    "thread_ts": "1779372082.347119",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "To58s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0B4UMFK7C3"
+              },
+              {
+                "type": "text",
+                "text": " We will check on this and get back to you soon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
