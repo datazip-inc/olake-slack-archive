@@ -100,12 +100,12 @@ GENERAL_MENTIONS = {"here": "@here", "channel": "@channel", "everyone": "@everyo
 # Matches one Slack special token or markup span at a time; everything between
 # matches is treated as plain text and HTML-escaped normally.
 TOKEN_RE = re.compile(
-    r"(<[^<>]+>"        # <@U123>, <#C123|name>, <https://x|label>, <!here>, etc.
-    r"|```.*?```"        # ```code block```
-    r"|`[^`\n]+`"         # `inline code`
-    r"|\*[^*\n]+\*"       # *bold*
-    r"|_[^_\n]+_"         # _italic_
-    r"|~[^~\n]+~)",       # ~strike~
+    r"(<[^<>]+>"                              # <@U123>, <#C123|name>, <https://x|label>, <!here>, etc.
+    r"|```.*?```"                              # ```code block```
+    r"|`[^`\n]+`"                               # `inline code`
+    r"|(?<![\w*])\*(?!\s)[^*\n]+(?<!\s)\*(?!\w)"  # *bold* — not mid-word (avoids clashing with emoji shortcodes etc.)
+    r"|(?<![\w_])_(?!\s)[^_\n]+(?<!\s)_(?!\w)"     # _italic_ — word-boundary-guarded so :rotating_light: is untouched
+    r"|(?<![\w~])~(?!\s)[^~\n]+(?<!\s)~(?!\w))",   # ~strike~
     re.DOTALL,
 )
 
