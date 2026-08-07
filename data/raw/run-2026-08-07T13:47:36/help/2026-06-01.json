@@ -1,0 +1,268 @@
+[
+  {
+    "client_msg_id": "336af641-f997-41a4-9990-441a5ec43536",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A2LAUDQQ1\u003e,\n\n1. Yes, the iceberg `table-uuid` is assigned when the iceberg table is created and is stored in its *metadata.json* file. It's mostly immutable. From OLake's side, we do not perform any operation that would change the iceberg table-uuid. Happy to know, if there is a specific scenario in your use case where you expect the iceberg table-uuid to change.\n2. Regarding table availability during a Full Refresh, could you elaborate a bit more on the scenario which you're referring to?",
+    "ts": "1780300181.671179",
+    "thread_ts": "1779886900.789889",
+    "edited": {
+      "user": "U08RZQ547LJ",
+      "ts": "1780308542.000000"
+    },
+    "parent_user_id": "U0A2LAUDQQ1",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n6A2e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A2LAUDQQ1"
+              },
+              {
+                "type": "text",
+                "text": ",\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Yes, the iceberg "
+                  },
+                  {
+                    "type": "text",
+                    "text": "table-uuid",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " is assigned when the iceberg table is created and is stored in its "
+                  },
+                  {
+                    "type": "text",
+                    "text": "metadata.json ",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "file. It's mostly immutable. From OLake's side, we do not perform any operation that would change the iceberg table-uuid. Happy to know, if there is a specific scenario in your use case where you expect the iceberg table-uuid to change."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Regarding table availability during a Full Refresh, could you elaborate a bit more on the scenario which you're referring to?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4d98ee4a-8ddc-4329-bfa9-446157af60b5",
+    "type": "message",
+    "user": "U0A2LAUDQQ1",
+    "text": "In case if i have small table which Im going to ingest. Table without any anchor colum with timestamp and records can be updated. Im going to use Full Replace each time and I have some doubts about data consistency and table can be unavailable because Olake perform \"Clear destination\" first. Is it correct?\n\nAnd during the write phase. It works with Iceberg branches? Like first of all new snapshot on stage branch and after that merge main?\n\nI've wanted to make sure with full replace table will exists and data will be consistent during writing new snapshot.",
+    "ts": "1780314605.923219",
+    "thread_ts": "1779886900.789889",
+    "parent_user_id": "U0A2LAUDQQ1",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3lBhO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "In case if i have small table which Im going to ingest. Table without any anchor colum with timestamp and records can be updated. Im going to use Full Replace each time and I have some doubts about data consistency and table can be unavailable because Olake perform \"Clear destination\" first. Is it correct?\n\nAnd during the write phase. It works with Iceberg branches? Like first of all new snapshot on stage branch and after that merge main?\n\nI've wanted to make sure with full replace table will exists and data will be consistent during writing new snapshot."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-08/10088368734193_2b646785fb6bc7e7e84e_72.png",
+      "first_name": "Ruslan",
+      "real_name": "Ruslan Zhdan",
+      "display_name": "Ruslan Zhdan",
+      "team": "T0820LGJGRF",
+      "name": "zhd.ruslan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3d4367b3-3fef-4f3a-95b8-d90041680c77",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "I get it, \u003c@U0A2LAUDQQ1\u003e\n\n\n1. Yes. Every time you do a full refresh for the same job, clear destination first drops the iceberg table from the catalog, leading to table unavailability for a short period of time.\n\n  Another approach, would be to use append-only mode job for your iceberg table. But, this would create duplicate rows of data for your cdc changes. For now, from the query engine side you can write the logic to dedup the rows.\n\n2. No, towards the write phase, we don't use Iceberg branches right now, we directly create the new snapshot on the main branch.\n\nInternally, we are working on a solution which would make Snowflake, as a query engine, compatible with OLake's Upsert job mode.",
+    "ts": "1780316342.180439",
+    "thread_ts": "1779886900.789889",
+    "edited": {
+      "user": "U08RZQ547LJ",
+      "ts": "1780316358.000000"
+    },
+    "parent_user_id": "U0A2LAUDQQ1",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KBP4M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I get it, "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A2LAUDQQ1"
+              },
+              {
+                "type": "text",
+                "text": "\n\n\n1. Yes. Every time you do a full refresh for the same job, clear destination first drops the iceberg table from the catalog, leading to table unavailability for a short period of time.\n\n  Another approach, would be to use append-only mode job for your iceberg table. But, this would create duplicate rows of data for your cdc changes. For now, from the query engine side you can write the logic to dedup the rows.\n\n2. No, towards the write phase, we don't use Iceberg branches right now, we directly create the new snapshot on the main branch.\n\nInternally, we are working on a solution which would make Snowflake, as a query engine, compatible with OLake's Upsert job mode."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9A7CC398-FA20-4856-912D-823CC59CDBC9",
+    "type": "message",
+    "user": "U0A2LAUDQQ1",
+    "text": "Thanks a lot for your support.",
+    "ts": "1780331724.061749",
+    "thread_ts": "1779886900.789889",
+    "parent_user_id": "U0A2LAUDQQ1",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rkT3+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks a lot for your support."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-08/10088368734193_2b646785fb6bc7e7e84e_72.png",
+      "first_name": "Ruslan",
+      "real_name": "Ruslan Zhdan",
+      "display_name": "Ruslan Zhdan",
+      "team": "T0820LGJGRF",
+      "name": "zhd.ruslan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

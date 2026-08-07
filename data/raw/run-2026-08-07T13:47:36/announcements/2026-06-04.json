@@ -1,0 +1,394 @@
+[
+  {
+    "client_msg_id": "95cb64a7-5302-4f95-bb35-e99fc8ad05d5",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Workers v0.3.7 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/v0.3.7\u003e\n*What’s New*\n• feat(fusion): add podLabels and podAnnotations hooks by \u003c@U0B4UMFK7C3\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/151|#151\u003e\n• feat: support for external temporal by \u003c@U0A7G7AK6BC\u003e and \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/132|#132\u003e\n• fix: patch Go vulnerabilities by \u003c@U0A7G7AK6BC\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/152|#152\u003e\n• chore: bump up helm version by \u003c@U0A7G7AK6BC\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/154|#154\u003e\n\n:rotating_light: OLake Helm v0.0.19 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.19\u003e\n:rocket: Features \u0026amp; Fixes in this release:\n• feat: add support for external temporal by \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/379|#379\u003e\n\n:rotating_light: OLake UI v0.4.5 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.4.5\u003e\n*What’s New*\n• feat: add support for external temporal by \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/379|#379\u003e\n• chore: suppress govulncheck stdlib findings until Go 1.25.11 is available by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/388|#388\u003e\nThanks for the contribution!",
+    "ts": "1780558078.301929",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "muscle",
+        "count": 2,
+        "users": [
+          "U08H6LN432P",
+          "U0817E9CGRM"
+        ]
+      },
+      {
+        "name": "+1",
+        "count": 2,
+        "users": [
+          "U0A7G7AK6BC",
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xPfV2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Workers v0.3.7 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/v0.3.7"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(fusion): add podLabels and podAnnotations hooks by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0B4UMFK7C3"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/151",
+                    "text": "#151"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: support for external temporal by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0A7G7AK6BC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " and "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/132",
+                    "text": "#132"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: patch Go vulnerabilities by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0A7G7AK6BC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/152",
+                    "text": "#152"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: bump up helm version by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0A7G7AK6BC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/154",
+                    "text": "#154"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.19 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.19"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: add support for external temporal by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/379",
+                    "text": "#379"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.4.5 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.4.5"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: add support for external temporal by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/379",
+                    "text": "#379"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: suppress govulncheck stdlib findings until Go 1.25.11 is available by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/388",
+                    "text": "#388"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

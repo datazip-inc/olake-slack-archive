@@ -1,0 +1,845 @@
+[
+  {
+    "client_msg_id": "c75186b5-7c8c-4fb0-858a-3f998c412a20",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "Hi Team, it seems like the null LOB column issue from AWS DMS is also happening in Olake. Some LOB columns are coming up null during CDC. The source is Postgres and the destination is S3 Parquet. How can we handle this?",
+    "ts": "1781081500.170139",
+    "thread_ts": "1781081500.170139",
+    "reply_count": 22,
+    "reply_users": [
+      "U0A9LUUNP43",
+      "U0AQHEXPAUQ"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781099268.764319"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781100767.940339"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781108743.573989"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781108891.578909"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781108915.005019"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781109237.417189"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781159209.948319"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781160026.205059"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781160041.391699"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781173625.799589"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781174129.907739"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781174178.804009"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781181859.494789"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781350084.422389"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781357048.424919"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781358290.438929"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781498891.521859"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781502506.464619"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781516191.219799"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781517088.465389"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1781517153.697469"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1781517254.773669"
+      }
+    ],
+    "latest_reply": "1781517254.773669",
+    "files": [
+      {
+        "id": "F0B9NG9TAJY",
+        "created": 1781081365,
+        "timestamp": 1781081365,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 387403,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9NG9TAJY/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9NG9TAJY/download/image.png",
+        "original_h": 1408,
+        "original_w": 4402,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 115,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 154,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 230,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 307,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9NG9TAJY-ef69f65fbd/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 328,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B9NG9TAJY/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B9NG9TAJY-de1c454dcf",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0B9LNZLML1",
+        "created": 1781081398,
+        "timestamp": 1781081398,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 1441126,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9LNZLML1/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9LNZLML1/download/image.png",
+        "original_h": 1878,
+        "original_w": 2702,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 250,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 334,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 500,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 667,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9LNZLML1-ccf36abe38/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 712,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B9LNZLML1/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B9LNZLML1-a053662f85",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U081MTF4GHZ",
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mnMEe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team, it seems like the null LOB column issue from AWS DMS is also happening in Olake. Some LOB columns are coming up null during CDC. The source is Postgres and the destination is S3 Parquet. How can we handle this?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "f586cff6-4f91-49d4-8675-4eb1838ba00f",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AQHEXPAUQ\u003e We're looking into this internally and will get back to you shortly.",
+    "ts": "1781099268.764319",
+    "thread_ts": "1781081500.170139",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1781099326.000000"
+    },
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IEjY1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " We're looking into this internally and will get back to you shortly."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7720ad27-1002-4dc5-a5b2-fee3865706ec",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AQHEXPAUQ\u003e Can u also share datatypes of the null column ?",
+    "ts": "1781100767.940339",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QS52g",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " Can u also share datatypes of the null column ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d1ad9ec2-26b8-4321-9cdd-01c1364562eb",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "\u003c@U0A9LUUNP43\u003e it's jsonB",
+    "ts": "1781108743.573989",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2qIEp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " it's jsonB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "37b399b0-f6eb-4b58-b4dc-28773fce355e",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "```SELECT\n    COUNT(*) AS total_rows,\n    COUNT(*) FILTER (WHERE pg_column_size(invoice_details) \u0026gt; 2048) AS rows_over_2kb,\n    MAX(pg_column_size(invoice_details)) AS max_size_bytes,\n    ROUND(MAX(pg_column_size(invoice_details)) / 1024.0, 2) AS max_size_kb,\n    ROUND(AVG(pg_column_size(invoice_details)), 2) AS avg_size_bytes\nFROM invoices;```",
+    "ts": "1781108891.578909",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vizF3",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SELECT\n    COUNT(*) AS total_rows,\n    COUNT(*) FILTER (WHERE pg_column_size(invoice_details) \u003e 2048) AS rows_over_2kb,\n    MAX(pg_column_size(invoice_details)) AS max_size_bytes,\n    ROUND(MAX(pg_column_size(invoice_details)) / 1024.0, 2) AS max_size_kb,\n    ROUND(AVG(pg_column_size(invoice_details)), 2) AS avg_size_bytes\nFROM invoices;"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6ebaa27f-98ff-4261-bd8d-30c1587d4a25",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "ts": "1781108915.005019",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B9K9D6TU5",
+        "created": 1781108909,
+        "timestamp": 1781108909,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 997244,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9K9D6TU5/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9K9D6TU5/download/image.png",
+        "original_h": 1452,
+        "original_w": 1280,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 317,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_480.png",
+        "thumb_480_w": 423,
+        "thumb_480_h": 480,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_720.png",
+        "thumb_720_w": 635,
+        "thumb_720_h": 720,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_960.png",
+        "thumb_960_w": 846,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9K9D6TU5-dcdf0710b8/image_1024.png",
+        "thumb_1024_w": 903,
+        "thumb_1024_h": 1024,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B9K9D6TU5/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B9K9D6TU5-3a69f3547e",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d98125d5-5c80-4aff-b929-34c85d7edbc1",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "almost all data in this column is between 3 kb and 15 kb",
+    "ts": "1781109237.417189",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e8pkZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "almost all data in this column is between 3 kb and 15 kb"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "081cc52a-4a58-49f4-b2d9-22554dec0764",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "Hey \u003c@U0AQHEXPAUQ\u003e,\nFor now, you can use append-only mode as a workaround and write your own deduplication logic on the query side by retaining the required columns.\nWe'll be picking up support for this soon. In the meantime, you can create a GitHub issue here:\n\u003chttps://github.com/datazip-inc/olake/issues\u003e",
+    "ts": "1781159209.948319",
+    "thread_ts": "1781081500.170139",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1781159372.000000"
+    },
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0AQHEXPAUQ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cV+0T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": ",\nFor now, you can use append-only mode as a workaround and write your own deduplication logic on the query side by retaining the required columns.\nWe'll be picking up support for this soon. In the meantime, you can create a GitHub issue here:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "496f9281-af8a-4589-899b-21aae5ee169c",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "\u003chttps://github.com/datazip-inc/olake/issues/984\u003e",
+    "ts": "1781160026.205059",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Vy89D",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/984"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b3f53451-93f7-4b26-98bf-586b20563619",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "here it is, thank you so much  :pray:",
+    "ts": "1781160041.391699",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vLVvU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "here it is, thank you so much  "
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

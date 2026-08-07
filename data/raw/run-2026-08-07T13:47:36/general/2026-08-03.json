@@ -1,0 +1,76 @@
+[
+  {
+    "client_msg_id": "0c7209d4-320f-4489-8092-e2ba640fda90",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "Shoutout to our first poll participants.\n\nBig thanks to \u003c@U0A5EGHRLQY\u003e and \u003c@U09K0D3H6JD\u003e for being first to jump in on the very first community poll.\nYour $10 Amazon gift cards are on the way\n\nWe are back tomorrow with poll #2, and the giveaway is still on. See you in the thread.",
+    "ts": "1785758649.169639",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "tada",
+        "count": 6,
+        "users": [
+          "U08SX0RU9FX",
+          "U0A8Y735340",
+          "U0BCX4Z0KGC",
+          "U0817E9CGRM",
+          "U09K0D3H6JD",
+          "U0A5EGHRLQY"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gKMtd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Shoutout to our first poll participants.\n\nBig thanks to "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "user",
+                "user_id": "U09K0D3H6JD"
+              },
+              {
+                "type": "text",
+                "text": " for being first to jump in on the very first community poll.\nYour $10 Amazon gift cards are on the way\n\nWe are back tomorrow with poll #2, and the giveaway is still on. See you in the thread."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

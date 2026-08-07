@@ -1,0 +1,662 @@
+[
+  {
+    "client_msg_id": "a669ebf0-b6b2-4268-84f5-a837b208d5b6",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi team, since yesterday our Kafka ingestion jobs (cron every 5 min) have been failing. When checking logs, I'm getting:\n\n`failed to get task logs: logs directory not found: /tmp/olake-config/\u0026lt;task_id\u0026gt;: stat /tmp/olake-config/\u0026lt;task_id\u0026gt;: no such file or directory`\n\nCould someone help me figure out why this logs directory isn't being created/found? Thanks!",
+    "ts": "1783238508.916909",
+    "thread_ts": "1783238508.916909",
+    "reply_count": 10,
+    "reply_users": [
+      "U082APQJZNC",
+      "U08CR7HUWDC",
+      "U0A6088AMM3"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1783239375.160169"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1783240026.468959"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783242385.294859"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1783242777.814449"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1783242827.987869"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783318594.292299"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1783318716.655849"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783345687.275809"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1783345834.636599"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1783346142.320749"
+      }
+    ],
+    "latest_reply": "1783346142.320749",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U0817E9CGRM",
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hR9rm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, since yesterday our Kafka ingestion jobs (cron every 5 min) have been failing. When checking logs, I'm getting:\n\n`failed to get task logs: logs directory not found: /tmp/olake-config/\u003ctask_id\u003e: stat /tmp/olake-config/\u003ctask_id\u003e: no such file or directory`\n\nCould someone help me figure out why this logs directory isn't being created/found? Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "85d430ca-f7e5-4ec8-abc5-260f091e52c7",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0A6088AMM3\u003e ,\nCould you please share the UI and worker logs? Also, are you using a Helm deployment or Docker?",
+    "ts": "1783239375.160169",
+    "thread_ts": "1783238508.916909",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tSzEa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " ,\nCould you please share the UI and worker logs? Also, are you using a Helm deployment or Docker?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "bd57477f-7c56-4688-8b2b-98a6bfe48c08",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "Also are you unable to view logs for other jobs as well?",
+    "ts": "1783240026.468959",
+    "thread_ts": "1783238508.916909",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/kE1Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Also are you unable to view logs for other jobs as well?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e8b1d515-63fa-4a14-a214-2a2a09383541",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08CR7HUWDC\u003e\n• I'm using Helm Deployment\n• Currently only one job is running",
+    "ts": "1783242385.294859",
+    "thread_ts": "1783238508.916909",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BESG02URM",
+        "created": 1783242339,
+        "timestamp": 1783242339,
+        "name": "worker_logs.txt",
+        "title": "worker_logs.txt",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "text",
+        "pretty_type": "Plain Text",
+        "user": "U0A6088AMM3",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 26699,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BESG02URM/worker_logs.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BESG02URM/download/worker_logs.txt",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BESG02URM/worker_logs.txt",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BESG02URM-7e1d5ef016",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BESG02URM/worker_logs.txt/edit",
+        "preview": "wait-for-temporal Waiting for Temporal to be ready...\nwait-for-temporal Temporal is ready!\nolake-workers 2026-07-05T08:25:00Z ERR Activity error. ActivityType=PostSyncActivity Attempt=1 Error=\"failed to read state file: failed to read file /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: open /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: no such file or directory (type: cleanup failed, retryable: false): failed to read state file: failed to read file /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: open /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: no such file or directory\" Namespace=default RunID=f2a061cf-7c28-477a-afcf-13fc22fd9d0a TaskQueue=OLAKE_DOCKER_TASK_QUEUE WorkerID=1@olake-workers-6c8745b9-7597w@ WorkflowID=sync-123-2-2026-07-05T08:25:00Z\nstream closed EOF for olake-fusion/olake-workers-6c8745b9-7597w (wait-for-tem...",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003ewait-for-temporal Waiting for Temporal to be ready...\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003ewait-for-temporal Temporal is ready!\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003eolake-workers 2026-07-05T08:25:00Z ERR Activity error. ActivityType=PostSyncActivity Attempt=1 Error=\u0026quot;failed to read state file: failed to read file /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: open /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: no such file or directory (type: cleanup failed, retryable: false): failed to read state file: failed to read file /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: open /data/olake-jobs/915150e0f7198d54e473a3104cdc9bb491c2c24b874835c5ad99ec4a7762d4d5/state.json: no such file or directory\u0026quot; Namespace=default RunID=f2a061cf-7c28-477a-afcf-13fc22fd9d0a TaskQueue=OLAKE_DOCKER_TASK_QUEUE WorkerID=1@olake-workers-6c8745b9-7597w@ WorkflowID=sync-123-2-2026-07-05T08:25:00Z\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003estream closed EOF for olake-fusion/olake-workers-6c8745b9-7597w (wait-for-tem...\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 105,
+        "lines_more": 101,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0BFBJQRH9A",
+        "created": 1783242341,
+        "timestamp": 1783242341,
+        "name": "ui_logs.txt",
+        "title": "ui_logs.txt",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "text",
+        "pretty_type": "Plain Text",
+        "user": "U0A6088AMM3",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 12895,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BFBJQRH9A/ui_logs.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BFBJQRH9A/download/ui_logs.txt",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BFBJQRH9A/ui_logs.txt",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BFBJQRH9A-e6bf503e08",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BFBJQRH9A/ui_logs.txt/edit",
+        "preview": "wait-for-fusion Waiting for Fusion REST service to be ready...\nwait-for-fusion Fusion REST service is ready!\nstream closed EOF for olake-fusion/olake-ui-8588b5dd49-pmvpc (wait-for-fusion)\nwait-for-temporal Waiting for Temporal to be ready...\nolake-ui [GIN] 2026/07/05 - 07:53:07 | 200 |  11.95ms |       127.0.0.1 | GET      \"/api/v1/platform/opt/status\"",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003ewait-for-fusion Waiting for Fusion REST service to be ready...\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003ewait-for-fusion Fusion REST service is ready!\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003estream closed EOF for olake-fusion/olake-ui-8588b5dd49-pmvpc (wait-for-fusion)\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003ewait-for-temporal Waiting for Temporal to be ready...\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003eolake-ui [GIN] 2026/07/05 - 07:53:07 | 200 |  11.95ms |       127.0.0.1 | GET      \u0026quot;/api/v1/platform/opt/status\u0026quot;\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 108,
+        "lines_more": 103,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ejzH/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "I'm using Helm Deployment"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Currently only one job is running"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "73d86963-5309-46f3-a6c2-35b5389c8df5",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0A6088AMM3\u003e \n\nolake-workers 2026-07-05T08:40:00Z WRN failed to prepare workflow logger for workflowID=sync-123-2-2026-07-05T08:40:00Z: failed to create work directory: mkdir /data/olake-jobs/fe74286797419eb4aa8f462d75f6d8cd0d7ea59d579701ff8ce69a8224b77a2b: no space left on device",
+    "ts": "1783242777.814449",
+    "thread_ts": "1783238508.916909",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lt3go",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " \n\nolake-workers 2026-07-05T08:40:00Z WRN failed to prepare workflow logger for workflowID=sync-123-2-2026-07-05T08:40:00Z: failed to create work directory: mkdir /data/olake-jobs/fe74286797419eb4aa8f462d75f6d8cd0d7ea59d579701ff8ce69a8224b77a2b: no space left on device"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "26453018-3ecf-4636-9283-f8b6e82b8135",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0A6088AMM3\u003e are you not using NFS?",
+    "ts": "1783242827.987869",
+    "thread_ts": "1783238508.916909",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UPnW4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " are you not using NFS?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "98dc0f28-a1ff-48e7-bcfe-e932392854a8",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U082APQJZNC\u003e Yes we have enabled NFS server.",
+    "ts": "1783318594.292299",
+    "thread_ts": "1783238508.916909",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GOCeN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U082APQJZNC"
+              },
+              {
+                "type": "text",
+                "text": " Yes we have enabled NFS server."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f293959b-91c8-4cff-ac1f-e0ede9282e8e",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0A6088AMM3\u003e\n\nplease follow this for prod use cases :\n\n\u003chttps://olake.io/docs/install/kubernetes/#persistent-storage-configuration|olake.io/docs/install/kubernetes#…\u003e",
+    "ts": "1783318716.655849",
+    "thread_ts": "1783238508.916909",
+    "attachments": [
+      {
+        "fallback": "OLake: Deploy OLake on Kubernetes | CronJob Setup \u0026amp; Management Guide",
+        "id": 1,
+        "title": "Deploy OLake on Kubernetes | CronJob Setup \u0026amp; Management Guide",
+        "title_link": "https://olake.io/docs/install/kubernetes/#persistent-storage-configuration",
+        "text": "Learn to deploy OLake sync tasks as Kubernetes CronJobs with ConfigMaps, PVC, and manual control for automated, recurring data pipelines.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/kubernetes/#persistent-storage-configuration",
+        "original_url": "https://olake.io/docs/install/kubernetes/#persistent-storage-configuration",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A6088AMM3"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6JGHL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": "\n\nplease follow this for prod use cases :\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/install/kubernetes/#persistent-storage-configuration",
+                "text": "olake.io/docs/install/kubernetes#…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

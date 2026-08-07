@@ -1,0 +1,68 @@
+[
+  {
+    "client_msg_id": "3d65ad25-436f-4532-8a78-9d9db7bcc340",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "hey, i've Opened a PR for the issue#492 \u003chttps://github.com/datazip-inc/olake/issues/492|github.com/datazip-inc/olake/issues/492\u003e\n\nPR :- \u003chttps://github.com/datazip-inc/olake/pull/1029|github.com/datazip-inc/olake/pull/1029\u003e\n\nIt's related to initial wait time and permission validation in CDC setup\ncan someone please take a look when you get a moment\nThank you!\n\ncc: \u003c@U09BK0WKBQR\u003e",
+    "ts": "1783965096.012809",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X/exl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey, i've Opened a PR for the issue#492 "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/492",
+                "text": "github.com/datazip-inc/olake/issues/492"
+              },
+              {
+                "type": "text",
+                "text": "\n\nPR :- "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1029",
+                "text": "github.com/datazip-inc/olake/pull/1029"
+              },
+              {
+                "type": "text",
+                "text": "\n\nIt's related to initial wait time and permission validation in CDC setup\ncan someone please take a look when you get a moment\nThank you!\n\ncc: "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-04-25/11008664806193_22767d3c555cf71cf7c9_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

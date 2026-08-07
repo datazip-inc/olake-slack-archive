@@ -1,0 +1,56 @@
+[
+  {
+    "client_msg_id": "7ab73d6b-6d06-48f6-bc5d-53dd1918e737",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "Hey \u003c@U0A9HSU0MNZ\u003e, we have released Olake v0.7.4 with support for capturing deletes from Mongo CDC using pre-images.\nPlease enable: changeStreamPreAndPostImages: { enabled: true } for each collection.\nOnce enabled, equality deletes will be written to the correct partition and applied correctly.",
+    "ts": "1780078079.162539",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5gnsk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": ", we have released Olake v0.7.4 with support for capturing deletes from Mongo CDC using pre-images.\nPlease enable: changeStreamPreAndPostImages: { enabled: true } for each collection.\nOnce enabled, equality deletes will be written to the correct partition and applied correctly."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

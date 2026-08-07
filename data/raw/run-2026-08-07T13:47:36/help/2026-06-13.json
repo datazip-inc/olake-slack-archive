@@ -1,0 +1,218 @@
+[
+  {
+    "client_msg_id": "475201ef-d1a8-4140-87f0-da569a8d4649",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "Hey \u003c@U0AQHEXPAUQ\u003e, the fix has been released in v0.7.6. This patch specifically fixes the issue for *REPLICA IDENTITY FULL* tables.\nPlease test it when you get a chance and let us know if everything looks good. For previously lost data, you can run *Clear Destination* and resync.",
+    "ts": "1781350084.422389",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fwQJe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": ", the fix has been released in v0.7.6. This patch specifically fixes the issue for "
+              },
+              {
+                "type": "text",
+                "text": "REPLICA IDENTITY FULL",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " tables.\nPlease test it when you get a chance and let us know if everything looks good. For previously lost data, you can run "
+              },
+              {
+                "type": "text",
+                "text": "Clear Destination",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and resync."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2a101f23-0f1c-448f-8347-05bcb9bed2ac",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "So I must turn on `REPLICA IDENTITY FULL`, right? Is there any way to handle this issue without setting it to full in the future?",
+    "ts": "1781357048.424919",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X5gDO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "So I must turn on "
+              },
+              {
+                "type": "text",
+                "text": "REPLICA IDENTITY FULL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", right? Is there any way to handle this issue without setting it to full in the future?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "20600f3c-2608-409b-8a7e-0b55c18549e4",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AQHEXPAUQ\u003e, yes, for now you'll need to enable *REPLICA IDENTITY FULL* to handle this case correctly. It's on our roadmap and we do plan to address it, but it's not something we're targeting in the near future. By the way, is the issue resolved on your end after enabling this mode?",
+    "ts": "1781358290.438929",
+    "thread_ts": "1781081500.170139",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1781358444.000000"
+    },
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "count": 1,
+        "users": [
+          "U0AQHEXPAUQ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NmGml",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": ", yes, for now you'll need to enable "
+              },
+              {
+                "type": "text",
+                "text": "REPLICA IDENTITY FULL",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to handle this case correctly. It's on our roadmap and we do plan to address it, but it's not something we're targeting in the near future. By the way, is the issue resolved on your end after enabling this mode?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

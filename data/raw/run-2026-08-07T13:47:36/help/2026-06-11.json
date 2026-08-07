@@ -1,0 +1,308 @@
+[
+  {
+    "client_msg_id": "9bb71b41-43bf-4a7c-9d14-f877e48e34a7",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "it turned on REPLICA IDENTITY FULL on this table `invoices` but it still null for that colmn :smiling_face_with_tear:",
+    "ts": "1781173625.799589",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B9X8PBMAM",
+        "created": 1781172863,
+        "timestamp": 1781172863,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 88921,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9X8PBMAM/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B9X8PBMAM/download/image.png",
+        "original_h": 459,
+        "original_w": 964,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9X8PBMAM-f8d0a0c360/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9X8PBMAM-f8d0a0c360/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9X8PBMAM-f8d0a0c360/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9X8PBMAM-f8d0a0c360/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 171,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9X8PBMAM-f8d0a0c360/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 229,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9X8PBMAM-f8d0a0c360/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 343,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B9X8PBMAM-f8d0a0c360/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 457,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B9X8PBMAM/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B9X8PBMAM-ba347b4903",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D4yc6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "it turned on REPLICA IDENTITY FULL on this table `invoices` but it still null for that colmn "
+              },
+              {
+                "type": "emoji",
+                "name": "smiling_face_with_tear",
+                "unicode": "1f972"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4fd9c67a-316f-4488-b3ad-0f68111b75b6",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AQHEXPAUQ\u003e, yes, this is expected. If you're okay with enabling *REPLICA IDENTITY FULL* and the additional WAL overhead it introduces, we can provide a quick fix for this.",
+    "ts": "1781174129.907739",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d5XsQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": ", yes, this is expected. If you're okay with enabling "
+              },
+              {
+                "type": "text",
+                "text": "REPLICA IDENTITY FULL",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and the additional WAL overhead it introduces, we can provide a quick fix for this."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "893b54da-97fd-442c-8429-4db6a2e96484",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "okay, i can enable *REPLICA IDENTITY FULL*",
+    "ts": "1781174178.804009",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FUhFA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "okay, i can enable "
+              },
+              {
+                "type": "text",
+                "text": "REPLICA IDENTITY FULL",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6777ab10-9c70-4e41-8804-0d7c53e5df3b",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AQHEXPAUQ\u003e We're planning to release a fix for this within the next 2 days.",
+    "ts": "1781181859.494789",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "pray",
+        "count": 1,
+        "users": [
+          "U0AQHEXPAUQ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "t5rE5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " We're planning to release a fix for this within the next 2 days."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

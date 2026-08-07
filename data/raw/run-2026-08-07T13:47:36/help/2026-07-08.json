@@ -1,0 +1,242 @@
+[
+  {
+    "client_msg_id": "db14b051-1524-49f3-bcba-a81137a9d2e7",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi team,\nWe're running a Full Refresh + CDC sync from MySQL at 1-minute frequency, using Lakekeeper (REST catalog) with GCS storage via HMAC keys, warehouse flavor set to `s3-compat`.\nFull Refresh completed successfully, and the first few CDC syncs ran fine too — but some recent CDC jobs have started failing.\nAttached the logs for reference.\nThanks!",
+    "ts": "1783514459.093289",
+    "thread_ts": "1783514459.093289",
+    "reply_count": 6,
+    "reply_users": [
+      "U0817E9CGRM",
+      "U08S5BR47GA",
+      "U0A6088AMM3"
+    ],
+    "replies": [
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1783516331.071299"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783591245.092369"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1783591314.739909"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1783691737.539469"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783923119.954729"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1785406717.267469"
+      }
+    ],
+    "latest_reply": "1785406717.267469",
+    "files": [
+      {
+        "id": "F0BFWK25HAA",
+        "created": 1783514376,
+        "timestamp": 1783514376,
+        "name": "job-1-logs-2026-07-08-11-56-01 (1).tar.gz",
+        "title": "job-1-logs-2026-07-08-11-56-01 (1).tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 17548,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BFWK25HAA/job-1-logs-2026-07-08-11-56-01__1_.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BFWK25HAA/download/job-1-logs-2026-07-08-11-56-01__1_.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BFWK25HAA/job-1-logs-2026-07-08-11-56-01__1_.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BFWK25HAA-2f089153a4",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U08S5BR47GA",
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Wrvxz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team,\nWe're running a Full Refresh + CDC sync from MySQL at 1-minute frequency, using Lakekeeper (REST catalog) with GCS storage via HMAC keys, warehouse flavor set to "
+              },
+              {
+                "type": "text",
+                "text": "s3-compat",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nFull Refresh completed successfully, and the first few CDC syncs ran fine too — but some recent CDC jobs have started failing.\nAttached the logs for reference.\nThanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "4ef50c37-60c6-4cf4-b467-39f614c0b46f",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "Hi \u003c@U0A6088AMM3\u003e, we are looking into this issue , will get back to you soon.",
+    "ts": "1783516331.071299",
+    "thread_ts": "1783514459.093289",
+    "edited": {
+      "user": "U08S5BR47GA",
+      "ts": "1783516347.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A6088AMM3"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E/8CB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", we are looking into this issue , will get back to you soon."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "client_msg_id": "4fb160b3-c114-4b16-8154-ee099f84279f",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "Hey everyone! :wave:\n\nOur *G2 page is finally live!*\n\n:point_right: We'd love to hear what you think: \u003chttps://www.g2.com/products/olake/reviews|g2.com/products/olake/reviews\u003e\n\nIf you've used OLake whether in production, for a POC, or even just played around with it, we'd really appreciate it if you could take a couple of minutes to leave us a review on G2.\n\nIt genuinely helps us get OLake in front of more people and gives us valuable feedback on what's working and what we can do better.\n\nThanks so much for being part of the OLake community! :blue_heart:",
+    "ts": "1784197509.757459",
+    "attachments": [
+      {
+        "fallback": "G2: The G2 on OLake",
+        "id": 1,
+        "title": "The G2 on OLake",
+        "title_link": "https://www.g2.com/products/olake/reviews",
+        "text": "Filter reviews by the users' company size, role or industry to find out how OLake works for a business like yours.",
+        "thumb_url": "https://images.g2crowd.com/uploads/product/image/small_square/small_square_fac6e5b943d7e5b6d0afed1550329d64/olake.jpeg",
+        "service_name": "G2",
+        "service_icon": "https://www.g2.com/favicon.ico",
+        "from_url": "https://www.g2.com/products/olake/reviews",
+        "original_url": "https://www.g2.com/products/olake/reviews",
+        "fields": [
+          {
+            "title": "G2.com Category",
+            "value": "Data Replication",
+            "short": true
+          },
+          {
+            "title": "Average Rating",
+            "value": "4.5 :star:",
+            "short": true
+          }
+        ],
+        "blocks": null
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "clap",
+        "count": 7,
+        "users": [
+          "U0BCX4Z0KGC",
+          "U0A8Y735340",
+          "U082APQJZNC",
+          "U0820LSJZRP",
+          "U0817E9CGRM",
+          "U08SX0RU9FX",
+          "U0BF1NS2UJ0"
+        ]
+      },
+      {
+        "name": "+1",
+        "count": 2,
+        "users": [
+          "U0817E9CGRM",
+          "U0BF1NS2UJ0"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D9VMZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey everyone! "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": "\n\nOur "
+              },
+              {
+                "type": "text",
+                "text": "G2 page is finally live!",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "point_right",
+                "unicode": "1f449"
+              },
+              {
+                "type": "text",
+                "text": " We'd love to hear what you think: "
+              },
+              {
+                "type": "link",
+                "url": "https://www.g2.com/products/olake/reviews",
+                "text": "g2.com/products/olake/reviews"
+              },
+              {
+                "type": "text",
+                "text": "\n\nIf you've used OLake whether in production, for a POC, or even just played around with it, we'd really appreciate it if you could take a couple of minutes to leave us a review on G2.\n\nIt genuinely helps us get OLake in front of more people and gives us valuable feedback on what's working and what we can do better.\n\nThanks so much for being part of the OLake community! "
+              },
+              {
+                "type": "emoji",
+                "name": "blue_heart",
+                "unicode": "1f499"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

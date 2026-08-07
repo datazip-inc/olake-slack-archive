@@ -1,0 +1,76 @@
+[
+  {
+    "client_msg_id": "330b703d-99b8-4dad-88c6-cb8267a99797",
+    "type": "message",
+    "user": "U0AMDCT444T",
+    "text": "I'm a bit curious how to get the CLI to run continuously when syncing Postgres with CDC.\nRight now I get this output when running with `--state /mnt/config/state.json` , and then exit.\nHow can I configure olake cli to run continuously as a daemon (i.e. we want to run it as a sidecar along user-defined applications)\n```(... removed ...)\n2026-08-07T13:39:55Z INFO Iceberg[50051] 13:39:55.245 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-29-6395037162323] Total time taken: 1 ms\n2026-08-07T13:39:55Z DEBUG Thread[public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9]: Sent commit message: [Thread-29-6395037162323] Successfully committed data for thread public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9                                                                                                                                                             2026-08-07T13:39:55Z DEBUG sent standby status message at LSN#0/19BD100\n2026-08-07T13:39:58Z INFO Total records read: 0 | Total bytes read: 0 B\n2026-08-07T13:39:58Z INFO Sync completed, wait 5 seconds cleanup in progress...                                                                                                          2026-08-07T13:40:03Z INFO Shutting down shared Iceberg JVM on port 50051```",
+    "ts": "1786110244.537709",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1nHJy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I'm a bit curious how to get the CLI to run continuously when syncing Postgres with CDC.\nRight now I get this output when running with "
+              },
+              {
+                "type": "text",
+                "text": "--state /mnt/config/state.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " , and then exit.\nHow can I configure olake cli to run continuously as a daemon (i.e. we want to run it as a sidecar along user-defined applications)\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(... removed ...)\n2026-08-07T13:39:55Z INFO Iceberg[50051] 13:39:55.245 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-29-6395037162323] Total time taken: 1 ms\n2026-08-07T13:39:55Z DEBUG Thread[public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9]: Sent commit message: [Thread-29-6395037162323] Successfully committed data for thread public.sample_data_01KZE77A3R8EVHFEVYB2FXB5P9                                                                                                                                                             2026-08-07T13:39:55Z DEBUG sent standby status message at LSN#0/19BD100\n2026-08-07T13:39:58Z INFO Total records read: 0 | Total bytes read: 0 B\n2026-08-07T13:39:58Z INFO Sync completed, wait 5 seconds cleanup in progress...                                                                                                          2026-08-07T13:40:03Z INFO Shutting down shared Iceberg JVM on port 50051"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-19/10733824936658_c5811d706f7b878446ea_72.png",
+      "first_name": "Kim",
+      "real_name": "Kim Tore Jensen",
+      "display_name": "Kim Tore Jensen",
+      "team": "T0820LGJGRF",
+      "name": "kim.tore.jensen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
