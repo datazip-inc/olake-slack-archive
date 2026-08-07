@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 OUT_DIR = ROOT / "public"
 DAY_FILE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")
+EMOJI_MAP = json.loads((Path(__file__).parent / "emoji_map.json").read_text(encoding="utf-8"))
 
 
 def load_json(path, default):
@@ -105,7 +106,8 @@ TOKEN_RE = re.compile(
     r"|`[^`\n]+`"                               # `inline code`
     r"|(?<![\w*])\*(?!\s)[^*\n]+(?<!\s)\*(?!\w)"  # *bold* — not mid-word (avoids clashing with emoji shortcodes etc.)
     r"|(?<![\w_])_(?!\s)[^_\n]+(?<!\s)_(?!\w)"     # _italic_ — word-boundary-guarded so :rotating_light: is untouched
-    r"|(?<![\w~])~(?!\s)[^~\n]+(?<!\s)~(?!\w))",   # ~strike~
+    r"|(?<![\w~])~(?!\s)[^~\n]+(?<!\s)~(?!\w)"     # ~strike~
+    r"|:[a-zA-Z0-9_+-]+:)",                        # :emoji_shortcode:
     re.DOTALL,
 )
 
@@ -145,9 +147,49 @@ def render_slack_text(text, users):
             parts.append(f"<em>{html.escape(chunk[1:-1])}</em>")
         elif chunk.startswith("~"):
             parts.append(f"<s>{html.escape(chunk[1:-1])}</s>")
+        elif chunk.startswith(":") and chunk.endswith(":"):
+            glyph = EMOJI_MAP.get(chunk[1:-1])
+            # Unmapped shortcodes are usually custom workspace emoji (no unicode
+            # equivalent, and we don't download images) — keep the text form.
+            parts.append(glyph if glyph else html.escape(chunk))
         else:
             parts.append(html.escape(chunk))
     return "".join(parts)
+
+
+def build_threads(messages):
+    """
+    Group a channel's flat, ts-sorted message list into (parent, [replies])
+    pairs. A message is a reply when it has a thread_ts that differs from its
+    own ts; replies are nested under their parent in ts order. Replies whose
+    parent isn't present in the archive (e.g. bot joined mid-thread) fall
+    back to being shown standalone, so no message is ever dropped.
+    """
+    replies_by_parent = defaultdict(list)
+    reply_ts = set()
+    for m in messages:
+        tts = m.get("thread_ts")
+        if tts and tts != m.get("ts"):
+            replies_by_parent[tts].append(m)
+            reply_ts.add(m["ts"])
+
+    threads = []
+    for m in messages:
+        if m["ts"] in reply_ts:
+            continue
+        replies = sorted(replies_by_parent.pop(m["ts"], []), key=lambda r: float(r["ts"]))
+        threads.append((m, replies))
+
+    # Whatever's left in replies_by_parent points at a thread_ts with no
+    # matching parent message in the archive — promote the earliest reply to
+    # stand in as the parent so nothing gets silently dropped.
+    for orphan_replies in replies_by_parent.values():
+        orphan_replies.sort(key=lambda r: float(r["ts"]))
+        stand_in, rest = orphan_replies[0], orphan_replies[1:]
+        threads.append((stand_in, rest))
+
+    threads.sort(key=lambda pair: float(pair[0]["ts"]))
+    return threads
 
 
 def fmt_time(ts):
@@ -178,6 +220,11 @@ PAGE_TMPL = """<!doctype html>
   .text pre code {{ background: none; padding: 0; }}
   .mention {{ color: #2563eb; font-weight: 500; }}
   nav {{ margin-bottom: 1.5rem; font-size: .9rem; }}
+  .thread {{ border-bottom: 1px solid rgba(128,128,128,.2); padding: .6rem 0; }}
+  .thread .msg {{ padding: 0; border-bottom: none; }}
+  .replies {{ margin: .5rem 0 0 1.25rem; padding-left: .75rem; border-left: 2px solid rgba(128,128,128,.25); }}
+  .replies .msg {{ padding: .4rem 0; }}
+  .reply-count {{ font-size: .78rem; opacity: .6; margin: .3rem 0 .1rem 1.25rem; }}
 </style>
 </head>
 <body>
@@ -192,6 +239,11 @@ PAGE_TMPL = """<!doctype html>
 MSG_TMPL = """<div class="msg">
   <div class="meta"><span class="user">{user}</span> &middot; {time}</div>
   <div class="text">{text}</div>
+</div>
+"""
+
+THREAD_TMPL = """<div class="thread">
+{parent}{reply_count}{replies}
 </div>
 """
 
@@ -228,18 +280,34 @@ def main():
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    def render_message(m):
+        user_id = m.get("user", "")
+        user_name = users.get(user_id, user_id or "unknown")
+        return MSG_TMPL.format(
+            user=html.escape(user_name),
+            time=fmt_time(m.get("ts", "")),
+            text=render_slack_text(m.get("text", ""), users),
+        )
+
     index_items = []
     for channel, messages in sorted(channel_messages.items()):
         rendered = []
-        for m in messages:
-            user_id = m.get("user", "")
-            user_name = users.get(user_id, user_id or "unknown")
-            text = render_slack_text(m.get("text", ""), users)
+        for parent, replies in build_threads(messages):
+            reply_count = (
+                f'<div class="reply-count">{len(replies)} repl{"y" if len(replies) == 1 else "ies"}</div>'
+                if replies
+                else ""
+            )
+            replies_html = (
+                '<div class="replies">' + "\n".join(render_message(r) for r in replies) + "</div>"
+                if replies
+                else ""
+            )
             rendered.append(
-                MSG_TMPL.format(
-                    user=html.escape(user_name),
-                    time=fmt_time(m.get("ts", "")),
-                    text=text,
+                THREAD_TMPL.format(
+                    parent=render_message(parent),
+                    reply_count=reply_count,
+                    replies=replies_html,
                 )
             )
         page = PAGE_TMPL.format(
