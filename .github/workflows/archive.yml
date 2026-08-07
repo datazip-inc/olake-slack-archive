@@ -50,7 +50,7 @@ jobs:
       - name: Export from Slack
         run: |
           mkdir -p "data/raw/run-${{ steps.window.outputs.run_start }}"
-          slackdump export -y \
+          slackdump export -y -v \
             -type standard \
             -files=false \
             -chan-types public_channel,private_channel \
