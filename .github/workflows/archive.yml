@@ -39,12 +39,21 @@ jobs:
           echo "from=$FROM" >> "$GITHUB_OUTPUT"
           echo "run_start=$(date -u +%Y-%m-%dT%H:%M:%S)" >> "$GITHUB_OUTPUT"
 
-      - name: Export from Slack
+      - name: Register Slack workspace
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         run: |
+          echo "SLACK_TOKEN=$SLACK_TOKEN" > secrets.txt
+          slackdump workspace import secrets.txt
+          rm -f secrets.txt
+
+      - name: Export from Slack
+        run: |
           mkdir -p "data/raw/run-${{ steps.window.outputs.run_start }}"
-          slackdump export \
+          slackdump export -y \
+            -type standard \
+            -files=false \
+            -chan-types public_channel,private_channel \
             -o "data/raw/run-${{ steps.window.outputs.run_start }}" \
             -time-from "${{ steps.window.outputs.from }}"
 
