@@ -1,0 +1,4 @@
+public/
+*.deb
+secrets.txt
+.env

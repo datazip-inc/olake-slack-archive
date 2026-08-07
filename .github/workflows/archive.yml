@@ -1,0 +1,78 @@
+name: Slack Archive
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours — comfortably ahead of the 90-day retention limit
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  export-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install slackdump
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download -R rusq/slackdump --pattern '*linux_amd64.deb' -O slackdump.deb --clobber
+          sudo dpkg -i slackdump.deb
+
+      - name: Determine export window
+        id: window
+        run: |
+          if [ -f data/.last_run ]; then
+            # 1h overlap buffer to avoid boundary gaps between runs
+            FROM=$(date -u -d "$(cat data/.last_run) -1 hour" +%Y-%m-%dT%H:%M:%S)
+          else
+            FROM=$(date -u -d "89 days ago" +%Y-%m-%dT%H:%M:%S)
+          fi
+          echo "from=$FROM" >> "$GITHUB_OUTPUT"
+          echo "run_start=$(date -u +%Y-%m-%dT%H:%M:%S)" >> "$GITHUB_OUTPUT"
+
+      - name: Export from Slack
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        run: |
+          mkdir -p "data/raw/run-${{ steps.window.outputs.run_start }}"
+          slackdump export \
+            -o "data/raw/run-${{ steps.window.outputs.run_start }}" \
+            -time-from "${{ steps.window.outputs.from }}"
+
+      - name: Update last-run marker
+        run: echo "${{ steps.window.outputs.run_start }}" > data/.last_run
+
+      - name: Commit raw export data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: archive slack messages (${{ steps.window.outputs.run_start }})"
+          file_pattern: "data/**"
+
+      - name: Render static site
+        run: python3 scripts/render.py
+
+      - name: Build search index (Pagefind)
+        run: npx --yes pagefind --site public
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: export-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
