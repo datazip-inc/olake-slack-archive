@@ -8,6 +8,14 @@ Each CI run only exports messages since the last run, so the same message
 can appear in multiple overlapping run-*/ snapshots — this dedups by
 (channel, ts) and re-buckets messages into per-day files by their actual
 UTC date, same as a native Slack export would.
+
+slack-export-viewer never looks for locally downloaded files — it always
+renders a message's file "url_private" (and thumb_* fields) directly
+(see slackviewer/message.py's LinkAttachment.link), which point at Slack's
+auth-required CDN and are broken for anonymous site visitors. So for any
+file we've downloaded a local copy of, this rewrites those URL fields to a
+relative path under __attachments/, which the CI workflow copies into the
+rendered public/ output afterwards.
 """
 import json
 import re
@@ -21,6 +29,11 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 MERGED_DIR = ROOT / "data" / "merged"
 DAY_FILE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")
+
+# Every channel page renders at public/channel/<name>/index.html, i.e. a
+# fixed depth of 2 below public/, so the relative path back up to a
+# top-level __attachments/ dir is always the same.
+ATTACHMENTS_REL_PREFIX = "../../__attachments/"
 
 
 def load_json(path, default):
@@ -53,7 +66,53 @@ def merge_channels():
     return list(channels.values())
 
 
-def merge_channel_messages():
+def merge_attachments():
+    """
+    Copy every downloaded file attachment across all snapshots into a single
+    flat pool (MERGED_DIR/__attachments/). slackdump names files
+    <file-id>-<original-name>, which is already collision-safe, and puts
+    them either under <channel>/attachments/ or (for files not tied to one
+    channel) a top-level attachments/ dir — both get merged the same way.
+    Returns the set of filenames present in the pool.
+    """
+    dest = MERGED_DIR / "__attachments"
+    names = set()
+    for run_dir in sorted(RAW_DIR.glob("run-*")):
+        candidates = [run_dir / "attachments"]
+        candidates += [d / "attachments" for d in run_dir.iterdir() if d.is_dir()]
+        for attachments_src in candidates:
+            if not attachments_src.is_dir():
+                continue
+            dest.mkdir(parents=True, exist_ok=True)
+            for f in attachments_src.iterdir():
+                if f.is_file():
+                    shutil.copy2(f, dest / f.name)
+                    names.add(f.name)
+    return names
+
+
+def rewrite_file_urls(msg, attachment_names):
+    """
+    For each file on this message that we have a local copy of, point
+    url_private and any thumb_* fields at the local relative path instead
+    of Slack's auth-required CDN URL.
+    """
+    for f in msg.get("files", []) or []:
+        file_id = f.get("id")
+        if not file_id:
+            continue
+        match = next((n for n in attachment_names if n.startswith(file_id + "-")), None)
+        if not match:
+            continue
+        local_path = ATTACHMENTS_REL_PREFIX + match
+        f["url_private"] = local_path
+        f["url_private_download"] = local_path
+        for key in list(f):
+            if key.startswith("thumb_"):
+                f[key] = local_path
+
+
+def merge_channel_messages(attachment_names):
     """
     Walk every run-*/<channel>/*.json day file, dedup by (channel, ts), and
     re-bucket into day files keyed by the message's actual UTC date.
@@ -66,7 +125,7 @@ def merge_channel_messages():
         if not run_dir.is_dir():
             continue
         for channel_dir in run_dir.iterdir():
-            if not channel_dir.is_dir():
+            if not channel_dir.is_dir() or channel_dir.name in ("attachments", "__avatars"):
                 continue
             channel = channel_dir.name
             for day_file in channel_dir.glob("*.json"):
@@ -76,6 +135,7 @@ def merge_channel_messages():
                     ts = msg.get("ts")
                     if not ts:
                         continue
+                    rewrite_file_urls(msg, attachment_names)
                     by_channel[channel][ts] = msg
 
     result = {}
@@ -93,38 +153,6 @@ def merge_channel_messages():
     return result
 
 
-def merge_binary_assets():
-    """
-    Copy downloaded avatars (top-level __avatars/) and message attachments
-    (<channel>/attachments/) across all snapshots into the merged dir.
-    Same file ID always produces the same filename, so plain overwrite-copy
-    is a safe dedup.
-    """
-    n_avatars = n_attachments = 0
-    for run_dir in sorted(RAW_DIR.glob("run-*")):
-        avatars_src = run_dir / "__avatars"
-        if avatars_src.is_dir():
-            dest = MERGED_DIR / "__avatars"
-            dest.mkdir(parents=True, exist_ok=True)
-            for f in avatars_src.iterdir():
-                if f.is_file():
-                    shutil.copy2(f, dest / f.name)
-                    n_avatars += 1
-
-        for channel_dir in run_dir.iterdir():
-            if not channel_dir.is_dir() or channel_dir.name == "__avatars":
-                continue
-            attachments_src = channel_dir / "attachments"
-            if attachments_src.is_dir():
-                dest = MERGED_DIR / channel_dir.name / "attachments"
-                dest.mkdir(parents=True, exist_ok=True)
-                for f in attachments_src.iterdir():
-                    if f.is_file():
-                        shutil.copy2(f, dest / f.name)
-                        n_attachments += 1
-    return n_avatars, n_attachments
-
-
 def main():
     if MERGED_DIR.exists():
         shutil.rmtree(MERGED_DIR)
@@ -132,7 +160,8 @@ def main():
 
     users = merge_users()
     channels = merge_channels()
-    channel_messages = merge_channel_messages()
+    attachment_names = merge_attachments()
+    channel_messages = merge_channel_messages(attachment_names)
 
     (MERGED_DIR / "users.json").write_text(json.dumps(users, ensure_ascii=False), encoding="utf-8")
     (MERGED_DIR / "channels.json").write_text(json.dumps(channels, ensure_ascii=False), encoding="utf-8")
@@ -147,11 +176,9 @@ def main():
             )
             total += len(msgs)
 
-    n_avatars, n_attachments = merge_binary_assets()
-
     print(
         f"Merged {total} messages across {len(channel_messages)} channel(s), "
-        f"{n_avatars} avatar(s), {n_attachments} attachment(s) into {MERGED_DIR}"
+        f"{len(attachment_names)} attachment(s) into {MERGED_DIR}"
     )
     if not channel_messages:
         print("No messages found under data/raw/ — nothing to merge.", file=sys.stderr)
