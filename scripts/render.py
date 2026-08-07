@@ -95,6 +95,61 @@ def collect_messages():
     }
 
 
+GENERAL_MENTIONS = {"here": "@here", "channel": "@channel", "everyone": "@everyone"}
+
+# Matches one Slack special token or markup span at a time; everything between
+# matches is treated as plain text and HTML-escaped normally.
+TOKEN_RE = re.compile(
+    r"(<[^<>]+>"        # <@U123>, <#C123|name>, <https://x|label>, <!here>, etc.
+    r"|```.*?```"        # ```code block```
+    r"|`[^`\n]+`"         # `inline code`
+    r"|\*[^*\n]+\*"       # *bold*
+    r"|_[^_\n]+_"         # _italic_
+    r"|~[^~\n]+~)",       # ~strike~
+    re.DOTALL,
+)
+
+
+def render_slack_text(text, users):
+    """Convert Slack mrkdwn (<@U…>, <url|label>, *bold*, `code`, …) to safe HTML."""
+    if not text:
+        return ""
+    parts = []
+    for chunk in TOKEN_RE.split(text):
+        if not chunk:
+            continue
+        if chunk.startswith("<") and chunk.endswith(">"):
+            inner = chunk[1:-1]
+            if inner.startswith("@"):
+                uid = inner[1:].split("|", 1)[0]
+                name = users.get(uid, uid)
+                parts.append(f'<span class="mention">@{html.escape(name)}</span>')
+            elif inner.startswith("#"):
+                _, _, label = inner.partition("|")
+                parts.append(f'<span class="mention">#{html.escape(label or inner[1:])}</span>')
+            elif inner.startswith("!"):
+                key = inner[1:].split("|", 1)[0].split("^", 1)[0]
+                label = inner.split("|", 1)[1] if "|" in inner else GENERAL_MENTIONS.get(key, "@" + key)
+                parts.append(f'<span class="mention">{html.escape(label)}</span>')
+            else:
+                url, _, label = inner.partition("|")
+                label = label or url
+                parts.append(f'<a href="{html.escape(url, quote=True)}">{html.escape(label)}</a>')
+        elif chunk.startswith("```"):
+            parts.append(f"<pre><code>{html.escape(chunk[3:-3].strip())}</code></pre>")
+        elif chunk.startswith("`"):
+            parts.append(f"<code>{html.escape(chunk[1:-1])}</code>")
+        elif chunk.startswith("*"):
+            parts.append(f"<strong>{html.escape(chunk[1:-1])}</strong>")
+        elif chunk.startswith("_"):
+            parts.append(f"<em>{html.escape(chunk[1:-1])}</em>")
+        elif chunk.startswith("~"):
+            parts.append(f"<s>{html.escape(chunk[1:-1])}</s>")
+        else:
+            parts.append(html.escape(chunk))
+    return "".join(parts)
+
+
 def fmt_time(ts):
     try:
         return datetime.fromtimestamp(float(ts), tz=timezone.utc).strftime(
@@ -118,6 +173,10 @@ PAGE_TMPL = """<!doctype html>
   .meta {{ font-size: .8rem; opacity: .65; margin-bottom: .15rem; }}
   .user {{ font-weight: 600; }}
   .text {{ white-space: pre-wrap; word-wrap: break-word; }}
+  .text code {{ background: rgba(128,128,128,.15); padding: .1em .3em; border-radius: 3px; font-size: .9em; }}
+  .text pre {{ background: rgba(128,128,128,.15); padding: .6em; border-radius: 6px; overflow-x: auto; }}
+  .text pre code {{ background: none; padding: 0; }}
+  .mention {{ color: #2563eb; font-weight: 500; }}
   nav {{ margin-bottom: 1.5rem; font-size: .9rem; }}
 </style>
 </head>
@@ -175,7 +234,7 @@ def main():
         for m in messages:
             user_id = m.get("user", "")
             user_name = users.get(user_id, user_id or "unknown")
-            text = html.escape(m.get("text", ""))
+            text = render_slack_text(m.get("text", ""), users)
             rendered.append(
                 MSG_TMPL.format(
                     user=html.escape(user_name),

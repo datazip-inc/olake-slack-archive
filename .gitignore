@@ -2,3 +2,4 @@ public/
 *.deb
 secrets.txt
 .env
+__pycache__/
