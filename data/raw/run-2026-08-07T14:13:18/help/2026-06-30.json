@@ -1,0 +1,1457 @@
+[
+  {
+    "client_msg_id": "3a5db91c-78bb-411c-bac4-cb4d68776255",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi Team,\nI'm facing an issue with Fusion compaction on an append-only Iceberg table that is continuously ingesting data from Kafka.\nInitially, the Fusion *Run History* showed entries whenever Lite Compaction was triggered. However, it has now stopped showing any new runs.\nEarlier, the Fusion pod was failing with a `CreateContainerConfigError`. We increased the pod resources, and that error is no longer occurring. However, even after resolving that issue:\n• No new compaction runs are appearing in the *Run History*.\n• The compaction does not seem to be getting triggered.",
+    "ts": "1782814367.632539",
+    "thread_ts": "1782814367.632539",
+    "reply_count": 28,
+    "reply_users": [
+      "U0817E9CGRM",
+      "U081MTF4GHZ",
+      "U08RZQ547LJ",
+      "U094EHV7U75",
+      "U0A6088AMM3"
+    ],
+    "replies": [
+      {
+        "user": "U081MTF4GHZ",
+        "ts": "1782814437.159439"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1782814951.421869"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1782815930.861559"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1782816368.487799"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1782818900.444049"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1782822061.517399"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1782824291.752209"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1782825921.841989"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1782827850.142679"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1782883446.132189"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1782886960.352489"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1782898236.771769"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1782929110.046449"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1782978125.859499"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1783012555.029069"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1783012835.833149"
+      },
+      {
+        "user": "U094EHV7U75",
+        "ts": "1783057519.041819"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783601779.710149"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1783601950.560809"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783604263.103829"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1783618204.024929"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783664097.864449"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1783668014.749599"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783669724.517619"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1783679433.015949"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783679522.868039"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1783680501.773389"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1783682950.353119"
+      }
+    ],
+    "latest_reply": "1783682950.353119",
+    "files": [
+      {
+        "id": "F0BEYRL25HN",
+        "created": 1782814332,
+        "timestamp": 1782814332,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 54602,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEYRL25HN/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEYRL25HN/download/image.png",
+        "original_h": 499,
+        "original_w": 1659,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 108,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 144,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 217,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 289,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRL25HN-c264d0c274/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 308,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BEYRL25HN/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BEYRL25HN-7a28375cd2",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0BEYRMP26L",
+        "created": 1782814348,
+        "timestamp": 1782814348,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 58247,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEYRMP26L/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEYRMP26L/download/image.png",
+        "original_h": 499,
+        "original_w": 1659,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 108,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 144,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 217,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 289,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEYRMP26L-af0e6eaebc/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 308,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BEYRMP26L/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BEYRMP26L-3205ca69ba",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U081MTF4GHZ",
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lrxqR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nI'm facing an issue with Fusion compaction on an append-only Iceberg table that is continuously ingesting data from Kafka.\nInitially, the Fusion "
+              },
+              {
+                "type": "text",
+                "text": "Run History",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " showed entries whenever Lite Compaction was triggered. However, it has now stopped showing any new runs.\nEarlier, the Fusion pod was failing with a "
+              },
+              {
+                "type": "text",
+                "text": "CreateContainerConfigError",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". We increased the pod resources, and that error is no longer occurring. However, even after resolving that issue:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "No new compaction runs are appearing in the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Run History",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The compaction does not seem to be getting triggered."
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 5
+  },
+  {
+    "client_msg_id": "71648653-2d58-48fe-a5d9-1964aad9a2cc",
+    "type": "message",
+    "user": "U081MTF4GHZ",
+    "text": "CC : \u003c@U0817E9CGRM\u003e \u003c@U08RZQ547LJ\u003e",
+    "ts": "1782814437.159439",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9+9mY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CC : "
+              },
+              {
+                "type": "user",
+                "user_id": "U0817E9CGRM"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-19/10156045326514_654c97334f1a0da12b77_72.png",
+      "first_name": "Merlyn",
+      "real_name": "Merlyn",
+      "display_name": "Merlyn",
+      "team": "T0820LGJGRF",
+      "name": "merlyn",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d8894859-a13c-4612-b304-1161425d8312",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e, are you using *Helm* for OLake-Fusion deployment?\n\nIn case yes, can you please share a screenshot of the pods running in your `Olake` namespace? _(I just want to confirm whether a pod with *optimizer* in its name is running.)_",
+    "ts": "1782814951.421869",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BPd25",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", are you using "
+              },
+              {
+                "type": "text",
+                "text": "Helm",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for OLake-Fusion deployment?\n\nIn case yes, can you please share a screenshot of the pods running in your "
+              },
+              {
+                "type": "text",
+                "text": "Olake",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " namespace?"
+              },
+              {
+                "type": "text",
+                "text": " (I just want to confirm whether a pod with ",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "optimizer",
+                "style": {
+                  "bold": true,
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in its name is running.)",
+                "style": {
+                  "italic": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "452bd6e4-9025-49f7-abe4-48b29afa98fd",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi \u003c@U08RZQ547LJ\u003e,\nYes optimizer pod is running\n\n\n```2026-06-30 09:47:24.968Z WARN  [main[] [ThriftClientPool] [P:|T:] - Transport open failed, service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:24.968Z WARN  [main[] [ThriftClientPool] [P:|T:] - Transport open failed, service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:24.968Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:24.968Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:25.992Z WARN  [main[] [ThriftClientPool] [P:|T:] - Reconnected service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261 failed\norg.apache.amoro.shade.thrift.org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:231) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.layered.TFramedTransport.open(TFramedTransport.java:82) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:100) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:72) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:71) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:566) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:306) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:233) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool.iface(ThriftClientPool.java:189) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.OptimizingClientPools.getClient(OptimizingClientPools.java:38) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.AbstractOptimizerOperator.callAms(AbstractOptimizerOperator.java:53) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.checkToken(OptimizerToucher.java:74) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.start(OptimizerToucher.java:59) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.Optimizer.startOptimizing(Optimizer.java:65) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.spark.SparkOptimizer.main(SparkOptimizer.java:69) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]\n    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]\n    at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]\n    at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:1034) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.$anonfun$submit$2(SparkSubmit.scala:174) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:62) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:61) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]\n    at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]\n    at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878) [hadoop-client-api-3.3.4.jar:?]\n    at org.apache.spark.deploy.SparkHadoopUtil.runAsSparkUser(SparkHadoopUtil.scala:61) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:174) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:222) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1125) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1134) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala) [spark-core_2.12-3.5.8.jar:3.5.8]\nCaused by: java.net.ConnectException: Connection refused\n    at sun.nio.ch.Net.connect0(Native Method) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]\n    at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593) ~[?:?]\n    at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]\n    at java.net.Socket.connect(Socket.java:633) ~[?:?]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:226) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    ... 33 more\n2026-06-30 09:47:25.992Z WARN  [main[] [ThriftClientPool] [P:|T:] - Reconnected service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261 failed\norg.apache.amoro.shade.thrift.org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:231) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.layered.TFramedTransport.open(TFramedTransport.java:82) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:100) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:72) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:71) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:566) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:306) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:233) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool.iface(ThriftClientPool.java:189) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.OptimizingClientPools.getClient(OptimizingClientPools.java:38) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.AbstractOptimizerOperator.callAms(AbstractOptimizerOperator.java:53) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.checkToken(OptimizerToucher.java:74) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.start(OptimizerToucher.java:59) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.Optimizer.startOptimizing(Optimizer.java:65) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.spark.SparkOptimizer.main(SparkOptimizer.java:69) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]\n    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]\n    at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]\n    at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:1034) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.$anonfun$submit$2(SparkSubmit.scala:174) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:62) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:61) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]\n    at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]\n    at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878) [hadoop-client-api-3.3.4.jar:?]\n    at org.apache.spark.deploy.SparkHadoopUtil.runAsSparkUser(SparkHadoopUtil.scala:61) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:174) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:222) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1125) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1134) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala) [spark-core_2.12-3.5.8.jar:3.5.8]\nCaused by: java.net.ConnectException: Connection refused\n    at sun.nio.ch.Net.connect0(Native Method) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]\n    at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593) ~[?:?]\n    at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]\n    at java.net.Socket.connect(Socket.java:633) ~[?:?]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:226) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    ... 33 more\n2026-06-30 09:47:27.994Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:27.994Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:28.017Z INFO  [main[] [OptimizerToucher] [P:|T:] - Adding register property heart-beat-interval:10000 into optimizer\n2026-06-30 09:47:28.017Z INFO  [main[] [OptimizerToucher] [P:|T:] - Adding register property heart-beat-interval:10000 into optimizer\n2026-06-30 09:47:28.038Z INFO  [main[] [OptimizerToucher] [P:|T:] - Registered optimizer to ams with token:618d2dfd-505a-49b8-bc4c-521ca690dbe0\n2026-06-30 09:47:28.038Z INFO  [main[] [OptimizerToucher] [P:|T:] - Registered optimizer to ams with token:618d2dfd-505a-49b8-bc4c-521ca690dbe0```",
+    "ts": "1782815930.861559",
+    "thread_ts": "1782814367.632539",
+    "edited": {
+      "user": "U0A6088AMM3",
+      "ts": "1782816018.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BEZ1MVBTJ",
+        "created": 1782816007,
+        "timestamp": 1782816007,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 54583,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEZ1MVBTJ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEZ1MVBTJ/download/image.png",
+        "original_h": 207,
+        "original_w": 1117,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 67,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 89,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 133,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 178,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BEZ1MVBTJ-f22bc78712/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 190,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BEZ1MVBTJ/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BEZ1MVBTJ-8c5cce9a49",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MMu/X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              },
+              {
+                "type": "text",
+                "text": ",\nYes optimizer pod is running\n\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2026-06-30 09:47:24.968Z WARN  [main[] [ThriftClientPool] [P:|T:] - Transport open failed, service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:24.968Z WARN  [main[] [ThriftClientPool] [P:|T:] - Transport open failed, service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:24.968Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:24.968Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:25.992Z WARN  [main[] [ThriftClientPool] [P:|T:] - Reconnected service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261 failed\norg.apache.amoro.shade.thrift.org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:231) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.layered.TFramedTransport.open(TFramedTransport.java:82) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:100) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:72) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:71) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:566) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:306) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:233) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool.iface(ThriftClientPool.java:189) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.OptimizingClientPools.getClient(OptimizingClientPools.java:38) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.AbstractOptimizerOperator.callAms(AbstractOptimizerOperator.java:53) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.checkToken(OptimizerToucher.java:74) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.start(OptimizerToucher.java:59) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.Optimizer.startOptimizing(Optimizer.java:65) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.spark.SparkOptimizer.main(SparkOptimizer.java:69) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]\n    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]\n    at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]\n    at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:1034) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.$anonfun$submit$2(SparkSubmit.scala:174) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:62) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:61) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]\n    at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]\n    at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878) [hadoop-client-api-3.3.4.jar:?]\n    at org.apache.spark.deploy.SparkHadoopUtil.runAsSparkUser(SparkHadoopUtil.scala:61) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:174) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:222) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1125) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1134) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala) [spark-core_2.12-3.5.8.jar:3.5.8]\nCaused by: java.net.ConnectException: Connection refused\n    at sun.nio.ch.Net.connect0(Native Method) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]\n    at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593) ~[?:?]\n    at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]\n    at java.net.Socket.connect(Socket.java:633) ~[?:?]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:226) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    ... 33 more\n2026-06-30 09:47:25.992Z WARN  [main[] [ThriftClientPool] [P:|T:] - Reconnected service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261 failed\norg.apache.amoro.shade.thrift.org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:231) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.layered.TFramedTransport.open(TFramedTransport.java:82) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:100) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool$1.create(ThriftClientPool.java:72) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:71) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:566) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:306) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:233) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.ThriftClientPool.iface(ThriftClientPool.java:189) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.client.OptimizingClientPools.getClient(OptimizingClientPools.java:38) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.AbstractOptimizerOperator.callAms(AbstractOptimizerOperator.java:53) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.checkToken(OptimizerToucher.java:74) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.OptimizerToucher.start(OptimizerToucher.java:59) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.common.Optimizer.startOptimizing(Optimizer.java:65) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at org.apache.amoro.optimizer.spark.SparkOptimizer.main(SparkOptimizer.java:69) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]\n    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]\n    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]\n    at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]\n    at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:1034) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.$anonfun$submit$2(SparkSubmit.scala:174) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:62) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkHadoopUtil$$anon$1.run(SparkHadoopUtil.scala:61) ~[spark-core_2.12-3.5.8.jar:3.5.8]\n    at java.security.AccessController.doPrivileged(AccessController.java:712) [?:?]\n    at javax.security.auth.Subject.doAs(Subject.java:439) [?:?]\n    at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878) [hadoop-client-api-3.3.4.jar:?]\n    at org.apache.spark.deploy.SparkHadoopUtil.runAsSparkUser(SparkHadoopUtil.scala:61) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:174) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:222) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1125) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1134) [spark-core_2.12-3.5.8.jar:3.5.8]\n    at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala) [spark-core_2.12-3.5.8.jar:3.5.8]\nCaused by: java.net.ConnectException: Connection refused\n    at sun.nio.ch.Net.connect0(Native Method) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]\n    at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]\n    at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:593) ~[?:?]\n    at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]\n    at java.net.Socket.connect(Socket.java:633) ~[?:?]\n    at org.apache.amoro.shade.thrift.org.apache.thrift.transport.TSocket.open(TSocket.java:226) ~[optimizer-job.jar:0.9-SNAPSHOT]\n    ... 33 more\n2026-06-30 09:47:27.994Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:27.994Z INFO  [main[] [ThriftClientPool] [P:|T:] - Reconnecting service address: olake-fusion-fusion-optimizing.olake-fusion.svc.cluster.local:1261\n2026-06-30 09:47:28.017Z INFO  [main[] [OptimizerToucher] [P:|T:] - Adding register property heart-beat-interval:10000 into optimizer\n2026-06-30 09:47:28.017Z INFO  [main[] [OptimizerToucher] [P:|T:] - Adding register property heart-beat-interval:10000 into optimizer\n2026-06-30 09:47:28.038Z INFO  [main[] [OptimizerToucher] [P:|T:] - Registered optimizer to ams with token:618d2dfd-505a-49b8-bc4c-521ca690dbe0\n2026-06-30 09:47:28.038Z INFO  [main[] [OptimizerToucher] [P:|T:] - Registered optimizer to ams with token:618d2dfd-505a-49b8-bc4c-521ca690dbe0"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0772da55-2151-4e72-8728-edb84b400564",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e, thanks for sharing the screenshot.\n\nCould please share the complete logs, that would be great for us to debug. `kubectl logs \u0026lt;pod-name\u0026gt; \u0026gt; log.txt`",
+    "ts": "1782816368.487799",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oDS30",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", thanks for sharing the screenshot.\n\nCould please share the complete logs, that would be great for us to debug. "
+              },
+              {
+                "type": "text",
+                "text": "kubectl logs \u003cpod-name\u003e \u003e log.txt",
+                "style": {
+                  "code": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b57c3ea0-dd0d-4eb8-b065-7f9090f10f45",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08RZQ547LJ\u003e",
+    "ts": "1782818900.444049",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BEZAT9R96",
+        "created": 1782818873,
+        "timestamp": 1782818873,
+        "name": "log.txt",
+        "title": "log.txt",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "cpp",
+        "pretty_type": "C++",
+        "user": "U0A6088AMM3",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 74106,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEZAT9R96/log.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BEZAT9R96/download/log.txt",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BEZAT9R96/log.txt",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BEZAT9R96-ecb13cafc2",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BEZAT9R96/log.txt/edit",
+        "preview": "Running driver with proxy user. Cluster manager: Kubernetes\n2026-06-30 09:47:00.139Z WARN  [main] [NativeCodeLoader] [P:|T:] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\nFiles local:///opt/spark/usrlib/optimizer-job.jar from /opt/spark/usrlib/optimizer-job.jar to /opt/spark/work-dir/optimizer-job.jar\n2026-06-30 09:47:01.184Z WARN  [main] [SparkContext] [P:|T:] - The JAR local:///opt/spark/usrlib/optimizer-job.jar at file:/opt/spark/usrlib/optimizer-job.jar has been added already. Overwriting of added jar is not supported in the current version.\n2026-06-30 09:47:02.706Z INFO  [main] [OptimizerToucher] [P:|T:] - Adding register property resource-id:70tt4ot75s98aqmnsg8uqnd218 into optimizer",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003e\u003cspan class=\"cm-variable\"\u003eRunning\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003edriver\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003ewith\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eproxy\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003euser\u003c/span\u003e. \u003cspan class=\"cm-variable\"\u003eCluster\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003emanager\u003c/span\u003e: \u003cspan class=\"cm-variable\"\u003eKubernetes\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e\u003cspan class=\"cm-number\"\u003e2026\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-number\"\u003e06\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-number\"\u003e30\u003c/span\u003e \u003cspan class=\"cm-number\"\u003e09\u003c/span\u003e:\u003cspan class=\"cm-number\"\u003e47\u003c/span\u003e:\u003cspan class=\"cm-number\"\u003e00.139Z\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eWARN\u003c/span\u003e  [\u003cspan class=\"cm-variable\"\u003emain\u003c/span\u003e] [\u003cspan class=\"cm-variable\"\u003eNativeCodeLoader\u003c/span\u003e] [\u003cspan class=\"cm-variable\"\u003eP\u003c/span\u003e:\u003cspan class=\"cm-operator\"\u003e|\u003c/span\u003e\u003cspan class=\"cm-variable\"\u003eT\u003c/span\u003e:] \u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eUnable\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eto\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eload\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003enative\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-variable\"\u003ehadoop\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003elibrary\u003c/span\u003e \u003cspan class=\"cm-keyword\"\u003efor\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eyour\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eplatform\u003c/span\u003e... \u003cspan class=\"cm-keyword\"\u003eusing\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003ebuiltin\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-variable\"\u003ejava\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eclasses\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003ewhere\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eapplicable\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e\u003cspan class=\"cm-variable\"\u003eFiles\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003elocal\u003c/span\u003e:\u003cspan class=\"cm-comment\"\u003e///opt/spark/usrlib/optimizer-job.jar from /opt/spark/usrlib/optimizer-job.jar to /opt/spark/work-dir/optimizer-job.jar\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e\u003cspan class=\"cm-number\"\u003e2026\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-number\"\u003e06\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-number\"\u003e30\u003c/span\u003e \u003cspan class=\"cm-number\"\u003e09\u003c/span\u003e:\u003cspan class=\"cm-number\"\u003e47\u003c/span\u003e:\u003cspan class=\"cm-number\"\u003e01.184Z\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eWARN\u003c/span\u003e  [\u003cspan class=\"cm-variable\"\u003emain\u003c/span\u003e] [\u003cspan class=\"cm-variable\"\u003eSparkContext\u003c/span\u003e] [\u003cspan class=\"cm-variable\"\u003eP\u003c/span\u003e:\u003cspan class=\"cm-operator\"\u003e|\u003c/span\u003e\u003cspan class=\"cm-variable\"\u003eT\u003c/span\u003e:] \u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eThe\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eJAR\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003elocal\u003c/span\u003e:\u003cspan class=\"cm-comment\"\u003e///opt/spark/usrlib/optimizer-job.jar at file:/opt/spark/usrlib/optimizer-job.jar has been added already. Overwriting of added jar is not supported in the current version.\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e\u003cspan class=\"cm-number\"\u003e2026\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-number\"\u003e06\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-number\"\u003e30\u003c/span\u003e \u003cspan class=\"cm-number\"\u003e09\u003c/span\u003e:\u003cspan class=\"cm-number\"\u003e47\u003c/span\u003e:\u003cspan class=\"cm-number\"\u003e02.706Z\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eINFO\u003c/span\u003e  [\u003cspan class=\"cm-variable\"\u003emain\u003c/span\u003e] [\u003cspan class=\"cm-variable\"\u003eOptimizerToucher\u003c/span\u003e] [\u003cspan class=\"cm-variable\"\u003eP\u003c/span\u003e:\u003cspan class=\"cm-operator\"\u003e|\u003c/span\u003e\u003cspan class=\"cm-variable\"\u003eT\u003c/span\u003e:] \u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eAdding\u003c/span\u003e \u003cspan class=\"cm-keyword\"\u003eregister\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eproperty\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eresource\u003c/span\u003e\u003cspan class=\"cm-operator\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-variable\"\u003eid\u003c/span\u003e:\u003cspan class=\"cm-number\"\u003e70tt4ot75s98aqmnsg8uqnd218\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003einto\u003c/span\u003e \u003cspan class=\"cm-variable\"\u003eoptimizer\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 677,
+        "lines_more": 672,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i96Gd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9ce581c8-d45b-4af2-a648-d447674ddda4",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e, a few questions and requirements:\n\n1. Thanks for sharing the logs — but these are the _optimizer_ logs, not the *Fusion (AMS)* pod logs. Would be great if you could share the `olake-fusion` pod logs.\n2. Also, please confirm the timestamps for:\n    a. Since when the optimizer has been running\n    b. When the Fusion pod was last restarted",
+    "ts": "1782822061.517399",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ePf29",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", a few questions and requirements:\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Thanks for sharing the logs — but these are the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "optimizer",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " logs, not the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Fusion (AMS)",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " pod logs. Would be great if you could share the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "olake-fusion",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " pod logs."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Also, please confirm the timestamps for:"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Since when the optimizer has been running"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "When the Fusion pod was last restarted"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 1,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a1b66225-cbe2-4612-a731-20cd9b437d89",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "2.\na. optimizer has been running for 3h7m\nb. No restarts ever since we increased the resources of Fusion pod (It's been running for 3h7m)",
+    "ts": "1782824291.752209",
+    "thread_ts": "1782814367.632539",
+    "edited": {
+      "user": "U0A6088AMM3",
+      "ts": "1782824467.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BDZAR3FCK",
+        "created": 1782824020,
+        "timestamp": 1782824020,
+        "name": "log_fusion_pod.txt",
+        "title": "log_fusion_pod.txt",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "text",
+        "pretty_type": "Plain Text",
+        "user": "U0A6088AMM3",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 600546,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BDZAR3FCK/log_fusion_pod.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BDZAR3FCK/download/log_fusion_pod.txt",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BDZAR3FCK/log_fusion_pod.txt",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BDZAR3FCK-a49cd59b05",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BDZAR3FCK/log_fusion_pod.txt/edit",
+        "preview": "Start Amoro Management Service\nDeleting pods with labelSelector=olake.io/workload=fusion-master...\n[0.000s][warning][gc] -Xloggc is deprecated. Will use -Xlog:gc:/usr/local/amoro/logs/gc.log instead.\n[0.001s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.\n[0.006s][info   ][gc] Using G1",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003eStart Amoro Management Service\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003eDeleting pods with labelSelector=olake.io/workload=fusion-master...\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e[0.000s][warning][gc] -Xloggc is deprecated. Will use -Xlog:gc:/usr/local/amoro/logs/gc.log instead.\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e[0.001s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e[0.006s][info   ][gc] Using G1\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 3299,
+        "lines_more": 3294,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hX1sg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2.\na. optimizer has been running for 3h7m\nb. No restarts ever since we increased the resources of Fusion pod (It's been running for 3h7m)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "bb67ae0a-c46a-41d2-b49c-705135d30967",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e, can you please _re-configure_ the _*cron*_ for your iceberg table and check once.\n\nIn case you are applying a custom cron, `*/5 * * * *` this would be the format we support for an every 5 minute compaciton.",
+    "ts": "1782825921.841989",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9roST",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", can you please "
+              },
+              {
+                "type": "text",
+                "text": "re-configure",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " the "
+              },
+              {
+                "type": "text",
+                "text": "cron",
+                "style": {
+                  "bold": true,
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for your iceberg table and check once.\n\nIn case you are applying a custom cron, "
+              },
+              {
+                "type": "text",
+                "text": "*/5 * * * *",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " this would be the format we support for an every 5 minute compaciton."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "00b600b2-874e-4530-8ca7-54a78308c633",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hey \u003c@U08RZQ547LJ\u003e, I configured like this",
+    "ts": "1782827850.142679",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BE81JNXPB",
+        "created": 1782827251,
+        "timestamp": 1782827251,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 35573,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BE81JNXPB/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BE81JNXPB/download/image.png",
+        "original_h": 778,
+        "original_w": 646,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BE81JNXPB-935a66e62e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BE81JNXPB-935a66e62e/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BE81JNXPB-935a66e62e/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BE81JNXPB-935a66e62e/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 299,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BE81JNXPB-935a66e62e/image_480.png",
+        "thumb_480_w": 399,
+        "thumb_480_h": 480,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BE81JNXPB-935a66e62e/image_720.png",
+        "thumb_720_w": 598,
+        "thumb_720_h": 720,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BE81JNXPB/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BE81JNXPB-a774bc4fad",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vddaM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              },
+              {
+                "type": "text",
+                "text": ", I configured like this"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "61da4291-77bf-4af4-8198-83d5bc0fdb9c",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e can we connect for a quick meet today?  near 3 pm?",
+    "ts": "1782883446.132189",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+llh0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " can we connect for a quick meet today?  near 3 pm?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4de17736-fa67-4b5c-aadc-b105da7f3d5f",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U0817E9CGRM\u003e Sure\nCC: \u003c@U094EHV7U75\u003e",
+    "ts": "1782886960.352489",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iiBwD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0817E9CGRM"
+              },
+              {
+                "type": "text",
+                "text": " Sure\nCC: "
+              },
+              {
+                "type": "user",
+                "user_id": "U094EHV7U75"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

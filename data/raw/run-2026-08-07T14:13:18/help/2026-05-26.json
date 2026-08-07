@@ -1,0 +1,1141 @@
+[
+  {
+    "client_msg_id": "8942eb04-bc42-43c3-ada5-435d22accd7f",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "I am trying to do some maintanance - Configuring now some tables maintance for Fusion, but\n```2026/05/26 10:20:37 new sql script submit, current thread pool state. [Active: 1, PoolSize: 1]\n2026/05/26 10:20:37 terminal session dose not exists. create session first\n2026/05/26 10:20:40 create a new terminal session.\n2026/05/26 10:20:40 fetch terminal session: b1d7d737-db02-4659-b3c5-616c34b07be5-null-null-airflow```\n",
+    "ts": "1779790899.939989",
+    "thread_ts": "1779790899.939989",
+    "reply_count": 8,
+    "reply_users": [
+      "U0817E9CGRM",
+      "U0B4UMFK7C3"
+    ],
+    "replies": [
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1779790947.604909"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779791019.188099"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779791060.790819"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779791182.002389"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1779795626.336459"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779798910.006559"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779799530.239069"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779799880.818359"
+      }
+    ],
+    "latest_reply": "1779799880.818359",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TvnTC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I am trying to do some maintanance - Configuring now some tables maintance for Fusion, but\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2026/05/26 10:20:37 new sql script submit, current thread pool state. [Active: 1, PoolSize: 1]\n2026/05/26 10:20:37 terminal session dose not exists. create session first\n2026/05/26 10:20:40 create a new terminal session.\n2026/05/26 10:20:40 fetch terminal session: b1d7d737-db02-4659-b3c5-616c34b07be5-null-null-airflow"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "33bfe2e0-8b1f-4a20-8a8d-0bf224c90757",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0B4UMFK7C3\u003e can you retry one more time once?",
+    "ts": "1779790947.604909",
+    "thread_ts": "1779790899.939989",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5GJ9E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0B4UMFK7C3"
+              },
+              {
+                "type": "text",
+                "text": " can you retry one more time once?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8053e3c2-cb8e-4099-bf80-8b9458d4b13f",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "Yes sure :slightly_smiling_face:\n\nMeanwhile, jumping on a different namespace in same catalog\n\n```2026-05-26T10:22:29Z ERR error in request /api/opt/v1/airflow/talkdesk/tables: failed to fetch latest Lite process info: failed to get latest MINOR optimizing process for airflow.talkdesk.user_status: failed to get latest MINOR process for airflow.talkdesk.user_status: failed to send request: Get \"\u003chttp://olake-fusion-rest.olake.svc.cluster.local:1630/api/ams/v1/tables/catalogs/airflow/dbs/talkdesk/tables/user_status/optimizing-processes?apiKey=obfuscated\u003e: context canceled```",
+    "ts": "1779791019.188099",
+    "thread_ts": "1779790899.939989",
+    "edited": {
+      "user": "U0B4UMFK7C3",
+      "ts": "1779791032.000000"
+    },
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5Oh37",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes sure "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              },
+              {
+                "type": "text",
+                "text": "\n\nMeanwhile, jumping on a different namespace in same catalog\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2026-05-26T10:22:29Z ERR error in request /api/opt/v1/airflow/talkdesk/tables: failed to fetch latest Lite process info: failed to get latest MINOR optimizing process for airflow.talkdesk.user_status: failed to get latest MINOR process for airflow.talkdesk.user_status: failed to send request: Get \""
+              },
+              {
+                "type": "link",
+                "url": "http://olake-fusion-rest.olake.svc.cluster.local:1630/api/ams/v1/tables/catalogs/airflow/dbs/talkdesk/tables/user_status/optimizing-processes?apiKey=obfuscated"
+              },
+              {
+                "type": "text",
+                "text": ": context canceled"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1a11b272-5039-418a-95ca-fe671e912331",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "Trying to understand where this issue come from - I need to probably see the logs of Polaris as well since could be something there",
+    "ts": "1779791060.790819",
+    "thread_ts": "1779790899.939989",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wFARo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Trying to understand where this issue come from - I need to probably see the logs of Polaris as well since could be something there"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0f54f0f6-fcec-4321-a0aa-f8b5cd94ab46",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "Regarding the first error above, this is the full error\n\n```2026/05/26 10:24:39 new sql script submit, current thread pool state. [Active: 0, PoolSize: 1]\n2026/05/26 10:24:39 terminal session dose not exists. create session first\n2026/05/26 10:24:39 create a new terminal session.\n2026/05/26 10:24:39 fetch terminal session: 1ccf00f5-95e1-429d-9d10-a80be7dc1cb0-null-null-airflow\nsetup session, session factory: org.apache.amoro.server.terminal.local.LocalSessionFactory\nspark.sql.catalog.airflow.catalog-impl  org.apache.iceberg.rest.RESTCatalog\nspark.sql.catalog.airflow.table.self-optimizing.quota  0.1\nspark.sql.catalog.airflow.client.region  eu-west-1\nspark.sql.catalog.airflow.warehouse  airflow\nspark.sql.catalog.airflow.uri  \u0026lt;polaris-uri\u0026gt;\nspark.sql.catalog.airflow.table.self-optimizing.enabled  false\nspark.sql.catalog.airflow.cache-enabled  false\nspark.sql.catalog.airflow.rest.auth.type  oauth2\nspark.sql.catalog.airflow.table.self-optimizing.group  spark-container\nspark.sql.catalog.airflow.credential  \u0026lt;airflow-credential?\nspark.sql.catalog.airflow.table-formats  ICEBERG\nspark.sql.catalog.airflow.scope  PRINCIPAL_ROLE:ALL\nspark.sql.catalog.airflow.created-at  22 May 2026\nspark.sql.catalog.airflow  org.apache.iceberg.spark.SparkCatalog\nspark.sql.mixed-format.refresh-catalog-before-usage  true\n2026/05/26 10:24:39 session configuration: catalog.airflow.table.self-optimizing.group =\u0026gt; spark-container\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.created-at =\u0026gt; 22 May 2026\n2026/05/26 10:24:39 session configuration: spark.sql.mixed-format.refresh-catalog-before-usage =\u0026gt; true\n2026/05/26 10:24:39 session configuration: catalog.airflow.uri =\u0026gt; \u003chttps://VW79156.eu-west-1.snowflakecomputing.com/polaris/api/catalog\u003e\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.credential =\u0026gt; MkvFvBEktCM7s50ZntdvKRxnCS0=:5iJ9qx58XxV7K97OkxdGPah3RRgSm9LY8IY6Zt0gmPY=\n2026/05/26 10:24:39 session configuration: session.catalogs =\u0026gt; airflow\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.uri =\u0026gt; https://\u0026lt;polaris-url\u0026gt;/polaris/api/catalog\n2026/05/26 10:24:39 session configuration: session.fetch-size =\u0026gt; 1000\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table.self-optimizing.group =\u0026gt; spark-container\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.warehouse =\u0026gt; airflow\n2026/05/26 10:24:39 session configuration: catalog.airflow.warehouse =\u0026gt; airflow\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table.self-optimizing.quota =\u0026gt; 0.1\n2026/05/26 10:24:39 session configuration: catalog.airflow.cache-enabled =\u0026gt; false\n2026/05/26 10:24:39 session configuration: catalog-url-base =\u0026gt; \u003cthrift://127.0.0.1:1260\u003e\n2026/05/26 10:24:39 session configuration: catalog.airflow.table.self-optimizing.enabled =\u0026gt; false\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.catalog-impl =\u0026gt; org.apache.iceberg.rest.RESTCatalog\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.client.region =\u0026gt; eu-west-1\n2026/05/26 10:24:39 session configuration: catalog.airflow.client.region =\u0026gt; eu-west-1\n2026/05/26 10:24:39 session configuration: session.catalog.airflow.connector =\u0026gt; iceberg\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table-formats =\u0026gt; ICEBERG\n2026/05/26 10:24:39 session configuration: catalog.airflow.table-formats =\u0026gt; ICEBERG\n2026/05/26 10:24:39 session configuration: catalog.airflow.table.self-optimizing.quota =\u0026gt; 0.1\n2026/05/26 10:24:39 session configuration: catalog.airflow.scope =\u0026gt; PRINCIPAL_ROLE:ALL\n2026/05/26 10:24:39 session configuration: terminal.sensitive-conf-keys =\u0026gt;\n2026/05/26 10:24:39 session configuration: catalog.airflow.created-at =\u0026gt; 22 May 2026\n2026/05/26 10:24:39 session configuration: catalog.airflow.credential =\u0026gt; \u0026lt;polaris-uri\u0026gt;\n2026/05/26 10:24:39 session configuration: catalog.airflow.rest.auth.type =\u0026gt; oauth2\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table.self-optimizing.enabled =\u0026gt; false\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.scope =\u0026gt; PRINCIPAL_ROLE:ALL\n2026/05/26 10:24:39 session configuration: catalog.airflow.catalog-impl =\u0026gt; org.apache.iceberg.rest.RESTCatalog\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow =\u0026gt; org.apache.iceberg.spark.SparkCatalog\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.cache-enabled =\u0026gt; false\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.rest.auth.type =\u0026gt; oauth2\n2026/05/26 10:24:39\n2026/05/26 10:24:39 prepare execute statement, line:1\n2026/05/26 10:24:39 ALTER TABLE test_olake.test_olake SET TBLPROPERTIES ('self-optimizing.minor.trigger.cron' = '0 * * * *', 'self-optimizing.major.trigger.cron' = '0 */8 * * *', 'self-optimizing.full.trigger.cron' = '', 'self-optimizing.target-size' = '536870912')```",
+    "ts": "1779791182.002389",
+    "thread_ts": "1779790899.939989",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UaDaj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Regarding the first error above, this is the full error\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2026/05/26 10:24:39 new sql script submit, current thread pool state. [Active: 0, PoolSize: 1]\n2026/05/26 10:24:39 terminal session dose not exists. create session first\n2026/05/26 10:24:39 create a new terminal session.\n2026/05/26 10:24:39 fetch terminal session: 1ccf00f5-95e1-429d-9d10-a80be7dc1cb0-null-null-airflow\nsetup session, session factory: org.apache.amoro.server.terminal.local.LocalSessionFactory\nspark.sql.catalog.airflow.catalog-impl  org.apache.iceberg.rest.RESTCatalog\nspark.sql.catalog.airflow.table.self-optimizing.quota  0.1\nspark.sql.catalog.airflow.client.region  eu-west-1\nspark.sql.catalog.airflow.warehouse  airflow\nspark.sql.catalog.airflow.uri  \u003cpolaris-uri\u003e\nspark.sql.catalog.airflow.table.self-optimizing.enabled  false\nspark.sql.catalog.airflow.cache-enabled  false\nspark.sql.catalog.airflow.rest.auth.type  oauth2\nspark.sql.catalog.airflow.table.self-optimizing.group  spark-container\nspark.sql.catalog.airflow.credential  \u003cairflow-credential?\nspark.sql.catalog.airflow.table-formats  ICEBERG\nspark.sql.catalog.airflow.scope  PRINCIPAL_ROLE:ALL\nspark.sql.catalog.airflow.created-at  22 May 2026\nspark.sql.catalog.airflow  org.apache.iceberg.spark.SparkCatalog\nspark.sql.mixed-format.refresh-catalog-before-usage  true\n2026/05/26 10:24:39 session configuration: catalog.airflow.table.self-optimizing.group =\u003e spark-container\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.created-at =\u003e 22 May 2026\n2026/05/26 10:24:39 session configuration: spark.sql.mixed-format.refresh-catalog-before-usage =\u003e true\n2026/05/26 10:24:39 session configuration: catalog.airflow.uri =\u003e "
+              },
+              {
+                "type": "link",
+                "url": "https://VW79156.eu-west-1.snowflakecomputing.com/polaris/api/catalog"
+              },
+              {
+                "type": "text",
+                "text": "\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.credential =\u003e MkvFvBEktCM7s50ZntdvKRxnCS0=:5iJ9qx58XxV7K97OkxdGPah3RRgSm9LY8IY6Zt0gmPY=\n2026/05/26 10:24:39 session configuration: session.catalogs =\u003e airflow\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.uri =\u003e https://\u003cpolaris-url\u003e/polaris/api/catalog\n2026/05/26 10:24:39 session configuration: session.fetch-size =\u003e 1000\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table.self-optimizing.group =\u003e spark-container\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.warehouse =\u003e airflow\n2026/05/26 10:24:39 session configuration: catalog.airflow.warehouse =\u003e airflow\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table.self-optimizing.quota =\u003e 0.1\n2026/05/26 10:24:39 session configuration: catalog.airflow.cache-enabled =\u003e false\n2026/05/26 10:24:39 session configuration: catalog-url-base =\u003e "
+              },
+              {
+                "type": "link",
+                "url": "thrift://127.0.0.1:1260"
+              },
+              {
+                "type": "text",
+                "text": "\n2026/05/26 10:24:39 session configuration: catalog.airflow.table.self-optimizing.enabled =\u003e false\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.catalog-impl =\u003e org.apache.iceberg.rest.RESTCatalog\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.client.region =\u003e eu-west-1\n2026/05/26 10:24:39 session configuration: catalog.airflow.client.region =\u003e eu-west-1\n2026/05/26 10:24:39 session configuration: session.catalog.airflow.connector =\u003e iceberg\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table-formats =\u003e ICEBERG\n2026/05/26 10:24:39 session configuration: catalog.airflow.table-formats =\u003e ICEBERG\n2026/05/26 10:24:39 session configuration: catalog.airflow.table.self-optimizing.quota =\u003e 0.1\n2026/05/26 10:24:39 session configuration: catalog.airflow.scope =\u003e PRINCIPAL_ROLE:ALL\n2026/05/26 10:24:39 session configuration: terminal.sensitive-conf-keys =\u003e\n2026/05/26 10:24:39 session configuration: catalog.airflow.created-at =\u003e 22 May 2026\n2026/05/26 10:24:39 session configuration: catalog.airflow.credential =\u003e \u003cpolaris-uri\u003e\n2026/05/26 10:24:39 session configuration: catalog.airflow.rest.auth.type =\u003e oauth2\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.table.self-optimizing.enabled =\u003e false\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.scope =\u003e PRINCIPAL_ROLE:ALL\n2026/05/26 10:24:39 session configuration: catalog.airflow.catalog-impl =\u003e org.apache.iceberg.rest.RESTCatalog\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow =\u003e org.apache.iceberg.spark.SparkCatalog\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.cache-enabled =\u003e false\n2026/05/26 10:24:39 session configuration: spark.sql.catalog.airflow.rest.auth.type =\u003e oauth2\n2026/05/26 10:24:39\n2026/05/26 10:24:39 prepare execute statement, line:1\n2026/05/26 10:24:39 ALTER TABLE test_olake.test_olake SET TBLPROPERTIES ('self-optimizing.minor.trigger.cron' = '0 * * * *', 'self-optimizing.major.trigger.cron' = '0 */8 * * *', 'self-optimizing.full.trigger.cron' = '', 'self-optimizing.target-size' = '536870912')"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "bb3f9e22-33c1-4616-a75c-0427f945c4ab",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "Hi, I’m running OLAKE on Kubernetes using Helm.\n  Setup:\n  - Source: PostgreSQL\n  - Destination: S3 / Iceberg\n  - Pod memory: increased from 16GB to 32GB\n  - Sync mode: full load / CDC\n  At first I thought the job failed because of OOM or resource limits, so I increased memory from 16GB to\n  32GB. But the same error still happens, so it does not look like a memory/resource issue. Why does context canceled make the sync job fail?",
+    "ts": "1779795058.734049",
+    "thread_ts": "1779795058.734049",
+    "reply_count": 17,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0AQHEXPAUQ"
+    ],
+    "replies": [
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779795077.869949"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779796164.405969"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779799182.290909"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779799186.886199"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779863228.792889"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779864800.176009"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779865215.925869"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1780892412.306279"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1780899514.673889"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1780900513.648859"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1780900593.704349"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1780900618.593229"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1780902303.901929"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1780905530.047319"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1780906278.440309"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1780906329.832729"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1780906438.035679"
+      }
+    ],
+    "latest_reply": "1780906438.035679",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Bow5N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi, I’m running OLAKE on Kubernetes using Helm.\n  Setup:\n  - Source: PostgreSQL\n  - Destination: S3 / Iceberg\n  - Pod memory: increased from 16GB to 32GB\n  - Sync mode: full load / CDC\n  At first I thought the job failed because of OOM or resource limits, so I increased memory from 16GB to\n  32GB. But the same error still happens, so it does not look like a memory/resource issue. Why does context canceled make the sync job fail?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "d3ce6629-644c-4d4a-ac99-5ab4e2753aaf",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "ts": "1779795077.869949",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B70KTGLG0",
+        "created": 1779795070,
+        "timestamp": 1779795070,
+        "name": "worker.log",
+        "title": "worker.log",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "text",
+        "pretty_type": "Plain Text",
+        "user": "U0AQHEXPAUQ",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 93102,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B70KTGLG0/worker.log",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B70KTGLG0/download/worker.log",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B70KTGLG0/worker.log",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B70KTGLG0-3941d1c7f5",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B70KTGLG0/worker.log/edit",
+        "preview": "{\"level\":\"info\",\"jobID\":17,\"time\":\"2026-05-26T10:15:00Z\",\"message\":\"executing sync activity\"}\n{\"level\":\"info\",\"podName\":\"sync-123-17-2026-05-26t10-15-00z\",\"image\":\"248621511911.dkr.ecr.ap-southeast-1.amazonaws.com/docker/olakego/source-postgres:v0.7.3\",\"time\":\"2026-05-26T10:15:00Z\",\"message\":\"creating pod\"}\n{\"level\":\"info\",\"podName\":\"sync-123-17-2026-05-26t10-15-00z\",\"time\":\"2026-05-26T10:15:00Z\",\"message\":\"successfully created pod\"}\n{\"level\":\"error\",\"podName\":\"sync-123-17-2026-05-26t10-15-00z\",\"containerInfo\":\"exit code: 2, reason: Error\",\"time\":\"2026-05-26T11:02:29Z\",\"message\":\"pod failed\"}\n{\"level\":\"error\",\"podName\":\"sync-123-17-2026-05-26t10-15-00z\",\"error\":\"execution failed: pod sync-123-17-2026-05-26t10-15-00z failed (exit code: 2, reason: Error)\",\"time\":\"2026-05-26T11:02:29Z\",\"message\":\"pod failed to complete\"}",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;info\u0026quot;,\u0026quot;jobID\u0026quot;:17,\u0026quot;time\u0026quot;:\u0026quot;2026-05-26T10:15:00Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;executing sync activity\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;info\u0026quot;,\u0026quot;podName\u0026quot;:\u0026quot;sync-123-17-2026-05-26t10-15-00z\u0026quot;,\u0026quot;image\u0026quot;:\u0026quot;248621511911.dkr.ecr.ap-southeast-1.amazonaws.com/docker/olakego/source-postgres:v0.7.3\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-05-26T10:15:00Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;creating pod\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;info\u0026quot;,\u0026quot;podName\u0026quot;:\u0026quot;sync-123-17-2026-05-26t10-15-00z\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-05-26T10:15:00Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;successfully created pod\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;error\u0026quot;,\u0026quot;podName\u0026quot;:\u0026quot;sync-123-17-2026-05-26t10-15-00z\u0026quot;,\u0026quot;containerInfo\u0026quot;:\u0026quot;exit code: 2, reason: Error\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-05-26T11:02:29Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;pod failed\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;error\u0026quot;,\u0026quot;podName\u0026quot;:\u0026quot;sync-123-17-2026-05-26t10-15-00z\u0026quot;,\u0026quot;error\u0026quot;:\u0026quot;execution failed: pod sync-123-17-2026-05-26t10-15-00z failed (exit code: 2, reason: Error)\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-05-26T11:02:29Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;pod failed to complete\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 13,
+        "lines_more": 8,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3ae83f5c-19ec-4322-8c0f-0ebc6d46ed15",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0B4UMFK7C3\u003e are you able to connect it?",
+    "ts": "1779795626.336459",
+    "thread_ts": "1779790899.939989",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "S72O0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0B4UMFK7C3"
+              },
+              {
+                "type": "text",
+                "text": " are you able to connect it?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9897e7da-400e-45ab-a270-4a9dbd64299f",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0AQHEXPAUQ\u003e can you share sync logs as well, from download logs button from ui",
+    "ts": "1779796164.405969",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NQjYT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " can you share sync logs as well, from download logs button from ui"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "097291c7-543b-4b53-87aa-a246fdf482e7",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "Sorry After few retries it indeed was able to apply the changes to Amoro :+1:",
+    "ts": "1779798910.006559",
+    "thread_ts": "1779790899.939989",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LLID7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sorry After few retries it indeed was able to apply the changes to Amoro "
+              },
+              {
+                "type": "emoji",
+                "name": "thumbsup",
+                "unicode": "1f44d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "61699ca2-ddc3-4cc5-b9c4-c80d3dc58b36",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "ts": "1779799182.290909",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B68K6U0GH",
+        "created": 1779799178,
+        "timestamp": 1779799178,
+        "name": "job-17-logs-2026-05-26-10-15-10.tar.gz",
+        "title": "job-17-logs-2026-05-26-10-15-10.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 586490,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B68K6U0GH/job-17-logs-2026-05-26-10-15-10.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B68K6U0GH/download/job-17-logs-2026-05-26-10-15-10.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B68K6U0GH/job-17-logs-2026-05-26-10-15-10.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B68K6U0GH-8f4180470f",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08CR7HUWDC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7e075acb-d6e0-47f0-91cd-fa6717061f9a",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "\u003c@U08CR7HUWDC\u003e here it is",
+    "ts": "1779799186.886199",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "g98qR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " here it is"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fa93f142-9a6d-4915-89e2-1b75d8d7a16a",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "\u003c@U0817E9CGRM\u003e if I need to check the logs for Fusion to run the scheduled maintance, which pods should I look at? of which service?",
+    "ts": "1779799530.239069",
+    "thread_ts": "1779790899.939989",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yZtwN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0817E9CGRM"
+              },
+              {
+                "type": "text",
+                "text": " if I need to check the logs for Fusion to run the scheduled maintance, which pods should I look at? of which service?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9ec3cffd-ff4f-4039-a3bb-f5b6fd03a74a",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "oh ok yes in the amoro-optimizer saw it",
+    "ts": "1779799880.818359",
+    "thread_ts": "1779790899.939989",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 2,
+        "users": [
+          "U0817E9CGRM",
+          "U0820LSJZRP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m3jxh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "oh ok yes in the amoro-optimizer saw it"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a63b85e8-5c67-469f-99d4-58d10baaf8f8",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0AQHEXPAUQ\u003e, Please let us know if you’re available for a call to debug this issue further, either now or at a time that works for you today.",
+    "ts": "1779863228.792889",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4jcGB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": ", Please let us know if you’re available for a call to debug this issue further, either now or at a time that works for you today."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dd46483e-aed6-4c34-8e79-6a7dc212e40d",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0AQHEXPAUQ\u003e meanwhile, could you please re-run the sync and share the pod logs so we can debug the crash further?\nOnce the sync pod starts, run:\n```kubectl logs -f \u0026lt;pod-name\u0026gt; -n \u0026lt;namespace\u0026gt; 2\u0026gt;\u0026amp;1 | tee sync.log```\nLet it run until it fails, then share the `sync.log` file with us. This will help us capture the exact crash details.\nThanks!",
+    "ts": "1779864800.176009",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l1DLE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " meanwhile, could you please re-run the sync and share the pod logs so we can debug the crash further?\nOnce the sync pod starts, run:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kubectl logs -f \u003cpod-name\u003e -n \u003cnamespace\u003e 2\u003e\u00261 | tee sync.log"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Let it run until it fails, then share the "
+              },
+              {
+                "type": "text",
+                "text": "sync.log",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " file with us. This will help us capture the exact crash details.\nThanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

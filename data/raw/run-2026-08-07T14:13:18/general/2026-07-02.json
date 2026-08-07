@@ -1,0 +1,94 @@
+[
+  {
+    "client_msg_id": "1e2c52fb-5c77-48a7-909c-d3653775e911",
+    "type": "message",
+    "user": "U0BCX4Z0KGC",
+    "text": "Hello my fellow fisher people! :fishing_pole_and_fish::olake: (forgive me, I'm still looking for the right name for us)\n\nWe'd like to get to know you all a little better! If you have some time, please fill out this \u003chttps://forms.gle/9zoxEeGDoxEhqDC5A|reallllllyyyy short survey\u003e and in return you will get a $10 (or equivalent) Amazon gift card in your mailbox!\n\nIn case you want your gc on an ID that isn't the same as your Slack, please DM me with your preferred email ID and I will send it to you on there.\n\nHere's another link to the form - \u003chttps://forms.gle/9zoxEeGDoxEhqDC5A|forms.gle/…\u003e",
+    "ts": "1782996252.326969",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 5,
+        "users": [
+          "U0817E9CGRM",
+          "U0820LSJZRP",
+          "U08RZQ547LJ",
+          "U08SH8ZEN0M",
+          "U082APQJZNC"
+        ]
+      },
+      {
+        "name": "tada",
+        "count": 2,
+        "users": [
+          "U0BESPD1UTB",
+          "U08H6LN432P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iJmNP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello my fellow fisher people! "
+              },
+              {
+                "type": "emoji",
+                "name": "fishing_pole_and_fish",
+                "unicode": "1f3a3"
+              },
+              {
+                "type": "emoji",
+                "name": "olake"
+              },
+              {
+                "type": "text",
+                "text": " (forgive me, I'm still looking for the right name for us)\n\nWe'd like to get to know you all a little better! If you have some time, please fill out this "
+              },
+              {
+                "type": "link",
+                "url": "https://forms.gle/9zoxEeGDoxEhqDC5A",
+                "text": "reallllllyyyy short survey"
+              },
+              {
+                "type": "text",
+                "text": " and in return you will get a $10 (or equivalent) Amazon gift card in your mailbox!\n\nIn case you want your gc on an ID that isn't the same as your Slack, please DM me with your preferred email ID and I will send it to you on there.\n\nHere's another link to the form - "
+              },
+              {
+                "type": "link",
+                "url": "https://forms.gle/9zoxEeGDoxEhqDC5A",
+                "text": "forms.gle/…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-25/11431743754951_710fed4ccfecef645f5a_72.jpg",
+      "first_name": "Advaita",
+      "real_name": "Advaita",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "advaita",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "client_msg_id": "4cb56f01-bbb7-46be-b02b-f7dd631ae075",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "Hello everyone :wave:\n\nI'm karthik a 3rd yr undergrad from LPU, I've been exploring olake lately and i found that in the local postgres setup\n\u003chttps://olake.io/docs/connectors/postgres/setup/local/#4-create-postgres-source-in-olake-ui|olake.io/docs/…/local#…\u003e\n\nthe docs use `host.docker.internal` as the host address.\n\nthis works on Windows and macOS because Docker Desktop automatically makes host.docker.internal available inside containers.\n\non Linux, Docker doesn't provide this by default, so it didn't resolve on my machine. \u003chttps://docs.docker.com/desktop/features/networking/networking-how-tos/#connect-a-container-to-a-service-on-the-host|docs\u003e\n\nthe workaround is to use the docker bridge ip as the host address.\nso i think the docs needs an updation",
+    "ts": "1783631450.060949",
+    "attachments": [
+      {
+        "fallback": "OLake: Local PostgreSQL Setup for OLake | Docker \u0026amp; Logical Replication",
+        "id": 1,
+        "title": "Local PostgreSQL Setup for OLake | Docker \u0026amp; Logical Replication",
+        "title_link": "https://olake.io/docs/connectors/postgres/setup/local/#4-create-postgres-source-in-olake-ui",
+        "text": "Start a local Postgres with wal2json using Docker for OLake testing. Configure replication slot, connect OLake UI, run syncs, and troubleshoot.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/connectors/postgres/setup/local/#4-create-postgres-source-in-olake-ui",
+        "original_url": "https://olake.io/docs/connectors/postgres/setup/local/#4-create-postgres-source-in-olake-ui",
+        "blocks": null
+      },
+      {
+        "fallback": "Docker Documentation: Explore networking how-tos on Docker Desktop",
+        "id": 2,
+        "title": "Explore networking how-tos on Docker Desktop",
+        "title_link": "https://docs.docker.com/desktop/features/networking/networking-how-tos/#connect-a-container-to-a-service-on-the-host",
+        "text": "Learn how to connect containers to the host, across containers, or through proxies and VPNs in Docker Desktop.",
+        "image_url": "https://docs.docker.com/images/thumbnail.webp",
+        "image_bytes": 37186,
+        "image_height": 1260,
+        "image_width": 2400,
+        "service_name": "Docker Documentation",
+        "service_icon": "https://docs.docker.com/apple-touch-icon.png",
+        "from_url": "https://docs.docker.com/desktop/features/networking/networking-how-tos/#connect-a-container-to-a-service-on-the-host",
+        "original_url": "https://docs.docker.com/desktop/features/networking/networking-how-tos/#connect-a-container-to-a-service-on-the-host",
+        "blocks": null,
+        "ts": 1782136874
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TSwcf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello everyone "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": "\n\nI'm karthik a 3rd yr undergrad from LPU, I've been exploring olake lately and i found that in the local postgres setup\n"
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/connectors/postgres/setup/local/#4-create-postgres-source-in-olake-ui",
+                "text": "olake.io/docs/…/local#…"
+              },
+              {
+                "type": "text",
+                "text": "\n\nthe docs use "
+              },
+              {
+                "type": "text",
+                "text": "host.docker.internal",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " as the host address.\n\nthis works on Windows and macOS because Docker Desktop automatically makes host.docker.internal available inside containers.\n\non Linux, Docker doesn't provide this by default, so it didn't resolve on my machine. "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.docker.com/desktop/features/networking/networking-how-tos/#connect-a-container-to-a-service-on-the-host",
+                "text": "docs"
+              },
+              {
+                "type": "text",
+                "text": "\n\nthe workaround is to use the docker bridge ip as the host address.\nso i think the docs needs an updation"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-04-25/11008664806193_22767d3c555cf71cf7c9_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

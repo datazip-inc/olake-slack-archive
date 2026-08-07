@@ -1,0 +1,64 @@
+[
+  {
+    "client_msg_id": "c32b4ea0-621b-4c3f-953f-5bc1140ce305",
+    "type": "message",
+    "user": "U0BKJ1W8V0A",
+    "text": "Hello team, i have raised a PR for the issue \u003chttps://github.com/datazip-inc/olake/issues/776|github.com/datazip-inc/olake/issues/776\u003e\nPR: \u003chttps://github.com/datazip-inc/olake/pull/1059|github.com/datazip-inc/olake/pull/1059\u003e\ncan anyone review it?\nThank you!",
+    "ts": "1785518840.327159",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WgXuM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello team, i have raised a PR for the issue "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/776",
+                "text": "github.com/datazip-inc/olake/issues/776"
+              },
+              {
+                "type": "text",
+                "text": "\nPR: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1059",
+                "text": "github.com/datazip-inc/olake/pull/1059"
+              },
+              {
+                "type": "text",
+                "text": "\ncan anyone review it?\nThank you!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/db084cfba6abc8f2d31717d33552b897.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "Krishanu",
+      "real_name": "Krishanu",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "krishanu1137",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

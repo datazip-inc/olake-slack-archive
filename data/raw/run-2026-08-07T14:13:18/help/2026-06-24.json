@@ -1,0 +1,28 @@
+[
+  {
+    "type": "message",
+    "user": "U09153TQF7C",
+    "text": "removed an integration from this channel: \u003chttps://getolake.slack.com/services/B0B4T6B4FJ5|Canny\u003e",
+    "ts": "1782297457.316679",
+    "subtype": "bot_remove",
+    "bot_id": "B0B4T6B4FJ5",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-12/9039130262242_eb313a9612302bc57f64_72.jpg",
+      "first_name": "Sandeep",
+      "real_name": "Sandeep Mukhopadhyay",
+      "display_name": "Sandeep Mukhopadhyay",
+      "team": "T0820LGJGRF",
+      "name": "sandy",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

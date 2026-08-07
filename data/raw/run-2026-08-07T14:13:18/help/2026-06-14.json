@@ -1,0 +1,173 @@
+[
+  {
+    "client_msg_id": "e3c05c66-8f8a-4457-a841-356597a80893",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "is it currently avaiable on helm? im using k8s to host olake",
+    "ts": "1781498891.521859",
+    "thread_ts": "1781081500.170139",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SQtWq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "is it currently avaiable on helm? im using k8s to host olake"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0ae1753a-8973-4b41-87e2-200e1f700a7e",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AQHEXPAUQ\u003e,yes it is available now you can go to edit source and upgrade source version.",
+    "ts": "1781502506.464619",
+    "thread_ts": "1781081500.170139",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1781502515.000000"
+    },
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o5uft",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": ",yes it is available now you can go to edit source and upgrade source version."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d89572d3-363e-4502-b527-c5e0f1b7a8ce",
+    "type": "message",
+    "user": "U0ACZM4A71P",
+    "text": "\u003c@U0B4UMFK7C3\u003e We have released the fix for issue \u003chttps://github.com/datazip-inc/olake-ui/issues/380#issuecomment-4533155841\u003e Please upgrade olake-ui and olake-fusion to latest version to verify the fix.",
+    "ts": "1781504871.479469",
+    "thread_ts": "1779437889.173839",
+    "edited": {
+      "user": "U0ACZM4A71P",
+      "ts": "1781504905.000000"
+    },
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0B4UMFK7C3"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SA8pf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0B4UMFK7C3"
+              },
+              {
+                "type": "text",
+                "text": " We have released the fix for issue "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/issues/380#issuecomment-4533155841"
+              },
+              {
+                "type": "text",
+                "text": " Please upgrade olake-ui and olake-fusion to latest version to verify the fix."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-02/10432396867812_5dc5307e288a8dddd5e2_72.png",
+      "first_name": "Arsalan",
+      "real_name": "Arsalan Ahmed",
+      "display_name": "Arsalan Ahmed",
+      "team": "T0820LGJGRF",
+      "name": "arsalan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

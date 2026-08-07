@@ -1,0 +1,59 @@
+[
+  {
+    "client_msg_id": "11f11620-2e8a-4a07-b34c-efbb02dbff17",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "Question: do we have a way eventually to integrate UI connection through Okta?",
+    "ts": "1779372082.347119",
+    "thread_ts": "1779372082.347119",
+    "reply_count": 1,
+    "reply_users": [
+      "U09BK0WKBQR"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1779709419.681179"
+      }
+    ],
+    "latest_reply": "1779709419.681179",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e/RvT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Question: do we have a way eventually to integrate UI connection through Okta?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  }
+]

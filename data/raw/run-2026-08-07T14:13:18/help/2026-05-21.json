@@ -1,0 +1,579 @@
+[
+  {
+    "client_msg_id": "e5b14ca4-c481-470d-be7f-724efa0cea42",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "did anyone have this problem?",
+    "ts": "1779377779.163259",
+    "thread_ts": "1779377779.163259",
+    "reply_count": 6,
+    "reply_users": [
+      "U0820LSJZRP",
+      "U09BK0WKBQR",
+      "U0B4UMFK7C3"
+    ],
+    "replies": [
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779377799.907699"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779377885.028529"
+      },
+      {
+        "user": "U0820LSJZRP",
+        "ts": "1779378005.661429"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779378270.339129"
+      },
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1779379790.401479"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779398207.278319"
+      }
+    ],
+    "latest_reply": "1779398207.278319",
+    "files": [
+      {
+        "id": "F0B56FMATR9",
+        "created": 1779377771,
+        "timestamp": 1779377771,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0B4UMFK7C3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 1099184,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B56FMATR9/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B56FMATR9/download/image.png",
+        "original_h": 2148,
+        "original_w": 3644,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 212,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 283,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 424,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 566,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B56FMATR9-fc1cdb1634/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 604,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B56FMATR9/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B56FMATR9-1b62843cbd",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JQgSD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "did anyone have this problem?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "42338412-a7af-4143-b9f2-6ab317f6d06b",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "cannot seems to add a catalog at all",
+    "ts": "1779377799.907699",
+    "thread_ts": "1779377779.163259",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "P+xJQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "cannot seems to add a catalog at all"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0004ac91-2828-4738-a641-be62348e186e",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "looking at the logs of UI:\n```4)\n2026-05-21T15:34:17Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-oracle, *errors.errorString=docker hub api request failed with status code: 504)\n[GIN] 2026/05/21 - 15:34:25 | 200 |   2.61ms |       127.0.0.1 | GET      \"/api/v1/project/123/destinations\"\n2026-05-21T15:34:47Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-mongodb, *errors.errorString=docker hub api request failed with status code: 504)\n\n\n2026-05-21T15:35:17Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-kafka, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:35:47Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-s3, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:36:18Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-db2, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:36:48Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-mssql, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:36:48Z ERR error in request /api/v1/project/123/destinations/versions: failed to get driver image tags: no tags found for image:\n[GIN] 2026/05/21 - 15:36:48 | 500 |     4m0s |       127.0.0.1 | GET      \"/api/v1/project/123/destinations/versions?type=iceberg\"\n[GIN] 2026/05/21 - 15:37:11 | 200 |   2.43ms |       127.0.0.1 | GET      \"/api/v1/project/123/destinations\"\n2026-05-21T15:37:19Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-mysql, *errors.errorString=docker hub api request failed with status code: 504)```\ndoes it need to be able to connect to internet to download any proper docker images?",
+    "ts": "1779377885.028529",
+    "thread_ts": "1779377779.163259",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U09BK0WKBQR"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PPpQm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "looking at the logs of UI:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "4)\n2026-05-21T15:34:17Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-oracle, *errors.errorString=docker hub api request failed with status code: 504)\n[GIN] 2026/05/21 - 15:34:25 | 200 |   2.61ms |       127.0.0.1 | GET      \"/api/v1/project/123/destinations\"\n2026-05-21T15:34:47Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-mongodb, *errors.errorString=docker hub api request failed with status code: 504)\n\n\n2026-05-21T15:35:17Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-kafka, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:35:47Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-s3, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:36:18Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-db2, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:36:48Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-mssql, *errors.errorString=docker hub api request failed with status code: 504)\n2026-05-21T15:36:48Z ERR error in request /api/v1/project/123/destinations/versions: failed to get driver image tags: no tags found for image:\n[GIN] 2026/05/21 - 15:36:48 | 500 |     4m0s |       127.0.0.1 | GET      \"/api/v1/project/123/destinations/versions?type=iceberg\"\n[GIN] 2026/05/21 - 15:37:11 | 200 |   2.43ms |       127.0.0.1 | GET      \"/api/v1/project/123/destinations\"\n2026-05-21T15:37:19Z WRN failed to fetch image tags online for %s: %s. Cached fallback unavailable on Kubernetes (no Docker daemon)%!(EXTRA string=olakego/source-mysql, *errors.errorString=docker hub api request failed with status code: 504)"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "does it need to be able to connect to internet to download any proper docker images?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "511ECAD1-AAB6-45D3-B432-638EACED7C6C",
+    "type": "message",
+    "user": "U0820LSJZRP",
+    "text": "\u003c@U09BK0WKBQR\u003e  ",
+    "ts": "1779378005.661429",
+    "thread_ts": "1779377779.163259",
+    "edited": {
+      "user": "U0820LSJZRP",
+      "ts": "1779378035.000000"
+    },
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ksoGy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-20/8487710291348_f516f170d918085eb255_72.jpg",
+      "first_name": "Rohan",
+      "real_name": "Rohan Khameshra",
+      "display_name": "Rohan Khameshra",
+      "team": "T0820LGJGRF",
+      "name": "rohan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "38950a5e-9326-4600-8abf-3dd9c7c3b28a",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "`/api/v1/project/123/destinations/` where this rest call come from? I mean with project 123?",
+    "ts": "1779378270.339129",
+    "thread_ts": "1779377779.163259",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y5wix",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "/api/v1/project/123/destinations/",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " where this rest call come from? I mean with project 123?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f40d9869-03ed-48d8-ac1f-426fb995e5f4",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0B4UMFK7C3\u003e Yes, OLake requires access to Docker images to fetch and run the connector images.\nYou currently have 2 options:\n1. Use OLake with internet access so it can pull the required images from Docker Hub.\n2. Use OLake in an offline setup:\n• \u003chttps://olake.io/docs/install/olake-ui/offline-environments-aws/?utm_source=chatgpt.com|OLake UI for Offline environments (AWS)\u003e\n• \u003chttps://olake.io/docs/install/olake-ui/offline-environments-generic/?utm_source=chatgpt.com|OLake UI for Offline environments (Generic)\u003e\nYour current logs indicate that OLake is unable to reach Docker Hub, which is why the image tag fetching is failing.",
+    "ts": "1779379790.401479",
+    "thread_ts": "1779377779.163259",
+    "attachments": [
+      {
+        "fallback": "OLake: Offline Environments (AWS)",
+        "id": 1,
+        "title": "Offline Environments (AWS)",
+        "title_link": "https://olake.io/docs/install/olake-ui/offline-environments-aws/?utm_source=chatgpt.com",
+        "text": "OLake UI installation in offline and air-gapped network environments on AWS",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/olake-ui/offline-environments-aws/?utm_source=chatgpt.com",
+        "original_url": "https://olake.io/docs/install/olake-ui/offline-environments-aws/?utm_source=chatgpt.com",
+        "blocks": null
+      },
+      {
+        "fallback": "OLake: Offline Environments (Generic)",
+        "id": 2,
+        "title": "Offline Environments (Generic)",
+        "title_link": "https://olake.io/docs/install/olake-ui/offline-environments-generic/?utm_source=chatgpt.com",
+        "text": "Procedure for updating OLake Stack components and connector images in generic offline environments",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/olake-ui/offline-environments-generic/?utm_source=chatgpt.com",
+        "original_url": "https://olake.io/docs/install/olake-ui/offline-environments-generic/?utm_source=chatgpt.com",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QQyV8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0B4UMFK7C3"
+              },
+              {
+                "type": "text",
+                "text": " Yes, OLake requires access to Docker images to fetch and run the connector images.\nYou currently have 2 options:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Use OLake with internet access so it can pull the required images from Docker Hub."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Use OLake in an offline setup:"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/install/olake-ui/offline-environments-aws/?utm_source=chatgpt.com",
+                    "text": "OLake UI for Offline environments (AWS)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/install/olake-ui/offline-environments-generic/?utm_source=chatgpt.com",
+                    "text": "OLake UI for Offline environments (Generic)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Your current logs indicate that OLake is unable to reach Docker Hub, which is why the image tag fetching is failing."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b0ed92a9-8d41-435e-8aed-ac19e20a38f3",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "yep got it - open a issue regarding something - because clicking create a catalog it took 15 seconds to actually show up the dialog/prompt for doing it, and checking was due the connection against docker \u003chttps://github.com/datazip-inc/olake-ui/issues/380\u003e",
+    "ts": "1779398207.278319",
+    "thread_ts": "1779377779.163259",
+    "subtype": "thread_broadcast",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UEOt6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "yep got it - open a issue regarding something - because clicking create a catalog it took 15 seconds to actually show up the dialog/prompt for doing it, and checking was due the connection against docker "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/issues/380"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "client_msg_id": "5a36e013-6d94-4fe6-81ad-852faec9e416",
+    "type": "message",
+    "user": "U0BCX4Z0KGC",
+    "text": "Hello OLake superstars! :star2:\nI'm Advaita, the latest addition to the Datazip crew. I've been in the tech space for about 5 years now and I'm going to be managing marketing for OLake with Harsha! So you'll be seeing a lot of me around here :full_moon_with_face:\n\nOutside of work, I recently learnt to play tennis :tennis: so if anyone in the Bangalore community is up for a sesh, hit me up!\n\nFeel free to introduce yourself here and also, if you're on LinkedIn, \u003chttps://www.linkedin.com/in/advaitakarthik/|let's connect\u003e :handshake:",
+    "ts": "1782803274.682469",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "tada",
+        "count": 7,
+        "users": [
+          "U082APQJZNC",
+          "U08S5BR47GA",
+          "U09BK0WKBQR",
+          "U0A9LUUNP43",
+          "U08H6LN432P",
+          "U081N0KE0QJ",
+          "U0817E9CGRM"
+        ]
+      },
+      {
+        "name": "heart",
+        "count": 3,
+        "users": [
+          "U081N0BUJ3D",
+          "U081MTF4GHZ",
+          "U0820LSJZRP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mM++5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello OLake superstars! "
+              },
+              {
+                "type": "emoji",
+                "name": "star2",
+                "unicode": "1f31f"
+              },
+              {
+                "type": "text",
+                "text": "\nI'm Advaita, the latest addition to the Datazip crew. I've been in the tech space for about 5 years now and I'm going to be managing marketing for OLake with Harsha! So you'll be seeing a lot of me around here "
+              },
+              {
+                "type": "emoji",
+                "name": "full_moon_with_face",
+                "unicode": "1f31d"
+              },
+              {
+                "type": "text",
+                "text": "\n\nOutside of work, I recently learnt to play tennis "
+              },
+              {
+                "type": "emoji",
+                "name": "tennis",
+                "unicode": "1f3be"
+              },
+              {
+                "type": "text",
+                "text": " so if anyone in the Bangalore community is up for a sesh, hit me up!\n\nFeel free to introduce yourself here and also, if you're on LinkedIn, "
+              },
+              {
+                "type": "link",
+                "url": "https://www.linkedin.com/in/advaitakarthik/",
+                "text": "let's connect"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "handshake",
+                "unicode": "1f91d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-25/11431743754951_710fed4ccfecef645f5a_72.jpg",
+      "first_name": "Advaita",
+      "real_name": "Advaita",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "advaita",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
