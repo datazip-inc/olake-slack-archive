@@ -18,9 +18,18 @@ Automated archive of OLake's Slack community, working around the free plan's
    (`--html-only`) turns `data/merged/` into a static HTML site in `public/`.
    Handles mrkdwn, threads, emoji, code blocks, mentions, etc. properly —
    swapped in for a hand-rolled renderer that kept missing edge cases.
-5. **Search** — [Pagefind](https://pagefind.app/) builds a static full-text
-   search index over `public/` at build time. No backend, pure client-side JS.
-6. **Publish** — the built site deploys to GitHub Pages via
+   Message attachments the file lists don't reference locally get their
+   `url_private`/`thumb_*` rewritten to point at the downloaded copy instead
+   of Slack's auth-required CDN, since the renderer itself never checks for
+   local files.
+5. **Post-process** — `scripts/postprocess.py` collapses thread replies into
+   a `<details>` (hidden by default, click to expand) and paginates any
+   channel with more than 150 top-level items into `index.html`,
+   `page-2.html`, etc.
+6. **Search** — `scripts/inject_search.py` wires a [Pagefind](https://pagefind.app/)
+   search box into every generated page, then Pagefind builds the static
+   full-text index over `public/`. No backend, pure client-side JS.
+7. **Publish** — the built site deploys to GitHub Pages via
    `actions/deploy-pages`.
 
 ## Setup (one-time)

@@ -1,0 +1,26 @@
+# Slackdump API limits override — tuned down from defaults to avoid tripping
+# Slack's rate limits during file-attachment downloads (default workers=4 was
+# bursty enough to get 429'd and permanently drop some files, since a failed
+# message-window's -time-from moves past and never gets retried).
+workers = 1
+download_retries = 10
+
+[tier_2]
+  boost = 20
+  burst = 3
+  retries = 20
+
+[tier_3]
+  boost = 120
+  burst = 5
+  retries = 3
+
+[tier_4]
+  boost = 10
+  burst = 7
+  retries = 3
+
+[per_request]
+  conversations = 100
+  channels = 100
+  replies = 200

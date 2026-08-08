@@ -52,6 +52,7 @@ jobs:
           mkdir -p "data/raw/run-${{ steps.window.outputs.run_start }}"
           slackdump export -y \
             -type standard \
+            -api-config scripts/api-config.toml \
             -member-only \
             -chan-types public_channel,private_channel \
             -o "data/raw/run-${{ steps.window.outputs.run_start }}" \
@@ -70,7 +71,7 @@ jobs:
         run: python3 scripts/merge_export.py
 
       - name: Install slack-export-viewer
-        run: pip install --quiet --break-system-packages slack-export-viewer
+        run: pip install --quiet --break-system-packages slack-export-viewer beautifulsoup4
 
       - name: Render static site
         run: |
@@ -87,6 +88,9 @@ jobs:
             mkdir -p public/__attachments
             cp -r data/merged/__attachments/. public/__attachments/
           fi
+
+      - name: Collapse threads and paginate long channels
+        run: python3 scripts/postprocess.py
 
       - name: Inject search widget into pages
         run: python3 scripts/inject_search.py
