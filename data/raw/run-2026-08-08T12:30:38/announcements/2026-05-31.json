@@ -1,0 +1,186 @@
+[
+  {
+    "client_msg_id": "d7b40630-51c2-4170-8405-59079cb5260f",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.7.4 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.7.4\u003e\n*What’s New*\n• feat: add integration test cases for 2pc by \u003c@U08S5BR47GA\u003e in \u003chttps://github.com/datazip-inc/olake/pull/865|#865\u003e\n• fix: upgrade \u003chttp://golang.org/x/crypto|golang.org/x/crypto\u003e to v0.52.0 to patch 5 SSH vulnerabilities by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/960|#960\u003e\n• feat: wire SIGINT/SIGTERM into root context for graceful shutdown by @jonathan-7 in \u003chttps://github.com/datazip-inc/olake/pull/946|#946\u003e\n• feat(mongodb): capture full document on delete via pre-images by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/964|#964\u003e\nThanks for the contribution!",
+    "ts": "1780293573.492019",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4+KV+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.7.4 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.7.4"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: add integration test cases for 2pc by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S5BR47GA"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/865",
+                    "text": "#865"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: upgrade "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://golang.org/x/crypto",
+                    "text": "golang.org/x/crypto"
+                  },
+                  {
+                    "type": "text",
+                    "text": " to v0.52.0 to patch 5 SSH vulnerabilities by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/960",
+                    "text": "#960"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: wire SIGINT/SIGTERM into root context for graceful shutdown by @jonathan-7 in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/946",
+                    "text": "#946"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(mongodb): capture full document on delete via pre-images by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/964",
+                    "text": "#964"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

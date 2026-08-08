@@ -1,0 +1,444 @@
+[
+  {
+    "client_msg_id": "0a890e4d-4698-4b88-8964-7438c83a07d0",
+    "type": "message",
+    "user": "U0BLC7W7P3K",
+    "text": "Hey everyone! I'm Krishna, a backend dev student and current GSoC intern with Apache.\nI've been checking out Olake recently and I absolutely love the vision and the tech stack. I spend a lot of my time doing open-source work in the Java, Go, and cloud ecosystems (like Mifos ,Hyperledger and the Linux Foundation), and I'm super excited to start contributing here!",
+    "ts": "1785235965.247899",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      },
+      {
+        "name": "raised_hands",
+        "count": 1,
+        "users": [
+          "U08SX0RU9FX"
+        ]
+      },
+      {
+        "name": "tada",
+        "count": 1,
+        "users": [
+          "U0BCX4Z0KGC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "R3+Lc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey everyone! I'm Krishna, a backend dev student and current GSoC intern with Apache.\nI've been checking out Olake recently and I absolutely love the vision and the tech stack. I spend a lot of my time doing open-source work in the Java, Go, and cloud ecosystems (like Mifos ,Hyperledger and the Linux Foundation), and I'm super excited to start contributing here!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-07-28/11718678627392_92483c3fe2214964a6e7_72.jpg",
+      "first_name": "KRISHNA",
+      "real_name": "KRISHNA MEWARA",
+      "display_name": "KRISHNA MEWARA",
+      "team": "T0820LGJGRF",
+      "name": "krishnamewara841",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ddddfb4e-942f-4fb5-bdca-486b0d682771",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "*Hey OLake fam!*\n\nWe're kicking off a new weekly tradition: *every Tuesday*, we drop a quick poll right here to pick your brain on all things *Iceberg, CDC, lakehouses,* *and the occasional hot takes*.\nThink of this as your weekly excuse to procrastinate productively. :coffee:\n\n\"Why join?\" you ask:\n• The first 3 people to vote get $10 gift card on us, because breaking the ice deserves a reward\n• It takes 5 seconds to vote.\n• See how fellow community members are building\nNo overthinking, no wrong answer (except maybe one :eyes:).\nWe'd just love to hear what you're running.\n\n*The first poll is live right now.* :point_down:",
+    "ts": "1785236249.947569",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5qC4S",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey OLake fam!",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\nWe're kicking off a new weekly tradition: "
+              },
+              {
+                "type": "text",
+                "text": "every Tuesday",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", we drop a quick poll right here to pick your brain on all things "
+              },
+              {
+                "type": "text",
+                "text": "Iceberg, CDC, lakehouses,",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "and the occasional hot takes",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nThink of this as your weekly excuse to procrastinate productively. "
+              },
+              {
+                "type": "emoji",
+                "name": "coffee",
+                "unicode": "2615"
+              },
+              {
+                "type": "text",
+                "text": "\n\n\"Why join?\" you ask:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The first 3 people to vote get $10 gift card on us, because breaking the ice deserves a reward"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "It takes 5 seconds to vote."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "See how fellow community members are building"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nNo overthinking, no wrong answer (except maybe one "
+              },
+              {
+                "type": "emoji",
+                "name": "eyes",
+                "unicode": "1f440"
+              },
+              {
+                "type": "text",
+                "text": ").\nWe'd just love to hear what you're running.\n\n"
+              },
+              {
+                "type": "text",
+                "text": "The first poll is live right now. ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "emoji",
+                "name": "point_down",
+                "unicode": "1f447"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "da2dc6b1-7b30-5561-a8c3-7afe89aead7d",
+    "type": "message",
+    "user": "U0BM3Q9KG9W",
+    "text": "For CDC upserts into Iceberg, which delete strategy are you actually running?",
+    "ts": "1785236357.845639",
+    "edited": {
+      "user": "B0BL9EC0CLA",
+      "ts": "1785421827.000000"
+    },
+    "bot_id": "B0BL9EC0CLA",
+    "bot_profile": {
+      "app_id": "A0HFW7MR6",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_72.png"
+      },
+      "id": "B0BL9EC0CLA",
+      "name": "Simple Poll",
+      "team_id": "T0820LGJGRF",
+      "updated": 1785228008
+    },
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*For CDC upserts into Iceberg, which delete strategy are you actually running?*"
+        },
+        "block_id": "poll-7c0c02a5-6ec8-4abf-b158-6ee3991b3ad2-title-and-menu"
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":one: Equality deletes    `3`\n\u003c@U082APQJZNC\u003e, \u003c@U0A5EGHRLQY\u003e, \u003c@U09K0D3H6JD\u003e"
+        },
+        "block_id": "poll-7c0c02a5-6ec8-4abf-b158-6ee3991b3ad2-vote-70598204",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":one:",
+            "emoji": true
+          },
+          "action_id": "vote-70598204"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":two: Positional deletes    `1`\n\u003c@U0820LSJZRP\u003e"
+        },
+        "block_id": "poll-7c0c02a5-6ec8-4abf-b158-6ee3991b3ad2-vote-70598205",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":two:",
+            "emoji": true
+          },
+          "action_id": "vote-70598205"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":three: Copy-on-write rewrites    `1`\n\u003c@U0817E9CGRM\u003e"
+        },
+        "block_id": "poll-7c0c02a5-6ec8-4abf-b158-6ee3991b3ad2-vote-70598206",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":three:",
+            "emoji": true
+          },
+          "action_id": "vote-70598206"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":four: No idea; the tool decides\n"
+        },
+        "block_id": "poll-7c0c02a5-6ec8-4abf-b158-6ee3991b3ad2-vote-70598207",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":four:",
+            "emoji": true
+          },
+          "action_id": "vote-70598207"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Respondents:* `5`"
+        },
+        "block_id": "i2H5z"
+      },
+      {
+        "type": "actions",
+        "block_id": "add_option_to_poll\u00267c0c02a5-6ec8-4abf-b158-6ee3991b3ad2",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Open",
+              "emoji": true
+            },
+            "action_id": "open_unified_modal",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Add option",
+              "emoji": true
+            },
+            "action_id": "add_option"
+          }
+        ]
+      },
+      {
+        "type": "context",
+        "block_id": "yOrre",
+        "elements": [
+          {
+            "type": "mrkdwn",
+            "text": "Created by \u003c@U08SX0RU9FX\u003e with /poll"
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF"
+  },
+  {
+    "client_msg_id": "0982ae42-3efe-46cc-a11c-ba205e13b811",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "We noticed our co-founders made it into the top reactions (love the enthusiasm :smile:), but since the rewards are intended for our community members, they won’t be included in the prize count.\nThat means there are still 2 $10 Amazon giftcards up for grabs! If you haven’t voted yet, there’s still time to jump in and secure a spot.",
+    "ts": "1785305718.123739",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "sweat_smile",
+        "count": 1,
+        "users": [
+          "U082APQJZNC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0i8kb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "We noticed our co-founders made it into the top reactions (love the enthusiasm "
+              },
+              {
+                "type": "emoji",
+                "name": "smile",
+                "unicode": "1f604"
+              },
+              {
+                "type": "text",
+                "text": "), but since the rewards are intended for our community members, they won’t be included in the prize count.\nThat means there are still 2 $10 Amazon giftcards up for grabs! If you haven’t voted yet, there’s still time to jump in and secure a spot."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

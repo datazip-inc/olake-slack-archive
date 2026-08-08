@@ -1,0 +1,364 @@
+[
+  {
+    "client_msg_id": "b09ff780-bfea-4a4f-9bd9-ea1c55ce4fde",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Helm v0.0.22 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.22\u003e\n:rocket: Features \u0026 Fixes in this release:\n• fix(helm): use `first` to guard empty imagePullSecrets list by \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/167|#167\u003e\n\n:memo: Note: If you encountered the `slice index out of range` error during `helm upgrade --install olake` when no `imagePullSecrets` were configured, this issue has been fixed in v0.0.22. You can upgrade directly to v0.0.22.\n\n\n:rotating_light: OLake Helm v0.0.23 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.23|github.com/datazip-inc/…/olake-0.0.23\u003e\n:rocket: Features \u0026 Fixes in this release:\n• Feat/global pod annotations by \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/169|#169\u003e\n\n:rotating_light: OLake Helm v0.0.24 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.24|github.com/datazip-inc/…/olake-0.0.24\u003e\n:rocket: Features \u0026 Fixes in this release:\n• feat: jobserviceaccount enable by default by \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/173|#173\u003e\nThanks for the contribution!",
+    "ts": "1782282674.656519",
+    "edited": {
+      "user": "U09BK0WKBQR",
+      "ts": "1782744089.000000"
+    },
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 3,
+        "users": [
+          "U08H6LN432P",
+          "U08SX0RU9FX",
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GIblZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.22 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.22"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(helm): use "
+                  },
+                  {
+                    "type": "text",
+                    "text": "first",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " to guard empty imagePullSecrets list by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/167",
+                    "text": "#167"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " Note: If you encountered the "
+              },
+              {
+                "type": "text",
+                "text": "slice index out of range",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " error during "
+              },
+              {
+                "type": "text",
+                "text": "helm upgrade --install olake",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " when no "
+              },
+              {
+                "type": "text",
+                "text": "imagePullSecrets",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " were configured, this issue has been fixed in v0.0.22. You can upgrade directly to v0.0.22.\n\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.23 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.23",
+                "text": "github.com/datazip-inc/…/olake-0.0.23"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Feat/global pod annotations by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/169",
+                    "text": "#169"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.24 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.24",
+                "text": "github.com/datazip-inc/…/olake-0.0.24"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: jobserviceaccount enable by default by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/173",
+                    "text": "#173"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

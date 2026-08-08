@@ -1,0 +1,52 @@
+[
+  {
+    "client_msg_id": "128bffca-d577-4f17-8876-663a05875eea",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e does the new version worked out for you? is your compaction job stable now?",
+    "ts": "1785406717.267469",
+    "thread_ts": "1783514459.093289",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OlokM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " does the new version worked out for you? is your compaction job stable now?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

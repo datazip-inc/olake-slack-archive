@@ -1,0 +1,288 @@
+[
+  {
+    "client_msg_id": "be0b628a-9e65-4139-8f30-d1de197a57e0",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.9.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.9.0|github.com/datazip-inc/olake/…/v0.9.0\u003e\n*What’s New*\n• feat: log OLake version on startup by \u003c@U0BEF84EZ6V\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1030|#1030\u003e\n• chore: docker optimizations for integration tests by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1024|#1024\u003e\n• feat(iceberg): upgrade Apache Iceberg from 1.7.2 to 1.10.2 by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1026|#1026\u003e\n• chore: add make targets for test databases, dev builds and integration tests by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1021|#1021\u003e\n• feat: track source bytes read in stats by \u003c@U08S5BR47GA\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1011|#1011\u003e\n• fix: Preserve record order during concurrent filtering by \u003c@U0BEF84EZ6V\u003e in in \u003chttps://github.com/datazip-inc/olake/pull/1035|#1035\u003e\n• feat: rolling writer in s3 destination by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1012|#1012\u003e\n• fix(test): restore iproute2/lsof in base image so iceberg port reclaim works by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1042|#1042\u003e\nThanks for the contribution!",
+    "ts": "1785230728.900699",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "tada",
+        "count": 6,
+        "users": [
+          "U08S5BR47GA",
+          "U08SX0RU9FX",
+          "U0817E9CGRM",
+          "U082APQJZNC",
+          "U081MTF4GHZ",
+          "U0A8Y735340"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aCLpD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.9.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.9.0",
+                "text": "github.com/datazip-inc/olake/…/v0.9.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: log OLake version on startup by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1030",
+                    "text": "#1030"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: docker optimizations for integration tests by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1024",
+                    "text": "#1024"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(iceberg): upgrade Apache Iceberg from 1.7.2 to 1.10.2 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1026",
+                    "text": "#1026"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: add make targets for test databases, dev builds and integration tests by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1021",
+                    "text": "#1021"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: track source bytes read in stats by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S5BR47GA"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1011",
+                    "text": "#1011"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: Preserve record order during concurrent filtering by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1035",
+                    "text": "#1035"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: rolling writer in s3 destination by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1012",
+                    "text": "#1012"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(test): restore iproute2/lsof in base image so iceberg port reclaim works by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1042",
+                    "text": "#1042"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

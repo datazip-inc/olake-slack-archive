@@ -1,0 +1,152 @@
+[
+  {
+    "client_msg_id": "3da5dc7b-9f07-4eb5-9e48-bf1a38344b44",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0BKJ1W8V0A\u003e are these tested? can you please share screenshot/recording of your testing in each PR.",
+    "ts": "1785737966.050689",
+    "thread_ts": "1785653214.020649",
+    "parent_user_id": "U0BKJ1W8V0A",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ub/bK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BKJ1W8V0A"
+              },
+              {
+                "type": "text",
+                "text": " are these tested? can you please share screenshot/recording of your testing in each PR."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "64134524-9506-4ed9-b4e4-0fa0e0f3705f",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "also \u003c@U0BKJ1W8V0A\u003e can you please ask on the issue if this can be assigned to you before raising, as we have a limited bandwidth to pickup reviews",
+    "ts": "1785738040.266489",
+    "thread_ts": "1785653214.020649",
+    "parent_user_id": "U0BKJ1W8V0A",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uK3Bp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "also "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BKJ1W8V0A"
+              },
+              {
+                "type": "text",
+                "text": " can you please ask on the issue if this can be assigned to you before raising, as we have a limited bandwidth to pickup reviews"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d3b29ba1-4b13-4f26-8946-233e797e812c",
+    "type": "message",
+    "user": "U0BKJ1W8V0A",
+    "text": "Hi Shubham, i will share a screenshot of the testing process. \nAnd Vaibhav assigned me the issue",
+    "ts": "1785739079.028189",
+    "thread_ts": "1785653214.020649",
+    "parent_user_id": "U0BKJ1W8V0A",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PwqSD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Shubham, i will share a screenshot of the testing process. \nAnd Vaibhav assigned me the issue"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/db084cfba6abc8f2d31717d33552b897.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "Krishanu",
+      "real_name": "Krishanu",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "krishanu1137",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

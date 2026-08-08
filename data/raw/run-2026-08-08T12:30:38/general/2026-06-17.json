@@ -1,0 +1,55 @@
+[
+  {
+    "client_msg_id": "79cef877-112d-4912-a6d5-b3f9c4352a23",
+    "type": "message",
+    "user": "U09M3J4D5JP",
+    "text": "Hey everyone :slightly_smiling_face:\nI'd love to connect with anyone using Olake to replicate CDC from Postgres to Iceberg/Snowflake.\nFeel free to send me a DM, I'd really appreciate hearing your feedback on the tool.\n\nThanks so much!",
+    "ts": "1781688474.091639",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SedjJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey everyone "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              },
+              {
+                "type": "text",
+                "text": "\nI'd love to connect with anyone using Olake to replicate CDC from Postgres to Iceberg/Snowflake.\nFeel free to send me a DM, I'd really appreciate hearing your feedback on the tool.\n\nThanks so much!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/223ce32e500f3af7fc7490a0058e3ca0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+      "first_name": "Gustavo",
+      "real_name": "Gustavo",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "jaime-oliveira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "client_msg_id": "a246433b-663a-4651-8f6e-7d902a563d86",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08S5BR47GA\u003e Sure, thanks a lot!",
+    "ts": "1783923119.954729",
+    "thread_ts": "1783514459.093289",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HQDLo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              },
+              {
+                "type": "text",
+                "text": " Sure, thanks a lot!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

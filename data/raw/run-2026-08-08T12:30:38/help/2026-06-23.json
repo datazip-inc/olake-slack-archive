@@ -1,0 +1,734 @@
+[
+  {
+    "client_msg_id": "af37eaed-7c55-4c1e-b105-d524918bed61",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi Team,\nI understand that Olake Fusion helps with Iceberg table compaction. I wanted to check if there is any dashboard or monitoring interface available, similar to Amoro, that provides visibility into Iceberg table maintenance and metadata.\nSpecifically, is there a way to view:\n• Total number of snapshots for a table\n• Whether compaction has run successfully\n• Timestamp of the last compaction\n• Next scheduled compaction\n• Current table size and storage metrics\n• Backup/history information\n• Any compaction logs, status, or health metrics\nIf such a dashboard exists, could you please share the documentation or point me to the relevant section?\nThanks!",
+    "ts": "1782199854.076309",
+    "thread_ts": "1782199854.076309",
+    "reply_count": 4,
+    "reply_users": [
+      "U09BK0WKBQR",
+      "U0A6088AMM3"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1782200581.476639"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1782208855.409689"
+      },
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1782209491.453219"
+      },
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1782210049.465219"
+      }
+    ],
+    "latest_reply": "1782210049.465219",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G5Af7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nI understand that Olake Fusion helps with Iceberg table compaction. I wanted to check if there is any dashboard or monitoring interface available, similar to Amoro, that provides visibility into Iceberg table maintenance and metadata.\nSpecifically, is there a way to view:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Total number of snapshots for a table"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Whether compaction has run successfully"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Timestamp of the last compaction"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Next scheduled compaction"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Current table size and storage metrics"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Backup/history information"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Any compaction logs, status, or health metrics"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "If such a dashboard exists, could you please share the documentation or point me to the relevant section?\nThanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "3e3928b8-d8c3-4462-bedd-3508b65219f6",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0A6088AMM3\u003e At the moment, OLake Fusion provides visibility into compaction runs, logs, and a set of table and run level metrics through the UI. The following documentation covers the currently available monitoring capabilities:\n• \u003chttps://olake.io/docs/fusion/maintenance/runs-and-logs/|Runs and Logs\u003e\n• \u003chttps://olake.io/docs/fusion/maintenance/metrics/|Metrics\u003e",
+    "ts": "1782200581.476639",
+    "thread_ts": "1782199854.076309",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fHmII",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " At the moment, OLake Fusion provides visibility into compaction runs, logs, and a set of table and run level metrics through the UI. The following documentation covers the currently available monitoring capabilities:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/fusion/maintenance/runs-and-logs/",
+                    "text": "Runs and Logs"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/fusion/maintenance/metrics/",
+                    "text": "Metrics"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "347c3796-518c-46bc-bbf5-74b74e0b4a87",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U09BK0WKBQR\u003e Which version of Olake has this?",
+    "ts": "1782208855.409689",
+    "thread_ts": "1782199854.076309",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JheuI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " Which version of Olake has this?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7fc1ab6b-c0b0-4de6-9eaf-e61960744f17",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0A6088AMM3\u003e You can follow the OLake Fusion setup guide here:\n\u003chttps://olake.io/docs/fusion/getting-started/configure-first-compaction/\u003e\n\nThe guide covers the prerequisites required to get started with Fusion, whether you're a first-time user or upgrading an existing OLake deployment. It also walks through setting up your first compaction pipeline.\n\nPlease let us know if you need any assistance with the setup.",
+    "ts": "1782209491.453219",
+    "thread_ts": "1782199854.076309",
+    "attachments": [
+      {
+        "fallback": "OLake: Configure Your First Compaction",
+        "id": 1,
+        "title": "Configure Your First Compaction",
+        "title_link": "https://olake.io/docs/fusion/getting-started/configure-first-compaction/",
+        "text": "This guide walks through configuring your first compaction for a table.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/fusion/getting-started/configure-first-compaction/",
+        "original_url": "https://olake.io/docs/fusion/getting-started/configure-first-compaction/",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lfpws",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " You can follow the OLake Fusion setup guide here:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/fusion/getting-started/configure-first-compaction/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nThe guide covers the prerequisites required to get started with Fusion, whether you're a first-time user or upgrading an existing OLake deployment. It also walks through setting up your first compaction pipeline.\n\nPlease let us know if you need any assistance with the setup."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e68f1006-6bce-489e-a246-bc13292643ec",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0A6088AMM3\u003e If you are using helm and you are a new user please checkout \u003chttps://olake.io/docs/fusion/install/kubernetes-compaction/#quick-start|quick start with helm\u003e",
+    "ts": "1782210049.465219",
+    "thread_ts": "1782199854.076309",
+    "attachments": [
+      {
+        "fallback": "OLake: Deploy OLake Maintenance on Kubernetes",
+        "id": 1,
+        "title": "Deploy OLake Maintenance on Kubernetes",
+        "title_link": "https://olake.io/docs/fusion/install/kubernetes-compaction/#quick-start",
+        "text": "Deploy OLake Maintenance on Kubernetes with Helm. Enable Maintenance services, configure Spark optimizer (compactor) settings, and run compaction workflows for Iceberg tables.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/fusion/install/kubernetes-compaction/#quick-start",
+        "original_url": "https://olake.io/docs/fusion/install/kubernetes-compaction/#quick-start",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0A6088AMM3"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sVmqh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " If you are using helm and you are a new user please checkout "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/fusion/install/kubernetes-compaction/#quick-start",
+                "text": "quick start with helm"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5ad0ecbd-1119-4d68-acdc-2ff6ea21f23e",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Hi team, I did `helm repo update` and then I am trying `helm upgrade --install olake` but I am getting following error:\n```Error: UPGRADE FAILED: template: olake/templates/olake-ui/deployment.yaml:100:17: executing \"olake/templates/olake-ui/deployment.yaml\" at \u0026lt;index .Values.global.imagePullSecrets 0\u0026gt;: error calling index: reflect: slice index out of range```\nThis is happening due to following line: \u003chttps://github.com/datazip-inc/olake-helm/blob/162b4e559a76790538a5f3536a6cbbd3287b28b3/helm/olake/templates/olake-ui/deployment.yaml#L100|github.com/datazip-inc/olake-helm/blob/…/deployment.yaml#…\u003e\nAs I am not using any `imagePullSecrets` so there won't be any first element in the array \u0026amp; will result into breaking of this code, can you please look into this.",
+    "ts": "1782282260.430219",
+    "thread_ts": "1782282260.430219",
+    "reply_count": 3,
+    "reply_users": [
+      "U082APQJZNC",
+      "U08H6LN432P",
+      "U0A5EGHRLQY"
+    ],
+    "replies": [
+      {
+        "user": "U082APQJZNC",
+        "ts": "1782282333.510829"
+      },
+      {
+        "user": "U08H6LN432P",
+        "ts": "1782282413.532049"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1782282516.314859"
+      }
+    ],
+    "latest_reply": "1782282516.314859",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CvARG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, I did "
+              },
+              {
+                "type": "text",
+                "text": "helm repo update",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and then I am trying "
+              },
+              {
+                "type": "text",
+                "text": "helm upgrade --install olake",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " but I am getting following error:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Error: UPGRADE FAILED: template: olake/templates/olake-ui/deployment.yaml:100:17: executing \"olake/templates/olake-ui/deployment.yaml\" at \u003cindex .Values.global.imagePullSecrets 0\u003e: error calling index: reflect: slice index out of range"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This is happening due to following line: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/blob/162b4e559a76790538a5f3536a6cbbd3287b28b3/helm/olake/templates/olake-ui/deployment.yaml#L100",
+                "text": "github.com/datazip-inc/olake-helm/blob/…/deployment.yaml#…"
+              },
+              {
+                "type": "text",
+                "text": "\nAs I am not using any "
+              },
+              {
+                "type": "text",
+                "text": "imagePullSecrets",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " so there won't be any first element in the array \u0026 will result into breaking of this code, can you please look into this."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "e69dff4e-3d9e-4ca0-b56c-fb0a6a758c71",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U08H6LN432P\u003e cc.",
+    "ts": "1782282333.510829",
+    "thread_ts": "1782282260.430219",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZZCow",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H6LN432P"
+              },
+              {
+                "type": "text",
+                "text": " cc."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ab4bf351-7748-4a1a-a775-2d8fab048a08",
+    "type": "message",
+    "user": "U08H6LN432P",
+    "text": "Hi \u003c@U0A5EGHRLQY\u003e, we have fixed this issue in helm chart version 0.0.22. Instead of upgrading to version 0.0.21, you can directly upgrade to 0.0.22 and that will fix it.",
+    "ts": "1782282413.532049",
+    "thread_ts": "1782282260.430219",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i2pwe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": ", we have fixed this issue in helm chart version 0.0.22. Instead of upgrading to version 0.0.21, you can directly upgrade to 0.0.22 and that will fix it."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-03-10/8584702703811_f68d7d42b61d80f61fb7_72.png",
+      "first_name": "Schitiz",
+      "real_name": "Schitiz Sharma",
+      "display_name": "Schitiz Sharma",
+      "team": "T0820LGJGRF",
+      "name": "schitiz",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2e553c58-6d86-4d47-a34b-ce0b2877e729",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Ohh my bad, it's working with latest version, thank you.",
+    "ts": "1782282516.314859",
+    "thread_ts": "1782282260.430219",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U08H6LN432P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v/Aq7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ohh my bad, it's working with latest version, thank you."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

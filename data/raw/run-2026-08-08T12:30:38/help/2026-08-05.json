@@ -1,0 +1,64 @@
+[
+  {
+    "client_msg_id": "8ea69dfe-2620-46b0-b8fc-61de202b9765",
+    "type": "message",
+    "user": "U0AMDCT444T",
+    "text": "I see. Perhaps another time then. We are not ready to consider a SaaS offering at this time, but thanks for the info :slightly_smiling_face:",
+    "ts": "1785913654.605239",
+    "thread_ts": "1785841872.028669",
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 3,
+        "users": [
+          "U0820LSJZRP",
+          "U0A9LUUNP43",
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bp7z0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I see. Perhaps another time then. We are not ready to consider a SaaS offering at this time, but thanks for the info "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-19/10733824936658_c5811d706f7b878446ea_72.png",
+      "first_name": "Kim",
+      "real_name": "Kim Tore Jensen",
+      "display_name": "Kim Tore Jensen",
+      "team": "T0820LGJGRF",
+      "name": "kim.tore.jensen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

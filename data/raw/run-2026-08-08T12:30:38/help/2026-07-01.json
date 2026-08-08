@@ -1,0 +1,529 @@
+[
+  {
+    "client_msg_id": "d2ed3a4f-8617-4320-89aa-e42afb1f6a06",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e \u003chttps://meet.google.com/qba-jjqa-woa|meet.google.com/qba-jjqa-woa\u003e",
+    "ts": "1782898236.771769",
+    "thread_ts": "1782814367.632539",
+    "attachments": [
+      {
+        "fallback": "Meet",
+        "id": 1,
+        "title": "Meet",
+        "title_link": "https://meet.google.com/qba-jjqa-woa",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "service_name": "meet.google.com",
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "from_url": "https://meet.google.com/qba-jjqa-woa",
+        "original_url": "https://meet.google.com/qba-jjqa-woa",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hWByf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/qba-jjqa-woa",
+                "text": "meet.google.com/qba-jjqa-woa"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8da19ec8-3837-4990-a0fc-cbf8ab7c8a83",
+    "type": "message",
+    "user": "U0AGV5S9UR2",
+    "text": "Hey team :wave:\n\nWe are running OLake CDC into Iceberg tables on S3 (Glue catalog, EMR 7.3) for a high frequency write heavy ,   table — ~11M records/day with 1-minute write frequency.\n\nWe are seeing significant equality delete file (content=2) accumulation — currently at 92-96% of total file count per partition. After investigation we traced this to OLake writing one equality delete file per CDC event using `_olake_id` as the delete identifier.\n\nTwo questions:\n\n1. Can we change the `sorted_by` column from `_olake_id` to the table's natural primary key (`id`, bigint)? The current `_olake_id` is a synthetic varchar UUID which has  sort locality for compaction — Iceberg's `rewrite_data_files` with `delete-file-threshold=1` is not resolving the equality deletes efficiently because it cannot binary-search a random UUID.\n\n2. Does the `sorted_by` column control which column OLake uses as the equality delete identifier? Or is the equality delete column configured separately at the OLake connector/job level?\n\nContext: the table is partitioned on `date_modified_day`, with 99.86% of updates happening same-day. Changing the equality delete identifier to `id` (integer, unique, partition-stable) should allow compaction to resolve deletes efficiently and bring delete file percentage down from 92-96% to \u003c 5%.\n\nBTW we're not using Olake Fusion for compaction instead Spark SQL for the same\n\ncc \u003c@U0ACFDEBBQB\u003e",
+    "ts": "1782902467.145229",
+    "thread_ts": "1782902467.145229",
+    "edited": {
+      "user": "U0AGV5S9UR2",
+      "ts": "1782902552.000000"
+    },
+    "reply_count": 17,
+    "reply_users": [
+      "U082APQJZNC",
+      "U08CR7HUWDC",
+      "U08RZQ547LJ",
+      "U0ACFDEBBQB",
+      "U0AGV5S9UR2"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1782904812.396249"
+      },
+      {
+        "user": "U0AGV5S9UR2",
+        "ts": "1782966055.713649"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1782973065.421869"
+      },
+      {
+        "user": "U0AGV5S9UR2",
+        "ts": "1782977005.642169"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1782986775.270799"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1782987889.508149"
+      },
+      {
+        "user": "U0AGV5S9UR2",
+        "ts": "1782989556.380689"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1782989634.128399"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1782996042.431249"
+      },
+      {
+        "user": "U0AGV5S9UR2",
+        "ts": "1783056747.427039"
+      },
+      {
+        "user": "U0ACFDEBBQB",
+        "ts": "1783936273.126459"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1783940673.563389"
+      },
+      {
+        "user": "U0ACFDEBBQB",
+        "ts": "1783948932.959319"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1783949092.930859"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1784003552.959999"
+      },
+      {
+        "user": "U0ACFDEBBQB",
+        "ts": "1784024972.193129"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1784274655.415419"
+      }
+    ],
+    "latest_reply": "1784274655.415419",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U09BK0WKBQR"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pa5iI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey team "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": "\n\nWe are running OLake CDC into Iceberg tables on S3 (Glue catalog, EMR 7.3) for a high frequency write heavy ,   table — ~11M records/day with 1-minute write frequency.\n\nWe are seeing significant equality delete file (content=2) accumulation — currently at 92-96% of total file count per partition. After investigation we traced this to OLake writing one equality delete file per CDC event using `_olake_id` as the delete identifier.\n\nTwo questions:\n\n1. Can we change the `sorted_by` column from `_olake_id` to the table's natural primary key (`id`, bigint)? The current `_olake_id` is a synthetic varchar UUID which has  sort locality for compaction — Iceberg's `rewrite_data_files` with `delete-file-threshold=1` is not resolving the equality deletes efficiently because it cannot binary-search a random UUID.\n\n2. Does the `sorted_by` column control which column OLake uses as the equality delete identifier? Or is the equality delete column configured separately at the OLake connector/job level?\n\nContext: the table is partitioned on `date_modified_day`, with 99.86% of updates happening same-day. Changing the equality delete identifier to `id` (integer, unique, partition-stable) should allow compaction to resolve deletes efficiently and bring delete file percentage down from 92-96% to \u003c 5%.\n\nBTW we're not using Olake Fusion for compaction instead Spark SQL for the same\n\ncc "
+              },
+              {
+                "type": "user",
+                "user_id": "U0ACFDEBBQB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-23/10582504215425_d89adb5d9958db1769df_72.png",
+      "first_name": "Prasanna",
+      "real_name": "Prasanna Kumar",
+      "display_name": "Prasanna Kumar",
+      "team": "T0820LGJGRF",
+      "name": "prasanna.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 5
+  },
+  {
+    "client_msg_id": "2c8228ec-79fa-4df8-af06-b5535e0179a9",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0AGV5S9UR2\u003e,\n`_olake_id` is simply the stringified value of your table's primary key. OLake only generates an MD5 hash (which looks like a random UUID) if it can't detect a single primary key for the source table, could you confirm if your table has a primary key?\n `_olake_id` is used as the default identifier field in OLake, which means it automatically dictates both the equality delete column and the `sorted_by` order.",
+    "ts": "1782904812.396249",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UIAz+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0AGV5S9UR2"
+              },
+              {
+                "type": "text",
+                "text": ",\n"
+              },
+              {
+                "type": "text",
+                "text": "_olake_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is simply the stringified value of your table's primary key. OLake only generates an MD5 hash (which looks like a random UUID) if it can't detect a single primary key for the source table, could you confirm if your table has a primary key?\n "
+              },
+              {
+                "type": "text",
+                "text": "_olake_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is used as the default identifier field in OLake, which means it automatically dictates both the equality delete column and the "
+              },
+              {
+                "type": "text",
+                "text": "sorted_by",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " order."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "aa162027-ac97-4e99-a968-f11f950d1128",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e  I have checked the issue, the table cron is not running because of abruptly kill of AMS, due to which table stuck in planning phase.\nWe will release a fix for it soon ETA  1 day.\nIf you need to do it urgently you can follow below instruction\n-\u0026gt; stop amoro service\n-\u0026gt; run the status update from 500 to 700 in db in table_runtime table (we did it on call)\n-\u0026gt; start ams\n\nthanks",
+    "ts": "1782929110.046449",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3kbGD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": "  I have checked the issue, the table cron is not running because of abruptly kill of AMS, due to which table stuck in planning phase.\nWe will release a fix for it soon ETA  1 day.\nIf you need to do it urgently you can follow below instruction\n-\u003e stop amoro service\n-\u003e run the status update from 500 to 700 in db in table_runtime table (we did it on call)\n-\u003e start ams\n\nthanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0d640b62-3414-4f19-95b3-eaa12ff67da3",
+    "type": "message",
+    "user": "U0AGV5S9UR2",
+    "text": "the table has one (id) auto inc based\nWhile now I understand about the olake_id, The challenge we face is given this is a fast moving table (rapid c and u operations ) , partitioned based on date_modified as day (yyyy/mm/dd), 99% of the updates happen within the same day.  The data to delete file ratio is still high. In terms of numbers when queried the $files table,\n0 7000+\n1 21000 +\n2 23800 +\n\nSince the equality deletes are more , 8 files for every data file - compaction on this table is not helping to bring down the equality writes count.\n\nWhile exploring on how do we over come this challenge ... One of the hint I guessed is to see if the value of _olake_id could be tweaked...\n\nTech Stack\n• Olake Sync job on Upsert Mode - CDC Only \n• EMR - Spark jobs for compaciton\n• AWS Glue - Catalog \nAs a side exp ... we also ran Olake on append mode + CDC Only which had no eq.del files and enabled to reclaim the disk space ( exp snap and del orph files)",
+    "ts": "1782966055.713649",
+    "thread_ts": "1782902467.145229",
+    "edited": {
+      "user": "U0AGV5S9UR2",
+      "ts": "1782966416.000000"
+    },
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kI1zB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "the table has one (id) auto inc based\nWhile now I understand about the olake_id, The challenge we face is given this is a fast moving table (rapid c and u operations ) , partitioned based on date_modified as day (yyyy/mm/dd), 99% of the updates happen within the same day.  The data to delete file ratio is still high. In terms of numbers when queried the $files table,\n0 7000+\n1 21000 +\n2 23800 +\n\nSince the equality deletes are more , 8 files for every data file - compaction on this table is not helping to bring down the equality writes count.\n\nWhile exploring on how do we over come this challenge ... One of the hint I guessed is to see if the value of "
+              },
+              {
+                "type": "text",
+                "text": "olake",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "id could be tweaked...\n\nTech Stack\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Olake Sync job on Upsert Mode - CDC Only "
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "EMR - Spark jobs for compaciton"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "AWS Glue - Catalog "
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nAs a side exp ... we also ran Olake on append mode + CDC Only which had no eq.del files and enabled to reclaim the disk space ( exp snap and del orph files)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-23/10582504215425_d89adb5d9958db1769df_72.png",
+      "first_name": "Prasanna",
+      "real_name": "Prasanna Kumar",
+      "display_name": "Prasanna Kumar",
+      "team": "T0820LGJGRF",
+      "name": "prasanna.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c62ab38a-6be5-4a86-9e47-21dcd8de85b0",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0AGV5S9UR2\u003e, Can you please explain the problem you're currently facing and what outcome or solution you're expecting?",
+    "ts": "1782973065.421869",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Yx3au",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0AGV5S9UR2"
+              },
+              {
+                "type": "text",
+                "text": ", Can you please explain the problem you're currently facing and what outcome or solution you're expecting?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
