@@ -1,0 +1,121 @@
+[
+  {
+    "client_msg_id": "812f21bd-97ff-44fe-b503-82b891ba85ef",
+    "type": "message",
+    "user": "U0B8K4LS7G9",
+    "text": "Hello, I have opened a PR for the issue #752 \u003chttps://github.com/datazip-inc/olake/pull/971\u003e\n\ncan someone please review it? Thank you!",
+    "ts": "1780652190.714839",
+    "edited": {
+      "user": "U0B8K4LS7G9",
+      "ts": "1780652204.000000"
+    },
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 2,
+        "users": [
+          "U0817E9CGRM",
+          "U0820LSJZRP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TDma2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello, I have opened a PR for the issue #752 "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/971"
+              },
+              {
+                "type": "text",
+                "text": "\n\ncan someone please review it? Thank you!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-05/11287254696022_683c3d3e80736bad8173_72.png",
+      "first_name": "Ishanya",
+      "real_name": "Ishanya Sharma",
+      "display_name": "Ishanya Sharma",
+      "team": "T0820LGJGRF",
+      "name": "f20230324",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d4ecd835-baaa-40b5-95a7-a3e51a3a7d5d",
+    "type": "message",
+    "user": "U0B89B4DK6E",
+    "text": "Hi Team I've been going through the repo and issues to make my contribution. Just wanted to ask whether issue #661 is still open ? I see a PR with unmerged commits and the last message stating to ping to reopen it",
+    "ts": "1780669697.375499",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nF9vi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team I've been going through the repo and issues to make my contribution. Just wanted to ask whether issue #661 is still open ? I see a PR with unmerged commits and the last message stating to ping to reopen it"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-04/11281378969698_da7efcee4806ce38326b_72.png",
+      "first_name": "Superman",
+      "real_name": "Superman RX",
+      "display_name": "Superman RX",
+      "team": "T0820LGJGRF",
+      "name": "grindinforvalore",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

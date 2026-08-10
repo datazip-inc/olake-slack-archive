@@ -1,0 +1,80 @@
+[
+  {
+    "client_msg_id": "1e34b774-5acd-4383-8b27-bb25f7d95bec",
+    "type": "message",
+    "user": "U0BKJ1W8V0A",
+    "text": "Hi Team, i have raised a PR for the issue #777 \u003chttps://github.com/datazip-inc/olake/issues/777|github.com/datazip-inc/olake/issues/777\u003e\nPR: \u003chttps://github.com/datazip-inc/olake/pull/1045|github.com/datazip-inc/olake/pull/1045\u003e\ncan someone please review it?\nThank you!",
+    "ts": "1784995379.357979",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      },
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "P/5o4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team, i have raised a PR for the issue #777 "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/777",
+                "text": "github.com/datazip-inc/olake/issues/777"
+              },
+              {
+                "type": "text",
+                "text": "\nPR: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1045",
+                "text": "github.com/datazip-inc/olake/pull/1045"
+              },
+              {
+                "type": "text",
+                "text": "\ncan someone please review it?\nThank you!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/db084cfba6abc8f2d31717d33552b897.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "Krishanu",
+      "real_name": "Krishanu",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "krishanu1137",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

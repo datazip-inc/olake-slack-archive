@@ -1,0 +1,518 @@
+[
+  {
+    "client_msg_id": "66a027b8-a8b8-4d63-9db6-ff7620432c13",
+    "type": "message",
+    "user": "U0AMDCT444T",
+    "text": "Hi, I have a question about OLake + OAuth2.\nWe want to configure OLake to only accept logins from a specific user group in Entra ID. But it seems OLake doesn't support oauth2 for logins, only for connecting to sources. Is this correct? Are there plans for oauth support?",
+    "ts": "1785841872.028669",
+    "thread_ts": "1785841872.028669",
+    "reply_count": 2,
+    "reply_users": [
+      "U0820LSJZRP",
+      "U0AMDCT444T"
+    ],
+    "replies": [
+      {
+        "user": "U0820LSJZRP",
+        "ts": "1785842853.349269"
+      },
+      {
+        "user": "U0AMDCT444T",
+        "ts": "1785913654.605239"
+      }
+    ],
+    "latest_reply": "1785913654.605239",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZpLSY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi, I have a question about OLake + OAuth2.\nWe want to configure OLake to only accept logins from a specific user group in Entra ID. But it seems OLake doesn't support oauth2 for logins, only for connecting to sources. Is this correct? Are there plans for oauth support?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-19/10733824936658_c5811d706f7b878446ea_72.png",
+      "first_name": "Kim",
+      "real_name": "Kim Tore Jensen",
+      "display_name": "Kim Tore Jensen",
+      "team": "T0820LGJGRF",
+      "name": "kim.tore.jensen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "0ead6228-a255-4c32-aff1-7beea71859b5",
+    "type": "message",
+    "user": "U0BMVUTQ0JW",
+    "text": "Hi team,\nI'm trying to deploy *OLake on AWS ECS Fargate* instead of Kubernetes and have successfully deployed the following components:\n• OLake UI → ECS Fargate\n• Temporal Server → ECS Fargate\n• Aurora PostgreSQL → Metadata database\n• Amazon S3 (private bucket with KMS encryption)\n• Amazon ECR for OLake images\n• AWS Cloud Map for service discovery\n• Application Load Balancer for UI\nThe UI is working correctly:\n• I can access the UI.\n• User signup/login works.\n• Temporal connectivity is working.\n• Worker starts successfully and registers with the Temporal task queue.\nWorker startup logs:\n```starting OLake worker\nexecutor environment: docker\ndatabase initialized\nnamespace default retention set to 168h0m0s\nworker client created successfully\nstarting Temporal worker...\nStarted Worker\nNamespace=default\nTaskQueue=OLAKE_DOCKER_TASK_QUEUE```\nHowever, when I try to create a PostgreSQL source, the workflow fails with the following error:\n```failed to get source spec:\nworkflow execution failed\n\nactivity error:\n\nimage pull\n\u003chttp://183124052567.dkr.ecr.ap-south-2.amazonaws.com/olakego/source-postgres:v0.9.0|183124052567.dkr.ecr.ap-south-2.amazonaws.com/olakego/source-postgres:v0.9.0\u003e\n\nfailed to connect to the docker API at unix:///var/run/docker.sock\n\ndial unix /var/run/docker.sock:\nconnect: no such file or directory```\nIt appears the Worker is trying to execute connectors using the local Docker daemon.\nSince ECS Fargate doesn't expose `/var/run/docker.sock`, I'm unsure whether OLake officially supports running the Worker on ECS Fargate.\nMy questions are:\n1. Is deploying the OLake Worker on *AWS ECS Fargate* officially supported?\n2. If yes, what is the recommended connector execution mechanism on Fargate (since Docker socket isn't available)?\n3. Is there a configuration to use ECS Tasks, AWS Batch, or another executor instead of Docker?\n4. Or is the Worker currently expected to run only on Kubernetes or Docker hosts (e.g., ECS EC2)?\nAny guidance or recommended deployment architecture for AWS would be greatly appreciated.\nThank you!",
+    "ts": "1785842491.474309",
+    "thread_ts": "1785842491.474309",
+    "reply_count": 1,
+    "reply_users": [
+      "U0A9LUUNP43"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1785846182.304199"
+      }
+    ],
+    "latest_reply": "1785846182.304199",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 4,
+        "users": [
+          "U0820LSJZRP",
+          "U0A9LUUNP43",
+          "U0817E9CGRM",
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9rzs9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team,\nI'm trying to deploy "
+              },
+              {
+                "type": "text",
+                "text": "OLake on AWS ECS Fargate",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " instead of Kubernetes and have successfully deployed the following components:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "OLake UI → ECS Fargate"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Temporal Server → ECS Fargate"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Aurora PostgreSQL → Metadata database"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Amazon S3 (private bucket with KMS encryption)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Amazon ECR for OLake images"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "AWS Cloud Map for service discovery"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Application Load Balancer for UI"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "The UI is working correctly:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "I can access the UI."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "User signup/login works."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Temporal connectivity is working."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Worker starts successfully and registers with the Temporal task queue."
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Worker startup logs:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "starting OLake worker\nexecutor environment: docker\ndatabase initialized\nnamespace default retention set to 168h0m0s\nworker client created successfully\nstarting Temporal worker...\nStarted Worker\nNamespace=default\nTaskQueue=OLAKE_DOCKER_TASK_QUEUE"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "However, when I try to create a PostgreSQL source, the workflow fails with the following error:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "failed to get source spec:\nworkflow execution failed\n\nactivity error:\n\nimage pull\n183124052567.dkr.ecr.ap-south-2.amazonaws.com/olakego/source-postgres:v0.9.0\n\nfailed to connect to the docker API at unix:///var/run/docker.sock\n\ndial unix /var/run/docker.sock:\nconnect: no such file or directory"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "It appears the Worker is trying to execute connectors using the local Docker daemon.\nSince ECS Fargate doesn't expose "
+              },
+              {
+                "type": "text",
+                "text": "/var/run/docker.sock",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", I'm unsure whether OLake officially supports running the Worker on ECS Fargate.\nMy questions are:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Is deploying the OLake Worker on "
+                  },
+                  {
+                    "type": "text",
+                    "text": "AWS ECS Fargate",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " officially supported?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "If yes, what is the recommended connector execution mechanism on Fargate (since Docker socket isn't available)?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Is there a configuration to use ECS Tasks, AWS Batch, or another executor instead of Docker?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Or is the Worker currently expected to run only on Kubernetes or Docker hosts (e.g., ECS EC2)?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Any guidance or recommended deployment architecture for AWS would be greatly appreciated.\nThank you!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/2e10dcac21ad5da7d5319ca1e31514bf.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "vikassingh",
+      "real_name": "vikassingh",
+      "display_name": "vikassingh",
+      "team": "T0820LGJGRF",
+      "name": "vikas.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "0B9E1B66-18FB-4433-A9CC-10B69C57A1AA",
+    "type": "message",
+    "user": "U0820LSJZRP",
+    "text": "Hey \u003c@U0AMDCT444T\u003e !\nWe are planning to keep this feature for managed SaaS offering of OLake, which is pretty close to its launch. Happy to chat for its beta access to you, if you are interested. ",
+    "ts": "1785842853.349269",
+    "thread_ts": "1785841872.028669",
+    "parent_user_id": "U0AMDCT444T",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "riCC0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0AMDCT444T"
+              },
+              {
+                "type": "text",
+                "text": " !\nWe are planning to keep this feature for managed SaaS offering of OLake"
+              },
+              {
+                "type": "text",
+                "text": ", which is pretty close to its launch. Happy to chat for its beta access to you, if you are interested. "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-20/8487710291348_f516f170d918085eb255_72.jpg",
+      "first_name": "Rohan",
+      "real_name": "Rohan Khameshra",
+      "display_name": "Rohan Khameshra",
+      "team": "T0820LGJGRF",
+      "name": "rohan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6bc92921-8c6c-428a-a737-57550f959d8e",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "hey \u003c@U0BMVUTQ0JW\u003e AWS ECS Fargate is not officially supported and we currently don't have any plan to support it any time soon in Olake but we do support docker and helm so you can try that out.",
+    "ts": "1785846182.304199",
+    "thread_ts": "1785842491.474309",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1785847926.000000"
+    },
+    "parent_user_id": "U0BMVUTQ0JW",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ozLGs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BMVUTQ0JW"
+              },
+              {
+                "type": "text",
+                "text": " AWS ECS Fargate is not officially supported and we currently don't have any plan to support it any time soon in Olake but we do support docker and helm so you can try that out."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

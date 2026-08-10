@@ -1,0 +1,54 @@
+[
+  {
+    "client_msg_id": "5d59092d-7ade-4e09-8cce-73eb64e51cd0",
+    "type": "message",
+    "user": "U09K0D3H6JD",
+    "text": "Hi, I've opened a PR for the issue#682  :\u003chttps://github.com/datazip-inc/olake/pull/950\u003e\nCould anyone from the team review it? Thanks.",
+    "ts": "1778740400.483929",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z0jD0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi, I've opened a PR for the issue#682  :"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/950"
+              },
+              {
+                "type": "text",
+                "text": "\nCould anyone from the team review it? Thanks."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-03/9646445865553_8336d5bd5b2f9886bc0d_72.jpg",
+      "first_name": "Siddhant",
+      "real_name": "Siddhant Rai",
+      "display_name": "Siddhant Rai",
+      "team": "T0820LGJGRF",
+      "name": "siddhant.rai.5686",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

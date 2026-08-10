@@ -1,0 +1,134 @@
+[
+  {
+    "client_msg_id": "32f3fdae-6833-4e65-b92c-91c3c175651d",
+    "type": "message",
+    "user": "U0BKJ1W8V0A",
+    "text": "Hi Team :wave:\nI have raised a PR for issue \u003chttps://github.com/datazip-inc/olake/issues/1055|#1055\u003e to use `MapScanConcurrent` during incremental syncs for Postgres, MySQL, MSSQL, and Oracle.\n*PR Link:* \u003chttps://github.com/datazip-inc/olake/pull/1062|github.com/datazip-inc/olake/pull/1062\u003e\nCould someone take a look and review it when available?\nThank you!",
+    "ts": "1785653214.020649",
+    "thread_ts": "1785653214.020649",
+    "reply_count": 5,
+    "reply_users": [
+      "U082APQJZNC",
+      "U0BKJ1W8V0A"
+    ],
+    "replies": [
+      {
+        "user": "U082APQJZNC",
+        "ts": "1785737966.050689"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1785738040.266489"
+      },
+      {
+        "user": "U0BKJ1W8V0A",
+        "ts": "1785739079.028189"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1785854845.229909"
+      },
+      {
+        "user": "U0BKJ1W8V0A",
+        "ts": "1785855580.825439"
+      }
+    ],
+    "latest_reply": "1785855580.825439",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mayNS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": "\nI have raised a PR for issue "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1055",
+                "text": "#1055"
+              },
+              {
+                "type": "text",
+                "text": " to use "
+              },
+              {
+                "type": "text",
+                "text": "MapScanConcurrent",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " during incremental syncs for Postgres, MySQL, MSSQL, and Oracle.\n"
+              },
+              {
+                "type": "text",
+                "text": "PR Link:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1062",
+                "text": "github.com/datazip-inc/olake/pull/1062"
+              },
+              {
+                "type": "text",
+                "text": "\nCould someone take a look and review it when available?\nThank you!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/db084cfba6abc8f2d31717d33552b897.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "Krishanu",
+      "real_name": "Krishanu",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "krishanu1137",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  }
+]

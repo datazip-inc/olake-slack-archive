@@ -1,0 +1,304 @@
+[
+  {
+    "client_msg_id": "2b609ee9-c1cc-4a28-b260-5c701fd2607f",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "Regarding the issue above I can try to tackle some of those issue in a PR",
+    "ts": "1779437889.173839",
+    "thread_ts": "1779437889.173839",
+    "reply_count": 4,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U09BK0WKBQR",
+      "U0ACZM4A71P",
+      "U0B4UMFK7C3"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1779445610.884729"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779701471.273529"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779719109.000099"
+      },
+      {
+        "user": "U0ACZM4A71P",
+        "ts": "1781504871.479469"
+      }
+    ],
+    "latest_reply": "1781504871.479469",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FXlhp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Regarding the issue above I can try to tackle some of those issue in a PR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 4
+  },
+  {
+    "client_msg_id": "5c198b23-a86b-400d-9710-86dc1845b42c",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "I opened a new issue \u003chttps://github.com/datazip-inc/olake-ui/issues/381\u003e\n\nis it ok for you if I work on these a little?",
+    "ts": "1779445565.030199",
+    "thread_ts": "1779445565.030199",
+    "reply_count": 2,
+    "reply_users": [
+      "U09BK0WKBQR",
+      "U0B4UMFK7C3"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1779445846.222679"
+      },
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779445863.634499"
+      }
+    ],
+    "latest_reply": "1779445863.634499",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FzHaa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I opened a new issue "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/issues/381"
+              },
+              {
+                "type": "text",
+                "text": "\n\nis it ok for you if I work on these a little?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "3e83b774-f992-4e09-ab31-50307e5ea7a4",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "Yes you can definitely do that. Once verified that its a valid issue.",
+    "ts": "1779445610.884729",
+    "thread_ts": "1779437889.173839",
+    "edited": {
+      "user": "U09BK0WKBQR",
+      "ts": "1779445679.000000"
+    },
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m2cZK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes you can definitely do that. Once verified that its a valid issue."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "051c3f83-6570-43ef-958c-9b2fcd78927d",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0B4UMFK7C3\u003e We will check once if this issue is a genuine problem. Once verified, we will update you the same and you can start working on it. Until then please give us some time to check on the issue.",
+    "ts": "1779445846.222679",
+    "thread_ts": "1779445565.030199",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0B4UMFK7C3"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YvhjR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0B4UMFK7C3"
+              },
+              {
+                "type": "text",
+                "text": " We will check once if this issue is a genuine problem. Once verified, we will update you the same and you can start working on it. Until then please give us some time to check on the issue."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "08ad7495-23fb-4551-b26a-f680f920e783",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "sure :slightly_smiling_face:",
+    "ts": "1779445863.634499",
+    "thread_ts": "1779445565.030199",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5kUuB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "sure "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

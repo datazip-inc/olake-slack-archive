@@ -1,0 +1,804 @@
+{"level":"info","time":"2026-08-09T12:30:00Z","message":"Running sync with state: {\"type\":\"STREAM\",\"global\":{\"state\":{\"lsn\":\"29261/3D26CBF8\"},\"streams\":[\"public.CallLog\",\"public.SegmentMember\",\"public.SegmentMember2\",\"public.ContactListMember\"]},\"streams\":[{\"stream\":\"CallLog\",\"namespace\":\"public\",\"sync_mode\":\"\",\"state\":{\"chunks\":[]}},{\"stream\":\"SegmentMember\",\"namespace\":\"public\",\"sync_mode\":\"\",\"state\":{\"chunks\":[]}},{\"stream\":\"ContactListMember\",\"namespace\":\"public\",\"sync_mode\":\"\",\"state\":{\"chunks\":[]}},{\"stream\":\"SegmentMember2\",\"namespace\":\"public\",\"sync_mode\":\"\",\"state\":{\"chunks\":[]}}]}"}
+{"level":"info","message":"Found CDC Configuration","time":"2026-08-09T12:30:00Z"}
+{"level":"info","time":"2026-08-09T12:30:00Z","message":"CDC initial wait time set to: 9999"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"replication slot[extraslot] with pluginType[pgoutput] found"}
+{"level":"info","time":"2026-08-09T12:30:00Z","message":"Starting discover for Postgres database production"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: severity[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: targetMode[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: aggregation[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: rowMatch[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: operator[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: changeDirection[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: state[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: type[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: severity[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: source[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: type[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: visibility[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: version[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: type[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: source[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: planName[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: billingCycle[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: platformCurrency[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: autopayPartner[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: channel[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: executor[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: valueFormat[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: currency[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: editor[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: checkoutPartner[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: type[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: role[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: attributionModel[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: autopayType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: threadStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: bitespeedSourceType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: taggingStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: invoiceType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: jobStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: bitespeedSourceType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: appProvider[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: source[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: source[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: threadStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: requestType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: generationType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: type[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: version[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: source[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: planItemType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: planCategory[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: threadStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: type[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: threadStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: threadStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: sourceType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: telephonyPartner[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: channel[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: parentChannelType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: recipientType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: qualifier[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: pipelineType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: visibility[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: transactionType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: type[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: pipelineItemType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: microSegment[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: jobStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: reviewApp[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: sentiment[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: sentimentTaggingStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: reviewApp[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: eventType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: itemType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: planCategory[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: sendingStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: source[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: imageSource[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: primaryAction[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: requestType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: visibility[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: range[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: jobType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: region[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: numberType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: jobType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: sourceType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: frequency[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: lastStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: format[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: granularity[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: writeMode[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: kind[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: editor[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: appName[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: inboxChannel[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: helpDeskType[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: emailEditor[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: status[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: range[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: threadStatus[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"failed to get respective type in datatypes for column: attributionModel[USER-DEFINED]"}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CreativeGenerationSession; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_dashboards; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VtexStores; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CohortReturnEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.DemoBotOnboardingLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MicrosegmentationProductInteractionJob; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_10; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition12; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationPromate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MobilePushBroadcastMsgQueue; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition6; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIMarketingGenerationSettings; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CheckoutOnWhatsApp; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WebPushConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BotEnvironment; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MetaAdAccountIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProductCoPurchase; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition7; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationSmileIO; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PlanItemAssociation; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InvoiceCredit; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition6; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactsList; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.EmbeddingQueryLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PromateEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_1; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyFulfillmentEvent; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HubSpotIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AISettings; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GorgiasConversations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationRazorpay; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RzpAutopayChargeRefund; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyStore; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition11; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GeneratedDiscountCodes; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition2; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CreativeGeneration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAnalytics; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GorgiasMessages; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartitioned; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LiveChatBotNode; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingPlan; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZohoCRMIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaBotContext; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition7; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RzpAutopayCharge; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition13; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition3; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.TrustSignalExternalMessageIdMapping; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCollection; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SuppressionList; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZendeskConversations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VtexProducts; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationBluedart; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootWebhooks; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MailConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MicrosegmentMapping; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_conversations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BotNode; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BotExecutionLogWA; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LoopEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LiveChatReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyReturn; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZendeskIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GoogleCustomerMatchUserList; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_12; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.DepositTransactions; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SIPDeletionLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FreshChatConversations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartitioned; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootSMTPRequest; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Segment; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactListExportToCSDBLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PostscriptIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition5; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationLeadSquared; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIContentPipeline; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WebPushBroadcastMsgQueue; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CompetitorConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition5; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BankTransfer; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.OfflineOrderDetails; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaBotNode; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaBotExecutionLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AttributionSettings; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MicroSegmentationJobs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HubSpotMessages; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaPosts; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SupportAttributedOrders; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Invoice; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PopupHtml; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyDraftOrder; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShipRocketEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MobilePushBatchError; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition10; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VoiceBotContext; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.EcoReturnsEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VtexOrders; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition9; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_8; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition4; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MessageUsageCache; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition2; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AppointlyEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FreshChatMessages; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition3; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IVRIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HubspotShopUrlMapping; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VelocityEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FBBotExecutionLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BotFormEntry; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_playbook_entries; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.YotpoEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WebPushReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VtexCheckouts; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SinchNumberProvisioning; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PlatformFeeCharge; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ReamazeMessages; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCustomerTag; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShipDayEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCharge; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MobilePushReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MonthlyUsage; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.DelhiveryEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.NectorIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LoyaltyPointsTransactions; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MarketingAgentLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_0; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationDosha; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RAGSyncLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IthinkEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition4; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyProduct; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.TemplateRelations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProductFeed; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AttributionMetadata; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MarketingCampaignSession; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingAuditLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CompetitorAppLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition15; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Analytics2; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.StoreMarketingProfile; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AppEventLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WaReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PopinIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PlanItem; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyUsageCharge; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LiveChatBotExecutionLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FBBotConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartitioned; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.TemplateMigrationStatus360D; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIProductSearchLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Journey; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VoiceBotOnboardingLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ClickpostEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.JobsManager; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaBotFormEntry; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIEnvironment; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CallReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZohoSignAgreementLink; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MetaCustomAudience; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProcessedAnalyticsEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PlanFeature; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationVelocity; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootShop; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZohoSignRequest; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition11; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyDiscount; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PopupTemplateLibrary; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CustomerJourney; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BroadcastPerformanceCache; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Usage; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition12; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AISearchableProduct; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootMessages; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WebPushBatchError; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_15; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.StappRewardPoints; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaBotConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition14; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationXpressbees; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZendeskWebhooks; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaBotFlow; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AgreementModalShopSetting; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SegmentQueryMigration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CheckoutProductContactInteraction; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationReturnPrime; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_dashboard_cards; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ReamazeConversations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.NitroCustomer; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PlatformFeeChargeBackup; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition0; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopAggregateData; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_dashboard_tabs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VoiceCallAnalysis; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_cards; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SmsReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition14; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Block; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_4; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition0; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.KnowlarityEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RazorpayRefundEvent; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.TrialEventLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MailReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AutopayTransaction; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FollowUpBroadcast; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GoogleAdAccountIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationFreshSales; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.QuickReturnEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Analytics; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition12; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition10; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VoiceCallAnalysisMember; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition1; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GorgiasWebhooks; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationNector; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition2; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GoogleAdAccount; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingNotificationLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition7; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PopinEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyRefund; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FreshChatWebhooks; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CustomerJourneyAnalytics; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ImpressionsAndConversions; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PreSalesLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationKlaviyo; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MetaCustomAudienceSource; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyRecurringApplicationCharge; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SessionRevocation; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationNitroX; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VoiceBotCampaigns; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationShipfast; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PersonalisedBroadcastRecipients; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HubSpotWebhooks; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.JuspayAutopayConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationLoyaltyApps; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CustomerJourneyBlockNew; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BotConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CompetitorEmailContent; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PostscriptEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AdityaBirlaLoyaltyEvent; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationQuickReturn; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AutopayChargeRequest; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition3; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_6; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.USDMonthlyExchangeRate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VapiConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WalletNormalisationJob; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_9; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_3; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WaBatchError; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RCSConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CustomDiscountLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition14; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_7; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FBBotNode; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_5; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ExternalUserAccess; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BolnaConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.NectorEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LiveChatBotFormEntry; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIVoiceCallTags; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.DbCredentialStore; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopAnalyticsCache; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AgentActionReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ToolExecutionLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PayWall; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WebPushSubscription; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RAGOnboarding; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CartProductContactInteraction; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CalendlyEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HubSpotConversations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopContactAttributes; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RagSearchLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.JourneyMessagingSubscriptions; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.TarsInteraction; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.JuspayAutopayCharge; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_2; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition4; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationHulkForms; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BotContext; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LiveChatBotConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCheckout; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProductFeedCondition; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationIthink; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CustomEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.UsageBlock; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopSubscriptions; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WaConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RCSReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FreshChatIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.JourneyRetryConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MarketingCampaign; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CatalogSettings; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.DbL1TablePermission; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_query_history; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BluedartEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingPageVisitLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationAttentive; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyBrowserSession; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PaymentConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_14; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition5; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WalletTransaction; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FailedTSTemplatesQueue; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingAddress; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCustomer; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProductViewedContactInteraction; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZipcodeDirectory; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition11; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RazorpayUnifiedSessionContactMapping; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyBulkJob; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WebsiteDataSync; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HelpDeskIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition15; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition1; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LiveChatBotContext; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MobilePushConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIResponseAnalytics; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InvoiceLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HubSpotCommunicationLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PragmaEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProviewsIntegrations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ExternalReviewImports; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition0; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InstaProxy; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RzpPaymentLink; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ReamazeIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProductFeedItem; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CohortFirstEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.OrderDeliveryDate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FBBotContext; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingBreakupUpdationJob; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition15; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition8; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ReamazeWebhooks; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AISearchProducts; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CohortConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ProShipEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyOrder; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.TrustsignalTemplateMigrationStatus; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SmsConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AttributedOrders; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ClickToWaAds; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GoogleCustomerMatchUserListSource; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public._prisma_migrations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ZendeskMessages; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VoiceCallTag; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RFMDataRaw; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CompetitorAggregateData; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition13; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationShipDelight; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.UsageRawData; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BroadcastTag; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition10; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MarketingAgentIdea; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BolnaAgentConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WebPushTemplate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIContentLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCustomApp; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.XpressbeesEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WeeklyDataDumpSettings; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatbotQueryLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition8; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationShipDay; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.JuspayWebhookLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingAPIPrivateKey; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MailTemplateLibrary; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CODOrderStatus; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RFMScores; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.UserSubscription; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingBreakupJob; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Pronunciations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RazorpayUnifiedSessionBrowserEventMapping; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootConversations; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RCSTemplate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.PreviousDids; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.JuspayAutopayChargeRefund; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIContentPipelineItem; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition1; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MsgFailureQueue; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChannelSubscriptionPartition9; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition8; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.VoiceBotConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Broadcast; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GorgiasIntegration; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RzpAutopayConfig; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.TrustsignalWaTemplate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CallLogAnalysis; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_users; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.UsageLog; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.DbUserRegistry; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationPragma; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootInboxes; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition6; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationEshipz; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.UsageCreditBalance; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationClickpost; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.DoshaEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CompetitorAppStatus; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationCalendly; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntentLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.HulkFormsEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InboundCallRating; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ds_table_configs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_11; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ReturnPrimeEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationDelhivery; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactWaitList; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.Currencies; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WaTemplate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BroadcastRecipient; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyFulfillment; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.UpsellDownsellEntry; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SuppressionListEntry; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.WaBroadcastMsgQueue; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MarketingAgentReport; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InternalAuthEmailShopAccess; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MetaAdAccount; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MailTemplate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.LiveChatBotFlow; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BotFlow; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.awsdms_heartbeat; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIQueryLogs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.SmsTemplate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIConversation; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.MobilePushTemplate; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationProship; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShipDelightEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AnalyticsPartitioned_13; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.RFMSegment; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.CronJobs; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.BillingHistory; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCollectionMembership; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.awsdms_ddl_audit; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.StoreProductPurchaseAnalytics; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactPartition9; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyCart; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.IntegrationEcoReturns; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.FBBotFlow; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShipfastEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ChatwootTemplates; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ShopifyProductVariant; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.GoogleOfflineUserDataJob; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ContactAttributePartition13; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.InternalAuthOtp; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.ExternalReviewProductMapping; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.AIIntent; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.EshipzEvents; not in selected streams."}
+{"level":"debug","time":"2026-08-09T12:30:00Z","message":"Skipping stream public.UsageBlockCreditBalance; not in selected streams."}
+{"level":"info","time":"2026-08-09T12:30:00Z","message":"Valid selected streams are public.CallLog, public.SegmentMember, public.ContactListMember, public.SegmentMember2"}
+{"level":"info","time":"2026-08-09T12:30:00Z","message":"Iceberg JAR file found in base directory: /home/olake-iceberg-java-writer.jar"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:01.814 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Logs will be output to console only","time":"2026-08-09T12:30:01Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:02.693 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] \tfrom.field = null","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] ","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:02.694 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] \tfrom.field = null","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] ","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:02.842 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Legacy writer enabled - registered OlakeRowsIngester service","time":"2026-08-09T12:30:02Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:02.996 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Server started on port 50051 with max message size: 1024MB","time":"2026-08-09T12:30:02Z"}
+{"level":"info","time":"2026-08-09T12:30:02Z","message":"Thread[test_iceberg_destination]: Connected to new iceberg writer on port 50051"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:03.176 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.io.ResolvingFileIO","time":"2026-08-09T12:30:03Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:03.742 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Refreshing table metadata from new version: s3://iceonnitish/test_olake.db/test_olake/metadata/00000-209fc6bc-3cd8-4f2e-a3eb-3d86818f6717.metadata.json","time":"2026-08-09T12:30:03Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:03.746 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.aws.s3.S3FileIO","time":"2026-08-09T12:30:03Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:04.081 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreCatalog - Table loaded by catalog: olake_iceberg.test_olake.test_olake","time":"2026-08-09T12:30:04Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:04.092 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961761182510221] Successfully returned iceberg table test_olake","time":"2026-08-09T12:30:04Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:04.092 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961761182510221] Total time taken: 939 ms","time":"2026-08-09T12:30:04Z"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"Thread[test_iceberg_destination]: table created or loaded test olake: table {\n  1: data: optional string\n  2: _cdc_timestamp: optional timestamptz\n  3: _olake_timestamp: optional timestamptz\n  4: _op_type: optional string\n  5: _olake_id: optional string\n}"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:04.394 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 1 events for thread: test_iceberg_destination","time":"2026-08-09T12:30:04Z"}
+{"level":"info","message":"Thread[test_iceberg_destination:50051] 12:30:04.395 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961762136355193] Total time taken: 289 ms","time":"2026-08-09T12:30:04Z"}
+{"level":"debug","time":"2026-08-09T12:30:04Z","message":"Thread[test_iceberg_destination]: record inserted successfully: successfully pushed records: 1"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"Thread[test_iceberg_destination]: shutting down Iceberg server on port 50051"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"SystemID:7472573296356080538 Timeline:1 XLogPos:292CA/E4F9B9F0 Database:production"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"backfill completed for stream[public.CallLog], skipping"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"backfill completed for stream[public.SegmentMember], skipping"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"backfill completed for stream[public.ContactListMember], skipping"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"backfill completed for stream[public.SegmentMember2], skipping"}
+{"level":"info","time":"2026-08-09T12:30:04Z","message":"Iceberg JAR file found in base directory: /home/olake-iceberg-java-writer.jar"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:05.533 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Logs will be output to console only","time":"2026-08-09T12:30:05Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:05.587 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Adding partition field: createdat with transform: month","time":"2026-08-09T12:30:05Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:05.587 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Adding partition field: shopurl with transform: bucket[32]","time":"2026-08-09T12:30:05Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:06.403 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tfrom.field = null","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] ","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:06.404 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tfrom.field = null","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] ","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:06.552 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Legacy writer enabled - registered OlakeRowsIngester service","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:06.707 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Server started on port 50052 with max message size: 1024MB","time":"2026-08-09T12:30:06Z"}
+{"level":"info","time":"2026-08-09T12:30:06Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: Connected to new iceberg writer on port 50052"}
+{"level":"info","time":"2026-08-09T12:30:06Z","message":"Creating destination table [calllog] in Iceberg database [iceberg_mod_public] for stream [CallLog]"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:06.893 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.io.ResolvingFileIO","time":"2026-08-09T12:30:06Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:07.387 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Refreshing table metadata from new version: s3://iceonnitish/iceberg_mod_public.db/calllog/metadata/31333-3782a95e-227d-41d4-a270-efa15669e910.metadata.json","time":"2026-08-09T12:30:07Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:07.391 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.aws.s3.S3FileIO","time":"2026-08-09T12:30:07Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:07.793 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreCatalog - Table loaded by catalog: olake_iceberg.iceberg_mod_public.calllog","time":"2026-08-09T12:30:07Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:07.810 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961764896854153] Successfully returned iceberg table calllog","time":"2026-08-09T12:30:07Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:07.810 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961764896854153] Total time taken: 943 ms","time":"2026-08-09T12:30:07Z"}
+{"level":"info","time":"2026-08-09T12:30:07Z","message":"Iceberg JAR file found in base directory: /home/olake-iceberg-java-writer.jar"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:08.916 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Logs will be output to console only","time":"2026-08-09T12:30:08Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:08.972 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Adding partition field: segmentid with transform: bucket[36]","time":"2026-08-09T12:30:08Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:09.802 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] \tfrom.field = null","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] ","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:09.803 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] \tfrom.field = null","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] ","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:09.950 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Legacy writer enabled - registered OlakeRowsIngester service","time":"2026-08-09T12:30:09Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:10.107 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Server started on port 50053 with max message size: 1024MB","time":"2026-08-09T12:30:10Z"}
+{"level":"info","time":"2026-08-09T12:30:10Z","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP]: Connected to new iceberg writer on port 50053"}
+{"level":"info","time":"2026-08-09T12:30:10Z","message":"Creating destination table [segmentmember] in Iceberg database [iceberg_mod_public] for stream [SegmentMember]"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:10.290 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.io.ResolvingFileIO","time":"2026-08-09T12:30:10Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:10.776 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Refreshing table metadata from new version: s3://iceonnitish/iceberg_mod_public.db/segmentmember/metadata/17022-eedbe591-0247-45ca-91d5-4b3e822f91bd.metadata.json","time":"2026-08-09T12:30:10Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:10.780 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.aws.s3.S3FileIO","time":"2026-08-09T12:30:10Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:11.182 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreCatalog - Table loaded by catalog: olake_iceberg.iceberg_mod_public.segmentmember","time":"2026-08-09T12:30:11Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:11.193 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961768296275793] Successfully returned iceberg table segmentmember","time":"2026-08-09T12:30:11Z"}
+{"level":"info","message":"Thread[public.SegmentMember_01KZK80YY88TRJYHF4S7VSAKTP:50053] 12:30:11.193 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961768296275793] Total time taken: 927 ms","time":"2026-08-09T12:30:11Z"}
+{"level":"info","time":"2026-08-09T12:30:11Z","message":"Iceberg JAR file found in base directory: /home/olake-iceberg-java-writer.jar"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:12.200 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Logs will be output to console only","time":"2026-08-09T12:30:12Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:12.253 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Adding partition field: contactlistid with transform: bucket[32]","time":"2026-08-09T12:30:12Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:13.066 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] \tfrom.field = null","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] ","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:13.067 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] \tfrom.field = null","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] ","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:13.210 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Legacy writer enabled - registered OlakeRowsIngester service","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:13.367 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Server started on port 50054 with max message size: 1024MB","time":"2026-08-09T12:30:13Z"}
+{"level":"info","time":"2026-08-09T12:30:13Z","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J]: Connected to new iceberg writer on port 50054"}
+{"level":"info","time":"2026-08-09T12:30:13Z","message":"Creating destination table [contactlistmember] in Iceberg database [iceberg_mod_public] for stream [ContactListMember]"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:13.554 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.io.ResolvingFileIO","time":"2026-08-09T12:30:13Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:14.097 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Refreshing table metadata from new version: s3://iceonnitish/iceberg_mod_public.db/contactlistmember/metadata/30478-abd9236a-ea19-4eba-9cf7-81e52811609b.metadata.json","time":"2026-08-09T12:30:14Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:14.101 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.aws.s3.S3FileIO","time":"2026-08-09T12:30:14Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:14.497 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreCatalog - Table loaded by catalog: olake_iceberg.iceberg_mod_public.contactlistmember","time":"2026-08-09T12:30:14Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:14.510 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961771560054158] Successfully returned iceberg table contactlistmember","time":"2026-08-09T12:30:14Z"}
+{"level":"info","message":"Thread[public.ContactListMember_01KZK81280D1WK58JSDH70528J:50054] 12:30:14.510 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961771560054158] Total time taken: 980 ms","time":"2026-08-09T12:30:14Z"}
+{"level":"info","time":"2026-08-09T12:30:14Z","message":"Iceberg JAR file found in base directory: /home/olake-iceberg-java-writer.jar"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:15.492 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Logs will be output to console only","time":"2026-08-09T12:30:15Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:15.545 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Adding partition field: segmentid with transform: bucket[42]","time":"2026-08-09T12:30:15Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:16.351 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] \tfrom.field = null","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] ","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:16.351 [main] INFO  io.debezium.serde.json.JsonSerdeConfig - JsonSerdeConfig values: ","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] \tfrom.field = null","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] \tunknown.properties.ignored = false","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] ","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:16.494 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Legacy writer enabled - registered OlakeRowsIngester service","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:16.647 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Server started on port 50055 with max message size: 1024MB","time":"2026-08-09T12:30:16Z"}
+{"level":"info","time":"2026-08-09T12:30:16Z","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN]: Connected to new iceberg writer on port 50055"}
+{"level":"info","time":"2026-08-09T12:30:16Z","message":"Creating destination table [segmentmember2] in Iceberg database [iceberg_mod_public] for stream [SegmentMember2]"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:16.827 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.io.ResolvingFileIO","time":"2026-08-09T12:30:16Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:17.376 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Refreshing table metadata from new version: s3://iceonnitish/iceberg_mod_public.db/segmentmember2/metadata/07738-e8dc02bb-7177-4f63-b300-8f26a2564b73.metadata.json","time":"2026-08-09T12:30:17Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:17.379 [grpc-default-executor-0] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.aws.s3.S3FileIO","time":"2026-08-09T12:30:17Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:18.249 [grpc-default-executor-0] INFO  org.apache.iceberg.BaseMetastoreCatalog - Table loaded by catalog: olake_iceberg.iceberg_mod_public.segmentmember2","time":"2026-08-09T12:30:18Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:18.262 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961774832939109] Successfully returned iceberg table segmentmember2","time":"2026-08-09T12:30:18Z"}
+{"level":"info","message":"Thread[public.SegmentMember2_01KZK815FMPQA9Q5142J9TTPAN:50055] 12:30:18.262 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961774832939109] Total time taken: 1459 ms","time":"2026-08-09T12:30:18Z"}
+{"level":"info","time":"2026-08-09T12:30:18Z","message":"pgoutput starting from lsn=29261/3D26CBF8 target=292CB/96DD250"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:30.860 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2287 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:30:30Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:30.861 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961787357245965] Total time taken: 1534 ms","time":"2026-08-09T12:30:30Z"}
+{"level":"debug","time":"2026-08-09T12:30:30Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2287"}
+{"level":"info","time":"2026-08-09T12:30:30Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2287 records"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:42.178 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2282 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:30:42Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:30:42.179 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961799781782916] Total time taken: 427 ms","time":"2026-08-09T12:30:42Z"}
+{"level":"debug","time":"2026-08-09T12:30:42Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2282"}
+{"level":"info","time":"2026-08-09T12:30:42Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2282 records"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:01.623 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2336 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:31:01Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:01.623 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961819222193769] Total time taken: 431 ms","time":"2026-08-09T12:31:01Z"}
+{"level":"debug","time":"2026-08-09T12:31:01Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2336"}
+{"level":"info","time":"2026-08-09T12:31:01Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2336 records"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:19.303 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2356 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:31:19Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:19.304 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961837004320547] Total time taken: 330 ms","time":"2026-08-09T12:31:19Z"}
+{"level":"debug","time":"2026-08-09T12:31:19Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2356"}
+{"level":"info","time":"2026-08-09T12:31:19Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2356 records"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:37.937 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2236 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:31:37Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:37.938 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961855622473894] Total time taken: 345 ms","time":"2026-08-09T12:31:37Z"}
+{"level":"debug","time":"2026-08-09T12:31:37Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2236"}
+{"level":"info","time":"2026-08-09T12:31:37Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2236 records"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:54.951 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2247 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:31:54Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:31:54.951 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961872587835547] Total time taken: 393 ms","time":"2026-08-09T12:31:54Z"}
+{"level":"debug","time":"2026-08-09T12:31:54Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2247"}
+{"level":"info","time":"2026-08-09T12:31:54Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2247 records"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:32:27.904 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2349 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:32:27Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:32:27.905 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961905467822317] Total time taken: 467 ms","time":"2026-08-09T12:32:27Z"}
+{"level":"debug","time":"2026-08-09T12:32:27Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2349"}
+{"level":"info","time":"2026-08-09T12:32:27Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2349 records"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:33:11.661 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully wrote 2212 events for thread: public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99","time":"2026-08-09T12:33:11Z"}
+{"level":"info","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] 12:33:11.662 [grpc-default-executor-0] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-31-2961949348421070] Total time taken: 343 ms","time":"2026-08-09T12:33:11Z"}
+{"level":"debug","time":"2026-08-09T12:33:11Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: sent batch to Iceberg server, response: successfully pushed records: 2212"}
+{"level":"info","time":"2026-08-09T12:33:11Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99]: successfully wrote 2212 records"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] LogManager error of type WRITE_FAILURE: Handler publication threw an exception"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] java.lang.reflect.UndeclaredThrowableException"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] Caused by: java.lang.NoSuchMethodError: 'void org.jboss.logmanager.formatters.StackTraceFormatter.renderStackTrace(java.lang.StringBuilder, java.lang.Throwable, boolean, int)'"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.formatters.Formatters.doExceptionFormatStep(Formatters.java:933)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.formatters.Formatters$18.renderRaw(Formatters.java:917)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.formatters.Formatters$JustifyingFormatStep.render(Formatters.java:227)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.formatters.MultistepFormatter.format(MultistepFormatter.java:90)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.ExtFormatter.format(ExtFormatter.java:58)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.handlers.WriterHandler.doPublish(WriterHandler.java:54)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.ExtHandler.publish(ExtHandler.java:88)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:438)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:480)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.Logger.logRaw(Logger.java:921)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat org.jboss.logmanager.Logger.log(Logger.java:665)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.grpc.netty.NettyServerStream$TransportState.deframeFailed(NettyServerStream.java:189)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.internal.AbstractStream$TransportState.deframe(AbstractStream.java:244)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.internal.AbstractServerStream$TransportState.inboundDataReceived(AbstractServerStream.java:277)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.grpc.netty.NettyServerStream$TransportState.inboundDataReceived(NettyServerStream.java:229)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler.onDataRead(NettyServerHandler.java:539)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler.access$900(NettyServerHandler.java:111)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.grpc.netty.NettyServerHandler$FrameListener.onDataRead(NettyServerHandler.java:918)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onDataRead(DefaultHttp2ConnectionDecoder.java:320)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger$1.onDataRead(Http2InboundFrameLogger.java:46)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readDataFrame(DefaultHttp2FrameReader.java:409)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:244)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:164)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger.readFrame(Http2InboundFrameLogger.java:39)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:186)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:391)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:451)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)"}
+{"level":"error","time":"2026-08-09T12:33:57Z","message":"Thread[public.CallLog_01KZK80VM4V1CXCVJRFSGQYC99:50052] \tat java.base/java.lang.Thread.run(Thread.java:840)"}
+{"level":"info","time":"2026-08-09T12:33:57Z","message":"retry attempt[1], retrying after 60.00 seconds due to err: failed to write records: failed to send batch: rpc error: code = ResourceExhausted desc = gRPC message exceeds maximum size 1073741824: 1359278013"}
+{"level":"info","time":"2026-08-09T12:34:57Z","message":"retry attempt[2], retrying after 120.00 seconds due to err: failed to start replication: unexpected response type: *pgproto3.CopyData"}

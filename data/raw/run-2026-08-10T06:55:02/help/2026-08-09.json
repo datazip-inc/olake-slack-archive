@@ -1,0 +1,680 @@
+[
+  {
+    "client_msg_id": "75332858-c461-4868-856a-7fa7ca7c2f24",
+    "type": "message",
+    "user": "U09NLNMAK1B",
+    "text": "```{\"level\":\"debug\",\"time\":\"2026-08-09T09:34:05Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: sent batch to Iceberg server, response: successfully pushed records: 306\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T09:34:05Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: successfully wrote 306 records\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:05.525 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-34-2951203554972590] Received commit request for thread: public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\",\"time\":\"2026-08-09T09:34:05Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:06.879 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Committing 13 data files and 13 delete files for thread: public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\",\"time\":\"2026-08-09T09:34:06Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:07.924 [grpc-default-executor-1] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Successfully committed to table olake_iceberg.iceberg_mod_public.segmentmember2 in 457 ms\",\"time\":\"2026-08-09T09:34:07Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:07.924 [grpc-default-executor-1] INFO  org.apache.iceberg.SnapshotProducer - Committed snapshot 7855686464676501021 (BaseRowDelta)\",\"time\":\"2026-08-09T09:34:07Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.091 [grpc-default-executor-1] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Refreshing table metadata from new version: \u003cs3://iceonnitish/iceberg_mod_public.db/segmentmember2/metadata/07727-34485458-e029-4d59-9c00-a8a0cc5c535b.metadata.json\u003e\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.365 [grpc-default-executor-1] INFO  org.apache.iceberg.metrics.LoggingMetricsReporter - Received metrics report: CommitReport{tableName=olake_iceberg.iceberg_mod_public.segmentmember2, snapshotId=7855686464676501021, sequenceNumber=7727, operation=overwrite, commitMetrics=CommitMetricsResult{totalDuration=TimerResult{timeUnit=NANOSECONDS, totalDuration=PT0.977623142S, count=1}, attempts=CounterResult{unit=COUNT, value=1}, addedDataFiles=CounterResult{unit=COUNT, value=13}, removedDataFiles=null, totalDataFiles=CounterResult{unit=COUNT, value=135812}, addedDeleteFiles=CounterResult{unit=COUNT, value=13}, addedEqualityDeleteFiles=CounterResult{unit=COUNT, value=13}, addedPositionalDeleteFiles=null, removedDeleteFiles=null, removedEqualityDeleteFiles=null, removedPositionalDeleteFiles=null, totalDeleteFiles=CounterResult{unit=COUNT, value=135764}, addedRecords=CounterResult{unit=COUNT, value=306}, removedRecords=null, totalRecords=CounterResult{unit=COUNT, value=1940799413}, addedFilesSizeInBytes=CounterResult{unit=BYTES, value=73602}, removedFilesSizeInBytes=null, totalFilesSizeInBytes=CounterResult{unit=BYTES, value=67303384638}, addedPositionalDeletes=null, removedPositionalDeletes=null, totalPositionalDeletes=CounterResult{unit=COUNT, value=86224613}, addedEqualityDeletes=CounterResult{unit=COUNT, value=306}, removedEqualityDeletes=null, totalEqualityDeletes=CounterResult{unit=COUNT, value=1104247064}}, metadata={iceberg-version=Apache Iceberg 1.7.2 (commit c4e11060db443b0f3e5b70d25e7784f5a8991ad2)}}\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.397 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully committed 13 data files and 13 delete files for thread: public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.397 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-34-2951203554972590] Total time taken: 2872 ms\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"debug\",\"time\":\"2026-08-09T09:34:08Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: Sent commit message: [Thread-34-2951203554972590] Successfully committed data for thread public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T09:34:08Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: shutting down Iceberg server on port 50055\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T09:34:08Z\",\"message\":\"Sync completed, wait 5 seconds cleanup in progress...\"}\n{\"level\":\"fatal\",\"time\":\"2026-08-09T09:34:13Z\",\"message\":\"error occurred while reading records: error occurred while waiting for connections: failed to insert cdc record of stream public.CallLog, insert func error: %!s(\u0026lt;nil\u0026gt;), thread error: failed to flush data while closing: failed to write records: failed to send batch: rpc error: code = ResourceExhausted desc = gRPC message exceeds maximum size 1073741824: 1359278013\"}```\nSync broke the first time with this error and all the subsequent syncs are breaking with this error\nIs there a way to increase the limit?\nFor context this column contains a lot of huge text dumps on our postgres instance, maybe that’s why it’s happening?",
+    "ts": "1786278012.649989",
+    "thread_ts": "1786278012.649989",
+    "reply_count": 8,
+    "reply_users": [
+      "U09NLNMAK1B",
+      "U0A9LUUNP43"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786278123.330509"
+      },
+      {
+        "user": "U09NLNMAK1B",
+        "ts": "1786279020.504549"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786279073.042619"
+      },
+      {
+        "user": "U09NLNMAK1B",
+        "ts": "1786279081.625699"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786279204.110219"
+      },
+      {
+        "user": "U09NLNMAK1B",
+        "ts": "1786279268.232659"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786279578.186279"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786286035.014109"
+      }
+    ],
+    "latest_reply": "1786286035.014109",
+    "files": [
+      {
+        "id": "F0BPVEX71Q8",
+        "created": 1786277668,
+        "timestamp": 1786277668,
+        "name": "Screenshot 2026-08-09 at 5.44.24 PM.png",
+        "title": "Screenshot 2026-08-09 at 5.44.24 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09NLNMAK1B",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 228786,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BPVEX71Q8/screenshot_2026-08-09_at_5.44.24___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BPVEX71Q8/download/screenshot_2026-08-09_at_5.44.24___pm.png",
+        "original_h": 521,
+        "original_w": 2344,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 80,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 107,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 160,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 213,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BPVEX71Q8-772c1a6cfa/screenshot_2026-08-09_at_5.44.24___pm_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 228,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BPVEX71Q8/screenshot_2026-08-09_at_5.44.24___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BPVEX71Q8-d62106618d",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      },
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XO0nG",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "{\"level\":\"debug\",\"time\":\"2026-08-09T09:34:05Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: sent batch to Iceberg server, response: successfully pushed records: 306\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T09:34:05Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: successfully wrote 306 records\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:05.525 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-34-2951203554972590] Received commit request for thread: public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\",\"time\":\"2026-08-09T09:34:05Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:06.879 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Committing 13 data files and 13 delete files for thread: public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\",\"time\":\"2026-08-09T09:34:06Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:07.924 [grpc-default-executor-1] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Successfully committed to table olake_iceberg.iceberg_mod_public.segmentmember2 in 457 ms\",\"time\":\"2026-08-09T09:34:07Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:07.924 [grpc-default-executor-1] INFO  org.apache.iceberg.SnapshotProducer - Committed snapshot 7855686464676501021 (BaseRowDelta)\",\"time\":\"2026-08-09T09:34:07Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.091 [grpc-default-executor-1] INFO  org.apache.iceberg.BaseMetastoreTableOperations - Refreshing table metadata from new version: "
+              },
+              {
+                "type": "link",
+                "url": "s3://iceonnitish/iceberg_mod_public.db/segmentmember2/metadata/07727-34485458-e029-4d59-9c00-a8a0cc5c535b.metadata.json"
+              },
+              {
+                "type": "text",
+                "text": "\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.365 [grpc-default-executor-1] INFO  org.apache.iceberg.metrics.LoggingMetricsReporter - Received metrics report: CommitReport{tableName=olake_iceberg.iceberg_mod_public.segmentmember2, snapshotId=7855686464676501021, sequenceNumber=7727, operation=overwrite, commitMetrics=CommitMetricsResult{totalDuration=TimerResult{timeUnit=NANOSECONDS, totalDuration=PT0.977623142S, count=1}, attempts=CounterResult{unit=COUNT, value=1}, addedDataFiles=CounterResult{unit=COUNT, value=13}, removedDataFiles=null, totalDataFiles=CounterResult{unit=COUNT, value=135812}, addedDeleteFiles=CounterResult{unit=COUNT, value=13}, addedEqualityDeleteFiles=CounterResult{unit=COUNT, value=13}, addedPositionalDeleteFiles=null, removedDeleteFiles=null, removedEqualityDeleteFiles=null, removedPositionalDeleteFiles=null, totalDeleteFiles=CounterResult{unit=COUNT, value=135764}, addedRecords=CounterResult{unit=COUNT, value=306}, removedRecords=null, totalRecords=CounterResult{unit=COUNT, value=1940799413}, addedFilesSizeInBytes=CounterResult{unit=BYTES, value=73602}, removedFilesSizeInBytes=null, totalFilesSizeInBytes=CounterResult{unit=BYTES, value=67303384638}, addedPositionalDeletes=null, removedPositionalDeletes=null, totalPositionalDeletes=CounterResult{unit=COUNT, value=86224613}, addedEqualityDeletes=CounterResult{unit=COUNT, value=306}, removedEqualityDeletes=null, totalEqualityDeletes=CounterResult{unit=COUNT, value=1104247064}}, metadata={iceberg-version=Apache Iceberg 1.7.2 (commit c4e11060db443b0f3e5b70d25e7784f5a8991ad2)}}\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.397 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully committed 13 data files and 13 delete files for thread: public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"info\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0:50055] 09:34:08.397 [grpc-default-executor-1] INFO  io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-34-2951203554972590] Total time taken: 2872 ms\",\"time\":\"2026-08-09T09:34:08Z\"}\n{\"level\":\"debug\",\"time\":\"2026-08-09T09:34:08Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: Sent commit message: [Thread-34-2951203554972590] Successfully committed data for thread public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T09:34:08Z\",\"message\":\"Thread[public.SegmentMember2_01KZJXQK2P9NFXCEJA7PQQJJV0]: shutting down Iceberg server on port 50055\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T09:34:08Z\",\"message\":\"Sync completed, wait 5 seconds cleanup in progress...\"}\n{\"level\":\"fatal\",\"time\":\"2026-08-09T09:34:13Z\",\"message\":\"error occurred while reading records: error occurred while waiting for connections: failed to insert cdc record of stream public.CallLog, insert func error: %!s(\u003cnil\u003e), thread error: failed to flush data while closing: failed to write records: failed to send batch: rpc error: code = ResourceExhausted desc = gRPC message exceeds maximum size 1073741824: 1359278013\"}"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sync broke the first time with this error and all the subsequent syncs are breaking with this error\nIs there a way to increase the limit?\nFor context this column contains a lot of huge text dumps on our postgres instance, maybe that’s why it’s happening?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-26/9785132681729_3f68689b6aeccb4d7106_72.png",
+      "first_name": "Nitish",
+      "real_name": "Nitish Gupta",
+      "display_name": "Nitish Gupta",
+      "team": "T0820LGJGRF",
+      "name": "nitishgupta",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "9a6c57ed-ef1c-473f-a7a4-67d033004098",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U09NLNMAK1B\u003e Thanks for raising the issue ,we will get back to you in soon regarding this issue.",
+    "ts": "1786278123.330509",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3CmWR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09NLNMAK1B"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for raising the issue ,we will get back to you in soon regarding this issue."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "34b77756-9072-4b19-b515-60ce67c0a812",
+    "type": "message",
+    "user": "U09NLNMAK1B",
+    "text": "Full logs of a new run that happened just now",
+    "ts": "1786279020.504549",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "files": [
+      {
+        "id": "F0BPVGCP96C",
+        "created": 1786279010,
+        "timestamp": 1786279010,
+        "name": "olake.log",
+        "title": "olake.log",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "text",
+        "pretty_type": "Plain Text",
+        "user": "U09NLNMAK1B",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 121959,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BPVGCP96C/olake.log",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BPVGCP96C/download/olake.log",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BPVGCP96C/olake.log",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BPVGCP96C-bddb50ab58",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BPVGCP96C/olake.log/edit",
+        "preview": "{\"level\":\"info\",\"time\":\"2026-08-09T12:30:00Z\",\"message\":\"Running sync with state: {\\\"type\\\":\\\"STREAM\\\",\\\"global\\\":{\\\"state\\\":{\\\"lsn\\\":\\\"29261/3D26CBF8\\\"},\\\"streams\\\":[\\\"public.CallLog\\\",\\\"public.SegmentMember\\\",\\\"public.SegmentMember2\\\",\\\"public.ContactListMember\\\"]},\\\"streams\\\":[{\\\"stream\\\":\\\"CallLog\\\",\\\"namespace\\\":\\\"public\\\",\\\"sync_mode\\\":\\\"\\\",\\\"state\\\":{\\\"chunks\\\":[]}},{\\\"stream\\\":\\\"SegmentMember\\\",\\\"namespace\\\":\\\"public\\\",\\\"sync_mode\\\":\\\"\\\",\\\"state\\\":{\\\"chunks\\\":[]}},{\\\"stream\\\":\\\"ContactListMember\\\",\\\"namespace\\\":\\\"public\\\",\\\"sync_mode\\\":\\\"\\\",\\\"state\\\":{\\\"chunks\\\":[]}},{\\\"stream\\\":\\\"SegmentMember2\\\",\\\"namespace\\\":\\\"public\\\",\\\"sync_mode\\\":\\\"\\\",\\\"state\\\":{\\\"chunks\\\":[]}}]}\"}\n{\"level\":\"info\",\"message\":\"Found CDC Configuration\",\"time\":\"2026-08-09T12:30:00Z\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T12:30:00Z\",\"message\":\"CDC initial wait time set to: 9999\"}\n{\"level\":\"debug\",\"time\":\"2026-08-09T12:30:00Z\",\"message\":\"replication slot[extraslot] with pluginType[pgoutput] found\"}\n{\"level\":\"info\",\"time\":\"2026-08-09T12:3...",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;info\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-08-09T12:30:00Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;Running sync with state: {\\\u0026quot;type\\\u0026quot;:\\\u0026quot;STREAM\\\u0026quot;,\\\u0026quot;global\\\u0026quot;:{\\\u0026quot;state\\\u0026quot;:{\\\u0026quot;lsn\\\u0026quot;:\\\u0026quot;29261/3D26CBF8\\\u0026quot;},\\\u0026quot;streams\\\u0026quot;:[\\\u0026quot;public.CallLog\\\u0026quot;,\\\u0026quot;public.SegmentMember\\\u0026quot;,\\\u0026quot;public.SegmentMember2\\\u0026quot;,\\\u0026quot;public.ContactListMember\\\u0026quot;]},\\\u0026quot;streams\\\u0026quot;:[{\\\u0026quot;stream\\\u0026quot;:\\\u0026quot;CallLog\\\u0026quot;,\\\u0026quot;namespace\\\u0026quot;:\\\u0026quot;public\\\u0026quot;,\\\u0026quot;sync_mode\\\u0026quot;:\\\u0026quot;\\\u0026quot;,\\\u0026quot;state\\\u0026quot;:{\\\u0026quot;chunks\\\u0026quot;:[]}},{\\\u0026quot;stream\\\u0026quot;:\\\u0026quot;SegmentMember\\\u0026quot;,\\\u0026quot;namespace\\\u0026quot;:\\\u0026quot;public\\\u0026quot;,\\\u0026quot;sync_mode\\\u0026quot;:\\\u0026quot;\\\u0026quot;,\\\u0026quot;state\\\u0026quot;:{\\\u0026quot;chunks\\\u0026quot;:[]}},{\\\u0026quot;stream\\\u0026quot;:\\\u0026quot;ContactListMember\\\u0026quot;,\\\u0026quot;namespace\\\u0026quot;:\\\u0026quot;public\\\u0026quot;,\\\u0026quot;sync_mode\\\u0026quot;:\\\u0026quot;\\\u0026quot;,\\\u0026quot;state\\\u0026quot;:{\\\u0026quot;chunks\\\u0026quot;:[]}},{\\\u0026quot;stream\\\u0026quot;:\\\u0026quot;SegmentMember2\\\u0026quot;,\\\u0026quot;namespace\\\u0026quot;:\\\u0026quot;public\\\u0026quot;,\\\u0026quot;sync_mode\\\u0026quot;:\\\u0026quot;\\\u0026quot;,\\\u0026quot;state\\\u0026quot;:{\\\u0026quot;chunks\\\u0026quot;:[]}}]}\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;info\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;Found CDC Configuration\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-08-09T12:30:00Z\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;info\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-08-09T12:30:00Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;CDC initial wait time set to: 9999\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;debug\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-08-09T12:30:00Z\u0026quot;,\u0026quot;message\u0026quot;:\u0026quot;replication slot[extraslot] with pluginType[pgoutput] found\u0026quot;}\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;level\u0026quot;:\u0026quot;info\u0026quot;,\u0026quot;time\u0026quot;:\u0026quot;2026-08-09T12:3...\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 805,
+        "lines_more": 800,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LJ5mk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Full logs of a new run that happened just now"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-26/9785132681729_3f68689b6aeccb4d7106_72.png",
+      "first_name": "Nitish",
+      "real_name": "Nitish Gupta",
+      "display_name": "Nitish Gupta",
+      "team": "T0820LGJGRF",
+      "name": "nitishgupta",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ada327df-6004-483c-bffa-522362802db8",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U09NLNMAK1B\u003e Thanks for the full logs can you also confirm which deployment mode you are currently using k8s ,docker or CLI ?",
+    "ts": "1786279073.042619",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/5BKY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09NLNMAK1B"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for the full logs can you also confirm which deployment mode you are currently using k8s ,docker or CLI ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3007fb3e-d94c-487a-85a6-71498091bd15",
+    "type": "message",
+    "user": "U09NLNMAK1B",
+    "text": "docker",
+    "ts": "1786279081.625699",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "71szJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "docker"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-26/9785132681729_3f68689b6aeccb4d7106_72.png",
+      "first_name": "Nitish",
+      "real_name": "Nitish Gupta",
+      "display_name": "Nitish Gupta",
+      "team": "T0820LGJGRF",
+      "name": "nitishgupta",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e3c8a262-fba2-444e-afe8-4933b4fa5a68",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U09NLNMAK1B\u003e could you please let us know whether this is a high priority blocker for your use case with OLake? This will help us prioritize it appropriately. Thanks",
+    "ts": "1786279204.110219",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PJnTt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09NLNMAK1B"
+              },
+              {
+                "type": "text",
+                "text": " could you please let us know whether this is a high priority blocker for your use case with OLake? This will help us prioritize it appropriately. Thanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f29f35f1-90b2-46fd-97e0-3a64b851f734",
+    "type": "message",
+    "user": "U09NLNMAK1B",
+    "text": "Yes it’s a production table that had been running fine for the last 3-4 months, now I had to stop the sync from Olake leaving us with stale data at the source and we’d have to run slow queries on postgres until this is resolved",
+    "ts": "1786279268.232659",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aQkle",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes it’s a production table that had been running fine for the last 3-4 months, now I had to stop the sync from Olake leaving us with stale data at the source and we’d have to run slow queries on postgres until this is resolved"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-26/9785132681729_3f68689b6aeccb4d7106_72.png",
+      "first_name": "Nitish",
+      "real_name": "Nitish Gupta",
+      "display_name": "Nitish Gupta",
+      "team": "T0820LGJGRF",
+      "name": "nitishgupta",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f14692ae-730d-434c-90f1-65f7be526d3b",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U09NLNMAK1B\u003e Sure, we’ll get back to you as soon as possible. Sorry for the inconvenience.",
+    "ts": "1786279578.186279",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KcPl+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09NLNMAK1B"
+              },
+              {
+                "type": "text",
+                "text": " Sure, we’ll get back to you as soon as possible. Sorry for the inconvenience."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "43e30f31-623b-46f2-99c4-46906bf28341",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "Hey \u003c@U09NLNMAK1B\u003e, the current gRPC request limit in OLake is 1 GB, and 10K rows from the `CallLog` table are exceeding that limit. As a quick fix, could you please turn off this table or any large columns associated with it for now?",
+    "ts": "1786286035.014109",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SvMUy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U09NLNMAK1B"
+              },
+              {
+                "type": "text",
+                "text": ", the current gRPC request limit in OLake is 1 GB, and 10K rows from the "
+              },
+              {
+                "type": "text",
+                "text": "CallLog",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " table are exceeding that limit. As a quick fix, could you please turn off this table or any large columns associated with it for now?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

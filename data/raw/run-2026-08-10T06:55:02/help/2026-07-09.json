@@ -1,0 +1,905 @@
+[
+  {
+    "client_msg_id": "195e7baf-7894-40c6-ad95-c2d1db8551de",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi \u003c@U08S5BR47GA\u003e, just wanted to check if there's any update on this issue, as it will help us plan the next steps. Thanks!",
+    "ts": "1783591245.092369",
+    "thread_ts": "1783514459.093289",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FrWn3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              },
+              {
+                "type": "text",
+                "text": ", just wanted to check if there's any update on this issue, as it will help us plan the next steps. Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "acf872d8-ea17-4781-873b-83d355dff698",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U0A6088AMM3\u003e, we have figured out the issue and will be doing a release with the fix soon.\n Will notify you once release is done",
+    "ts": "1783591314.739909",
+    "thread_ts": "1783514459.093289",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A6088AMM3"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "heS5w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", we have figured out the issue and will be doing a release with the fix soon.\n Will notify you once release is done"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "da6d9c37-4c54-45ac-90e7-b7e255d631f2",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi \u003c@U0817E9CGRM\u003e, we have started the append-only Kafka ingestion job again. This time, however, compaction doesn't seem to be running for this table. Additionally, the table is not appearing under the *Optimizing* tab in Amoro.\nCould you please help us understand why the compaction isn't being triggered or if there's anything we should check on the Olake/Fusion/Iceberg side?",
+    "ts": "1783601779.710149",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BFSU7DXUP",
+        "created": 1783601220,
+        "timestamp": 1783601220,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 39182,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BFSU7DXUP/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BFSU7DXUP/download/image.png",
+        "original_h": 288,
+        "original_w": 1672,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 62,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 83,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 124,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 165,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BFSU7DXUP-ad9488712d/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 176,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BFSU7DXUP/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BFSU7DXUP-b07bb290ad",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0BH2KGMJQY",
+        "created": 1783601251,
+        "timestamp": 1783601251,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 35893,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BH2KGMJQY/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BH2KGMJQY/download/image.png",
+        "original_h": 761,
+        "original_w": 651,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BH2KGMJQY-3b770e41c7/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BH2KGMJQY-3b770e41c7/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BH2KGMJQY-3b770e41c7/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BH2KGMJQY-3b770e41c7/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 308,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BH2KGMJQY-3b770e41c7/image_480.png",
+        "thumb_480_w": 411,
+        "thumb_480_h": 480,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BH2KGMJQY-3b770e41c7/image_720.png",
+        "thumb_720_w": 616,
+        "thumb_720_h": 720,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BH2KGMJQY/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BH2KGMJQY-361fc4afa6",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0BG5126QJZ",
+        "created": 1783601276,
+        "timestamp": 1783601276,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 30490,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG5126QJZ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG5126QJZ/download/image.png",
+        "original_h": 387,
+        "original_w": 1663,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 84,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 112,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 168,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 223,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG5126QJZ-0ca3937513/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 238,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BG5126QJZ/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BG5126QJZ-c47d3fc2c2",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0BG22NQCD9",
+        "created": 1783601328,
+        "timestamp": 1783601328,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 62959,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG22NQCD9/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG22NQCD9/download/image.png",
+        "original_h": 437,
+        "original_w": 1720,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 91,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 122,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 183,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 244,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BG22NQCD9-53c1012ca9/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 260,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BG22NQCD9/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BG22NQCD9-21e8ec2a6a",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5fcNq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0817E9CGRM"
+              },
+              {
+                "type": "text",
+                "text": ", we have started the append-only Kafka ingestion job again. This time, however, compaction doesn't seem to be running for this table. Additionally, the table is not appearing under the "
+              },
+              {
+                "type": "text",
+                "text": "Optimizing",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " tab in Amoro.\nCould you please help us understand why the compaction isn't being triggered or if there's anything we should check on the Olake/Fusion/Iceberg side?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "61455afc-5c3b-4df6-a5dc-08462a0d34e5",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e could you please share logs of fusion pod?\nand the logs of fusion optimizer pod\nthanks",
+    "ts": "1783601950.560809",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uKGcd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " could you please share logs of fusion pod?\nand the logs of fusion optimizer pod\nthanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "07e82d53-5332-4e48-9af5-c3d2f8f76e40",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "ts": "1783604263.103829",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BG5D03J85",
+        "created": 1783604192,
+        "timestamp": 1783604192,
+        "name": "log_optimizer.txt",
+        "title": "log_optimizer.txt",
+        "mimetype": "application/octet-stream",
+        "image_exif_rotation": 0,
+        "filetype": "binary",
+        "pretty_type": "Binary",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 1481752,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG5D03J85/log_optimizer.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG5D03J85/download/log_optimizer.txt",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BG5D03J85/log_optimizer.txt",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BG5D03J85-556a04e5c7",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0BG2EJ3FHR",
+        "created": 1783604215,
+        "timestamp": 1783604215,
+        "name": "log_fusion2.txt",
+        "title": "log_fusion2.txt",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "text",
+        "pretty_type": "Plain Text",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 2988524,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG2EJ3FHR/log_fusion2.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BG2EJ3FHR/download/log_fusion2.txt",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BG2EJ3FHR/log_fusion2.txt",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BG2EJ3FHR-9bca00d6a1",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "48353b7a-72ab-4d39-83ac-3dd389241b8e",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e it seems table is not enabled for compaction, have you taken screenshot after refresh of page?\n\nAlso can you just try disabling it and reenabling back ?\n\nWhile doing this please check the fusion pod logs if you see any error.",
+    "ts": "1783618204.024929",
+    "thread_ts": "1782814367.632539",
+    "edited": {
+      "user": "U0817E9CGRM",
+      "ts": "1783618361.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GqM63",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " it seems table is not enabled for compaction, have you taken screenshot after refresh of page?\n\nAlso can you just try disabling it and reenabling back ?\n\nWhile doing this please check the fusion pod logs if you see any error."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0b9be289-fa79-4eb1-a170-bea5d8b478dd",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U0817E9CGRM\u003e Yes, the table is enabled for compaction. I also tried disabling it and enabling it again, but the compaction run still doesn't seem to be starting. I checked the Fusion pod logs during the process as well and couldn't find any related errors.",
+    "ts": "1783664097.864449",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BGBLVMBAR",
+        "created": 1783663938,
+        "timestamp": 1783663938,
+        "name": "log_fusion3.txt",
+        "title": "log_fusion3.txt",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "text",
+        "pretty_type": "Plain Text",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 4798586,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BGBLVMBAR/log_fusion3.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BGBLVMBAR/download/log_fusion3.txt",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BGBLVMBAR/log_fusion3.txt",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BGBLVMBAR-704f5547c7",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ko9a/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0817E9CGRM"
+              },
+              {
+                "type": "text",
+                "text": " Yes, the table is enabled for compaction. I also tried disabling it and enabling it again, but the compaction run still doesn't seem to be starting. I checked the Fusion pod logs during the process as well and couldn't find any related errors."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

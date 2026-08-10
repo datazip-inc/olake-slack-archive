@@ -1,0 +1,463 @@
+[
+  {
+    "client_msg_id": "84ff4fde-ae85-4a70-bec1-1713c0eadbf5",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "hello, I am trying to sync in CDC a collection in Mongo and I have selected the option to full sync and then CDC UPSERT. But what I find a bit strange is that i have multiple records in iceberg with the same identifier.\n```SELECT _id, count(*)\nFROM \"my_lab_table\"\nGROUP BY _id\nHAVING count(*) \u003e= 2```",
+    "ts": "1778617115.313729",
+    "edited": {
+      "user": "U0A9HSU0MNZ",
+      "ts": "1778617612.000000"
+    },
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U/f/W",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hello, I am trying to sync in CDC a collection in Mongo and I have selected the option to full sync and then CDC UPSERT. But what I find a bit strange is that i have multiple records in iceberg with the same identifier.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SELECT _id, count(*)\nFROM \"my_lab_table\"\nGROUP BY _id\nHAVING count(*) \u003e= 2"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ff265b94-59cb-47bf-81fe-5d61d71244fa",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "also the delete was not performed correctly (in the source the _id was deleted from the collection), while in Iceberg i have 2 entries (one with the real data and another one with all fields to null which corresponds to when the data was deleted). the _id is the primary key in mongo",
+    "ts": "1778617595.072469",
+    "thread_ts": "1778617595.072469",
+    "edited": {
+      "user": "U0A9HSU0MNZ",
+      "ts": "1778617652.000000"
+    },
+    "reply_count": 36,
+    "reply_users": [
+      "U0817E9CGRM",
+      "U082APQJZNC",
+      "U08CR7HUWDC",
+      "U08S5BR47GA",
+      "U0A9HSU0MNZ"
+    ],
+    "replies": [
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1778653556.055249"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1778924125.387269"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779091287.901259"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779091296.897269"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779091329.823699"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779091830.451929"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779091890.626819"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1779091918.559479"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779091920.252249"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779092006.302249"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1779092071.332749"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779092145.455339"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1779092349.741369"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779093116.382279"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779093154.130999"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1779093238.618599"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779093504.989199"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779916358.358169"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779916373.387279"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779916481.069259"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1779944456.646059"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779945422.809829"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779946990.763719"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779953310.925069"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779953330.780679"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779953391.507829"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779953906.261659"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779959504.163129"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779959608.077869"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779959615.156089"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1779972695.473109"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1779980527.912399"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1779990572.071849"
+      },
+      {
+        "user": "U0A9HSU0MNZ",
+        "ts": "1780002371.326019"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1780024289.736709"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1780078079.162539"
+      }
+    ],
+    "latest_reply": "1780078079.162539",
+    "files": [
+      {
+        "id": "F0B3BE8FWUE",
+        "created": 1778617515,
+        "timestamp": 1778617515,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A9HSU0MNZ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 144916,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B3BE8FWUE/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B3BE8FWUE/download/image.png",
+        "original_h": 964,
+        "original_w": 1876,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B3BE8FWUE-b29052f184/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B3BE8FWUE-b29052f184/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B3BE8FWUE-b29052f184/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B3BE8FWUE-b29052f184/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 185,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B3BE8FWUE-b29052f184/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 247,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B3BE8FWUE-b29052f184/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 370,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B3BE8FWUE/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B3BE8FWUE-f5aed2d303",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NNiXS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "also the delete was not performed correctly (in the source the _id was deleted from the collection), while in Iceberg i have 2 entries (one with the real data and another one with all fields to null which corresponds to when the data was deleted). the _id is the primary key in mongo"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 5
+  },
+  {
+    "client_msg_id": "71545da9-87f6-464c-bf28-67aefcc79115",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "Hi \u003c@U0A9HSU0MNZ\u003e, to help us debug this, could you please share:\n1. The `streams.json` file being used for this job.\n2. The output of `db.getCollection(\"my_lab_table\").getIndexes()` from your Mongo shell.\n",
+    "ts": "1778653556.055249",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PdoJk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": ", to help us debug this, could you please share:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The "
+                  },
+                  {
+                    "type": "text",
+                    "text": "streams.json",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " file being used for this job."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The output of "
+                  },
+                  {
+                    "type": "text",
+                    "text": "db.getCollection(\"my_lab_table\").getIndexes()",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " from your Mongo shell."
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

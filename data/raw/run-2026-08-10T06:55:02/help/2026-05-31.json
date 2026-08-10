@@ -1,0 +1,94 @@
+[
+  {
+    "client_msg_id": "119433a2-9d59-4836-a1a1-f80984ade5d5",
+    "type": "message",
+    "user": "U0A2LAUDQQ1",
+    "text": "Sorry for the delay. I've checked and looks like everything ok regarding to the last case with full refresh.\n\nAs far as I can tell it keeps the same table UUID. Correct?",
+    "ts": "1780235558.840639",
+    "thread_ts": "1779886900.789889",
+    "parent_user_id": "U0A2LAUDQQ1",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IUkFf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sorry for the delay. I've checked and looks like everything ok regarding to the last case with full refresh.\n\nAs far as I can tell it keeps the same table UUID. Correct?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-08/10088368734193_2b646785fb6bc7e7e84e_72.png",
+      "first_name": "Ruslan",
+      "real_name": "Ruslan Zhdan",
+      "display_name": "Ruslan Zhdan",
+      "team": "T0820LGJGRF",
+      "name": "zhd.ruslan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e5e36046-6d60-4f35-8951-0c73e6a51451",
+    "type": "message",
+    "user": "U0A2LAUDQQ1",
+    "text": "Probably you know during the performing full refresh table will be temporary unavailable?",
+    "ts": "1780235600.161839",
+    "thread_ts": "1779886900.789889",
+    "parent_user_id": "U0A2LAUDQQ1",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ho1dS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Probably you know during the performing full refresh table will be temporary unavailable?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-08/10088368734193_2b646785fb6bc7e7e84e_72.png",
+      "first_name": "Ruslan",
+      "real_name": "Ruslan Zhdan",
+      "display_name": "Ruslan Zhdan",
+      "team": "T0820LGJGRF",
+      "name": "zhd.ruslan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

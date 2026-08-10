@@ -1,0 +1,81 @@
+[
+  {
+    "client_msg_id": "a534ee13-2202-4af7-8fa8-256d59bd5b78",
+    "type": "message",
+    "user": "U0A8Y735340",
+    "text": "Hi everyone,\nWe've opened a GitHub Discussion on a proposed approach to improve Apache Iceberg interoperability in OLake Go.\nDiscussion: \u003chttps://github.com/datazip-inc/olake/discussions/1003\u003e\nThe proposal introduces support for writing upsert workloads using different Iceberg delete mechanisms (Equality Deletes, Position Deletes, and Deletion Vectors) while keeping a common ingestion workflow. The objective is to make OLake Go compatible with a broader set of Iceberg catalogs and query engines.\nThe discussion covers:\n* The interoperability problem we're trying to solve.\n* The proposed changelog → main table architecture.\n* Whether users should configure the delete type directly or whether OLake Go should derive it based on the selected query engine.\n* The proposed UI and user experience.\nWe'd appreciate your thoughts on the overall approach, potential edge cases, implementation concerns, or any alternative ideas that could make this design better. Any feedback from your experience building or operating Iceberg workloads would be valuable.",
+    "ts": "1782371404.784289",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 3,
+        "users": [
+          "U082APQJZNC",
+          "U0820LSJZRP",
+          "U08SX0RU9FX"
+        ]
+      },
+      {
+        "name": "tada",
+        "count": 3,
+        "users": [
+          "U09M3J4D5JP",
+          "U0AV7LLUL86",
+          "U08RZQ547LJ"
+        ]
+      },
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U09M3J4D5JP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OjRdL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone,\nWe've opened a GitHub Discussion on a proposed approach to improve Apache Iceberg interoperability in OLake Go.\nDiscussion: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/discussions/1003"
+              },
+              {
+                "type": "text",
+                "text": "\nThe proposal introduces support for writing upsert workloads using different Iceberg delete mechanisms (Equality Deletes, Position Deletes, and Deletion Vectors) while keeping a common ingestion workflow. The objective is to make OLake Go compatible with a broader set of Iceberg catalogs and query engines.\nThe discussion covers:\n* The interoperability problem we're trying to solve.\n* The proposed changelog → main table architecture.\n* Whether users should configure the delete type directly or whether OLake Go should derive it based on the selected query engine.\n* The proposed UI and user experience.\nWe'd appreciate your thoughts on the overall approach, potential edge cases, implementation concerns, or any alternative ideas that could make this design better. Any feedback from your experience building or operating Iceberg workloads would be valuable."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-25/11442579204982_728b97d1d93f2cdc455f_72.jpg",
+      "first_name": "Siddharth",
+      "real_name": "Siddharth Chevella",
+      "display_name": "Siddharth",
+      "team": "T0820LGJGRF",
+      "name": "siddharth",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

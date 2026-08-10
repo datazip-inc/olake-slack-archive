@@ -1,0 +1,129 @@
+[
+  {
+    "client_msg_id": "a5e64f7e-f1f1-4031-b4d4-2b99cf97f271",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0BKJ1W8V0A\u003e quick summary of internal feedbacks,\n1. Probably we need to work on understanding the issue better rather than start coding on them right away. Better to discuss about few things if you are not sure about things. Ex, PR where Duke has commented.\n2. If AI is being used, please do the self-review. Testing properly by running the sync. Also consider all scenarios that might occur. (Attach atleast one video evidence to the PR that if its working on real sync (debugger or something else))",
+    "ts": "1785854845.229909",
+    "thread_ts": "1785653214.020649",
+    "edited": {
+      "user": "U082APQJZNC",
+      "ts": "1785854876.000000"
+    },
+    "parent_user_id": "U0BKJ1W8V0A",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kkjCD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BKJ1W8V0A"
+              },
+              {
+                "type": "text",
+                "text": " quick summary of internal feedbacks,\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Probably we need to work on understanding the issue better rather than start coding on them right away. Better to discuss about few things if you are not sure about things. Ex, PR where Duke has commented."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "If AI is being used, please do the self-review. Testing properly by running the sync. Also consider all scenarios that might occur. (Attach atleast one video evidence to the PR that if its working on real sync (debugger or something else))"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b8468bbb-e7ec-449e-b6fc-abdbfc04ed3d",
+    "type": "message",
+    "user": "U0BKJ1W8V0A",
+    "text": "Thanks for the feedback,  i will take care of this",
+    "ts": "1785855580.825439",
+    "thread_ts": "1785653214.020649",
+    "parent_user_id": "U0BKJ1W8V0A",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1v4Q2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks for the feedback,  i will take care of this"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/db084cfba6abc8f2d31717d33552b897.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "Krishanu",
+      "real_name": "Krishanu",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "krishanu1137",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

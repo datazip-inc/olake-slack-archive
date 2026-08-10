@@ -1,0 +1,479 @@
+[
+  {
+    "client_msg_id": "9b2ffe96-cc34-4fcc-908d-0a6fbbadbac9",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "can we have a call at 4? \u003c@U0A6088AMM3\u003e",
+    "ts": "1783668014.749599",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qFbnB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "can we have a call at 4? "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "89252db6-6fdb-4491-aecb-b6f7ddf8e972",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U0817E9CGRM\u003e Yes sure!",
+    "ts": "1783669724.517619",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6Liqc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0817E9CGRM"
+              },
+              {
+                "type": "text",
+                "text": " Yes sure!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e338635f-6e5d-4ad9-a2f8-602715dee411",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e here is the link : \u003chttps://meet.google.com/fhs-ekdb-spo|meet.google.com/fhs-ekdb-spo\u003e",
+    "ts": "1783679433.015949",
+    "thread_ts": "1782814367.632539",
+    "attachments": [
+      {
+        "fallback": "Meet",
+        "id": 1,
+        "title": "Meet",
+        "title_link": "https://meet.google.com/fhs-ekdb-spo",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "service_name": "meet.google.com",
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "from_url": "https://meet.google.com/fhs-ekdb-spo",
+        "original_url": "https://meet.google.com/fhs-ekdb-spo",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YhyKe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " here is the link : "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/fhs-ekdb-spo",
+                "text": "meet.google.com/fhs-ekdb-spo"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d668f596-6947-410a-ae93-e7a3809c5757",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Joining..",
+    "ts": "1783679522.868039",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cFtsJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Joining.."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9ff3bb1c-329e-44ef-8ffc-653f80b48e6b",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "ts": "1783680501.773389",
+    "thread_ts": "1782814367.632539",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BHB394SNL",
+        "created": 1783680495,
+        "timestamp": 1783680495,
+        "name": "job-1-logs-2026-07-08-10-52-01.tar.gz",
+        "title": "job-1-logs-2026-07-08-10-52-01.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 17462,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BHB394SNL/job-1-logs-2026-07-08-10-52-01.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BHB394SNL/download/job-1-logs-2026-07-08-10-52-01.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BHB394SNL/job-1-logs-2026-07-08-10-52-01.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BHB394SNL-53f981b1b6",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "66ae7f25-021e-46ed-a52e-e81e1d6f563f",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A6088AMM3\u003e this is same error that is being discussed here\u003chttps://getolake.slack.com/archives/C081MV728N7/p1783514459093289|https://getolake.slack.com/archives/C081MV728N7/p1783514459093289\u003e\nThe issue is with gcp.\nwe will release a fix for it.",
+    "ts": "1783682950.353119",
+    "thread_ts": "1782814367.632539",
+    "attachments": [
+      {
+        "fallback": "[July 8th, 2026 5:40 AM] avinash.kumar2: Hi team,\nWe're running a Full Refresh + CDC sync from MySQL at 1-minute frequency, using Lakekeeper (REST catalog) with GCS storage via HMAC keys, warehouse flavor set to `s3-compat`.\nFull Refresh completed successfully, and the first few CDC syncs ran fine too — but some recent CDC jobs have started failing.\nAttached the logs for reference.\nThanks!",
+        "id": 1,
+        "author_id": "U0A6088AMM3",
+        "author_name": "Avinash Kumar 2",
+        "author_subname": "Avinash Kumar 2",
+        "author_link": "https://getolake.slack.com/team/U0A6088AMM3",
+        "author_icon": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_48.png",
+        "text": "Hi team,\nWe're running a Full Refresh + CDC sync from MySQL at 1-minute frequency, using Lakekeeper (REST catalog) with GCS storage via HMAC keys, warehouse flavor set to `s3-compat`.\nFull Refresh completed successfully, and the first few CDC syncs ran fine too — but some recent CDC jobs have started failing.\nAttached the logs for reference.\nThanks!",
+        "from_url": "https://getolake.slack.com/archives/C081MV728N7/p1783514459093289",
+        "original_url": "https://getolake.slack.com/archives/C081MV728N7/p1783514459093289",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "Wrvxz",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Hi team,\nWe're running a Full Refresh + CDC sync from MySQL at 1-minute frequency, using Lakekeeper (REST catalog) with GCS storage via HMAC keys, warehouse flavor set to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "s3-compat",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ".\nFull Refresh completed successfully, and the first few CDC syncs ran fine too — but some recent CDC jobs have started failing.\nAttached the logs for reference.\nThanks!"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "footer": "Thread in Slack Conversation",
+        "ts": 1783514459.093289
+      }
+    ],
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DhSFk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " this is same error that is being discussed here"
+              },
+              {
+                "type": "message_mention",
+                "Raw": "{\"type\":\"message_mention\",\"Raw\":\"{\\\"type\\\":\\\"message_mention\\\",\\\"message_ts\\\":\\\"1783514459.093289\\\",\\\"channel_id\\\":\\\"C081MV728N7\\\",\\\"author_id\\\":\\\"U0A6088AMM3\\\",\\\"thread_ts\\\":\\\"1783514459.093289\\\",\\\"text\\\":\\\"https:\\\\/\\\\/getolake.slack.com\\\\/archives\\\\/C081MV728N7\\\\/p1783514459093289\\\",\\\"url\\\":\\\"https:\\\\/\\\\/getolake.slack.com\\\\/archives\\\\/C081MV728N7\\\\/p1783514459093289\\\"}\"}"
+              },
+              {
+                "type": "text",
+                "text": "\nThe issue is with gcp.\nwe will release a fix for it."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b827f0ec-6052-46e9-8306-b3338b3e1c3a",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "Hi \u003c@U0A6088AMM3\u003e, we have fixed this in olake v0.8.2, you can try that version.\n\nIf you still face any issue please let us know",
+    "ts": "1783691737.539469",
+    "thread_ts": "1783514459.093289",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mqqCr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", we have fixed this in olake v0.8.2, you can try that version.\n\nIf you still face any issue please let us know"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
