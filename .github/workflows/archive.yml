@@ -35,11 +35,20 @@ jobs:
       - name: Determine export window
         id: window
         run: |
+          # Always use a fixed, generous lookback rather than "since last
+          # run" — narrow -time-from windows (a few hours) were silently
+          # returning zero messages even when messages existed in that
+          # window (reproduced: a wide window found them, 5 consecutive
+          # narrow incremental windows covering the same period did not).
+          # Root cause looks like a slackdump/Slack API quirk with tight
+          # time windows, not something we can fix upstream, so we just
+          # avoid triggering it. merge_export.py already dedups overlapping
+          # snapshots for free, so reprocessing a few days of history every
+          # run costs nothing but a bit of API/CPU time.
           if [ -n "${{ github.event.inputs.force_time_from }}" ]; then
             FROM="${{ github.event.inputs.force_time_from }}"
           elif [ -f data/.last_run ]; then
-            # 1h overlap buffer to avoid boundary gaps between runs
-            FROM=$(date -u -d "$(cat data/.last_run) -1 hour" +%Y-%m-%dT%H:%M:%S)
+            FROM=$(date -u -d "3 days ago" +%Y-%m-%dT%H:%M:%S)
           else
             FROM=$(date -u -d "89 days ago" +%Y-%m-%dT%H:%M:%S)
           fi
@@ -57,7 +66,7 @@ jobs:
       - name: Export from Slack
         run: |
           mkdir -p "data/raw/run-${{ steps.window.outputs.run_start }}"
-          slackdump export -y -v \
+          slackdump export -y \
             -type standard \
             -api-config scripts/api-config.toml \
             -member-only \
