@@ -1,0 +1,2584 @@
+[
+  {
+    "client_msg_id": "c985d16f-4197-4131-abe2-71bcead5f0a9",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "oh so you managed to fix without having to share the streams.json ?",
+    "ts": "1779091287.901259",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "K6Kn6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "oh so you managed to fix without having to share the streams.json ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "62180911-31e9-42e7-b26a-4315ca1178a7",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "can you tell me if this was only related to mongo?",
+    "ts": "1779091296.897269",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ds3BL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "can you tell me if this was only related to mongo?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8bb4653e-98c8-48ec-9f0f-0590eab041f4",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "or also other databases like postgresql and the kafka streams?",
+    "ts": "1779091329.823699",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2PaHa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "or also other databases like postgresql and the kafka streams?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d972cce2-a3b8-4e5d-b63a-13d2f34d40f5",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "I have a kafka job which is running for 4 days... but it does nothing. see the last logs are from 4 days ago and no errors:\n```14/05/2026\n08:40:15\ninfo\nThread[topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD:50053] 08:40:15.057 [grpc-default-executor-0] INFO io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully committed 1 data files and 0 delete files for thread: topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD\n14/05/2026\n08:40:15\ninfo\nThread[topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD:50053] 08:40:15.058 [grpc-default-executor-0] INFO io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-26-21708437671527] Total time taken: 1278 ms\n14/05/2026\n08:40:15\ninfo\nThread[topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD]: shutting down Iceberg server on port 50053\n14/05/2026\n08:40:15\ninfo\ncommitted 1 partitions for reader group_01KRJT947PRYNFAGM6D1QXG31M\n14/05/2026\n08:40:15\ninfo\nupdated global state with consumer_group_id: olake-consumer-group-1776698913 for 1 streams```",
+    "ts": "1779091625.085149",
+    "thread_ts": "1779091625.085149",
+    "reply_count": 2,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U08SG0B5EJV"
+    ],
+    "replies": [
+      {
+        "user": "U08SG0B5EJV",
+        "ts": "1779095625.429399"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779871509.963349"
+      }
+    ],
+    "latest_reply": "1779871509.963349",
+    "files": [
+      {
+        "id": "F0B4FEUGSRY",
+        "created": 1779091575,
+        "timestamp": 1779091575,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A9HSU0MNZ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 22276,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4FEUGSRY/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4FEUGSRY/download/image.png",
+        "original_h": 140,
+        "original_w": 2158,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 23,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 31,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 47,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 62,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FEUGSRY-dfb3e50c62/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 66,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B4FEUGSRY/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B4FEUGSRY-58da02bd2c",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wpBcY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I have a kafka job which is running for 4 days... but it does nothing. see the last logs are from 4 days ago and no errors:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "14/05/2026\n08:40:15\ninfo\nThread[topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD:50053] 08:40:15.057 [grpc-default-executor-0] INFO io.debezium.server.iceberg.tableoperator.IcebergTableOperator - Successfully committed 1 data files and 0 delete files for thread: topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD\n14/05/2026\n08:40:15\ninfo\nThread[topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD:50053] 08:40:15.058 [grpc-default-executor-0] INFO io.debezium.server.iceberg.rpc.OlakeRowsIngester - [Thread-26-21708437671527] Total time taken: 1278 ms\n14/05/2026\n08:40:15\ninfo\nThread[topics.cmd.patient.patient_01KRJT947QVKG0GDNWRZ44XAXD]: shutting down Iceberg server on port 50053\n14/05/2026\n08:40:15\ninfo\ncommitted 1 partitions for reader group_01KRJT947PRYNFAGM6D1QXG31M\n14/05/2026\n08:40:15\ninfo\nupdated global state with consumer_group_id: olake-consumer-group-1776698913 for 1 streams"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "f30b0188-b640-4bdd-b2a7-189a2fddb158",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "found the description here: \u003chttps://github.com/datazip-inc/olake/pull/951\u003e",
+    "ts": "1779091830.451929",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v+9DZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "found the description here: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/951"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8cb353e6-5700-4f03-a44e-d28c11a2323a",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "how can i download my streams.json and recreate a new job? I will have to delete all tables from the lakehouse and full-resync+cdc everything.",
+    "ts": "1779091890.626819",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GLfIZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "how can i download my streams.json and recreate a new job? I will have to delete all tables from the lakehouse and full-resync+cdc everything."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c803d94d-f910-4aab-9898-76f39f8c8e28",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U0A9HSU0MNZ\u003e, the problem was related to primary key discovery in MongoDB. Earlier, the logic detected all indexed fields and treated them as primary keys.\n`olake_id` is generated by concatenating and hashing all the primary keys in a stream. If any field changes, the `olake_id`changes, which is why deduplication didn’t work.\nYou can also check the PR: \u003chttps://github.com/datazip-inc/olake/pull/951\u003e",
+    "ts": "1779091918.559479",
+    "thread_ts": "1778617595.072469",
+    "attachments": [
+      {
+        "color": "6f42c1",
+        "fallback": "#951 fix: pin primary key strictly to _id to ensure deterministic olake_id deduplication",
+        "id": 1,
+        "title": "#951 fix: pin primary key strictly to _id to ensure deterministic olake_id deduplication",
+        "title_link": "https://github.com/datazip-inc/olake/pull/951",
+        "text": "*Description*\n\nThis change resolves a critical deduplication issue in downstream Iceberg tables when syncing MongoDB collections.\nPreviously, `ProduceSchema` iterated over all indexes of a collection and registered every indexed field as a primary key. Consequently, non-unique indexed fields were included in the stream's `SourceDefinedPrimaryKey` schema.\nBecause `GetKeysHash` concatenates all available primary key values to compute the `_olake_id`, any update to a non-unique indexed field caused the document's `_olake_id` hash to change. This prevented Iceberg equality-deletes from matching previous records, resulting in duplicate entries instead of correct deduplicated upserts.\nBy specification, MongoDB guarantees that `_id` is:\n1. *Mandatory* on every document in standard collections. \u003chttps://www.mongodb.com/docs/manual/core/document/#the-_id-field|ref\u003e\n2. *Globally Unique* within a collection (enforced by an undeletable unique index).\nPinning the primary key solely to `_id` ensures highly stable, performant, and perfectly deterministic record deduplication.\nFixes # (issue)\n\n*Type of change*\n\n• Bug fix (non-breaking change which fixes an issue)\n• New feature (non-breaking change which adds functionality)\n• Breaking change (fix or feature that would cause existing functionality to not work as expected)\n• This change requires a documentation update\n\n*How Has This Been Tested?*\n\n• Deduplication is working fine during updates and deletes for the record, non unique indexed records.\n\n*Screenshots or Recordings*\n\nN/A — Backend driver logic update.\n\n*Documentation*\n\n• Documentation Link: [link to README, \u003chttp://olake.io/docs|olake.io/docs\u003e, or olake-docs]\n• N/A (bug fix, refactor, or test changes only)\n\n*Related PR's (If Any):*",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "blocks": null,
+        "footer": "\u003chttps://github.com/datazip-inc/olake|datazip-inc/olake\u003e",
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1778697515
+      }
+    ],
+    "edited": {
+      "user": "U08S5BR47GA",
+      "ts": "1779091966.000000"
+    },
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "llTQM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": ", the problem was related to primary key discovery in MongoDB. Earlier, the logic detected all indexed fields and treated them as primary keys.\n"
+              },
+              {
+                "type": "text",
+                "text": "olake_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is generated by concatenating and hashing all the primary keys in a stream. If any field changes, the "
+              },
+              {
+                "type": "text",
+                "text": "olake_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "changes, which is why deduplication didn’t work.\nYou can also check the PR: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/951"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f1a467f9-1b96-4402-bcdf-3159430872f7",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "btw the streams.json takes a few minutes to show up :slightly_smiling_face:",
+    "ts": "1779091920.252249",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "files": [
+      {
+        "id": "F0B4FFZTCDQ",
+        "created": 1779091917,
+        "timestamp": 1779091917,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A9HSU0MNZ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 104284,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4FFZTCDQ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4FFZTCDQ/download/image.png",
+        "original_h": 1376,
+        "original_w": 1960,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FFZTCDQ-3e71cc91ae/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FFZTCDQ-3e71cc91ae/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FFZTCDQ-3e71cc91ae/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FFZTCDQ-3e71cc91ae/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 253,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FFZTCDQ-3e71cc91ae/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 337,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FFZTCDQ-3e71cc91ae/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 505,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FFZTCDQ-3e71cc91ae/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 674,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B4FFZTCDQ/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B4FFZTCDQ-f1bb7254eb",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EfsN/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "btw the streams.json takes a few minutes to show up "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "83364e53-5e8d-44e2-a5d9-855108379113",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "but indexed fields are not primary keys :slightly_smiling_face: so you didn't include the _id if i understand properly?",
+    "ts": "1779092006.302249",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ht0se",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "but indexed fields are not primary keys "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              },
+              {
+                "type": "text",
+                "text": " so you didn't include the _id if i understand properly?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3325a502-32a1-49c3-a96f-6c66eb62cf67",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "yeah indexed fields are not primary keys so we have pinned _id as the only primary key as its a mandatory field in every mongo collection (starting from mongo version 3.2+)",
+    "ts": "1779092071.332749",
+    "thread_ts": "1778617595.072469",
+    "edited": {
+      "user": "U08S5BR47GA",
+      "ts": "1779092124.000000"
+    },
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3/m7C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "yeah indexed fields are not primary keys so we have pinned _id as the only primary key as its a mandatory field in every mongo collection (starting from mongo version 3.2+)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "82765132-5813-4426-8afc-0cb229f2d8d2",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "also how is a delete treated now? does it delete correctly from iceberg (keeping it in time travel) or will i have a row with every value at null that i will need to filter out?",
+    "ts": "1779092145.455339",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zdVCD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "also how is a delete treated now? does it delete correctly from iceberg (keeping it in time travel) or will i have a row with every value at null that i will need to filter out?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ea7d3046-ee29-47da-b072-8ca077da015b",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "you will get the op type as d, which can be used to filter out",
+    "ts": "1779092349.741369",
+    "thread_ts": "1778617595.072469",
+    "edited": {
+      "user": "U08S5BR47GA",
+      "ts": "1779092525.000000"
+    },
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NWK9N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "you will get the op type as d, which can be used to filter out"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "22bf565c-3aaf-4107-8ee5-170ed69cb1ba",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "but i don't want to filter out, i want it to be deleted in iceberg as well",
+    "ts": "1779093116.382279",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "C6mLu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "but i don't want to filter out, i want it to be deleted in iceberg as well"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e6135ab0-ba1b-4c89-8c5d-a5a4a5753812",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "if you have a record A in mongo, which is deleted, the streams from Mongo captures the deletion. Therefore i expect olake to delete the record from iceberg table as well.",
+    "ts": "1779093154.130999",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jmlbL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "if you have a record A in mongo, which is deleted, the streams from Mongo captures the deletion. Therefore i expect olake to delete the record from iceberg table as well."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "04ae9ffb-cea2-481d-922b-68f4486176ab",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A9HSU0MNZ\u003e the record will also be deleted from main table, but as it is soft delete so a row also appears with op type d.",
+    "ts": "1779093238.618599",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4zob6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": " the record will also be deleted from main table, but as it is soft delete so a row also appears with op type d."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b56b00eb-0ac8-4ba5-a045-3ca79c208643",
+    "type": "message",
+    "user": "U0A9HSU0MNZ",
+    "text": "i see thank you!",
+    "ts": "1779093504.989199",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rqAtu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "i see thank you!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/45647478ffd33da2f42186c469cdf0b0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+      "first_name": "Daniel",
+      "real_name": "Daniel",
+      "display_name": "Daniel",
+      "team": "T0820LGJGRF",
+      "name": "daniel.teixeira",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "364359dd-696a-41b9-ab1d-b03cffbab0c2",
+    "type": "message",
+    "user": "U08SG0B5EJV",
+    "text": "Hi \u003c@U0A9HSU0MNZ\u003e, can you share the full logs of Kafka sync that is running, worker logs and kafka version? Also can you share all the pods which are running (if you are running via Kubernetes) or else provide all the docker containers running (if you are running via Docker). Also if possible do you know if consumer rebalance has taken place during sync, or the messages of a partition to be synced were expired  mid sync? (as per kafka's retention policy)",
+    "ts": "1779095625.429399",
+    "thread_ts": "1779091625.085149",
+    "edited": {
+      "user": "U08SG0B5EJV",
+      "ts": "1779173182.000000"
+    },
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i7+I2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": ", can you share the full logs of Kafka sync that is running, worker logs and kafka version? Also can you share all the pods which are running (if you are running via Kubernetes) or else provide all the docker containers running (if you are running via Docker). Also if possible do you know if consumer rebalance has taken place during sync, or the messages of a partition to be synced were expired  mid sync? (as per kafka's retention policy)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/334cb7c98b1d4f5885224c3f2935da87.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+      "first_name": "Duke",
+      "real_name": "Duke",
+      "display_name": "Duke",
+      "team": "T0820LGJGRF",
+      "name": "duke",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b93870e3-6914-4c05-9bfb-424cb87e3f21",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U09KQFGF7J4\u003e We investigated the file. It does not appear to be corrupt as the PAR1 magic bytes are valid and the row group data is intact.\n\nThe failure is caused by oversized Parquet footer metadata. Parquet stores column statistics (min/max values) in the footer, and in this file `media_url` column contains a ~106 MB base64-encoded MP4 value. That value ended up in the column statistics, inflating the footer to ~106 MB and triggering the reader's 100 MB Thrift deserialization limit.\n\nWe’re looking into limiting/truncating metadata generation for such columns to avoid oversized footers.\n\nYou can raise an issue for this here: \u003chttps://github.com/datazip-inc/olake/issues\u003e. Also, please let us know if this is urgent on your side",
+    "ts": "1779100529.268849",
+    "thread_ts": "1778930860.767709",
+    "edited": {
+      "user": "U08S5BR47GA",
+      "ts": "1779101309.000000"
+    },
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Dfiz4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " We investigated the file. It does not appear to be corrupt as the PAR1 magic bytes are valid and the row group data is intact.\n\nThe failure is caused by oversized Parquet footer metadata. Parquet stores column statistics (min/max values) in the footer, and in this file "
+              },
+              {
+                "type": "text",
+                "text": "media_url",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " column contains a ~106 MB base64-encoded MP4 value. That value ended up in the column statistics, inflating the footer to ~106 MB and triggering the reader's 100 MB Thrift deserialization limit.\n\nWe’re looking into limiting/truncating metadata generation for such columns to avoid oversized footers.\n\nYou can raise an issue for this here: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues"
+              },
+              {
+                "type": "text",
+                "text": ". Also, please let us know if this is urgent on your side"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "585b05a9-1bd3-47d4-8e92-434854d6a2b2",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "or as a workaround you can try increasing thrift deserialization limit of your downstream jobs greater than your metadata size.",
+    "ts": "1779101679.355159",
+    "thread_ts": "1778930860.767709",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MMPgJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "or as a workaround you can try increasing thrift deserialization limit of your downstream jobs greater than your metadata size."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "769a7524-951e-4315-8d98-2134a6c3381e",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "Hi, i got this error when create job. how can i fix it. Im moving data from postgres rds to s3 parquet",
+    "ts": "1779109343.702879",
+    "thread_ts": "1779109343.702879",
+    "reply_count": 5,
+    "reply_users": [
+      "U09BK0WKBQR",
+      "U0AQHEXPAUQ"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1779109549.398269"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779109572.586619"
+      },
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1779110120.476079"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779122860.713249"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779122895.336469"
+      }
+    ],
+    "latest_reply": "1779122895.336469",
+    "files": [
+      {
+        "id": "F0B4HDXLB7C",
+        "created": 1779109297,
+        "timestamp": 1779109297,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 261864,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4HDXLB7C/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4HDXLB7C/download/image.png",
+        "original_h": 1053,
+        "original_w": 1808,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 210,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 280,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 419,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 559,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4HDXLB7C-aa8a8143a1/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 596,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B4HDXLB7C/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B4HDXLB7C-bfb5045d3e",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U08S5BR47GA",
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mFbyT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi, i got this error when create job. how can i fix it. Im moving data from postgres rds to s3 parquet"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "5f8e9c6c-9f85-49df-a9a4-85cc5ad43540",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "Can you please share a screenshot of the API error response?\nYou can get this from the browser’s Network tab:\n1. Right click on the page and click \"Inspect\"\n2. Open the \"Network\" tab\n3. Refresh the page and reproduce the issue\n4. Click on the failed API request\n5. Take a screenshot of the response and share it here\n",
+    "ts": "1779109549.398269",
+    "thread_ts": "1779109343.702879",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tLSfd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Can you please share a screenshot of the API error response?\nYou can get this from the browser’s Network tab:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Right click on the page and click \"Inspect\""
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Open the \"Network\" tab"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Refresh the page and reproduce the issue"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Click on the failed API request"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Take a screenshot of the response and share it here"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b8d5e3f3-7681-4792-9817-9143a0a7ba1a",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "ts": "1779109572.586619",
+    "thread_ts": "1779109343.702879",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B4FD14X4N",
+        "created": 1779109568,
+        "timestamp": 1779109568,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 155175,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4FD14X4N/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4FD14X4N/download/image.png",
+        "original_h": 966,
+        "original_w": 1119,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 311,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 414,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 622,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 829,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4FD14X4N-01a1655001/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 884,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B4FD14X4N/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B4FD14X4N-32d199f27e",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6791d5d1-ecac-4d5d-a128-0a078826c7a2",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "The error is coming from nginx reverse proxy. Please increase the `client_max_body_size` in your nginx config to 64mb. If it still fails with same error try to increase the value to match the size of your streams. If the issue still persists please let us know.",
+    "ts": "1779110120.476079",
+    "thread_ts": "1779109343.702879",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5MZAd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "The error is coming from nginx reverse proxy. Please increase the "
+              },
+              {
+                "type": "text",
+                "text": "client_max_body_size",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in your nginx config to 64mb. If it still fails with same error try to increase the value to match the size of your streams. If the issue still persists please let us know."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "55266363-c330-4ea1-b98d-98d3a841b565",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "after i set it to 100mb, it worked. but i got another issue, i setup the job config through UI",
+    "ts": "1779122860.713249",
+    "thread_ts": "1779109343.702879",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B4G0NHUN9",
+        "created": 1779122742,
+        "timestamp": 1779122742,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 78146,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4G0NHUN9/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4G0NHUN9/download/image.png",
+        "original_h": 720,
+        "original_w": 2526,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 103,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 137,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 205,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 274,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4G0NHUN9-fb1f1ad439/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 292,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B4G0NHUN9/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B4G0NHUN9-cc56503540",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xp25p",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "after i set it to 100mb, it worked. but i got another issue, i setup the job config through UI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6a709574-9e85-425b-a633-30f1588aab53",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "how can i fix it \u003c@U09BK0WKBQR\u003e :pray: tks u so much",
+    "ts": "1779122895.336469",
+    "thread_ts": "1779109343.702879",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AU3sH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "how can i fix it "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": " tks u so much"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5401508e-53b7-4e7b-a59d-b5af393c553f",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "hi team, i got this error, im hosting using helm. source is postgresql, output is s3 parquet. I setup job config and destination, sources though UI. How can i fix this? thank u so much",
+    "ts": "1779165003.704089",
+    "thread_ts": "1779165003.704089",
+    "reply_count": 12,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U0AQHEXPAUQ"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779166059.745079"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779167750.484249"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779172180.263739"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779172910.000099"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779173334.498589"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779173435.004809"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779173476.895919"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779175857.892479"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779176607.310659"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779177568.498759"
+      },
+      {
+        "user": "U0AQHEXPAUQ",
+        "ts": "1779177871.391539"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1779177976.588489"
+      }
+    ],
+    "latest_reply": "1779177976.588489",
+    "files": [
+      {
+        "id": "F0B4GT7ML4B",
+        "created": 1779164927,
+        "timestamp": 1779164927,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 78014,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4GT7ML4B/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4GT7ML4B/download/image.png",
+        "original_h": 720,
+        "original_w": 2526,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 103,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 137,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 205,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 274,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B4GT7ML4B-1e5d7d73a4/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 292,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B4GT7ML4B/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B4GT7ML4B-a0f83592cc",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WK3vg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi team, i got this error, im hosting using helm. source is postgresql, output is s3 parquet. I setup job config and destination, sources though UI. How can i fix this? thank u so much"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "346a1f46-ec16-4f28-b7e7-74f9caac5475",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0AQHEXPAUQ\u003e could you please download the logs and share it here. You could use the download button at the right bottom in the job logs page. Thanks",
+    "ts": "1779166059.745079",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NHpHl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " could you please download the logs and share it here. You could use the download button at the right bottom in the job logs page. Thanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d68268ee-bfe6-4a3e-ae63-d7459b7dd5cd",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "here it is",
+    "ts": "1779167750.484249",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B4H436CLT",
+        "created": 1779167744,
+        "timestamp": 1779167744,
+        "name": "job-5-logs-2026-05-19-04-50-37.tar.gz",
+        "title": "job-5-logs-2026-05-19-04-50-37.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 672,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4H436CLT/job-5-logs-2026-05-19-04-50-37.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B4H436CLT/download/job-5-logs-2026-05-19-04-50-37.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B4H436CLT/job-5-logs-2026-05-19-04-50-37.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B4H436CLT-1035e903bf",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fydSS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "here it is"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "20da5f30-a786-4908-9b7f-397e95f8a08a",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0AQHEXPAUQ\u003e Could you please share the source config from the payload hiding all the sensitive info.\n\nYou can get it from the network tab:\n1. Go to the source page,\n2. Click on the *edit* option on the desired source\n3. You can find the property `\"config\"` in the response. \nAlso, if your credentials contain `\"` in them, escape it with a backslash `\\`.\nExample: `{\"password\": \"my\"password\"}`  to `{\"password\":\"my\\\"password\"}`",
+    "ts": "1779172180.263739",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "scQmH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " Could you please share the source config from the payload hiding all the sensitive info.\n\nYou can get it from the network tab:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Go to the source page,"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Click on the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "edit ",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "option on the desired source"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "You can find the property "
+                  },
+                  {
+                    "type": "text",
+                    "text": "\"config\"",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " in the response. "
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nAlso, if your credentials contain "
+              },
+              {
+                "type": "text",
+                "text": "\"",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in them, escape it with a backslash "
+              },
+              {
+                "type": "text",
+                "text": "\\",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nExample: "
+              },
+              {
+                "type": "text",
+                "text": "{\"password\": \"my\"password\"}",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  to "
+              },
+              {
+                "type": "text",
+                "text": "{\"password\":\"my\\\"password\"}",
+                "style": {
+                  "code": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "718fb65d-636b-49f9-992f-3ca19d5854e2",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "```{\n    \"success\": true,\n    \"message\": \"source '1' retrieved successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"db\",\n        \"type\": \"postgres\",\n        \"version\": \"v0.7.3\",\n        \"config\": \"{\\\"database\\\":\\\"db\\\",\\\"host\\\":\\\"\u003chttp://local.com|local.com\u003e\\\",\\\"max_threads\\\":3,\\\"password\\\":\\\"SADASDASD\\\",\\\"port\\\":5432,\\\"retry_count\\\":3,\\\"schemas\\\":[],\\\"ssh_config\\\":{\\\"type\\\":\\\"no_tunnel\\\"},\\\"ssl\\\":{\\\"mode\\\":\\\"disable\\\"},\\\"update_method\\\":{\\\"initial_wait_time\\\":120,\\\"publication\\\":\\\"olake_uat_publication\\\",\\\"replication_slot\\\":\\\"olake_uat_s3_slot\\\",\\\"type\\\":\\\"CDC\\\"},\\\"username\\\":\\\"db\\\"}\",\n        \"created_at\": \"2026-05-18T12:52:27Z\",\n        \"updated_at\": \"2026-05-18T12:52:27Z\",\n        \"created_by\": \"admin\",\n        \"updated_by\": \"admin\",\n        \"jobs\": [\n            {\n                \"name\": \"tst\",\n                \"id\": 5,\n                \"activate\": true,\n                \"destination_name\": \"sv-uat-shared-data-lake\",\n                \"destination_type\": \"parquet\",\n                \"last_run_time\": \"2026-05-19T06:32:00Z\",\n                \"last_run_state\": \"Running\"\n            }\n        ]\n    }\n}```",
+    "ts": "1779172910.000099",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eERfu",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "{\n    \"success\": true,\n    \"message\": \"source '1' retrieved successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"db\",\n        \"type\": \"postgres\",\n        \"version\": \"v0.7.3\",\n        \"config\": \"{\\\"database\\\":\\\"db\\\",\\\"host\\\":\\\"local.com\\\",\\\"max_threads\\\":3,\\\"password\\\":\\\"SADASDASD\\\",\\\"port\\\":5432,\\\"retry_count\\\":3,\\\"schemas\\\":[],\\\"ssh_config\\\":{\\\"type\\\":\\\"no_tunnel\\\"},\\\"ssl\\\":{\\\"mode\\\":\\\"disable\\\"},\\\"update_method\\\":{\\\"initial_wait_time\\\":120,\\\"publication\\\":\\\"olake_uat_publication\\\",\\\"replication_slot\\\":\\\"olake_uat_s3_slot\\\",\\\"type\\\":\\\"CDC\\\"},\\\"username\\\":\\\"db\\\"}\",\n        \"created_at\": \"2026-05-18T12:52:27Z\",\n        \"updated_at\": \"2026-05-18T12:52:27Z\",\n        \"created_by\": \"admin\",\n        \"updated_by\": \"admin\",\n        \"jobs\": [\n            {\n                \"name\": \"tst\",\n                \"id\": 5,\n                \"activate\": true,\n                \"destination_name\": \"sv-uat-shared-data-lake\",\n                \"destination_type\": \"parquet\",\n                \"last_run_time\": \"2026-05-19T06:32:00Z\",\n                \"last_run_state\": \"Running\"\n            }\n        ]\n    }\n}"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e82552e0-bf9e-4851-8365-9d5d29e744aa",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0AQHEXPAUQ\u003e are you sure this is the source associated with the Job in the screenshot provided.\n\nI can see the Job Name in the image is \"*avepoint_sync\"* and it's id is *2* but I couldn't find the same in the Associated Jobs in the provided payload. Could you please confirm this.\n\n\u0026gt; ```\"jobs\": [\n\u0026gt;             {\n\u0026gt;                 \"name\": \"tst\",\n\u0026gt;                 \"id\": 5,\n\u0026gt;                 \"activate\": true,\n\u0026gt;                 \"destination_name\": \"sv-uat-shared-data-lake\",\n\u0026gt;                 \"destination_type\": \"parquet\",\n\u0026gt;                 \"last_run_time\": \"2026-05-19T06:32:00Z\",\n\u0026gt;                 \"last_run_state\": \"Running\"\n\u0026gt;             }\n\u0026gt;         ]```",
+    "ts": "1779173334.498589",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ifoWU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " are you sure this is the source associated with the Job in the screenshot provided.\n\nI can see the Job Name in the image is \""
+              },
+              {
+                "type": "text",
+                "text": "avepoint_sync\" ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "and it's id is "
+              },
+              {
+                "type": "text",
+                "text": "2 ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "but I couldn't find the same in the Associated Jobs in the provided payload. Could you please confirm this.\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\"jobs\": [\n            {\n                \"name\": \"tst\",\n                \"id\": 5,\n                \"activate\": true,\n                \"destination_name\": \"sv-uat-shared-data-lake\",\n                \"destination_type\": \"parquet\",\n                \"last_run_time\": \"2026-05-19T06:32:00Z\",\n                \"last_run_state\": \"Running\"\n            }\n        ]"
+              }
+            ],
+            "border": 1
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c6f2a797-301e-4da0-a43c-e306f45393dc",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "sure, i just delete and recrete the job and changed its name",
+    "ts": "1779173435.004809",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rsVrP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "sure, i just delete and recrete the job and changed its name"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "89349275-4440-490d-afcf-54f7c2eeb458",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "ts": "1779173476.895919",
+    "thread_ts": "1779165003.704089",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "files": [
+      {
+        "id": "F0B48GNQ1QF",
+        "created": 1779173473,
+        "timestamp": 1779173473,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQHEXPAUQ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 84221,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0B48GNQ1QF/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0B48GNQ1QF/download/image.png",
+        "original_h": 642,
+        "original_w": 1668,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 139,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 185,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 277,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 369,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0B48GNQ1QF-654deeaacd/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 394,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0B48GNQ1QF/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0B48GNQ1QF-fc33bf2336",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

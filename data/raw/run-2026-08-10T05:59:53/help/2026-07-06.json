@@ -1,0 +1,212 @@
+[
+  {
+    "client_msg_id": "ddb49da7-789d-4a07-9eb5-44c6a7025755",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi \u003c@U082APQJZNC\u003e,\nWe've now moved to an external Filestore-backed NFS instead of the built-in OLake NFS server.\nQuick question — is there any built-in TTL / automatic cleanup for the job metadata, config, and log files that OLake writes to the shared storage volume (`/data/olake-jobs`, `/tmp/olake-config`)? We noticed these directories aren't purged after a task completes or fails, and they accumulated until our previous NFS volume filled up. Wanted to confirm whether this is expected behavior and if there's a recommended retention/cleanup mechanism, or if we should build our own pruning job.\n\nCC: \u003c@U094EHV7U75\u003e",
+    "ts": "1783345687.275809",
+    "thread_ts": "1783238508.916909",
+    "edited": {
+      "user": "U0A6088AMM3",
+      "ts": "1783345710.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qLP3A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U082APQJZNC"
+              },
+              {
+                "type": "text",
+                "text": ",\nWe've now moved to an external Filestore-backed NFS instead of the built-in OLake NFS server.\nQuick question — is there any built-in TTL / automatic cleanup for the job metadata, config, and log files that OLake writes to the shared storage volume ("
+              },
+              {
+                "type": "text",
+                "text": "/data/olake-jobs",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "text",
+                "text": "/tmp/olake-config",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ")? We noticed these directories aren't purged after a task completes or fails, and they accumulated until our previous NFS volume filled up. Wanted to confirm whether this is expected behavior and if there's a recommended retention/cleanup mechanism, or if we should build our own pruning job.\n\nCC: "
+              },
+              {
+                "type": "user",
+                "user_id": "U094EHV7U75"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3abcb50a-e8a0-406e-876a-f8d1593d5f4a",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "There is a log cleanup schedule/TTL in our docs. I am AFK. but you can search there. \u003c@U0A6088AMM3\u003e",
+    "ts": "1783345834.636599",
+    "thread_ts": "1783238508.916909",
+    "edited": {
+      "user": "U082APQJZNC",
+      "ts": "1783345843.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "x5tPP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "There is a log cleanup schedule/TTL in our docs. I am AFK. but you can search there. "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d71165de-92a4-4605-8662-a72c93a8936b",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0A6088AMM3\u003e please checkout following doc:\n\u003chttps://olake.io/docs/install/olake-ui/#log-retention|https://olake.io/docs/install/olake-ui/#log-retention\u003e",
+    "ts": "1783346142.320749",
+    "thread_ts": "1783238508.916909",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake UI Installation Guide - Docker Compose Setup \u0026amp; Configuration",
+        "id": 1,
+        "title": "OLake UI Installation Guide - Docker Compose Setup \u0026amp; Configuration",
+        "title_link": "https://olake.io/docs/install/olake-ui/#log-retention",
+        "text": "Quickly deploy OLake UI with Docker Compose. Manage jobs, configure encryption, customize data directory, and troubleshoot common deployment issues.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/olake-ui/#log-retention",
+        "original_url": "https://olake.io/docs/install/olake-ui/#log-retention",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "crUe3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " please checkout following doc:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/install/olake-ui/#log-retention",
+                "text": "https://olake.io/docs/install/olake-ui/#log-retention"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

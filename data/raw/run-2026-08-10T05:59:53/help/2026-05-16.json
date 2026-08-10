@@ -1,0 +1,356 @@
+[
+  {
+    "client_msg_id": "922d5ef7-48c3-4b67-bf70-740ee9e606b3",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "Hi \u003c@U0A9HSU0MNZ\u003e, we have released olake version 0.7.3 in which this issue has been fixed. You will have to create a new job to check this.\nPlease try this version and let us know if you encounter any further issues.",
+    "ts": "1778924125.387269",
+    "thread_ts": "1778617595.072469",
+    "parent_user_id": "U0A9HSU0MNZ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0IN2m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A9HSU0MNZ"
+              },
+              {
+                "type": "text",
+                "text": ", we have released olake version 0.7.3 in which this issue has been fixed. You will have to create a new job to check this.\nPlease try this version and let us know if you encounter any further issues."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "120ebb4f-28de-4718-981b-5e8ea780c95e",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "Hi team, any possibility that olake may create corrupt parquet files in any situation?\nsource postgres , olake version v0.3.13\ndest is aws s3,\nreason why i ask is my donwstream jobs on databricks failed with a couple of errors which happen when corrupted files appear at src\ni also had claude check the file in question and it gave a similar answer, attaching in thread",
+    "ts": "1778930860.767709",
+    "thread_ts": "1778930860.767709",
+    "reply_count": 7,
+    "reply_users": [
+      "U08S5BR47GA",
+      "U09KQFGF7J4"
+    ],
+    "replies": [
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1778930874.096149"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1778930909.344129"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1778938091.300499"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1778939658.053969"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1779100529.268849"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1779101679.355159"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1779188826.367909"
+      }
+    ],
+    "latest_reply": "1779188826.367909",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 4,
+        "users": [
+          "U08S5BR47GA",
+          "U081MTF4GHZ",
+          "U0817E9CGRM",
+          "U09BK0WKBQR"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Hf+qU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, any possibility that olake may create corrupt parquet files in any situation?\nsource postgres , olake version v0.3.13\ndest is aws s3,\nreason why i ask is my donwstream jobs on databricks failed with a couple of errors which happen when corrupted files appear at src\ni also had claude check the file in question and it gave a similar answer, attaching in thread"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "f7ffe9b4-64d7-4eaa-a3aa-e42ac8a78984",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "```The file is corrupt. Here's the breakdown:\n\n  - Magic bytes (PAR1) are present at both start and end — so the file wasn't truncated mid-upload.\n  - Footer size is 106.8 MB on a 370 MB file — that's ~29% of the file just for metadata, which is wildly abnormal. A healthy parquet\n  footer is usually a few KB to a few MB at most.\n  - PyArrow's Thrift deserializer hits its size limit trying to parse that footer, hence Exceeded size limit.\n\n  What likely happened: the writer (RudderStack data plane or whatever produced this file) wrote an enormous number of tiny row\n  groups, bloating the footer metadata. Or the footer size field itself got bit-flipped/corrupted during write/flush.\n\n  What you can try:```",
+    "ts": "1778930874.096149",
+    "thread_ts": "1778930860.767709",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lALMK",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "The file is corrupt. Here's the breakdown:\n\n  - Magic bytes (PAR1) are present at both start and end — so the file wasn't truncated mid-upload.\n  - Footer size is 106.8 MB on a 370 MB file — that's ~29% of the file just for metadata, which is wildly abnormal. A healthy parquet\n  footer is usually a few KB to a few MB at most.\n  - PyArrow's Thrift deserializer hits its size limit trying to parse that footer, hence Exceeded size limit.\n\n  What likely happened: the writer (RudderStack data plane or whatever produced this file) wrote an enormous number of tiny row\n  groups, bloating the footer metadata. Or the footer size field itself got bit-flipped/corrupted during write/flush.\n\n  What you can try:"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "02d5b25e-fa43-4de5-93c0-63977bd5494e",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "not urgent as i could probably run a full load, but lmk in either case",
+    "ts": "1778930909.344129",
+    "thread_ts": "1778930860.767709",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lV76D",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "not urgent as i could probably run a full load, but lmk in either case"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "131c4aa6-c94b-42df-99b1-4f7c4073e215",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U09KQFGF7J4\u003e Can you share the corrupted parquet over the private chat, we will try to check and debug the issue and let you know soon.",
+    "ts": "1778938091.300499",
+    "thread_ts": "1778930860.767709",
+    "edited": {
+      "user": "U08S5BR47GA",
+      "ts": "1778938108.000000"
+    },
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bDHGJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " Can you share the corrupted parquet over the private chat, we will try to check and debug the issue and let you know soon."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "cb584a13-9785-4e5f-b388-16dad116cfc3",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "sent it \u003c@U08S5BR47GA\u003e",
+    "ts": "1778939658.053969",
+    "thread_ts": "1778930860.767709",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9MBBU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "sent it "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

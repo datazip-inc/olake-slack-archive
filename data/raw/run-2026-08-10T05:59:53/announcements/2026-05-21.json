@@ -1,0 +1,355 @@
+[
+  {
+    "client_msg_id": "b77ba160-d071-49b1-b411-a4234f0db9f5",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Workers v0.3.6 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/v0.3.6\u003e\n*What’s New*\n• chore: bump up go version and x/net version by \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/143|#143\u003e\n• fix: drop `\u003chttp://app.kubernetes.io/name|app.kubernetes.io/name\u003e` from `olake.labels` helper to remove duplicate label key by \u003c@U0B4UMFK7C3\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/142|#142\u003e\n• feat: job decrypt by by \u003c@U08H6LN432P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/123|#123\u003e\n:rotating_light: OLake Helm v0.0.18 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.18\u003e\n:rocket: Features \u0026amp; Fixes in this release:\n• fix(postgresql): gate \u003chttp://helm.sh/hook|helm.sh/hook\u003e annotations on useStandardResources by \u003c@U0B4UMFK7C3\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/147|#147\u003e\nThanks for the contribution!",
+    "ts": "1779348163.554399",
+    "thread_ts": "1779348163.554399",
+    "reply_count": 1,
+    "reply_users": [
+      "U0B4UMFK7C3"
+    ],
+    "replies": [
+      {
+        "user": "U0B4UMFK7C3",
+        "ts": "1779350959.142819"
+      }
+    ],
+    "latest_reply": "1779350959.142819",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 2,
+        "users": [
+          "U0B4UMFK7C3",
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Kzi9P",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Workers v0.3.6 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/v0.3.6"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: bump up go version and x/net version by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/143",
+                    "text": "#143"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: drop "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://app.kubernetes.io/name",
+                    "text": "app.kubernetes.io/name",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "olake.labels",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " helper to remove duplicate label key by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0B4UMFK7C3"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/142",
+                    "text": "#142"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: job decrypt by by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08H6LN432P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/123",
+                    "text": "#123"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.18 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.18"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(postgresql): gate helm.sh/hook annotations on useStandardResources by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0B4UMFK7C3"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/147",
+                    "text": "#147"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "51007215-dd2d-4dd1-a00b-4887e0531b44",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "thank you for the merge so quick and the bump :tada:",
+    "ts": "1779350959.142819",
+    "thread_ts": "1779348163.554399",
+    "parent_user_id": "U09BK0WKBQR",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "count": 3,
+        "users": [
+          "U09BK0WKBQR",
+          "U08H6LN432P",
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D/2eO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "thank you for the merge so quick and the bump "
+              },
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

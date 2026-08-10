@@ -1,0 +1,124 @@
+[
+  {
+    "client_msg_id": "5da2ea54-9656-4b87-ab85-69e04217844e",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0B4UMFK7C3\u003e we have replied to the issue raised on GitHub, and asked a couple of questions could you please check: \u003chttps://github.com/datazip-inc/olake-ui/issues/380#issuecomment-4533155841\u003e",
+    "ts": "1779701471.273529",
+    "thread_ts": "1779437889.173839",
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BQNM0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0B4UMFK7C3"
+              },
+              {
+                "type": "text",
+                "text": " we have replied to the issue raised on GitHub, and asked a couple of questions could you please check: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/issues/380#issuecomment-4533155841"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fd3de057-f154-45dc-b32c-ff60d0c51969",
+    "type": "message",
+    "user": "U0B4UMFK7C3",
+    "text": "i'm on holiday :slightly_smiling_face: will come back and check soon",
+    "ts": "1779719109.000099",
+    "thread_ts": "1779437889.173839",
+    "edited": {
+      "user": "U0B4UMFK7C3",
+      "ts": "1779719119.000000"
+    },
+    "parent_user_id": "U0B4UMFK7C3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9bFuG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "i'm on holiday "
+              },
+              {
+                "type": "emoji",
+                "name": "slightly_smiling_face",
+                "unicode": "1f642"
+              },
+              {
+                "type": "text",
+                "text": " will come back and check soon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-20/11167791691765_50fe5c83ce2206244056_72.jpg",
+      "first_name": "antoniodavide.​cali",
+      "real_name": "antoniodavide.​cali",
+      "display_name": "Antonio",
+      "team": "T0820LGJGRF",
+      "name": "antoniodavide.cali",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

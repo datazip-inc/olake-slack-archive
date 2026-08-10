@@ -1,0 +1,64 @@
+[
+  {
+    "client_msg_id": "1969c4c5-9c2c-408b-aba6-e112c677841e",
+    "type": "message",
+    "user": "U0BAF4BN7SM",
+    "text": "Hello everyone :wave:\nI am Parship... currently exploring olake and learning more about the project and the codebase.",
+    "ts": "1781374123.062409",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "wave",
+        "count": 1,
+        "users": [
+          "U0820LSJZRP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8tlr4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello everyone "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": "\nI am Parship... currently exploring olake and learning more about the project and the codebase."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-13/11349952420805_8ec5d35698c63ef58d96_72.png",
+      "first_name": "Parship",
+      "real_name": "Parship Chowdhury",
+      "display_name": "Parship",
+      "team": "T0820LGJGRF",
+      "name": "parshipchowdhury",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

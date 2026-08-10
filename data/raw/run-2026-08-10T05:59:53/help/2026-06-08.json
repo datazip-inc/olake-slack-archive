@@ -1,0 +1,318 @@
+[
+  {
+    "client_msg_id": "a83437c6-1e29-4b9d-91b4-bc016269f22b",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0AQHEXPAUQ\u003e There are *572 selected streams*, and *32 GB RAM is likely too low* for a sync of this size. Let's try running it with *128 or 256 GB RAM* and see if the issue persists.",
+    "ts": "1780902303.901929",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LGdpE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " There are "
+              },
+              {
+                "type": "text",
+                "text": "572 selected streams",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and "
+              },
+              {
+                "type": "text",
+                "text": "32 GB RAM is likely too low",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for a sync of this size. Let's try running it with "
+              },
+              {
+                "type": "text",
+                "text": "128 or 256 GB RAM",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and see if the issue persists."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e99d56ee-1302-471e-829a-0985764efd67",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "What if I create an AWS Glue job for the full load and then trigger an OLake job mode CDC? Will it delete all the data I just loaded \u003c@U08CR7HUWDC\u003e",
+    "ts": "1780905530.047319",
+    "thread_ts": "1779795058.734049",
+    "edited": {
+      "user": "U0AQHEXPAUQ",
+      "ts": "1780905620.000000"
+    },
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "h1Ykb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "What if I create an AWS Glue job for the full load and then trigger an OLake job mode CDC? Will it delete all the data I just loaded "
+              },
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "16669681-77d1-4c55-b56d-871ed28554dd",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0AQHEXPAUQ\u003e What is the `max_threads` value configured in the source settings? You can check it by clicking *Edit Source* and reviewing the configuration.",
+    "ts": "1780906278.440309",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d3rSk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " What is the "
+              },
+              {
+                "type": "text",
+                "text": "max_threads",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " value configured in the source settings? You can check it by clicking "
+              },
+              {
+                "type": "text",
+                "text": "Edit Source",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and reviewing the configuration."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f9ca64be-f6d7-43e2-b6f3-6e1e0419cc5b",
+    "type": "message",
+    "user": "U0AQHEXPAUQ",
+    "text": "it's 50 as default",
+    "ts": "1780906329.832729",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "760WF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "it's 50 as default"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-03-30/10808825785732_7c7e9343be4773ae5531_72.png",
+      "first_name": "Anh",
+      "real_name": "Anh Nguyen Thach",
+      "display_name": "Anh Nguyen Thach",
+      "team": "T0820LGJGRF",
+      "name": "thachanh.nguyen",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7e00a3a2-67d8-4cd9-8bcd-bc65e3498927",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0AQHEXPAUQ\u003e You can either reduce the `max_threads` setting or increase the machine's RAM. Running 50 threads on 32 GB of RAM may not be sufficient for that workload.",
+    "ts": "1780906438.035679",
+    "thread_ts": "1779795058.734049",
+    "parent_user_id": "U0AQHEXPAUQ",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1ogf1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQHEXPAUQ"
+              },
+              {
+                "type": "text",
+                "text": " You can either reduce the "
+              },
+              {
+                "type": "text",
+                "text": "max_threads",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " setting or increase the machine's RAM. Running 50 threads on 32 GB of RAM may not be sufficient for that workload."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

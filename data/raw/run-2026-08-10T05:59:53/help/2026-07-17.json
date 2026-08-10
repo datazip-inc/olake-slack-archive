@@ -1,0 +1,67 @@
+[
+  {
+    "client_msg_id": "3fc19dce-c2e1-4d8a-a127-c1d8744fa4c3",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0ACFDEBBQB\u003e, just checking in—did the OLake-UI `v0.4.9` release resolve the issue you mentioned above?\n\nLet us know if you're still facing any issues.",
+    "ts": "1784274655.415419",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zsZ9Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0ACFDEBBQB"
+              },
+              {
+                "type": "text",
+                "text": ", just checking in—did the OLake-UI "
+              },
+              {
+                "type": "text",
+                "text": "v0.4.9",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " release resolve the issue you mentioned above?\n\nLet us know if you're still facing any issues."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,1527 @@
+[
+  {
+    "client_msg_id": "9b7acad2-5807-43c2-bcce-82f4c07e6fd6",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e,\n\nFor a GCS-backed Lakekeeper using *HMAC* keys, you can create the _warehouse_ in Lakekeeper with the *Flavor* set to *`s3-compat`*, and then try connecting it through Fusion.\n\nIf you still run into any issues, please share your Lakekeeper warehouse configuration and your Fusion Catalog configuration. We'll be more than happy to take a look and help you resolve this.\n\nDo let us know how it goes.",
+    "ts": "1782461534.453139",
+    "thread_ts": "1782411446.866449",
+    "edited": {
+      "user": "U08RZQ547LJ",
+      "ts": "1782461768.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XXDEw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ",\n\nFor a GCS-backed Lakekeeper using "
+              },
+              {
+                "type": "text",
+                "text": "HMAC",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " keys, you can create the "
+              },
+              {
+                "type": "text",
+                "text": "warehouse",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in Lakekeeper with the "
+              },
+              {
+                "type": "text",
+                "text": "Flavor",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " set to "
+              },
+              {
+                "type": "text",
+                "text": "s3-compat",
+                "style": {
+                  "bold": true,
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and then try connecting it through Fusion.\n\nIf you still run into any issues, please share your Lakekeeper warehouse configuration and your Fusion Catalog configuration. We'll be more than happy to take a look and help you resolve this.\n\nDo let us know how it goes."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4a0ede30-d9b5-4475-9d81-75b697bcb309",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hey \u003c@U08RZQ547LJ\u003e, What is the recommended or optimal frequency for running CDC jobs in production? For example, is running them every minute generally recommended, or is a 5–15 minute interval a better balance between data freshness and system overhead?",
+    "ts": "1782468993.396999",
+    "thread_ts": "1782411446.866449",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zu0Ub",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              },
+              {
+                "type": "text",
+                "text": ", What is the recommended or optimal frequency for running CDC jobs in production? For example, is running them every minute generally recommended, or is a 5–15 minute interval a better balance between data freshness and system overhead?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "94660002-3bec-43d4-bc09-850c7cce3c4c",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e,\n\nThere is no fix frequency to set for CDC. It primarily depends on the following factors:\n• Freshness required in your destination table.\n• Change logs accumulation (if not your read disk might start filling up).",
+    "ts": "1782470025.408809",
+    "thread_ts": "1782411446.866449",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kRINu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ",\n\nThere is no fix frequency to set for CDC. It primarily depends on the following factors:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Freshness required in your destination table."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Change logs accumulation (if not your read disk might start filling up)."
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d9eaea36-3cd4-4ba1-a4b2-acb61bdae99d",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08RZQ547LJ\u003e I am unable to select Full Refresh + CDC option. Can you help?",
+    "ts": "1782471901.438099",
+    "thread_ts": "1782411446.866449",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BDDNLBNE6",
+        "created": 1782471864,
+        "timestamp": 1782471864,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 114167,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BDDNLBNE6/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BDDNLBNE6/download/image.png",
+        "original_h": 864,
+        "original_w": 1637,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 190,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 253,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 380,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 507,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BDDNLBNE6-a057ca8eaf/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 540,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BDDNLBNE6/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BDDNLBNE6-e69604c274",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vJL5U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              },
+              {
+                "type": "text",
+                "text": " I am unable to select Full Refresh + CDC option. Can you help?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "cab8a6aa-bc82-4716-be20-ab3cbe33b516",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e, please make sure you have selected _Update Method_ to CDC, while creating the source.",
+    "ts": "1782472074.517229",
+    "thread_ts": "1782411446.866449",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BCY9AC80P",
+        "created": 1782472062,
+        "timestamp": 1782472062,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08RZQ547LJ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 5407,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BCY9AC80P/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BCY9AC80P/download/image.png",
+        "original_h": 64,
+        "original_w": 256,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BCY9AC80P-e3826d5c8e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BCY9AC80P-e3826d5c8e/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BCY9AC80P-e3826d5c8e/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BCY9AC80P-e3826d5c8e/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 256,
+        "thumb_360_h": 64,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BCY9AC80P/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BCY9AC80P-1ec80fe3b9",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oZZwz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", please make sure you have selected "
+              },
+              {
+                "type": "text",
+                "text": "Update Method",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to CDC, while creating the source."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d748711b-c9e0-4276-a10b-5f26dd3efaa7",
+    "type": "message",
+    "user": "U0B26P1ATD4",
+    "text": "Hi\nI'm working on backfilling historical data into Iceberg tables and need to replicate the `_olake_id` generation logic for composite primary keys.\n\nContext*:*\n• My table has composite primary key: `(date, id)`\n• OLake destination config shows: `identifier_fields: [date, id]`\nWhat I found in the docs:\n*\"For composite primary keys, _olake_id is a stable hash of all primary key columns\"*\n\nWhat I need to know:\n1. Which hash algorithmdoes OLake Go use? (MD5, SHA256, etc.)\n2. How are the columns concatenated before hashing? (delimiter:`|`,`,`, none?)\n3. Confirmation on where ISO format is being used for timestamp columns like `date` . If not, then what ?\n*Example from my table:*\n```date: 2026-06-24 00:00:00.000 +0530\nid: 019efc0f-2a40-78ff-aee0-c8fdeb922bdc\n_olake_id: b26e33d8f97c7cb274345b3b1596e6c3```\nI've tried:\n• `MD5(date|id)`doesn't match\n• `MD5(id|date)`→ doesn't match\n• `MD5(id)`→ doesn't match\nCould you share the exact formula or point me to the relevant code in the OLake Go repository?\nThanks!",
+    "ts": "1782472159.355289",
+    "thread_ts": "1782472159.355289",
+    "edited": {
+      "user": "U0B26P1ATD4",
+      "ts": "1782472793.000000"
+    },
+    "reply_count": 3,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0B26P1ATD4"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1782473066.295699"
+      },
+      {
+        "user": "U0B26P1ATD4",
+        "ts": "1782473527.012389"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1782474044.195339"
+      }
+    ],
+    "latest_reply": "1782474044.195339",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4UFwB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi\nI'm working on backfilling historical data into Iceberg tables and need to replicate the "
+              },
+              {
+                "type": "text",
+                "text": "_olake_id",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " generation logic for composite primary keys.\n\nContext"
+              },
+              {
+                "type": "text",
+                "text": ":",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "My table has composite primary key: "
+                  },
+                  {
+                    "type": "text",
+                    "text": "(date, id)",
+                    "style": {
+                      "code": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "OLake destination config shows: "
+                  },
+                  {
+                    "type": "text",
+                    "text": "identifier_fields: [date, id]",
+                    "style": {
+                      "code": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nWhat I found in the docs:\n"
+              },
+              {
+                "type": "text",
+                "text": "\"For composite primary keys, _olake_id is a stable hash of all primary key columns\"",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\nWhat I need to know:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Which hash algorithmdoes OLake Go use? (MD5, SHA256, etc.)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "How are the columns concatenated before hashing? (delimiter:"
+                  },
+                  {
+                    "type": "text",
+                    "text": "|",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ","
+                  },
+                  {
+                    "type": "text",
+                    "text": ",",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ", none?)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Confirmation on where ISO format is being used for timestamp columns like "
+                  },
+                  {
+                    "type": "text",
+                    "text": "date",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " . If not, then what ?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "Example from my table:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "date: 2026-06-24 00:00:00.000 +0530\nid: 019efc0f-2a40-78ff-aee0-c8fdeb922bdc\n_olake_id: b26e33d8f97c7cb274345b3b1596e6c3"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nI've tried:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "MD5(date|id)",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "doesn't match"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "MD5(id|date)",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "→ doesn't match"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "MD5(id)",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "→ doesn't match"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nCould you share the exact formula or point me to the relevant code in the OLake Go repository?\nThanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-07/11074783596326_1e8f83226b8b193dd191_72.png",
+      "first_name": "Jeevansh",
+      "real_name": "Jeevansh Gagroo",
+      "display_name": "Jeevansh Gagroo",
+      "team": "T0820LGJGRF",
+      "name": "jeevansh.gagroo",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "1e0ec31d-1540-44b5-b0b5-27fadec1dcaa",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08RZQ547LJ\u003e I have have selected _Update Method_ to CDC, while creating the source. Please check",
+    "ts": "1782472333.624029",
+    "thread_ts": "1782411446.866449",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0BDAC1EVA9",
+        "created": 1782472298,
+        "timestamp": 1782472298,
+        "name": "olake_cdc.webm",
+        "title": "olake_cdc.webm",
+        "mimetype": "video/webm",
+        "image_exif_rotation": 0,
+        "filetype": "webm",
+        "pretty_type": "WebM",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 2412087,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BDAC1EVA9/olake_cdc.webm",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BDAC1EVA9/download/olake_cdc.webm",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BDAC1EVA9/olake_cdc.webm",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BDAC1EVA9-a85560dcd4",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E9LDI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              },
+              {
+                "type": "text",
+                "text": " I have have selected "
+              },
+              {
+                "type": "text",
+                "text": "Update Method",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to CDC, while creating the source. Please check"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "31db58e5-5078-47d9-bcf6-2a5051c79bf5",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0A6088AMM3\u003e, can you please go through our \u003chttps://olake.io/docs/connectors/mysql/|doc\u003e for _Setting up MySQL as a Source_, and make sure you have all the *CDC Prerequisite* enabled.\n\nThis will help us verify that everything is configured correctly before we proceed.",
+    "ts": "1782472638.696049",
+    "thread_ts": "1782411446.866449",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake MySQL Connector | Setup, Sync Modes \u0026amp; Troubleshooting",
+        "id": 1,
+        "title": "OLake MySQL Connector | Setup, Sync Modes \u0026amp; Troubleshooting",
+        "title_link": "https://olake.io/docs/connectors/mysql/",
+        "text": "Configure OLake MySQL connector for full refresh, CDC; learn prerequisites, connection setup, data type mapping, and common troubleshooting tips",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/connectors/mysql/",
+        "original_url": "https://olake.io/docs/connectors/mysql/",
+        "blocks": null
+      }
+    ],
+    "edited": {
+      "user": "U08RZQ547LJ",
+      "ts": "1782472776.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HDZyq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", can you please go through our "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/connectors/mysql/",
+                "text": "doc"
+              },
+              {
+                "type": "text",
+                "text": " for "
+              },
+              {
+                "type": "text",
+                "text": "Setting up MySQL as a Source",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and make sure you have all the "
+              },
+              {
+                "type": "text",
+                "text": "CDC Prerequisite ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "enabled.\n\nThis will help us verify that everything is configured correctly before we proceed."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "47be6643-40ab-42d3-b816-503de06ba8c7",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0B26P1ATD4\u003e\n OLake Go uses the standard MD5 algorithm.\n   - In the codebase, this is computed via md5.Sum([]byte(concatenatedString)).\nfor more info:\n\u003chttps://github.com/datazip-inc/olake/blob/0948d81fe2d994ddfef28c3500a8410956d859bb/utils/utils.go#L265-L286|github.com/datazip-inc/olake/blob/…/utils.go#…\u003e",
+    "ts": "1782473066.295699",
+    "thread_ts": "1782472159.355289",
+    "parent_user_id": "U0B26P1ATD4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b9Dr7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0B26P1ATD4"
+              },
+              {
+                "type": "text",
+                "text": "\n OLake Go uses the standard MD5 algorithm.\n   - In the codebase, this is computed via md5.Sum([]byte(concatenatedString)).\nfor more info:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/blob/0948d81fe2d994ddfef28c3500a8410956d859bb/utils/utils.go#L265-L286",
+                "text": "github.com/datazip-inc/olake/blob/…/utils.go#…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0ccbe1b7-bd28-433c-bd88-28646e66b6b8",
+    "type": "message",
+    "user": "U0B26P1ATD4",
+    "text": "great. thanks.\ncan you please link this to the documentation \u003chttps://olake.io/docs/understanding/terminologies/general/?terminology-type=olake#3-record-identification-_olake_id|here\u003e as well for ease of access ?",
+    "ts": "1782473527.012389",
+    "thread_ts": "1782472159.355289",
+    "attachments": [
+      {
+        "fallback": "OLake: Key Data Engineering Terminologies Explained- A Glossary",
+        "id": 1,
+        "title": "Key Data Engineering Terminologies Explained- A Glossary",
+        "title_link": "https://olake.io/docs/understanding/terminologies/general/?terminology-type=olake#3-record-identification-_olake_id",
+        "text": "Understand key terms like data lake, lakehouse, CDC, schema evolution, and concurrency in this OLake glossary for data engineering and replication.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/understanding/terminologies/general/?terminology-type=olake#3-record-identification-_olake_id",
+        "original_url": "https://olake.io/docs/understanding/terminologies/general/?terminology-type=olake#3-record-identification-_olake_id",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0B26P1ATD4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U081MTF4GHZ",
+          "U0820LSJZRP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RUUdz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "great. thanks.\ncan you please link this to the documentation "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/understanding/terminologies/general/?terminology-type=olake#3-record-identification-_olake_id",
+                "text": "here"
+              },
+              {
+                "type": "text",
+                "text": " as well for ease of access ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-05-07/11074783596326_1e8f83226b8b193dd191_72.png",
+      "first_name": "Jeevansh",
+      "real_name": "Jeevansh Gagroo",
+      "display_name": "Jeevansh Gagroo",
+      "team": "T0820LGJGRF",
+      "name": "jeevansh.gagroo",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "574f4738-4d9e-460a-be7f-a12ba30c0318",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "cc \u003c@U081MTF4GHZ\u003e",
+    "ts": "1782474044.195339",
+    "thread_ts": "1782472159.355289",
+    "parent_user_id": "U0B26P1ATD4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Hndja",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "cc "
+              },
+              {
+                "type": "user",
+                "user_id": "U081MTF4GHZ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a2ca164a-e3a2-49ed-aadb-2c2620663025",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08RZQ547LJ\u003e\nAll the required CDC prerequisites appear to be enabled, except `binlog_row_metadata`, which is set to `MINIMAL` instead of `FULL`.\nWe've previously used CDC with Debezium using the same MySQL configuration, and it worked without any issues.\nThe current configuration is:\n```SHOW VARIABLES WHERE Variable_name IN (\n  'log_bin',\n  'binlog_format',\n  'binlog_row_image',\n  'binlog_row_metadata',\n  'gtid_mode'\n);\n+----------------------+---------+\n| Variable_name        | Value   |\n+----------------------+---------+\n| binlog_format        | ROW     |\n| binlog_row_image     | FULL    |\n| binlog_row_metadata  | MINIMAL |\n| gtid_mode            | ON      |\n| log_bin              | ON      |\n+----------------------+---------+```\nDoes OLake CDC specifically require `binlog_row_metadata=FULL`, or should `MINIMAL` also work? Could this be the reason for the issue we're seeing?\n\nThis is the warning which appear when source is created\n2026-06-26T12:49:41Z INFO Found CDC Configuration\n2026-06-26T12:49:41Z WARN binlog_row_metadata is not set to FULL\n2026-06-26T12:49:41Z WARN CDC is not supported\n2026-06-26T12:49:41Z INFO {\"connectionStatus\":{\"status\":\"SUCCEEDED\"},\"type\":\"CONNECTION_STATUS\"}\n\n\nPlease can you check if there is a workaround?\nstream closed EOF for olake-fusion/test-connection-mysql-1782478180 (connector)",
+    "ts": "1782478315.501279",
+    "thread_ts": "1782411446.866449",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lj8cD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              },
+              {
+                "type": "text",
+                "text": "\nAll the required CDC prerequisites appear to be enabled, except "
+              },
+              {
+                "type": "text",
+                "text": "binlog_row_metadata",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", which is set to "
+              },
+              {
+                "type": "text",
+                "text": "MINIMAL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " instead of "
+              },
+              {
+                "type": "text",
+                "text": "FULL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nWe've previously used CDC with Debezium using the same MySQL configuration, and it worked without any issues.\nThe current configuration is:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SHOW VARIABLES WHERE Variable_name IN (\n  'log_bin',\n  'binlog_format',\n  'binlog_row_image',\n  'binlog_row_metadata',\n  'gtid_mode'\n);\n+----------------------+---------+\n| Variable_name        | Value   |\n+----------------------+---------+\n| binlog_format        | ROW     |\n| binlog_row_image     | FULL    |\n| binlog_row_metadata  | MINIMAL |\n| gtid_mode            | ON      |\n| log_bin              | ON      |\n+----------------------+---------+"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Does OLake CDC specifically require "
+              },
+              {
+                "type": "text",
+                "text": "binlog_row_metadata=FULL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", or should "
+              },
+              {
+                "type": "text",
+                "text": "MINIMAL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " also work? Could this be the reason for the issue we're seeing?\n\nThis is the warning which appear when source is created\n2026-06-26T12:49:41Z INFO Found CDC Configuration\n2026-06-26T12:49:41Z WARN binlog_row_metadata is not set to FULL\n2026-06-26T12:49:41Z WARN CDC is not supported\n2026-06-26T12:49:41Z INFO {\"connectionStatus\":{\"status\":\"SUCCEEDED\"},\"type\":\"CONNECTION_STATUS\"}\n\n\nPlease can you check if there is a workaround?\nstream closed EOF for olake-fusion/test-connection-mysql-1782478180 (connector)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ab71d474-aa51-49d2-896a-a52416da7e8c",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "cc: \u003c@U08CR7HUWDC\u003e",
+    "ts": "1782478438.481299",
+    "thread_ts": "1782411446.866449",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fkGV8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "cc: "
+              },
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0c975da3-0e35-4cbb-8b26-e539a363ab07",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0A6088AMM3\u003e ,\nOLake CDC requires `binlog_row_metadata = FULL` . OLake relies on binary log events being self-describing to column metadata directly from row events, which requires `binlog_row_metadata = FULL`.\nfor more info:\n\u003chttps://dev.mysql.com/doc/refman/9.7/en/replication-options-binary-log.html#sysvar_binlog_row_metadata|dev.mysql.com/doc/refman/…/replication-options-binary-log.html#…\u003e",
+    "ts": "1782479261.283889",
+    "thread_ts": "1782411446.866449",
+    "edited": {
+      "user": "U08CR7HUWDC",
+      "ts": "1782479269.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U0A6088AMM3"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IgJlS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " ,\nOLake CDC requires "
+              },
+              {
+                "type": "text",
+                "text": "binlog_row_metadata = FULL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " . OLake relies on binary log events being self-describing to column metadata directly from row events, which requires "
+              },
+              {
+                "type": "text",
+                "text": "binlog_row_metadata = FULL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nfor more info:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dev.mysql.com/doc/refman/9.7/en/replication-options-binary-log.html#sysvar_binlog_row_metadata",
+                "text": "dev.mysql.com/doc/refman/…/replication-options-binary-log.html#…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

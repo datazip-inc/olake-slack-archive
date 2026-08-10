@@ -1,0 +1,541 @@
+[
+  {
+    "client_msg_id": "88691fe0-11cf-4e45-a383-2bc2a41551b8",
+    "type": "message",
+    "user": "U0ACFDEBBQB",
+    "text": "We started olake-fusion on our uat env. While adding the catalog to olake fusion, I faced some issues and I have few questions:\n• Any reason why we are not allowing numbers in the catalog name?\n• The info box says if catalog name left empty, it will default to olake_iceberg, but the box is a required field",
+    "ts": "1783936273.126459",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "files": [
+      {
+        "id": "F0BGR4N8S4B",
+        "created": 1783936245,
+        "timestamp": 1783936245,
+        "name": "Screenshot 2026-07-13 at 3.20.42 PM.png",
+        "title": "Screenshot 2026-07-13 at 3.20.42 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0ACFDEBBQB",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 9679,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BGR4N8S4B/screenshot_2026-07-13_at_3.20.42___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BGR4N8S4B/download/screenshot_2026-07-13_at_3.20.42___pm.png",
+        "original_h": 74,
+        "original_w": 350,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGR4N8S4B-6005b9d354/screenshot_2026-07-13_at_3.20.42___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGR4N8S4B-6005b9d354/screenshot_2026-07-13_at_3.20.42___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGR4N8S4B-6005b9d354/screenshot_2026-07-13_at_3.20.42___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGR4N8S4B-6005b9d354/screenshot_2026-07-13_at_3.20.42___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 175,
+        "thumb_360_h": 37,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BGR4N8S4B/screenshot_2026-07-13_at_3.20.42___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BGR4N8S4B-91f3275255",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0BGG16DZL7",
+        "created": 1783936269,
+        "timestamp": 1783936269,
+        "name": "Screenshot 2026-07-13 at 3.21.07 PM.png",
+        "title": "Screenshot 2026-07-13 at 3.21.07 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0ACFDEBBQB",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 21189,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BGG16DZL7/screenshot_2026-07-13_at_3.21.07___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BGG16DZL7/download/screenshot_2026-07-13_at_3.21.07___pm.png",
+        "original_h": 124,
+        "original_w": 516,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGG16DZL7-c8c03de7e0/screenshot_2026-07-13_at_3.21.07___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGG16DZL7-c8c03de7e0/screenshot_2026-07-13_at_3.21.07___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGG16DZL7-c8c03de7e0/screenshot_2026-07-13_at_3.21.07___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BGG16DZL7-c8c03de7e0/screenshot_2026-07-13_at_3.21.07___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 258,
+        "thumb_360_h": 62,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BGG16DZL7/screenshot_2026-07-13_at_3.21.07___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BGG16DZL7-e4fa003adb",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1CDTL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "We started olake-fusion on our uat env. While adding the catalog to olake fusion, I faced some issues and I have few questions:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Any reason why we are not allowing numbers in the catalog name?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The info box says if catalog name left empty, it will default to olake_iceberg, but the box is a required field"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-03/10426423252181_a43fcaca0f0aec7ea3e2_72.png",
+      "first_name": "Sandeep",
+      "real_name": "Sandeep Singh",
+      "display_name": "Sandeep Singh",
+      "team": "T0820LGJGRF",
+      "name": "sandeep.singh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4ecd5763-9d76-40f1-bf33-7ac221fc633d",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0ACFDEBBQB\u003e, thanks for pointing it out!\n\n1. We'll add a quick fix to support numbers in the *Catalog Name* field in OLake Fusion. However, we don't plan to support special characters in catalog names.\n2. Thanks as well for reporting the incorrect info box message. We'll fix that in the upcoming update too.",
+    "ts": "1783940673.563389",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LAqm3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0ACFDEBBQB"
+              },
+              {
+                "type": "text",
+                "text": ", thanks for pointing it out!\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "We'll add a quick fix to support numbers in the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Catalog Name",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " field in OLake Fusion. However, we don't plan to support special characters in catalog names."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Thanks as well for reporting the incorrect info box message. We'll fix that in the upcoming update too."
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "46401141-80d1-4a45-ae37-e7c53f5cb97c",
+    "type": "message",
+    "user": "U0ACFDEBBQB",
+    "text": "Thank you.\n\nAnother doubt I had was regarding the driver version. I see there is a change in \u003chttps://github.com/datazip-inc/olake/releases?page=2#release-v0.7.0|github.com/datazip-inc/olake/releases?page=2#…\u003e regarding the `create one positional delete file per data file ref` . If I have cdc changes from a version earlier than 0.7.0, are they not compatible fully with spark fusion?",
+    "ts": "1783948932.959319",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OmtJ3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thank you.\n\nAnother doubt I had was regarding the driver version. I see there is a change in "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases?page=2#release-v0.7.0",
+                "text": "github.com/datazip-inc/olake/releases?page=2#…"
+              },
+              {
+                "type": "text",
+                "text": " regarding the "
+              },
+              {
+                "type": "text",
+                "text": "create one positional delete file per data file ref",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " . If I have cdc changes from a version earlier than 0.7.0, are they not compatible fully with spark fusion?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-03/10426423252181_a43fcaca0f0aec7ea3e2_72.png",
+      "first_name": "Sandeep",
+      "real_name": "Sandeep Singh",
+      "display_name": "Sandeep Singh",
+      "team": "T0820LGJGRF",
+      "name": "sandeep.singh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "41f592fa-06c2-4a84-87eb-b8569bd301d2",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0ACFDEBBQB\u003e, there's nothing like that. It's fully compatible.",
+    "ts": "1783949092.930859",
+    "thread_ts": "1782902467.145229",
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RdJZA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0ACFDEBBQB"
+              },
+              {
+                "type": "text",
+                "text": ", there's nothing like that. It's fully compatible."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1b1418a1-8acb-4101-a7a7-78055381f21e",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "\u003e • Any reason why we are not allowing numbers in the catalog name?\n\u003e • The info box says if catalog name left empty, it will default to olake_iceberg, but the box is a required field\nHey \u003c@U0ACFDEBBQB\u003e, both of these issues have been fixed in our new release, *OLake-UI v0.4.9*.\n\nIf you're using Helm, please redeploy your Helm release to pick up the latest changes.\n\nEDIT: If you're using the _latest_ image tag with Helm, you can simply delete the OLake UI pod and Kubernetes will recreate it with the latest image.",
+    "ts": "1784003552.959999",
+    "thread_ts": "1782902467.145229",
+    "edited": {
+      "user": "U08RZQ547LJ",
+      "ts": "1784014858.000000"
+    },
+    "parent_user_id": "U0AGV5S9UR2",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z3/2V",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Any reason why we are not allowing numbers in the catalog name?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The info box says if catalog name left empty, it will default to olake_iceberg, but the box is a required field"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nHey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0ACFDEBBQB"
+              },
+              {
+                "type": "text",
+                "text": ", both of these issues have been fixed in our new release, "
+              },
+              {
+                "type": "text",
+                "text": "OLake-UI v0.4.9",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\n\nIf you're using Helm, please redeploy your Helm release to pick up the latest changes.\n\nEDIT: If you're using the "
+              },
+              {
+                "type": "text",
+                "text": "latest ",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "image tag with Helm, you can simply delete the OLake UI pod and Kubernetes will recreate it with the latest image."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-06-27/9112984621506_cf21166d40e3e085daee_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal",
+      "display_name": "Badal",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
