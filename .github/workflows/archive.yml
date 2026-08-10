@@ -3,7 +3,12 @@ name: Slack Archive
 on:
   schedule:
     - cron: "0 */6 * * *"   # every 6 hours — comfortably ahead of the 90-day retention limit
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_time_from:
+        description: "Override -time-from (YYYY-MM-DDTHH:MM:SS UTC), debugging only"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -30,7 +35,9 @@ jobs:
       - name: Determine export window
         id: window
         run: |
-          if [ -f data/.last_run ]; then
+          if [ -n "${{ github.event.inputs.force_time_from }}" ]; then
+            FROM="${{ github.event.inputs.force_time_from }}"
+          elif [ -f data/.last_run ]; then
             # 1h overlap buffer to avoid boundary gaps between runs
             FROM=$(date -u -d "$(cat data/.last_run) -1 hour" +%Y-%m-%dT%H:%M:%S)
           else
