@@ -66,6 +66,22 @@ def merge_channels():
     return list(channels.values())
 
 
+# Slack's file CDN occasionally serves its own HTML login/interstitial page
+# instead of the actual file (looks like an expired/redirected signed URL) —
+# with a 200 status and no error slackdump would catch, so it saves the HTML
+# verbatim with the original filename/extension. Recognize and reject it.
+POISON_SIGNATURES = (b"<!DOCTYPE", b"<!doctype", b"<html")
+
+
+def is_poisoned(path):
+    try:
+        with open(path, "rb") as f:
+            head = f.read(64).lstrip()
+    except OSError:
+        return True
+    return any(head.startswith(sig) for sig in POISON_SIGNATURES)
+
+
 def merge_attachments():
     """
     Copy every downloaded file attachment across all snapshots into a single
@@ -73,22 +89,36 @@ def merge_attachments():
     <file-id>-<original-name>, which is already collision-safe, and puts
     them either under <channel>/attachments/ or (for files not tied to one
     channel) a top-level attachments/ dir — both get merged the same way.
-    Returns the set of filenames present in the pool.
+
+    A poisoned re-download must never overwrite a previously-good copy, so
+    once a filename has a good copy in the pool it's left alone; a poisoned
+    source is skipped outright rather than counted, so a rewritten message
+    URL never points at bad content.
+    Returns the set of filenames with a valid copy in the pool.
     """
     dest = MERGED_DIR / "__attachments"
-    names = set()
+    good = set()
+    skipped_poisoned = 0
     for run_dir in sorted(RAW_DIR.glob("run-*")):
         candidates = [run_dir / "attachments"]
         candidates += [d / "attachments" for d in run_dir.iterdir() if d.is_dir()]
         for attachments_src in candidates:
             if not attachments_src.is_dir():
                 continue
-            dest.mkdir(parents=True, exist_ok=True)
             for f in attachments_src.iterdir():
-                if f.is_file():
-                    shutil.copy2(f, dest / f.name)
-                    names.add(f.name)
-    return names
+                if not f.is_file():
+                    continue
+                if f.name in good:
+                    continue  # already have a good copy, don't risk overwriting it
+                if is_poisoned(f):
+                    skipped_poisoned += 1
+                    continue
+                dest.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(f, dest / f.name)
+                good.add(f.name)
+    if skipped_poisoned:
+        print(f"Skipped {skipped_poisoned} poisoned attachment download(s)", file=sys.stderr)
+    return good
 
 
 def rewrite_file_urls(msg, attachment_names):
