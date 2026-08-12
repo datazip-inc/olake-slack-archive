@@ -1,0 +1,392 @@
+[
+  {
+    "client_msg_id": "cbd291b3-e704-4eb5-b3e8-a9e0fe92769c",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "Huge shoutout to everyone who jumped into *Poll #2*!\n\nThanks *\u003c@U0A5EGHRLQY\u003e, \u003c@U0AV7LLUL86\u003e, and \u003c@U0AMDCT444T\u003e* for taking the time to vote and share your pick on whether Merge-on-Read is worth the trade-off.\nBefore we wrap up, a quick reminder: the *$10 gift card giveaway is still on*. Keep voting early to snag a spot in the next poll!\n\nSee you tomorrow for *Poll #3*",
+    "ts": "1786356901.099079",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "rocket",
+        "count": 4,
+        "users": [
+          "U0A8Y735340",
+          "U0BCX4Z0KGC",
+          "U0817E9CGRM",
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+oRJy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Huge shoutout to everyone who jumped into "
+              },
+              {
+                "type": "text",
+                "text": "Poll #2",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "!\n\nThanks "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "user",
+                "user_id": "U0AV7LLUL86",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "user",
+                "user_id": "U0AMDCT444T",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for taking the time to vote and share your pick on whether Merge-on-Read is worth the trade-off.\nBefore we wrap up, a quick reminder: the "
+              },
+              {
+                "type": "text",
+                "text": "$10 gift card giveaway is still on",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". Keep voting early to snag a spot in the next poll!\n\nSee you tomorrow for "
+              },
+              {
+                "type": "text",
+                "text": "Poll #3",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "07b5a133-bf7f-4b55-a8d7-a7c2fd6ff88a",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "Guys, something is wrong with the docs site PTAL",
+    "ts": "1786391037.924279",
+    "thread_ts": "1786391037.924279",
+    "reply_count": 2,
+    "reply_users": [
+      "U0A9LUUNP43"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786391865.695029"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786394580.019589"
+      }
+    ],
+    "latest_reply": "1786394580.019589",
+    "files": [
+      {
+        "id": "F0BP88TKQMC",
+        "created": 1786391007,
+        "timestamp": 1786391007,
+        "name": "screenshot-2026-08-11_01-09-17.png",
+        "title": "screenshot-2026-08-11_01-09-17.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AV7LLUL86",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 179405,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0BP88TKQMC/screenshot-2026-08-11_01-09-17.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0BP88TKQMC/download/screenshot-2026-08-11_01-09-17.png",
+        "original_h": 752,
+        "original_w": 961,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BP88TKQMC-537d27b43d/screenshot-2026-08-11_01-09-17_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BP88TKQMC-537d27b43d/screenshot-2026-08-11_01-09-17_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BP88TKQMC-537d27b43d/screenshot-2026-08-11_01-09-17_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BP88TKQMC-537d27b43d/screenshot-2026-08-11_01-09-17_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 282,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BP88TKQMC-537d27b43d/screenshot-2026-08-11_01-09-17_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 376,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BP88TKQMC-537d27b43d/screenshot-2026-08-11_01-09-17_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 563,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0BP88TKQMC-537d27b43d/screenshot-2026-08-11_01-09-17_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 751,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0BP88TKQMC/screenshot-2026-08-11_01-09-17.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0BP88TKQMC-b21ec964d7",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 3,
+        "users": [
+          "U0A9LUUNP43",
+          "U08S5BR47GA",
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PQQ2b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Guys, something is wrong with the docs site PTAL"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-04-25/11008664806193_22767d3c555cf71cf7c9_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "d472cac2-6faf-4151-95e4-fc7192bcfa13",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AV7LLUL86\u003e thanks for reporting this , we are checking this will fix it soon",
+    "ts": "1786391865.695029",
+    "thread_ts": "1786391037.924279",
+    "parent_user_id": "U0AV7LLUL86",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0AV7LLUL86"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QhKxK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AV7LLUL86"
+              },
+              {
+                "type": "text",
+                "text": " thanks for reporting this , we are checking this will fix it soon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b0e94190-a658-44b2-8302-f9ac7b705dd3",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0AV7LLUL86\u003e, thanks for reporting this! It’s working now. The docs are back up, so you can use them now.",
+    "ts": "1786394580.019589",
+    "thread_ts": "1786391037.924279",
+    "parent_user_id": "U0AV7LLUL86",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "count": 1,
+        "users": [
+          "U0AV7LLUL86"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BanVv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AV7LLUL86"
+              },
+              {
+                "type": "text",
+                "text": ", thanks for reporting this! It’s working now. The docs are back up, so you can use them now."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
