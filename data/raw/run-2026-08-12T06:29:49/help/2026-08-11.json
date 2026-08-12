@@ -1,0 +1,131 @@
+[
+  {
+    "client_msg_id": "61929cf8-3b0f-4c3f-8f4d-ba6d477da336",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "Hey \u003c@U09NLNMAK1B\u003e, we’ve included a patch for this issue in the latest OLake version, *v0.9.1*. Could you please try it out and let us know if the issue is resolved for you?",
+    "ts": "1786436967.623109",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "S1q3+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U09NLNMAK1B"
+              },
+              {
+                "type": "text",
+                "text": ", we’ve included a patch for this issue in the latest OLake version, "
+              },
+              {
+                "type": "text",
+                "text": "v0.9.1",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". Could you please try it out and let us know if the issue is resolved for you?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "61BA5F9E-A82B-4E2D-9211-3645B225C51D",
+    "type": "message",
+    "user": "U09NLNMAK1B",
+    "text": "Nice\nThanks Saksham\nI will give this a try tonight",
+    "ts": "1786451938.193599",
+    "thread_ts": "1786278012.649989",
+    "parent_user_id": "U09NLNMAK1B",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "602MD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Nice\nThanks Saksham\nI will give this a try tonight"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-26/9785132681729_3f68689b6aeccb4d7106_72.png",
+      "first_name": "Nitish",
+      "real_name": "Nitish Gupta",
+      "display_name": "Nitish Gupta",
+      "team": "T0820LGJGRF",
+      "name": "nitishgupta",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
