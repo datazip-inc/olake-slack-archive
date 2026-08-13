@@ -1,0 +1,195 @@
+[
+  {
+    "client_msg_id": "a49bfd6c-b567-4fb8-8698-f8e6661061ba",
+    "type": "message",
+    "user": "U0BPS76ACMP",
+    "text": "Hi everyone\nI’m a 4th-year student at IIIT Lucknow. I’ve been going through the OLake codebase and found it genuinely interesting, and I’d love to start contributing.\nTo begin with, I’d like to pick up *#659 (unit tests for `types/state.go`)*: \u003chttps://github.com/datazip-inc/olake/issues/659|github.com/datazip-inc/olake/issues/659\u003e\nThe previous PR for this issue (*#994*) was closed due to inactivity, so I believe the issue is available again. \u003c@U09BK0WKBQR\u003e I’ve already gone through `state.go`, set up the project locally, and left a comment on the issue outlining my planned test coverage.\nCould someone let me know the process for getting this issue assigned to me?\nHappy to pick up more issues and contribute further after this one. :rocket:",
+    "ts": "1786532553.976659",
+    "attachments": [
+      {
+        "color": "36a64f",
+        "fallback": "#659 feat: Add Unit Tests for state.go",
+        "id": 1,
+        "title": "#659 feat: Add Unit Tests for state.go",
+        "title_link": "https://github.com/datazip-inc/olake/issues/659",
+        "text": "**Problem*\n\nThe OLake codebase currently has unit tests for:\n• `resolver`\n• `flattener`\n• `catalog`\nHowever, the file `olake/types/state.go` does not have any test coverage.\nThis file handles critical state management logic for the OLake connector, including:\n• *State Management Methods:*  \n   • `SetType()` - Sets the state type (GLOBAL, STREAM, MIXED)  \n   • `ResetStreams()` - Resets all stream states  \n   • `ResetCursor()` - Resets cursor values for a specific stream  \n   • `isZero()` - Checks if state is empty\n• *Global State Operations:*  \n   • `GetGlobal()` - Retrieves global state with read lock  \n   • `SetGlobal()` - Sets or updates global state with stream tracking  \n   • `HasCompletedBackfill()` - Checks if backfill is completed for a stream (supports both GLOBAL and STREAM state types)\n• *Cursor Management:*  \n   • `GetCursor()` - Retrieves cursor value for a stream and key  \n   • `SetCursor()` - Sets cursor value for a stream (creates new StreamState if needed)\n• *Chunk Management:*  \n   • `GetChunks()` - Retrieves all chunks for a stream  \n   • `SetChunks()` - Sets chunks for a stream (skips for FULLREFRESH mode)  \n   • `RemoveChunk()` - Removes a specific chunk and returns remaining count\netc.\nWithout unit tests, bugs in state management, race conditions with concurrent access, incorrect serialization/deserialization, or edge cases with nil values, empty states, or chunk operations may slip through during development. This is particularly critical as the `State` struct is used extensively across the codebase including:\n• Incremental sync operations\n• Backfill operations\n• CDC (Change Data Capture) processing etc.\n\n---\n\n**Proposed Solution*\n\nAdd comprehensive unit tests for the logic inside `state.go`.\nThis will help:\n• Increase overall test coverage\n• Improve state management reliability across different state types\n• Catch bugs earlier during CI, especially around:  \n   • Concurrent access patterns (read/write locks)  \n   • State serialization/deserialization edge cases  \n   • Chunk management operations  \n   • Cursor value handling  \n   • Empty state handling\n• Make contributions safer when modifying state management logic\nFor reference on how existing unit tests are structured, you can refer to *PR #273* and the existing `catalog_test.go`, `flatten_test.go` and `resolver_test.go` files.\n\n---\n\n**Notes for Contributors*\n\n• Add tests covering most of the scenarios and edge cases which should indicate both pass and fail scenarios.\n• Follow the existing test file structure and naming conventions to maintain consistency with other parts (see `catalog_test.go` for reference).\n• Use `testify/assert` and `testify/require` for assertions (as seen in existing test files).",
+        "fields": [
+          {
+            "title": "Labels",
+            "value": "good first issue",
+            "short": true
+          },
+          {
+            "title": "Comments",
+            "value": "8",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "blocks": null,
+        "footer": "\u003chttps://github.com/datazip-inc/olake|datazip-inc/olake\u003e",
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1764571951
+      }
+    ],
+    "edited": {
+      "user": "U0BPS76ACMP",
+      "ts": "1786532673.000000"
+    },
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pO811",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone\nI’m a 4th-year student at IIIT Lucknow. I’ve been going through the OLake codebase and found it genuinely interesting, and I’d love to start contributing.\nTo begin with, I’d like to pick up "
+              },
+              {
+                "type": "text",
+                "text": "#659 (unit tests for ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "types/state.go",
+                "style": {
+                  "bold": true,
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ")",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ": "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/659",
+                "text": "github.com/datazip-inc/olake/issues/659"
+              },
+              {
+                "type": "text",
+                "text": "\nThe previous PR for this issue ("
+              },
+              {
+                "type": "text",
+                "text": "#994",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ") was closed due to inactivity, so I believe the issue is available again. "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " I’ve already gone through "
+              },
+              {
+                "type": "text",
+                "text": "state.go",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", set up the project locally, and left a comment on the issue outlining my planned test coverage.\nCould someone let me know the process for getting this issue assigned to me?\nHappy to pick up more issues and contribute further after this one. "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11809982469876_fcab408689cd24425e0f_72.jpg",
+      "first_name": "Rishiraj",
+      "real_name": "Rishiraj Mukherjee",
+      "display_name": "Rishiraj Mukherjee",
+      "team": "T0820LGJGRF",
+      "name": "rishyym0927",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a0e0e1f2-b365-4824-8392-aedabf4e048d",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "I haven't worked much with Iceberg yet. I just read about this column widening. its so cool.",
+    "ts": "1786558703.377999",
+    "thread_ts": "1786451189.148569",
+    "parent_user_id": "U08SX0RU9FX",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WMFh8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I haven't worked much with Iceberg yet. I just read about this column widening. its so cool."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11794605225927_3e80062387f62dc8b916_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
