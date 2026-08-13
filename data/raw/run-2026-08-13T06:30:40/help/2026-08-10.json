@@ -1,0 +1,500 @@
+[
+  {
+    "client_msg_id": "5b01535e-65ac-4d9a-ad44-61733ef1f675",
+    "type": "message",
+    "user": "U0ACFDEBBQB",
+    "text": "Hey team,\nHad few questions regarding the new 0.9.0 release.\n\nWe have created iceberg tables using \u003chttps://github.com/datazip-inc/olake/releases#release-v0.8.2|github.com/datazip-inc/olake/releases#…\u003e 0.8.2\n\nI noticed the new release \u003chttps://github.com/datazip-inc/olake/releases#release-v0.9.0|github.com/datazip-inc/olake/releases#…\u003e 0.9.0\nbumps the apache iceberg version from 1.7.2 to 1.10.2\n\nQuestion:\n• Will this change the existing tables? ex. if i am running cdc to export as iceberg table on 0.8.2 then if i upgrade the driver to 0.9.0, will the new data be written in 1.10.2 ?",
+    "ts": "1786353043.646689",
+    "thread_ts": "1786353043.646689",
+    "reply_count": 3,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0ACFDEBBQB"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1786353265.765139"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1786353540.681039"
+      },
+      {
+        "user": "U0ACFDEBBQB",
+        "ts": "1786353932.445029"
+      }
+    ],
+    "latest_reply": "1786353932.445029",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rGf8/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey team,\nHad few questions regarding the new 0.9.0 release.\n\nWe have created iceberg tables using "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases#release-v0.8.2",
+                "text": "github.com/datazip-inc/olake/releases#…"
+              },
+              {
+                "type": "text",
+                "text": " 0.8.2\n\nI noticed the new release "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases#release-v0.9.0",
+                "text": "github.com/datazip-inc/olake/releases#…"
+              },
+              {
+                "type": "text",
+                "text": " 0.9.0\nbumps the apache iceberg version from 1.7.2 to 1.10.2\n\nQuestion:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Will this change the existing tables? ex. if i am running cdc to export as iceberg table on 0.8.2 then if i upgrade the driver to 0.9.0, will the new data be written in 1.10.2 ?"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-03/10426423252181_a43fcaca0f0aec7ea3e2_72.png",
+      "first_name": "Sandeep",
+      "real_name": "Sandeep Singh",
+      "display_name": "Sandeep Singh",
+      "team": "T0820LGJGRF",
+      "name": "sandeep.singh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "b0e99a60-9f19-4cd5-8ab7-569851bc6b61",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0ACFDEBBQB\u003e, existing tables are untouched Iceberg *library* version and *table format* version are different things: 1.10.2 is the library, and OLake still pins `format-version=2` at table creation",
+    "ts": "1786353265.765139",
+    "thread_ts": "1786353043.646689",
+    "parent_user_id": "U0ACFDEBBQB",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Iz3xV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0ACFDEBBQB"
+              },
+              {
+                "type": "text",
+                "text": ", existing tables are untouched Iceberg "
+              },
+              {
+                "type": "text",
+                "text": "library",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " version and "
+              },
+              {
+                "type": "text",
+                "text": "table format",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " version are different things: 1.10.2 is the library, and OLake still pins "
+              },
+              {
+                "type": "text",
+                "text": "format-version=2",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " at table creation"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "076ece2c-c4c5-41b6-8a53-8bf5706ccc44",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "Existing tables will remain backward compatible",
+    "ts": "1786353540.681039",
+    "thread_ts": "1786353043.646689",
+    "parent_user_id": "U0ACFDEBBQB",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6sDn0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Existing tables will remain backward compatible"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "79fcc020-3a11-4b8d-9e4e-61d6a055a2f7",
+    "type": "message",
+    "user": "U0ACFDEBBQB",
+    "text": "understaood, read more on this and clear now",
+    "ts": "1786353932.445029",
+    "thread_ts": "1786353043.646689",
+    "parent_user_id": "U0ACFDEBBQB",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DwqHs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "understaood, read more on this and clear now"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-02-03/10426423252181_a43fcaca0f0aec7ea3e2_72.png",
+      "first_name": "Sandeep",
+      "real_name": "Sandeep Singh",
+      "display_name": "Sandeep Singh",
+      "team": "T0820LGJGRF",
+      "name": "sandeep.singh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c372fbe8-5766-4d69-a245-e0e1345b8d52",
+    "type": "message",
+    "user": "U0A222M0BH9",
+    "text": "hi all, I'm running OLake on an AWS EKS cluster. As of today, I've started getting errors on our Postgres sources as follows:\n```failed to validate cdc configuration for slot cdc_user_olake_replication_slot: no record found```\nThis is true for existing Postgres sources as well as new ones, only with CDC. Does anyone have any idea what might cause this?",
+    "ts": "1786398369.586419",
+    "thread_ts": "1786398369.586419",
+    "reply_count": 2,
+    "reply_users": [
+      "U082APQJZNC",
+      "U0A9LUUNP43"
+    ],
+    "replies": [
+      {
+        "user": "U082APQJZNC",
+        "ts": "1786415219.821729"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786428039.951259"
+      }
+    ],
+    "latest_reply": "1786428039.951259",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iMrXl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi all, I'm running OLake on an AWS EKS cluster. As of today, I've started getting errors on our Postgres sources as follows:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "failed to validate cdc configuration for slot cdc_user_olake_replication_slot: no record found"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This is true for existing Postgres sources as well as new ones, only with CDC. Does anyone have any idea what might cause this?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-08/10080061171524_1654f6f4e0888e844920_72.png",
+      "first_name": "Grayson",
+      "real_name": "Grayson Williams",
+      "display_name": "Grayson Williams",
+      "team": "T0820LGJGRF",
+      "name": "grwilliams",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "483af0af-26cf-45c3-8cd0-3ba3ef8a5bb6",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0A222M0BH9\u003e \n\n1. Whats the source version of existing sync and new ones? You can find it by editing source. Also did you make any recent changes?\n2. You have your replication_slot in place right? Its not deleted or being reused across multiple sources?",
+    "ts": "1786415219.821729",
+    "thread_ts": "1786398369.586419",
+    "parent_user_id": "U0A222M0BH9",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5bUpZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A222M0BH9"
+              },
+              {
+                "type": "text",
+                "text": " \n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Whats the source version of existing sync and new ones? You can find it by editing source. Also did you make any recent changes?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "You have your replication_slot in place right? Its not deleted or being reused across multiple sources?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "11bc1074-80ed-4af5-a0f2-859b56e65dbf",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0A222M0BH9\u003e can you please share your entire logs ,you can find them on Job Logs \u0026amp; History section ?",
+    "ts": "1786428039.951259",
+    "thread_ts": "1786398369.586419",
+    "parent_user_id": "U0A222M0BH9",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1gYvN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A222M0BH9"
+              },
+              {
+                "type": "text",
+                "text": " can you please share your entire logs ,you can find them on Job Logs \u0026 History section ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
