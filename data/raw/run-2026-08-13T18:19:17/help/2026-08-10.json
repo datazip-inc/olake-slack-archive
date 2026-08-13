@@ -1,0 +1,210 @@
+[
+  {
+    "client_msg_id": "c372fbe8-5766-4d69-a245-e0e1345b8d52",
+    "type": "message",
+    "user": "U0A222M0BH9",
+    "text": "hi all, I'm running OLake on an AWS EKS cluster. As of today, I've started getting errors on our Postgres sources as follows:\n```failed to validate cdc configuration for slot cdc_user_olake_replication_slot: no record found```\nThis is true for existing Postgres sources as well as new ones, only with CDC. Does anyone have any idea what might cause this?",
+    "ts": "1786398369.586419",
+    "thread_ts": "1786398369.586419",
+    "reply_count": 2,
+    "reply_users": [
+      "U082APQJZNC",
+      "U0A9LUUNP43"
+    ],
+    "replies": [
+      {
+        "user": "U082APQJZNC",
+        "ts": "1786415219.821729"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1786428039.951259"
+      }
+    ],
+    "latest_reply": "1786428039.951259",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iMrXl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi all, I'm running OLake on an AWS EKS cluster. As of today, I've started getting errors on our Postgres sources as follows:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "failed to validate cdc configuration for slot cdc_user_olake_replication_slot: no record found"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This is true for existing Postgres sources as well as new ones, only with CDC. Does anyone have any idea what might cause this?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-08/10080061171524_1654f6f4e0888e844920_72.png",
+      "first_name": "Grayson",
+      "real_name": "Grayson Williams",
+      "display_name": "Grayson Williams",
+      "team": "T0820LGJGRF",
+      "name": "grwilliams",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "483af0af-26cf-45c3-8cd0-3ba3ef8a5bb6",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0A222M0BH9\u003e \n\n1. Whats the source version of existing sync and new ones? You can find it by editing source. Also did you make any recent changes?\n2. You have your replication_slot in place right? Its not deleted or being reused across multiple sources?",
+    "ts": "1786415219.821729",
+    "thread_ts": "1786398369.586419",
+    "parent_user_id": "U0A222M0BH9",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5bUpZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A222M0BH9"
+              },
+              {
+                "type": "text",
+                "text": " \n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Whats the source version of existing sync and new ones? You can find it by editing source. Also did you make any recent changes?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "You have your replication_slot in place right? Its not deleted or being reused across multiple sources?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "11bc1074-80ed-4af5-a0f2-859b56e65dbf",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0A222M0BH9\u003e can you please share your entire logs ,you can find them on Job Logs \u0026amp; History section ?",
+    "ts": "1786428039.951259",
+    "thread_ts": "1786398369.586419",
+    "parent_user_id": "U0A222M0BH9",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1gYvN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A222M0BH9"
+              },
+              {
+                "type": "text",
+                "text": " can you please share your entire logs ,you can find them on Job Logs \u0026 History section ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
