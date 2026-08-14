@@ -1,0 +1,173 @@
+[
+  {
+    "client_msg_id": "bab37efc-3e1f-4b2e-a313-97370c7dd3ef",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "hey \u003c@U08S5BR47GA\u003e I've tested it end-to-end and left some comments\nPTAL when you have a moment : )\n\u003chttps://github.com/datazip-inc/olake/pull/1029|github.com/datazip-inc/olake/pull/1029\u003e",
+    "ts": "1786475649.454599",
+    "thread_ts": "1786475649.454599",
+    "reply_count": 2,
+    "reply_users": [
+      "U08S5BR47GA",
+      "U0AV7LLUL86"
+    ],
+    "replies": [
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1786475719.147769"
+      },
+      {
+        "user": "U0AV7LLUL86",
+        "ts": "1786475764.636839"
+      }
+    ],
+    "latest_reply": "1786475764.636839",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kVyUr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              },
+              {
+                "type": "text",
+                "text": " I've tested it end-to-end and left some comments\nPTAL when you have a moment : )\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1029",
+                "text": "github.com/datazip-inc/olake/pull/1029"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11794605225927_3e80062387f62dc8b916_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "23ea6a5c-96c8-4af3-929d-8ecd8af21001",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "sure, will try to put one review before monday",
+    "ts": "1786475719.147769",
+    "thread_ts": "1786475649.454599",
+    "edited": {
+      "user": "U08S5BR47GA",
+      "ts": "1786475746.000000"
+    },
+    "parent_user_id": "U0AV7LLUL86",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cqIEt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "sure, will try to put one review before monday"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "473a73f7-6e97-48f6-abb8-6fd45e33dfd6",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "thanks for that",
+    "ts": "1786475764.636839",
+    "thread_ts": "1786475649.454599",
+    "parent_user_id": "U0AV7LLUL86",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qF9PZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "thanks for that"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11794605225927_3e80062387f62dc8b916_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
