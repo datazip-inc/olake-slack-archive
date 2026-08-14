@@ -1,0 +1,512 @@
+[
+  {
+    "client_msg_id": "7b13a0ee-c712-4177-99ba-5e336ff7e17c",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.9.1 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.9.1|github.com/datazip-inc/olake/…/v0.9.1\u003e\n*What’s New*\n• feat: emit bytes read stats in telemetry by \u003c@U08S5BR47GA\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1047|#1047\u003e\n• refactor: de-couple Integration Test module from codebase by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1033|#1033\u003e\n• feat(iceberg): add gcp_project_id for BigLake request routing header by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1056|#1056\u003e\n• chore: remove common lib dependency in IT and olake module by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1053|#1053\u003e\n• fix: s3 driver parquet parser data types by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1020|#1020\u003e\n• feat(ci): add Java dependency CVE scanning with Trivy by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1038|#1038\u003e\n• chore: fix pom formatting by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1065|#1065\u003e\n• fix(lint): enable lint for all modules in olake by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1060|#1060\u003e\n• fix(docker): keep the JVM trust store in sync with the OS on Temurin by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1078|#1078\u003e\n• fix(postgres): pick the slot LSN source by recovery state so CDC works on a read-replica by @erik in \u003chttps://github.com/datazip-inc/olake/pull/1070|#1070\u003e\n• feat: configure Iceberg Destination fields by \u003c@U0BEF84EZ6V\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1057|#1057\u003e\n• chore: gitignore local Claude Code tooling state by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1083|#1083\u003e\n• chore: remove default values in rest_auth_type for Iceberg Catalogs by \u003c@U0BEF84EZ6V\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1087|#1087\u003e\n• chore: added size based batching by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1086|#1086\u003e\nThanks for the contribution!",
+    "ts": "1786453445.064139",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "tada",
+        "count": 2,
+        "users": [
+          "U08S5BR47GA",
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w5Jnz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.9.1 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.9.1",
+                "text": "github.com/datazip-inc/olake/…/v0.9.1"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: emit bytes read stats in telemetry by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S5BR47GA"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1047",
+                    "text": "#1047"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "refactor: de-couple Integration Test module from codebase by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1033",
+                    "text": "#1033"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(iceberg): add gcp_project_id for BigLake request routing header by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1056",
+                    "text": "#1056"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: remove common lib dependency in IT and olake module by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1053",
+                    "text": "#1053"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: s3 driver parquet parser data types by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1020",
+                    "text": "#1020"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(ci): add Java dependency CVE scanning with Trivy by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1038",
+                    "text": "#1038"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: fix pom formatting by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1065",
+                    "text": "#1065"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(lint): enable lint for all modules in olake by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1060",
+                    "text": "#1060"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(docker): keep the JVM trust store in sync with the OS on Temurin by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1078",
+                    "text": "#1078"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(postgres): pick the slot LSN source by recovery state so CDC works on a read-replica by @erik in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1070",
+                    "text": "#1070"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: configure Iceberg Destination fields by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1057",
+                    "text": "#1057"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: gitignore local Claude Code tooling state by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1083",
+                    "text": "#1083"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: remove default values in rest_auth_type for Iceberg Catalogs by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1087",
+                    "text": "#1087"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: added size based batching by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0A9LUUNP43"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1086",
+                    "text": "#1086"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c5f02d2d-0cf6-41d6-a910-7b3345fee354",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rocket: *Observability has arrived in OLake Go!*\nOLake Go now integrates seamlessly with *Prometheus*, giving you real-time visibility into your data pipelines with production-ready metrics for monitoring, dashboards, and alerting.\nGain deeper insights into pipeline health, track performance, and detect issues before they impact your workloads.\nGive it a try, and we’d love to hear your feedback! Please follow the documentation here: \u003chttps://olake.io/docs/monitoring-and-observability/metrics/|olake.io/docs/monitoring-and-observability/metrics\u003e",
+    "ts": "1786453476.413889",
+    "attachments": [
+      {
+        "fallback": "OLake: Prometheus Integration",
+        "id": 1,
+        "title": "Prometheus Integration",
+        "title_link": "https://olake.io/docs/monitoring-and-observability/metrics/",
+        "text": "Expose OLake Go sync and system metrics on a Prometheus-compatible `/metrics` endpoint for monitoring in Grafana and other tools.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/monitoring-and-observability/metrics/",
+        "original_url": "https://olake.io/docs/monitoring-and-observability/metrics/",
+        "blocks": null
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "tada",
+        "count": 3,
+        "users": [
+          "U08S5BR47GA",
+          "U082APQJZNC",
+          "U09DXRC7N91"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ao7zI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "Observability has arrived in OLake Go!",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nOLake Go now integrates seamlessly with "
+              },
+              {
+                "type": "text",
+                "text": "Prometheus",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", giving you real-time visibility into your data pipelines with production-ready metrics for monitoring, dashboards, and alerting.\nGain deeper insights into pipeline health, track performance, and detect issues before they impact your workloads.\nGive it a try, and we’d love to hear your feedback! Please follow the documentation here: "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/monitoring-and-observability/metrics/",
+                "text": "olake.io/docs/monitoring-and-observability/metrics"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

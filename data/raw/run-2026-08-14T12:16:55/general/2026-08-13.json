@@ -1,0 +1,86 @@
+[
+  {
+    "client_msg_id": "9876e7b0-e781-4d31-bb9b-2a36b8cbe097",
+    "type": "message",
+    "user": "U09K0D3H6JD",
+    "text": "I came across this while testing Postgres → Iceberg with OLake. Changed an ID from `INT` to `BIGINT` and the sync handled it fine, but my downstream query was still expecting `INT` and broke. So yeah, neat but risky :sweat_smile:",
+    "ts": "1786610918.285359",
+    "thread_ts": "1786451189.148569",
+    "parent_user_id": "U08SX0RU9FX",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JCx9T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I came across this while testing Postgres → Iceberg with OLake. Changed an ID from "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and the sync handled it fine, but my downstream query was still expecting "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and broke. So yeah, neat but risky "
+              },
+              {
+                "type": "emoji",
+                "name": "sweat_smile",
+                "unicode": "1f605"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-03/9646445865553_8336d5bd5b2f9886bc0d_72.jpg",
+      "first_name": "Siddhant",
+      "real_name": "Siddhant Rai",
+      "display_name": "Siddhant Rai",
+      "team": "T0820LGJGRF",
+      "name": "siddhant.rai.5686",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
