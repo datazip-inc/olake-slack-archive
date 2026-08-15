@@ -1,0 +1,187 @@
+[
+  {
+    "client_msg_id": "61411261-22da-414b-9000-a36a43c0164e",
+    "type": "message",
+    "user": "U0BPS76ACMP",
+    "text": "Hi \u003c@U09BK0WKBQR\u003e I want to work on this , could you please review my plan and assign it to me? \u003chttps://github.com/datazip-inc/olake/issues/659|github.com/datazip-inc/olake/issues/659\u003e",
+    "ts": "1786532317.622069",
+    "thread_ts": "1786532317.622069",
+    "reply_count": 2,
+    "reply_users": [
+      "U09BK0WKBQR",
+      "U0BPS76ACMP"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1786536645.393889"
+      },
+      {
+        "user": "U0BPS76ACMP",
+        "ts": "1786536701.131609"
+      }
+    ],
+    "latest_reply": "1786536701.131609",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U09BK0WKBQR"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "p/SZg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " I want to work on this , could you please review my plan and assign it to me? "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/659",
+                "text": "github.com/datazip-inc/olake/issues/659"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11809982469876_fcab408689cd24425e0f_72.jpg",
+      "first_name": "Rishiraj",
+      "real_name": "Rishiraj Mukherjee",
+      "display_name": "Rishiraj Mukherjee",
+      "team": "T0820LGJGRF",
+      "name": "rishyym0927",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "8ce1b4d9-5db8-4b33-8181-544563f4cbc9",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "This is not a high priority issue. Can you give me some time so that I can provide you with few issues that are of high priority and can be worked on? Will get back to you soon!",
+    "ts": "1786536645.393889",
+    "thread_ts": "1786532317.622069",
+    "parent_user_id": "U0BPS76ACMP",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2+Few",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This is not a high priority issue. Can you give me some time so that I can provide you with few issues that are of high priority and can be worked on? Will get back to you soon!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "06a9cac3-f06e-4e96-9905-6002df686e59",
+    "type": "message",
+    "user": "U0BPS76ACMP",
+    "text": "Thanks a lot",
+    "ts": "1786536701.131609",
+    "thread_ts": "1786532317.622069",
+    "parent_user_id": "U0BPS76ACMP",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NsL13",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks a lot"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11809982469876_fcab408689cd24425e0f_72.jpg",
+      "first_name": "Rishiraj",
+      "real_name": "Rishiraj Mukherjee",
+      "display_name": "Rishiraj Mukherjee",
+      "team": "T0820LGJGRF",
+      "name": "rishyym0927",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
