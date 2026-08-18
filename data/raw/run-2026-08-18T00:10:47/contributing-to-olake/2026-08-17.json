@@ -1,0 +1,185 @@
+[
+  {
+    "client_msg_id": "d6c28b79-3a91-4652-87bb-34cdd4a917f5",
+    "type": "message",
+    "user": "U0BQS8DR802",
+    "text": "Hey \u003c@U08S5BR47GA\u003e I wanna to work on \u003chttps://github.com/datazip-inc/olake/issues/649|github.com/datazip-inc/olake/issues/649\u003e Would you be able to assign me this issue?",
+    "ts": "1786987537.751929",
+    "thread_ts": "1786987537.751929",
+    "edited": {
+      "user": "U0BQS8DR802",
+      "ts": "1786987704.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U08S5BR47GA",
+      "U0BQS8DR802"
+    ],
+    "replies": [
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1786988373.177429"
+      },
+      {
+        "user": "U0BQS8DR802",
+        "ts": "1786988857.705989"
+      }
+    ],
+    "latest_reply": "1786988857.705989",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1S2iV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              },
+              {
+                "type": "text",
+                "text": " I wanna to work on "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/649",
+                "text": "github.com/datazip-inc/olake/issues/649"
+              },
+              {
+                "type": "text",
+                "text": " Would you be able to assign me this issue?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-17/11845994634596_7e20c049a8d8df73c370_72.jpg",
+      "first_name": "Vishesh",
+      "real_name": "Vishesh Singh",
+      "display_name": "Vishesh Singh",
+      "team": "T0820LGJGRF",
+      "name": "vishesh.bhu1971",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "48ab4569-02ad-4775-aea2-2ac7335f411a",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "hi \u003c@U0BQS8DR802\u003e, will get back to you with a higher priority issue for you to work on",
+    "ts": "1786988373.177429",
+    "thread_ts": "1786987537.751929",
+    "parent_user_id": "U0BQS8DR802",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3eltM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BQS8DR802"
+              },
+              {
+                "type": "text",
+                "text": ", will get back to you with a higher priority issue for you to work on"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c5f25372-105b-44c6-9a66-b29acb2aa67d",
+    "type": "message",
+    "user": "U0BQS8DR802",
+    "text": "Sure works",
+    "ts": "1786988857.705989",
+    "thread_ts": "1786987537.751929",
+    "parent_user_id": "U0BQS8DR802",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QC1yz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sure works"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-17/11845994634596_7e20c049a8d8df73c370_72.jpg",
+      "first_name": "Vishesh",
+      "real_name": "Vishesh Singh",
+      "display_name": "Vishesh Singh",
+      "team": "T0820LGJGRF",
+      "name": "vishesh.bhu1971",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
