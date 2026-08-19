@@ -1,0 +1,48 @@
+[
+  {
+    "client_msg_id": "aa335376-ed90-4ac6-94c7-63a111001a66",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "the tool should infer the right format based on the configured engines, with an override for advanced use cases.",
+    "ts": "1787150316.858229",
+    "thread_ts": "1787056163.000869",
+    "parent_user_id": "U0BM3Q9KG9W",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/+RCa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "the tool should infer the right format based on the configured engines, with an override for advanced use cases."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11794605225927_3e80062387f62dc8b916_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
