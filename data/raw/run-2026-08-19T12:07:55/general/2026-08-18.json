@@ -1,0 +1,258 @@
+[
+  {
+    "client_msg_id": "f778e419-bd9d-46bc-843c-6c20f5f225f9",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "Hi everyone! Poll day is here, and this one's for anyone running Iceberg upserts across more than one engine.",
+    "ts": "1787055999.606359",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3RxSI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone! Poll day is here, and this one's for anyone running Iceberg upserts across more than one engine."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "08cb615d-ae1c-5cf6-b63d-5338083f6e96",
+    "type": "message",
+    "user": "U0BM3Q9KG9W",
+    "text": "When your analytics span multiple query engines, how should your replication tool handle delete formats?",
+    "ts": "1787056163.000869",
+    "edited": {
+      "user": "B0BL9EC0CLA",
+      "ts": "1787141024.000000"
+    },
+    "bot_id": "B0BL9EC0CLA",
+    "bot_profile": {
+      "app_id": "A0HFW7MR6",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_72.png"
+      },
+      "id": "B0BL9EC0CLA",
+      "name": "Simple Poll",
+      "team_id": "T0820LGJGRF",
+      "updated": 1785228008
+    },
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 3,
+        "users": [
+          "U0A8Y735340",
+          "U0820LSJZRP",
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*When your analytics span multiple query engines, how should your replication tool handle delete formats?*"
+        },
+        "block_id": "poll-d489fd4f-bfb0-421e-bf37-ae2e8d68ddb3-title-and-menu",
+        "accessory": {
+          "type": "overflow",
+          "action_id": "title-and-menu",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": ":sparkles: Upgrade to Premium",
+                "emoji": true
+              },
+              "value": "upgrade",
+              "url": "https://simplepoll.rocks/pricing"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Results",
+                "emoji": true
+              },
+              "value": "open_unified_modal"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Edit poll",
+                "emoji": true
+              },
+              "value": "edit_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Close poll",
+                "emoji": true
+              },
+              "value": "close_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Delete poll",
+                "emoji": true
+              },
+              "value": "delete_poll"
+            }
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":one: Let me configure the engines, and it resolves the right format    `1`\n\u003c@U0A5EGHRLQY\u003e"
+        },
+        "block_id": "poll-d489fd4f-bfb0-421e-bf37-ae2e8d68ddb3-vote-70944740",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":one:",
+            "emoji": true
+          },
+          "action_id": "vote-70944740"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":two: It should just pick a safe default automatically\n"
+        },
+        "block_id": "poll-d489fd4f-bfb0-421e-bf37-ae2e8d68ddb3-vote-70944741",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":two:",
+            "emoji": true
+          },
+          "action_id": "vote-70944741"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":three: I'll handle the format choice myself\n"
+        },
+        "block_id": "poll-d489fd4f-bfb0-421e-bf37-ae2e8d68ddb3-vote-70944742",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":three:",
+            "emoji": true
+          },
+          "action_id": "vote-70944742"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":four: Honestly not sure how this should work\n"
+        },
+        "block_id": "poll-d489fd4f-bfb0-421e-bf37-ae2e8d68ddb3-vote-70944743",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":four:",
+            "emoji": true
+          },
+          "action_id": "vote-70944743"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Respondents:* `1`"
+        },
+        "block_id": "NalHz"
+      },
+      {
+        "type": "actions",
+        "block_id": "add_option_to_poll\u0026d489fd4f-bfb0-421e-bf37-ae2e8d68ddb3",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Open",
+              "emoji": true
+            },
+            "action_id": "open_unified_modal",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Add option",
+              "emoji": true
+            },
+            "action_id": "add_option"
+          }
+        ]
+      },
+      {
+        "type": "context",
+        "block_id": "cEsOM",
+        "elements": [
+          {
+            "type": "mrkdwn",
+            "text": "Created by \u003c@U08SX0RU9FX\u003e with /poll"
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF"
+  }
+]
