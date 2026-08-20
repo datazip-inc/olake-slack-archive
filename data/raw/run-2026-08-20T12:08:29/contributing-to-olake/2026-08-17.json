@@ -1,0 +1,271 @@
+[
+  {
+    "client_msg_id": "d6c28b79-3a91-4652-87bb-34cdd4a917f5",
+    "type": "message",
+    "user": "U0BQS8DR802",
+    "text": "Hey \u003c@U08S5BR47GA\u003e I wanna to work on \u003chttps://github.com/datazip-inc/olake/issues/649|github.com/datazip-inc/olake/issues/649\u003e Would you be able to assign me this issue?",
+    "ts": "1786987537.751929",
+    "thread_ts": "1786987537.751929",
+    "edited": {
+      "user": "U0BQS8DR802",
+      "ts": "1786987704.000000"
+    },
+    "reply_count": 3,
+    "reply_users": [
+      "U08S5BR47GA",
+      "U09BK0WKBQR",
+      "U0BQS8DR802"
+    ],
+    "replies": [
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1786988373.177429"
+      },
+      {
+        "user": "U0BQS8DR802",
+        "ts": "1786988857.705989"
+      },
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1787214849.997409"
+      }
+    ],
+    "latest_reply": "1787214849.997409",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1S2iV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              },
+              {
+                "type": "text",
+                "text": " I wanna to work on "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/649",
+                "text": "github.com/datazip-inc/olake/issues/649"
+              },
+              {
+                "type": "text",
+                "text": " Would you be able to assign me this issue?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-17/11845994634596_7e20c049a8d8df73c370_72.jpg",
+      "first_name": "Vishesh",
+      "real_name": "Vishesh Singh",
+      "display_name": "Vishesh Singh",
+      "team": "T0820LGJGRF",
+      "name": "vishesh.bhu1971",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "48ab4569-02ad-4775-aea2-2ac7335f411a",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "hi \u003c@U0BQS8DR802\u003e, will get back to you with a higher priority issue for you to work on",
+    "ts": "1786988373.177429",
+    "thread_ts": "1786987537.751929",
+    "parent_user_id": "U0BQS8DR802",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3eltM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BQS8DR802"
+              },
+              {
+                "type": "text",
+                "text": ", will get back to you with a higher priority issue for you to work on"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c5f25372-105b-44c6-9a66-b29acb2aa67d",
+    "type": "message",
+    "user": "U0BQS8DR802",
+    "text": "Sure works",
+    "ts": "1786988857.705989",
+    "thread_ts": "1786987537.751929",
+    "parent_user_id": "U0BQS8DR802",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QC1yz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sure works"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-17/11845994634596_7e20c049a8d8df73c370_72.jpg",
+      "first_name": "Vishesh",
+      "real_name": "Vishesh Singh",
+      "display_name": "Vishesh Singh",
+      "team": "T0820LGJGRF",
+      "name": "vishesh.bhu1971",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f88d94fb-9d88-4859-8c0a-cc757cdeb195",
+    "type": "message",
+    "user": "U0BPS76ACMP",
+    "text": "Hi \u003c@U09BK0WKBQR\u003e\n\nI've raised PR #1124 for issue #659 (unit tests for `types/state.go`) —\n108 table-driven cases, tests only, no production code changed. Followed\nthe structure of `reformat_test.go` as suggested on the issue\n\n\u003chttps://github.com/datazip-inc/olake/pull/1124|github.com/datazip-inc/olake/pull/1124\u003e",
+    "ts": "1787034945.186039",
+    "attachments": [
+      {
+        "color": "36a64f",
+        "fallback": "#1124 test: add unit tests for types/state.go",
+        "id": 1,
+        "title": "#1124 test: add unit tests for types/state.go",
+        "title_link": "https://github.com/datazip-inc/olake/pull/1124",
+        "text": "*Description*\n\n`types/state.go` holds the sync resume logic — backfill chunks, incremental cursors, the CDC global position, and `state.json` serialization — but had no test coverage, unlike `resolver`, `flattener` and `catalog`.\nBugs here fail silently: a wrong answer produces no error and no log line, it just re-copies data that was already synced or skips data that was not. This PR adds *108 table-driven cases* covering every function in the file.\nTests only — *no production code is changed.*\nFixes #659\ncc \u003chttps://github.com/vaibhav-datazip|@vaibhav-datazip\u003e \u003chttps://github.com/nayanj98|@nayanj98\u003e\n\n*Structure*\n\nFollows the architecture of the existing unit tests, `reformat_test.go` in particular:\n• one `Test\u003cFunction\u003e` per function under test — *all 18 functions in `state.go` map 1:1*\n• a doc comment on every test function\n• a flat, data-only `tests` table with `// ===== section =====` grouping and a single loop at the end\n• `testify/assert` throughout, with `require` where continuing past a failure would nil-panic instead of reporting cleanly\n• `t.Cleanup` restores the viper state path that the fixture overrides\n\n*What is covered*\n\n• *Lifecycle* — `SetType`, `isZero`, `ResetStreams`\n• *Global state* — `GetGlobal` / `SetGlobal`, including that `SetGlobal(nil, streamID)` (as called from `cdc.go:65`) preserves the stored position while still tracking the stream, and that a stream set is created when the decoded global has none\n• *Cursors* — `GetCursor` / `SetCursor` / `ResetCursor`: empty-key no-ops, implicit `StreamState` creation on first write, primary vs. secondary cursor reset, and that streams are keyed on *(namespace, name)* together so the same table name in two schemas does not alias\n• *Chunks* — `GetChunks` / `SetChunks` / `RemoveChunk`: the deliberate `FULLREFRESH` no-op, empty-set vs. no-chunks-recorded, and `RemoveChunk`'s `-1`-on-unknown-stream vs. remaining-count contract (the `0` return is what signals backfill completion at `backfill.go:61`)\n• *`HasCompletedBackfill`* — exercised down both branches, since they are different code paths: `GLOBAL` (set membership) and `STREAM` (zero chunks remaining)\n• *Serialization* — `State.MarshalJSON` dropping streams with `HoldsValue == false`; `StreamState.MarshalJSON` flattening the `sync.Map`; `StreamState.UnmarshalJSON` rehydrating a chunk array into a real `*Set[Chunk]`, asserted by type assertion rather than just by length\n• *Concurrency* — 240 goroutines across the `RWMutex`, verified under `-race`\n• *Current-behaviour pins* — `initStreamState` leaves `StreamState.SyncMode` empty, so a freshly created stream state serializes with `\"sync_mode\": \"\"`. Pinned so that changing it is a deliberate act rather than an accident.\n\n*Two notes for anyone writing tests against this file*\n\nBoth are documented in a comment at the top of the new file, since they cost real debugging time:\n1. `State` embeds `*sync.RWMutex` — a *pointer* — so a bare `\u0026State{}` compiles fine and then nil-panics on every locking method. Fixtures need `\u0026State{RWMutex: \u0026sync.RWMutex{}}`.\n2. Every locking mutator — `ResetStreams`, `ResetCursor`, `SetGlobal`, `SetCursor`, `SetChunks`, `RemoveChunk` (`SetType` is the exception: it neither locks nor logs) — ends in `LogState()`, which calls `logger.Fatalf` → `os.Exit(1)` when `constants.StatePath` is unset. That kills the test binary with *no failure output at all*. It is latent, too: `LogState` returns early while `isZero()` is true, so tests pass right up until one stores real data. Fixtures point the path at a `t.TempDir()` file.\n\n*Type of change*\n\n• Test coverage only (no production code changed, no behaviour change)\n• This change requires a documentation update\n\n*How Has This Been Tested?*\n\n• `go test ./types/... -count=1 -v` — 108 cases, all passing\n• `go test ./types/... -race` — clean, no data races\n• `make test.unit` equivalent across the root module — all packages pass\n• `make olake.lint` — exit 0, no findings\n• `make build` — clean\n• `gofmt -l -s` and `go vet ./types/...` — clean\n*Coverage of `state.go` after this PR* — every function is exercised; 15 of 18 are at 100%:\n\n| Function                                                    | Coverage |\n| ----------------------------------------------------------- | -------- |\n| initStreamState, isZero, SetType, ResetStreams, ResetCursor | 100%     |\n| HasCompletedBackfill, GetGlobal, SetGlobal                  | 100%     |\n| GetCursor, SetCursor                                        | 100%     |\n| GetChunks, SetChunks, RemoveChunk                           | 100%     |\n| State.MarshalJSON, LogWithLock                              | 100%     |\n| LogState                                                    | 83.3%    |\n| StreamState.MarshalJSON                                     | 88.9%    |\n| StreamState.UnmarshalJSON                                   | 84.2%    |\n\nThe three partial ones are short only of branches that cannot be reached from a test:\n• `LogState` — the `logger.Fatalf` → `os.Exit(1)` arm, which terminates the test binary by definition\n• `StreamState.MarshalJSON` — the non-string `sync.Map` key arm, unreachable because every writer in `state.go` keys on a string\n• `StreamState.UnmarshalJSON` — the two `json.Marshal`/`json.Unmarshal` error arms on a value that was just successfully decoded\n\n*Screenshots or Recordings*\n\nUploading Rishyx_Shot 2026-08-18 at 12.01.07 PM.mov…\n\n*Documentation*\n\n• N/A (test changes only)\n\n*Related PR's (If Any):*\n\nNone.\n\n---\n\n*One thing I would like a maintainer's call on*\n\nWhile writing these tests I found that `RemoveChunk` does not check its type assertion:\n\n// types/state.go:248\ncastedStateChunks, _ := stateChunks.(*Set[Chunk])\ncastedStateChunks.Remove(chunk)   // nil pointer dereference if the assertion failed\n\nThis is reachable from a malformed `state.json`. `StreamState.UnmarshalJSON` only converts `chunks` into a `Set` when the JSON value is an *array* — a state file containing `\"chunks\": {\"min\": 1, \"max\": 10}` leaves a `map[string]interface{}` under that key instead. `GetChunks` handles that safely (it uses the comma-ok form and returns `nil`); `RemoveChunk` panics.\n`TestStreamStateUnmarshalJSON` documents the decode side of this — the case _\"a chunk object is not converted into a chunk set\"_ asserts that a non-array value does not become a `*Set[Chunk]` — but it deliberately stops short of calling `RemoveChunk` on it, since that would assert a panic as intended behaviour.\nI raised this on the issue before starting and did not get a call either way, so *I have kept this PR tests-only*. Happy to either add a small guard here or open a separate issue for it — just let me know which you prefer.",
+        "fields": [
+          {
+            "title": "Comments",
+            "value": "1",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "blocks": null,
+        "footer": "\u003chttps://github.com/datazip-inc/olake|datazip-inc/olake\u003e",
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1787031497
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9M/Cy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": "\n\nI've raised PR #1124 for issue #659 (unit tests for `types/state.go`) —\n108 table-driven cases, tests only, no production code changed. Followed\nthe structure of `reformat_test.go` as suggested on the issue\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1124",
+                "text": "github.com/datazip-inc/olake/pull/1124"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11809982469876_fcab408689cd24425e0f_72.jpg",
+      "first_name": "Rishiraj",
+      "real_name": "Rishiraj Mukherjee",
+      "display_name": "Rishiraj Mukherjee",
+      "team": "T0820LGJGRF",
+      "name": "rishyym0927",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "client_msg_id": "b23bd6a1-c6af-4ba6-831d-cc4866a8c95c",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0BQS8DR802\u003e these are the 2 issues that are good first and of higher priority:\n1. \u003chttps://github.com/datazip-inc/olake/issues/1131|github.com/datazip-inc/olake/issues/1131\u003e\n2. \u003chttps://github.com/datazip-inc/olake/issues/1128|github.com/datazip-inc/olake/issues/1128\u003e\nPlease go through both the issues and just comment on the one that you want to work on and it will be assigned. Please tag me in the comment.",
+    "ts": "1787214849.997409",
+    "thread_ts": "1786987537.751929",
+    "parent_user_id": "U0BQS8DR802",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gazt+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BQS8DR802"
+              },
+              {
+                "type": "text",
+                "text": " these are the 2 issues that are good first and of higher priority:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/issues/1131",
+                    "text": "github.com/datazip-inc/olake/issues/1131"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/issues/1128",
+                    "text": "github.com/datazip-inc/olake/issues/1128"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nPlease go through both the issues and just comment on the one that you want to work on and it will be assigned. Please tag me in the comment."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
