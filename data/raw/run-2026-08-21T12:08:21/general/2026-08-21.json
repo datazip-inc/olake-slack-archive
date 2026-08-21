@@ -1,0 +1,48 @@
+[
+  {
+    "client_msg_id": "f0146393-60a5-48fe-a10b-666fa37a8675",
+    "type": "message",
+    "user": "U09K0D3H6JD",
+    "text": "picked 1. i'd rather declare the engines once and let the replication tool choose a compatible format, or fail early if there isn’t one",
+    "ts": "1787301166.237869",
+    "thread_ts": "1787056163.000869",
+    "parent_user_id": "U0BM3Q9KG9W",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ddaNT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "picked 1. i'd rather declare the engines once and let the replication tool choose a compatible format, or fail early if there isn’t one"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-03/9646445865553_8336d5bd5b2f9886bc0d_72.jpg",
+      "first_name": "Siddhant",
+      "real_name": "Siddhant Rai",
+      "display_name": "Siddhant Rai",
+      "team": "T0820LGJGRF",
+      "name": "siddhant.rai.5686",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
