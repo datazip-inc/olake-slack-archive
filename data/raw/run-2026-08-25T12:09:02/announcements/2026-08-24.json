@@ -1,0 +1,160 @@
+[
+  {
+    "client_msg_id": "03ccb4b4-9ce2-49b2-be9e-79dc8a61466b",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Fusion v0.1.4 Released:rotating_light:\n :warning: Snapshot Expiry fixed in this version, recommended to upgrade.\nRelease: \u003chttps://github.com/datazip-inc/olake-fusion/releases/tag/v0.1.4|github.com/datazip-inc/olake-fusion/…/v0.1.4\u003e\n*What’s New*\n• fix(ams): stop auto-snapshot expiry by \u003c@U08RZQ547LJ\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/21|#21\u003e\n• fix: fusion corrupted tables by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/16|#16\u003e\nThanks for the contribution!",
+    "ts": "1787590609.152379",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "count": 1,
+        "users": [
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bWS2+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Fusion v0.1.4 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n "
+              },
+              {
+                "type": "emoji",
+                "name": "warning",
+                "unicode": "26a0-fe0f"
+              },
+              {
+                "type": "text",
+                "text": " Snapshot Expiry fixed in this version, recommended to upgrade.\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-fusion/releases/tag/v0.1.4",
+                "text": "github.com/datazip-inc/olake-fusion/…/v0.1.4"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(ams): stop auto-snapshot expiry by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08RZQ547LJ"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/21",
+                    "text": "#21"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: fusion corrupted tables by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/16",
+                    "text": "#16"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
