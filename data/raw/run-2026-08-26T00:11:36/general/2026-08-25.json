@@ -1,0 +1,247 @@
+[
+  {
+    "client_msg_id": "7520ac01-f63e-4b0b-b615-2576c4415c0f",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "Thanks to all who voted in last week's poll; great to see the responses. So here's this week's, and we'd love to hear your take again.",
+    "ts": "1787660191.305619",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QZQic",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks to all who voted in last week's poll; great to see the responses. So here's this week's, and we'd love to hear your take again."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6720354c-698c-501b-b8ee-e46c981b45ef",
+    "type": "message",
+    "user": "U0BM3Q9KG9W",
+    "text": "CDC into Iceberg quietly creates a small-files avalanche. How did you first notice yours?",
+    "ts": "1787660302.704579",
+    "edited": {
+      "user": "B0BL9EC0CLA",
+      "ts": "1787691012.000000"
+    },
+    "bot_id": "B0BL9EC0CLA",
+    "bot_profile": {
+      "app_id": "A0HFW7MR6",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_72.png"
+      },
+      "id": "B0BL9EC0CLA",
+      "name": "Simple Poll",
+      "team_id": "T0820LGJGRF",
+      "updated": 1785228008
+    },
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*CDC into Iceberg quietly creates a small-files avalanche. How did you first notice yours?*"
+        },
+        "block_id": "poll-3aaeee6e-c3c6-4023-ba55-b3af3adc237d-title-and-menu",
+        "accessory": {
+          "type": "overflow",
+          "action_id": "title-and-menu",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": ":sparkles: Upgrade to Premium",
+                "emoji": true
+              },
+              "value": "upgrade",
+              "url": "https://simplepoll.rocks/pricing"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Results",
+                "emoji": true
+              },
+              "value": "open_unified_modal"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Edit poll",
+                "emoji": true
+              },
+              "value": "edit_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Close poll",
+                "emoji": true
+              },
+              "value": "close_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Delete poll",
+                "emoji": true
+              },
+              "value": "delete_poll"
+            }
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":one: Query times crept up    `1`\n\u003c@U0A5EGHRLQY\u003e"
+        },
+        "block_id": "poll-3aaeee6e-c3c6-4023-ba55-b3af3adc237d-vote-71065567",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":one:",
+            "emoji": true
+          },
+          "action_id": "vote-71065567"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":two: Storage bill spiked\n"
+        },
+        "block_id": "poll-3aaeee6e-c3c6-4023-ba55-b3af3adc237d-vote-71065568",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":two:",
+            "emoji": true
+          },
+          "action_id": "vote-71065568"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":three: A downstream job timed out\n"
+        },
+        "block_id": "poll-3aaeee6e-c3c6-4023-ba55-b3af3adc237d-vote-71065569",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":three:",
+            "emoji": true
+          },
+          "action_id": "vote-71065569"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":four: Haven't yet (lucky you)    `1`\n\u003c@U0AV7LLUL86\u003e"
+        },
+        "block_id": "poll-3aaeee6e-c3c6-4023-ba55-b3af3adc237d-vote-71065570",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":four:",
+            "emoji": true
+          },
+          "action_id": "vote-71065570"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Respondents:* `2`"
+        },
+        "block_id": "Ga2zy"
+      },
+      {
+        "type": "actions",
+        "block_id": "add_option_to_poll\u00263aaeee6e-c3c6-4023-ba55-b3af3adc237d",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Open",
+              "emoji": true
+            },
+            "action_id": "open_unified_modal",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Add option",
+              "emoji": true
+            },
+            "action_id": "add_option"
+          }
+        ]
+      },
+      {
+        "type": "context",
+        "block_id": "d10Dd",
+        "elements": [
+          {
+            "type": "mrkdwn",
+            "text": "Created by \u003c@U08SX0RU9FX\u003e with /poll"
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF"
+  }
+]
