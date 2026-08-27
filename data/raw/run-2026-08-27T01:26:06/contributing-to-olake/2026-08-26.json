@@ -1,0 +1,59 @@
+[
+  {
+    "client_msg_id": "482ab36d-3d81-48f0-897b-dabc2bace106",
+    "type": "message",
+    "user": "U0AV7LLUL86",
+    "text": "\u003c@U08S5BR47GA\u003e Requested changes has been made and the PR \u003chttps://github.com/datazip-inc/olake/pull/1029|github.com/datazip-inc/olake/pull/1029\u003e is ready to merge.\nTake a look when you have a moment.",
+    "ts": "1787763482.309949",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n5xaV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08S5BR47GA"
+              },
+              {
+                "type": "text",
+                "text": " Requested changes has been made and the PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1029",
+                "text": "github.com/datazip-inc/olake/pull/1029"
+              },
+              {
+                "type": "text",
+                "text": " is ready to merge.\nTake a look when you have a moment."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-12/11794605225927_3e80062387f62dc8b916_72.jpg",
+      "first_name": "Karthik",
+      "real_name": "Karthik Balasubramanian",
+      "display_name": "Karthik Balasubramanian",
+      "team": "T0820LGJGRF",
+      "name": "karthikbalasubramania",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
