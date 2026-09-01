@@ -1,0 +1,209 @@
+[
+  {
+    "client_msg_id": "77f77e31-958d-4604-97d7-3318b4a9dfa8",
+    "type": "message",
+    "user": "U0BCX4Z0KGC",
+    "text": "Hello to all the new members on the community! Welcome to OLake! It was great meeting you all in Hyderabad!  I'm thinking out loud here but if we get enough people to say yes I'm sure we can host a work-along sort of thing so everyone can see what they can do with OLake instead of just listening to us talk on and on. Cast your vote below and lmk :crossed_fingers:",
+    "ts": "1788172074.834159",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gf+Wk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello to all the new members on the community! Welcome to OLake! It was great meeting you all in Hyderabad!  I'm thinking out loud here but if we get enough people to say yes I'm sure we can host a work-along sort of thing so everyone can see what they can do with OLake instead of just listening to us talk on and on. Cast your vote below and lmk "
+              },
+              {
+                "type": "emoji",
+                "name": "crossed_fingers",
+                "unicode": "1f91e"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-25/11431743754951_710fed4ccfecef645f5a_72.jpg",
+      "first_name": "Advaita",
+      "real_name": "Advaita",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "advaita",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "cf3ee6dc-fdf9-5970-83c3-bff67ad600c2",
+    "type": "message",
+    "user": "U0BM3Q9KG9W",
+    "text": "work-along? yay/nay?",
+    "ts": "1788172175.172539",
+    "edited": {
+      "user": "B0BL9EC0CLA",
+      "ts": "1788243348.000000"
+    },
+    "bot_id": "B0BL9EC0CLA",
+    "bot_profile": {
+      "app_id": "A0HFW7MR6",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_72.png"
+      },
+      "id": "B0BL9EC0CLA",
+      "name": "Simple Poll",
+      "team_id": "T0820LGJGRF",
+      "updated": 1785228008
+    },
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*work-along? yay/nay?*"
+        },
+        "block_id": "poll-d218c0b5-109c-45f4-a5b2-fb9474c32ad7-title-and-menu",
+        "accessory": {
+          "type": "overflow",
+          "action_id": "title-and-menu",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": ":sparkles: Upgrade to Premium",
+                "emoji": true
+              },
+              "value": "upgrade",
+              "url": "https://simplepoll.rocks/pricing"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Results",
+                "emoji": true
+              },
+              "value": "open_unified_modal"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Edit poll",
+                "emoji": true
+              },
+              "value": "edit_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Close poll",
+                "emoji": true
+              },
+              "value": "close_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Delete poll",
+                "emoji": true
+              },
+              "value": "delete_poll"
+            }
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":one: Yay    `2`\n\u003c@U09BK0WKBQR\u003e, \u003c@U09K0D3H6JD\u003e"
+        },
+        "block_id": "poll-d218c0b5-109c-45f4-a5b2-fb9474c32ad7-vote-71159570",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":one:",
+            "emoji": true
+          },
+          "action_id": "vote-71159570"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":two: Nay\n"
+        },
+        "block_id": "poll-d218c0b5-109c-45f4-a5b2-fb9474c32ad7-vote-71159571",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":two:",
+            "emoji": true
+          },
+          "action_id": "vote-71159571"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Respondents:* `2`"
+        },
+        "block_id": "LCPIM"
+      },
+      {
+        "type": "actions",
+        "block_id": "add_option_to_poll\u0026d218c0b5-109c-45f4-a5b2-fb9474c32ad7",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Open",
+              "emoji": true
+            },
+            "action_id": "open_unified_modal",
+            "style": "primary"
+          }
+        ]
+      },
+      {
+        "type": "context",
+        "block_id": "LK/7b",
+        "elements": [
+          {
+            "type": "mrkdwn",
+            "text": "Created by \u003c@U0BCX4Z0KGC\u003e with /poll"
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF"
+  }
+]
