@@ -1,0 +1,261 @@
+[
+  {
+    "client_msg_id": "9387f3e5-52a1-40b6-a76b-de8143786de4",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "Hello everyone, A feature request came in from the community. OLake has no way to type cast a column at the destination today, so casting happens downstream or at the source. The request is to set a destination type per column and have OLake cast during replication: \u003chttps://github.com/datazip-inc/olake/issues/1185|Feature : Enable Column-Level Data Type Transformations During Replication · Issue #1185 · datazip-i…\u003e",
+    "ts": "1788507577.996479",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gUWG8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello everyone, A feature request came in from the community. OLake has no way to type cast a column at the destination today, so casting happens downstream or at the source. The request is to set a destination type per column and have OLake cast during replication: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1185",
+                "text": "Feature : Enable Column-Level Data Type Transformations During Replication · Issue #1185 · datazip-i…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "894b70fb-92f2-5d3e-a6ba-79338cd0cf2e",
+    "type": "message",
+    "user": "U0BM3Q9KG9W",
+    "text": "Column type casting: should OLake handle it during replication, or is dbt or SQL fine?",
+    "ts": "1788507737.194069",
+    "edited": {
+      "user": "B0BL9EC0CLA",
+      "ts": "1788514677.000000"
+    },
+    "bot_id": "B0BL9EC0CLA",
+    "bot_profile": {
+      "app_id": "A0HFW7MR6",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_72.png"
+      },
+      "id": "B0BL9EC0CLA",
+      "name": "Simple Poll",
+      "team_id": "T0820LGJGRF",
+      "updated": 1785228008
+    },
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A8Y735340"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Column type casting: should OLake handle it during replication, or is dbt or SQL fine?*"
+        },
+        "block_id": "poll-9b55b2a9-3266-4ab6-8156-52f2ad0f4e4e-title-and-menu",
+        "accessory": {
+          "type": "overflow",
+          "action_id": "title-and-menu",
+          "options": [
+            {
+              "text": {
+                "type": "plain_text",
+                "text": ":sparkles: Upgrade to Premium",
+                "emoji": true
+              },
+              "value": "upgrade",
+              "url": "https://simplepoll.rocks/pricing"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Results",
+                "emoji": true
+              },
+              "value": "open_unified_modal"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Edit poll",
+                "emoji": true
+              },
+              "value": "edit_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Close poll",
+                "emoji": true
+              },
+              "value": "close_poll"
+            },
+            {
+              "text": {
+                "type": "plain_text",
+                "text": "Delete poll",
+                "emoji": true
+              },
+              "value": "delete_poll"
+            }
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":one: OLake should handle it\n"
+        },
+        "block_id": "poll-9b55b2a9-3266-4ab6-8156-52f2ad0f4e4e-vote-71249531",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":one:",
+            "emoji": true
+          },
+          "action_id": "vote-71249531"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":two: Simple casts in OLake, complex ones downstream    `1`\n\u003c@U0820LSJZRP\u003e"
+        },
+        "block_id": "poll-9b55b2a9-3266-4ab6-8156-52f2ad0f4e4e-vote-71249532",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":two:",
+            "emoji": true
+          },
+          "action_id": "vote-71249532"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":three: dbt or SQL is fine as is    `1`\n\u003c@U0A5EGHRLQY\u003e"
+        },
+        "block_id": "poll-9b55b2a9-3266-4ab6-8156-52f2ad0f4e4e-vote-71249533",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":three:",
+            "emoji": true
+          },
+          "action_id": "vote-71249533"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": ":four: Not casting anything today\n"
+        },
+        "block_id": "poll-9b55b2a9-3266-4ab6-8156-52f2ad0f4e4e-vote-71249534",
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":four:",
+            "emoji": true
+          },
+          "action_id": "vote-71249534"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "*Respondents:* `2`"
+        },
+        "block_id": "0y1m7"
+      },
+      {
+        "type": "actions",
+        "block_id": "add_option_to_poll\u00269b55b2a9-3266-4ab6-8156-52f2ad0f4e4e",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Open",
+              "emoji": true
+            },
+            "action_id": "open_unified_modal",
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Add option",
+              "emoji": true
+            },
+            "action_id": "add_option"
+          }
+        ]
+      },
+      {
+        "type": "context",
+        "block_id": "zKW5f",
+        "elements": [
+          {
+            "type": "mrkdwn",
+            "text": "Created by \u003c@U08SX0RU9FX\u003e with /poll"
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF"
+  }
+]
