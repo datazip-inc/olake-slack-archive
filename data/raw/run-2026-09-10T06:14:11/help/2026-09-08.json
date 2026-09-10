@@ -1,0 +1,559 @@
+[
+  {
+    "client_msg_id": "6c417377-90e1-4e63-b4e7-7ceea5fa31fb",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "hi team, good day\nany clue on why this happens almost everytime i run clear destination myself?\nlogs attached in thread",
+    "ts": "1788931757.771769",
+    "thread_ts": "1788931757.771769",
+    "reply_count": 9,
+    "reply_users": [
+      "U08S5BR47GA",
+      "U09KQFGF7J4"
+    ],
+    "replies": [
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1788931762.445349"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1788932906.706749"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1788933031.792599"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1788933033.466839"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1788933137.380109"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1788933150.522859"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1788933178.430899"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1788933390.595259"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1788934273.138909"
+      }
+    ],
+    "latest_reply": "1788934273.138909",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tnMBr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi team, good day\nany clue on why this happens almost everytime i run clear destination myself?\nlogs attached in thread"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "82a4d708-751e-48a0-a70d-e76ac493082d",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "```2026-09-09T05:27:10Z DEBUG Skipping stream public.direct_chat_contacts; not in selected streams.\n2026-09-09T05:27:10Z INFO Valid selected streams are public.devices\n2026-09-09T05:27:10Z INFO State for selected streams cleared successfully.\n2026-09-09T05:27:10Z DEBUG clearing S3 prefix: \u003cs3://warehouse-prod-olake/identity_client_mgmt_client_mgmt_public/devices\u003e\n2026-09-09T05:27:53Z DEBUG successfully cleared S3 prefix: \u003cs3://warehouse-prod-olake/identity_client_mgmt_client_mgmt_public/devices\u003e\n2026-09-09T05:27:53Z ERROR runtime error: invalid memory address or nil pointer dereference\n2026-09-09T05:27:53Z ERROR goroutine 1 [running]:\n2026-09-09T05:27:53Z ERROR runtime/debug.Stack()\n2026-09-09T05:27:53Z ERROR /usr/local/go/src/runtime/debug/stack.go:26 +0x64\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/datazip-inc/olake/utils/safego.Recovery(0x1)|github.com/datazip-inc/olake/utils/safego.Recovery(0x1)\u003e\n2026-09-09T05:27:53Z ERROR /home/app/utils/safego/safego.go:76 +0x48\n2026-09-09T05:27:53Z ERROR panic({0x1780de0?, 0x321a2d0?})\n2026-09-09T05:27:53Z ERROR /usr/local/go/src/runtime/panic.go:783 +0x120\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/datazip-inc/olake/destination.DropStreams.deferwrap1()|github.com/datazip-inc/olake/destination.DropStreams.deferwrap1()\u003e\n2026-09-09T05:27:53Z ERROR /home/app/destination/writers.go:297 +0x28\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/datazip-inc/olake/destination.DropStreams({0x1ed7b18|github.com/datazip-inc/olake/destination.DropStreams({0x1ed7b18\u003e, 0x400069ea80}, 0x400069ce20, {0x40007441d0, 0x1, 0x1})\n2026-09-09T05:27:53Z ERROR /home/app/destination/writers.go:303 +0x180\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/datazip-inc/olake/protocol.init.func4(0x325a2c0|github.com/datazip-inc/olake/protocol.init.func4(0x325a2c0\u003e, {0x1ad1f91?, 0x4?, 0x1ad1c95?})\n2026-09-09T05:27:53Z ERROR /home/app/protocol/clear.go:65 +0x2fc\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/spf13/cobra.(*Command).execute(0x325a2c0|github.com/spf13/cobra.(*Command).execute(0x325a2c0\u003e, {0x400083e600, 0x6, 0x6})\n2026-09-09T05:27:53Z ERROR /go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1015 +0x7d4\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/spf13/cobra.(*Command).ExecuteC(0x325a840)|github.com/spf13/cobra.(*Command).ExecuteC(0x325a840)\u003e\n2026-09-09T05:27:53Z ERROR /go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1148 +0x350\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/spf13/cobra.(*Command).Execute(...)|github.com/spf13/cobra.(*Command).Execute(...)\u003e\n2026-09-09T05:27:53Z ERROR /go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1071\n2026-09-09T05:27:53Z ERROR \u003chttp://github.com/datazip-inc/olake.RegisterDriver({0x1f00968|github.com/datazip-inc/olake.RegisterDriver({0x1f00968\u003e?, 0x40008a6c80?})\n2026-09-09T05:27:53Z ERROR /home/app/connector.go:18 +0x58\n2026-09-09T05:27:53Z ERROR main.main()\n2026-09-09T05:27:53Z ERROR /home/app/drivers/postgres/main.go:14 +0x5c\n2026-09-09T05:27:53Z ERROR null\n2026-09-09T05:27:53Z INFO Time of execution 43.690980412s```",
+    "ts": "1788931762.445349",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U081MTF4GHZ",
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IqFvW",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2026-09-09T05:27:10Z DEBUG Skipping stream public.direct_chat_contacts; not in selected streams.\n2026-09-09T05:27:10Z INFO Valid selected streams are public.devices\n2026-09-09T05:27:10Z INFO State for selected streams cleared successfully.\n2026-09-09T05:27:10Z DEBUG clearing S3 prefix: "
+              },
+              {
+                "type": "link",
+                "url": "s3://warehouse-prod-olake/identity_client_mgmt_client_mgmt_public/devices"
+              },
+              {
+                "type": "text",
+                "text": "\n2026-09-09T05:27:53Z DEBUG successfully cleared S3 prefix: "
+              },
+              {
+                "type": "link",
+                "url": "s3://warehouse-prod-olake/identity_client_mgmt_client_mgmt_public/devices"
+              },
+              {
+                "type": "text",
+                "text": "\n2026-09-09T05:27:53Z ERROR runtime error: invalid memory address or nil pointer dereference\n2026-09-09T05:27:53Z ERROR goroutine 1 [running]:\n2026-09-09T05:27:53Z ERROR runtime/debug.Stack()\n2026-09-09T05:27:53Z ERROR /usr/local/go/src/runtime/debug/stack.go:26 +0x64\n2026-09-09T05:27:53Z ERROR github.com/datazip-inc/olake/utils/safego.Recovery(0x1)\n2026-09-09T05:27:53Z ERROR /home/app/utils/safego/safego.go:76 +0x48\n2026-09-09T05:27:53Z ERROR panic({0x1780de0?, 0x321a2d0?})\n2026-09-09T05:27:53Z ERROR /usr/local/go/src/runtime/panic.go:783 +0x120\n2026-09-09T05:27:53Z ERROR github.com/datazip-inc/olake/destination.DropStreams.deferwrap1()\n2026-09-09T05:27:53Z ERROR /home/app/destination/writers.go:297 +0x28\n2026-09-09T05:27:53Z ERROR github.com/datazip-inc/olake/destination.DropStreams({0x1ed7b18, 0x400069ea80}, 0x400069ce20, {0x40007441d0, 0x1, 0x1})\n2026-09-09T05:27:53Z ERROR /home/app/destination/writers.go:303 +0x180\n2026-09-09T05:27:53Z ERROR github.com/datazip-inc/olake/protocol.init.func4(0x325a2c0, {0x1ad1f91?, 0x4?, 0x1ad1c95?})\n2026-09-09T05:27:53Z ERROR /home/app/protocol/clear.go:65 +0x2fc\n2026-09-09T05:27:53Z ERROR github.com/spf13/cobra.(*Command).execute(0x325a2c0, {0x400083e600, 0x6, 0x6})\n2026-09-09T05:27:53Z ERROR /go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1015 +0x7d4\n2026-09-09T05:27:53Z ERROR github.com/spf13/cobra.(*Command).ExecuteC(0x325a840)\n2026-09-09T05:27:53Z ERROR /go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1148 +0x350\n2026-09-09T05:27:53Z ERROR github.com/spf13/cobra.(*Command).Execute(...)\n2026-09-09T05:27:53Z ERROR /go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1071\n2026-09-09T05:27:53Z ERROR github.com/datazip-inc/olake.RegisterDriver({0x1f00968?, 0x40008a6c80?})\n2026-09-09T05:27:53Z ERROR /home/app/connector.go:18 +0x58\n2026-09-09T05:27:53Z ERROR main.main()\n2026-09-09T05:27:53Z ERROR /home/app/drivers/postgres/main.go:14 +0x5c\n2026-09-09T05:27:53Z ERROR null\n2026-09-09T05:27:53Z INFO Time of execution 43.690980412s"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0aab274f-2773-4e31-a709-02b65c59351f",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U09KQFGF7J4\u003e can you tell us the the source version of the job you tried doing this for ?",
+    "ts": "1788932906.706749",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TP0M1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " can you tell us the the source version of the job you tried doing this for ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6aec9c42-98be-425f-bff2-e50c9da3918d",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "postgres\nolake version 0.8.0\npg ver 16.11 i think",
+    "ts": "1788933031.792599",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Yopvn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "postgres\nolake version 0.8.0\npg ver 16.11 i think"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c934567b-d211-41b1-8a67-fd84070d852a",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "dest is s3",
+    "ts": "1788933033.466839",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "s+e4k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dest is s3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6ca383aa-3cf8-4c39-bf3d-10bf72df273b",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U09KQFGF7J4\u003e, this issue was fixed in v0.8.1 can you try upgrading your source version and then try this.",
+    "ts": "1788933137.380109",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "18s07",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": ", this issue was fixed in v0.8.1 can you try upgrading your source version and then try this."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7c95d866-89cd-49a0-8560-f0eeb501abb7",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "okay, thanks",
+    "ts": "1788933150.522859",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QBHXY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "okay, thanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "84ee56b9-bce1-4f57-b283-28bce28894c1",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "is this present on all versions \u0026lt; 0.8.0? , basically since what ver does it appear",
+    "ts": "1788933178.430899",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qwJty",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "is this present on all versions \u003c 0.8.0? , basically since what ver does it appear"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c0a20dbf-e4cf-40f6-862c-d7f2cc96da9e",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "It was introduced in v0.8.0 only , your jobs with source version \u0026lt;v0.8.0 should work fine",
+    "ts": "1788933390.595259",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lonc6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "It was introduced in v0.8.0 only , your jobs with source version \u003cv0.8.0 should work fine"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "51089293-8916-4cbb-bb54-b42d0aed771d",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "cool, thanks",
+    "ts": "1788934273.138909",
+    "thread_ts": "1788931757.771769",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/i3io",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "cool, thanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
