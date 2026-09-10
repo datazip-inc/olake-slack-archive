@@ -1,0 +1,214 @@
+[
+  {
+    "client_msg_id": "f5c47da5-f4a1-4976-8cd7-39d78bd9b390",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.10.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.10.0|github.com/datazip-inc/olake/…/v0.10.0\u003e\n*What’s New*\n• chore(ci): add composite actions to dependabot scans by @kaileshwar16 in \u003chttps://github.com/datazip-inc/olake/pull/1141|#1141\u003e\n• feat: introducing pos deletes in olake (interoperabilty v0) by \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1064|#1064\u003e\n• fix: enforce CDC initial wait time defaults for MySQL and Postgres by @kaizakin in \u003chttps://github.com/datazip-inc/olake/pull/1029|#1029\u003e\n• chore: fix trivy vulnerability by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1181|#1181\u003e\n• fix: map Iceberg REST auth type by \u003c@U0BEF84EZ6V\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1182|#1182\u003e\n• feat(mysql): support CDC without binlog_row_metadata=FULL by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1194|#1194\u003e\nThanks for the contribution!",
+    "ts": "1789052978.377829",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gN2DJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.10.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.10.0",
+                "text": "github.com/datazip-inc/olake/…/v0.10.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(ci): add composite actions to dependabot scans by @kaileshwar16 in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1141",
+                    "text": "#1141"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: introducing pos deletes in olake (interoperabilty v0) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1064",
+                    "text": "#1064"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: enforce CDC initial wait time defaults for MySQL and Postgres by @kaizakin in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1029",
+                    "text": "#1029"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: fix trivy vulnerability by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1181",
+                    "text": "#1181"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: map Iceberg REST auth type by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1182",
+                    "text": "#1182"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(mysql): support CDC without binlog_row_metadata=FULL by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1194",
+                    "text": "#1194"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
