@@ -1,0 +1,219 @@
+[
+  {
+    "client_msg_id": "168e2722-a744-41aa-ba5e-3aa3319cd9d0",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Hi team, could I get some \u003c#C081MV728N7\u003e  with a data type replication issue?\n\nWe have an `INT` column in our MariaDB source, and we expect it to be replicated as `INT` in the destination Parquet files on S3. However, OLake is consistently writing the column as `BIGINT`/`INT64` in the Parquet schema.\n\n*Source:* MariaDB (MySQL) — `INT(11)`\n*Destination:* S3 — Parquet\n\nWe were initially running OLake *v0.6.4*, and I suspected this might be version-specific. I also tested the same table with *v0.10.0*, but the column is still being written as `BIGINT`/`INT64`.\n\nThis isn't blocking us immediately, but we'd like to understand the root cause before proceeding further, especially since the expected source-to-destination data type mapping is important for our downstream analytical workloads.\n\nCould someone please help us understand why `INT(11)` is being mapped to `BIGINT`/`INT64` in the Parquet output? Is there any configuration or recommended approach to preserve the `INT` data type?\n\nAny guidance or pointers to the relevant code/documentation would be greatly appreciated. Thanks!",
+    "ts": "1789128697.791379",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8OC23",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, could I get some "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C081MV728N7"
+              },
+              {
+                "type": "text",
+                "text": "  with a data type replication issue?\n\nWe have an "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " column in our MariaDB source, and we expect it to be replicated as "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the destination Parquet files on S3. However, OLake is consistently writing the column as "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "/"
+              },
+              {
+                "type": "text",
+                "text": "INT64",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the Parquet schema.\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Source:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " MariaDB (MySQL) — "
+              },
+              {
+                "type": "text",
+                "text": "INT(11)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "Destination:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " S3 — Parquet\n\nWe were initially running OLake "
+              },
+              {
+                "type": "text",
+                "text": "v0.6.4",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and I suspected this might be version-specific. I also tested the same table with "
+              },
+              {
+                "type": "text",
+                "text": "v0.10.0",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", but the column is still being written as "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "/"
+              },
+              {
+                "type": "text",
+                "text": "INT64",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\n\nThis isn't blocking us immediately, but we'd like to understand the root cause before proceeding further, especially since the expected source-to-destination data type mapping is important for our downstream analytical workloads.\n\nCould someone please help us understand why "
+              },
+              {
+                "type": "text",
+                "text": "INT(11)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is being mapped to "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "/"
+              },
+              {
+                "type": "text",
+                "text": "INT64",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the Parquet output? Is there any configuration or recommended approach to preserve the "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " data type?\n\nAny guidance or pointers to the relevant code/documentation would be greatly appreciated. Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/f2ddea47da93d3ad4a54ce3e012ecd32.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+      "first_name": "rgunaseelan",
+      "real_name": "rgunaseelan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
