@@ -1,0 +1,875 @@
+[
+  {
+    "client_msg_id": "168e2722-a744-41aa-ba5e-3aa3319cd9d0",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Hi team, could I get some \u003c#C081MV728N7\u003e  with a data type replication issue?\n\nWe have an `INT` column in our MariaDB source, and we expect it to be replicated as `INT` in the destination Parquet files on S3. However, OLake is consistently writing the column as `BIGINT`/`INT64` in the Parquet schema.\n\n*Source:* MariaDB (MySQL) — `INT(11)`\n*Destination:* S3 — Parquet\n\nWe were initially running OLake *v0.6.4*, and I suspected this might be version-specific. I also tested the same table with *v0.10.0*, but the column is still being written as `BIGINT`/`INT64`.\n\nThis isn't blocking us immediately, but we'd like to understand the root cause before proceeding further, especially since the expected source-to-destination data type mapping is important for our downstream analytical workloads.\n\nCould someone please help us understand why `INT(11)` is being mapped to `BIGINT`/`INT64` in the Parquet output? Is there any configuration or recommended approach to preserve the `INT` data type?\n\nAny guidance or pointers to the relevant code/documentation would be greatly appreciated. Thanks!",
+    "ts": "1789128697.791379",
+    "thread_ts": "1789128697.791379",
+    "reply_count": 10,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0C1QPWD94G"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1789129360.611629"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1789129597.465019"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1789129622.347459"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1789130337.836619"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1789130376.907409"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1789130406.793819"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1789130625.121119"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1789131152.942799"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1789131987.763509"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1789132111.206499"
+      }
+    ],
+    "latest_reply": "1789132111.206499",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U08CR7HUWDC",
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8OC23",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, could I get some "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C081MV728N7"
+              },
+              {
+                "type": "text",
+                "text": "  with a data type replication issue?\n\nWe have an "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " column in our MariaDB source, and we expect it to be replicated as "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the destination Parquet files on S3. However, OLake is consistently writing the column as "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "/"
+              },
+              {
+                "type": "text",
+                "text": "INT64",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the Parquet schema.\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Source:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " MariaDB (MySQL) — "
+              },
+              {
+                "type": "text",
+                "text": "INT(11)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "Destination:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " S3 — Parquet\n\nWe were initially running OLake "
+              },
+              {
+                "type": "text",
+                "text": "v0.6.4",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and I suspected this might be version-specific. I also tested the same table with "
+              },
+              {
+                "type": "text",
+                "text": "v0.10.0",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", but the column is still being written as "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "/"
+              },
+              {
+                "type": "text",
+                "text": "INT64",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\n\nThis isn't blocking us immediately, but we'd like to understand the root cause before proceeding further, especially since the expected source-to-destination data type mapping is important for our downstream analytical workloads.\n\nCould someone please help us understand why "
+              },
+              {
+                "type": "text",
+                "text": "INT(11)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is being mapped to "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "/"
+              },
+              {
+                "type": "text",
+                "text": "INT64",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the Parquet output? Is there any configuration or recommended approach to preserve the "
+              },
+              {
+                "type": "text",
+                "text": "INT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " data type?\n\nAny guidance or pointers to the relevant code/documentation would be greatly appreciated. Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "709bc6ab-65f7-4196-abdd-cd400f370d19",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0C1QPWD94G\u003e\nthanks for the detail, could you please share\n`SHOW CREATE TABLE \u0026lt;schema\u0026gt;.\u0026lt;table\u0026gt;`",
+    "ts": "1789129360.611629",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kmRS/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0C1QPWD94G"
+              },
+              {
+                "type": "text",
+                "text": "\nthanks for the detail, could you please share\n"
+              },
+              {
+                "type": "text",
+                "text": "SHOW CREATE TABLE \u003cschema\u003e.\u003ctable\u003e",
+                "style": {
+                  "code": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c2a71666-2ce3-4838-a640-79d0ef6fb009",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "where should I run this? on mariaDB?",
+    "ts": "1789129597.465019",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v6Jsn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "where should I run this? on mariaDB?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "64d08480-dc16-42d9-85a2-0fb3df8ef198",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "yeah",
+    "ts": "1789129622.347459",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FKAR/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "yeah"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "20dab6f8-f9f6-4837-928d-1255e2dfb398",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "| #  | Column                  | Data Type          | Nullable | Default |\n|----|-------------------------|--------------------|----------|---------|\n| 1  | id                      | INT UNSIGNED       | NO       |         |\n| 2  | galleryID               | INT UNSIGNED       | NO       |         |\n| 3  | type                    | INT UNSIGNED       | NO       | 1       |\n| 4  | onlineCode              | VARCHAR(45)        | NO       |         |\n| 5  | title                   | VARCHAR(16)        | YES      | NULL    |\n| 6  | firstName               | VARCHAR(255)       | YES      | NULL    |\n| 7  | lastName                | VARCHAR(255)       | YES      | NULL    |\n| 8  | address                 | VARCHAR(255)       | YES      | NULL    |\n| 9  | address2                | VARCHAR(255)       | YES      | NULL    |\n| 10 | city                    | VARCHAR(255)       | YES      | NULL    |\n| 11 | state                   | VARCHAR(255)       | YES      | NULL    |\n| 12 | zip                     | VARCHAR(255)       | YES      | NULL    |\n| 13 | country                 | VARCHAR(50)        | YES      | NULL    |\n| 14 | phone1                  | VARCHAR(255)       | YES      | NULL    |\n| 15 | phone2                  | VARCHAR(255)       | YES      | NULL    |\n| 16 | email                   | VARCHAR(255)       | YES      | NULL    |\n| 17 | mother                  | VARCHAR(255)       | YES      | NULL    |\n| 18 | father                  | VARCHAR(255)       | YES      | NULL    |\n| 19 | subjectID               | VARCHAR(255)       | YES      | NULL    |\n| 20 | referenceNumber         | VARCHAR(255)       | YES      | NULL    |\n| 21 | organization            | VARCHAR(255)       | YES      | NULL    |\n| 22 | year                    | VARCHAR(255)       | YES      | NULL    |\n| 23 | teacher                 | VARCHAR(255)       | YES      | NULL    |\n| 24 | grade                   | VARCHAR(255)       | YES      | NULL    |\n| 25 | homeRoom                | VARCHAR(255)       | YES      | NULL    |\n| 26 | jerseyNumber            | VARCHAR(255)       | YES      | NULL    |\n| 27 | personalization         | VARCHAR(255)       | YES      | NULL    |\n| 28 | notes                   | TEXT               | YES      | NULL    |\n| 29 | galleryGroupID          | INT UNSIGNED       | YES      | NULL    |\n| 30 | custom1                 | VARCHAR(255)       | YES      | NULL    |\n| 31 | custom2                 | VARCHAR(255)       | YES      | NULL    |\n| 32 | custom3                 | VARCHAR(255)       | YES      | NULL    |\n| 33 | images                  | TEXT               | YES      | NULL    |\n| 34 | photoSessionDate        | DATETIME           | YES      | NULL    |\n| 35 | expirationDate          | DATE               | YES      | NULL    |\n| 36 | createDate              | DATETIME           | NO       |         |\n| 37 | lastModifiedDate        | TIMESTAMP          | NO       | CURRENT_TIMESTAMP |\n| 38 | sortOrder               | INT UNSIGNED       | NO       | 0       |\n| 39 | plicSubjectID           | VARCHAR(36)        | YES      | NULL    |\n| 40 | plicLastSynced          | DATETIME           | YES      | NULL    |\n| 41 | custom4                 | VARCHAR(255)       | YES      | NULL    |\n| 42 | custom5                 | VARCHAR(255)       | YES      | NULL    |\n| 43 | custom6                 | VARCHAR(255)       | YES      | NULL    |\n| 44 | custom7                 | VARCHAR(255)       | YES      | NULL    |\n| 45 | custom8                 | VARCHAR(255)       | YES      | NULL    |\n| 46 | custom9                 | VARCHAR(255)       | YES      | NULL    |\n| 47 | custom10                | VARCHAR(255)       | YES      | NULL    |\n| 48 | custom11                | VARCHAR(255)       | YES      | NULL    |\n| 49 | custom12                | VARCHAR(255)       | YES      | NULL    |\n| 50 | custom13                | VARCHAR(255)       | YES      | NULL    |\n| 51 | custom14                | VARCHAR(255)       | YES      | NULL    |\n| 52 | custom15                | VARCHAR(255)       | YES      | NULL    |\n| 53 | custom16                | VARCHAR(255)       | YES      | NULL    |\n| 54 | custom17                | VARCHAR(255)       | YES      | NULL    |\n| 55 | custom18                | VARCHAR(255)       | YES      | NULL    |\n| 56 | custom19                | VARCHAR(255)       | YES      | NULL    |\n| 57 | custom20                | VARCHAR(255)       | YES      | NULL    |\n| 58 | photographer             | VARCHAR(255)       | YES      | NULL    |\n| 59 | facialRecognitionOptIn  | TINYINT(1)         | YES      | 0       |\n| 60 | uid                     | VARCHAR(26)        | YES      | NULL    |",
+    "ts": "1789130337.836619",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kvq0/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "| #  | Column                  | Data Type          | Nullable | Default |\n|----|-------------------------|--------------------|----------|---------|\n| 1  | id                      | INT UNSIGNED       | NO       |         |\n| 2  | galleryID               | INT UNSIGNED       | NO       |         |\n| 3  | type                    | INT UNSIGNED       | NO       | 1       |\n| 4  | onlineCode              | VARCHAR(45)        | NO       |         |\n| 5  | title                   | VARCHAR(16)        | YES      | NULL    |\n| 6  | firstName               | VARCHAR(255)       | YES      | NULL    |\n| 7  | lastName                | VARCHAR(255)       | YES      | NULL    |\n| 8  | address                 | VARCHAR(255)       | YES      | NULL    |\n| 9  | address2                | VARCHAR(255)       | YES      | NULL    |\n| 10 | city                    | VARCHAR(255)       | YES      | NULL    |\n| 11 | state                   | VARCHAR(255)       | YES      | NULL    |\n| 12 | zip                     | VARCHAR(255)       | YES      | NULL    |\n| 13 | country                 | VARCHAR(50)        | YES      | NULL    |\n| 14 | phone1                  | VARCHAR(255)       | YES      | NULL    |\n| 15 | phone2                  | VARCHAR(255)       | YES      | NULL    |\n| 16 | email                   | VARCHAR(255)       | YES      | NULL    |\n| 17 | mother                  | VARCHAR(255)       | YES      | NULL    |\n| 18 | father                  | VARCHAR(255)       | YES      | NULL    |\n| 19 | subjectID               | VARCHAR(255)       | YES      | NULL    |\n| 20 | referenceNumber         | VARCHAR(255)       | YES      | NULL    |\n| 21 | organization            | VARCHAR(255)       | YES      | NULL    |\n| 22 | year                    | VARCHAR(255)       | YES      | NULL    |\n| 23 | teacher                 | VARCHAR(255)       | YES      | NULL    |\n| 24 | grade                   | VARCHAR(255)       | YES      | NULL    |\n| 25 | homeRoom                | VARCHAR(255)       | YES      | NULL    |\n| 26 | jerseyNumber            | VARCHAR(255)       | YES      | NULL    |\n| 27 | personalization         | VARCHAR(255)       | YES      | NULL    |\n| 28 | notes                   | TEXT               | YES      | NULL    |\n| 29 | galleryGroupID          | INT UNSIGNED       | YES      | NULL    |\n| 30 | custom1                 | VARCHAR(255)       | YES      | NULL    |\n| 31 | custom2                 | VARCHAR(255)       | YES      | NULL    |\n| 32 | custom3                 | VARCHAR(255)       | YES      | NULL    |\n| 33 | images                  | TEXT               | YES      | NULL    |\n| 34 | photoSessionDate        | DATETIME           | YES      | NULL    |\n| 35 | expirationDate          | DATE               | YES      | NULL    |\n| 36 | createDate              | DATETIME           | NO       |         |\n| 37 | lastModifiedDate        | TIMESTAMP          | NO       | CURRENT_TIMESTAMP |\n| 38 | sortOrder               | INT UNSIGNED       | NO       | 0       |\n| 39 | plicSubjectID           | VARCHAR(36)        | YES      | NULL    |\n| 40 | plicLastSynced          | DATETIME           | YES      | NULL    |\n| 41 | custom4                 | VARCHAR(255)       | YES      | NULL    |\n| 42 | custom5                 | VARCHAR(255)       | YES      | NULL    |\n| 43 | custom6                 | VARCHAR(255)       | YES      | NULL    |\n| 44 | custom7                 | VARCHAR(255)       | YES      | NULL    |\n| 45 | custom8                 | VARCHAR(255)       | YES      | NULL    |\n| 46 | custom9                 | VARCHAR(255)       | YES      | NULL    |\n| 47 | custom10                | VARCHAR(255)       | YES      | NULL    |\n| 48 | custom11                | VARCHAR(255)       | YES      | NULL    |\n| 49 | custom12                | VARCHAR(255)       | YES      | NULL    |\n| 50 | custom13                | VARCHAR(255)       | YES      | NULL    |\n| 51 | custom14                | VARCHAR(255)       | YES      | NULL    |\n| 52 | custom15                | VARCHAR(255)       | YES      | NULL    |\n| 53 | custom16                | VARCHAR(255)       | YES      | NULL    |\n| 54 | custom17                | VARCHAR(255)       | YES      | NULL    |\n| 55 | custom18                | VARCHAR(255)       | YES      | NULL    |\n| 56 | custom19                | VARCHAR(255)       | YES      | NULL    |\n| 57 | custom20                | VARCHAR(255)       | YES      | NULL    |\n| 58 | photographer             | VARCHAR(255)       | YES      | NULL    |\n| 59 | facialRecognitionOptIn  | TINYINT(1)         | YES      | 0       |\n| 60 | uid                     | VARCHAR(26)        | YES      | NULL    |"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "564d4e67-63b1-4828-9fe9-2ed9112f344c",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "impacted columns are: id, galleryID, type",
+    "ts": "1789130376.907409",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0aCp7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "impacted columns are: id, galleryID, type"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "73fac25e-38dc-4ee4-a297-f7f6f5d82c31",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "All the columns with datatype \"INT UNSIGNED\" are replicated in target as \"BINGINT\"",
+    "ts": "1789130406.793819",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D98WB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "All the columns with datatype \"INT UNSIGNED\" are replicated in target as \"BINGINT\""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ef60a165-a6ec-437b-94aa-06d04193753d",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0C1QPWD94G\u003e\n`INT UNSIGNED`  is working as designed, not version bug. `uint32` max 4294967295 \u0026gt; `int32` max 2147483647, so int32 would overflow. thats why we need to map to int64",
+    "ts": "1789130625.121119",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j42ub",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C1QPWD94G"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "INT UNSIGNED",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  is working as designed, not version bug. "
+              },
+              {
+                "type": "text",
+                "text": "uint32",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " max 4294967295 \u003e "
+              },
+              {
+                "type": "text",
+                "text": "int32",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " max 2147483647, so int32 would overflow. thats why we need to map to int64"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "510a6078-8aa2-4487-b54b-4f206f793093",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Makes sense. However, in that case, shouldn't this behavior have been consistent from the beginning?\nWhen we initially set this up several months ago for another table, the same source datatype — `INT(11) UNSIGNED` — was replicated as `INT32` in the destination.\nCould the mapping be dependent on the actual data/range of values present in the column?",
+    "ts": "1789131152.942799",
+    "thread_ts": "1789128697.791379",
+    "edited": {
+      "user": "U0C1QPWD94G",
+      "ts": "1789131298.000000"
+    },
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+VQZc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Makes sense. However, in that case, shouldn't this behavior have been consistent from the beginning?\nWhen we initially set this up several months ago for another table, the same source datatype — "
+              },
+              {
+                "type": "text",
+                "text": "INT(11) UNSIGNED",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " — was replicated as "
+              },
+              {
+                "type": "text",
+                "text": "INT32",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in the destination.\nCould the mapping be dependent on the actual data/range of values present in the column?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "00a11932-980d-4d4e-b6fa-e16401dc4e0f",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "`INT UNSIGNED` used to map to 32-bit, which overflowed above 2,147,483,647. We fixed it in *v0.4.1* (\u003chttps://github.com/datazip-inc/olake/pull/846|PR #846\u003e) so it now maps to 64-bit.\nThe fix is behind a state-version check so existing jobs don't change type mid-sync: your older table keeps `INT32`, while any newly created job gets the corrected `BIGINT`.",
+    "ts": "1789131987.763509",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0C1QPWD94G"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RHuJ5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "INT UNSIGNED",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " used to map to 32-bit, which overflowed above 2,147,483,647. We fixed it in "
+              },
+              {
+                "type": "text",
+                "text": "v0.4.1",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ("
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/846",
+                "text": "PR #846"
+              },
+              {
+                "type": "text",
+                "text": ") so it now maps to 64-bit.\nThe fix is behind a state-version check so existing jobs don't change type mid-sync: your older table keeps "
+              },
+              {
+                "type": "text",
+                "text": "INT32",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", while any newly created job gets the corrected "
+              },
+              {
+                "type": "text",
+                "text": "BIGINT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1decb580-6d2d-4f35-8926-e592928a0765",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Perfect. Thank you so much for the clear explanation!",
+    "ts": "1789132111.206499",
+    "thread_ts": "1789128697.791379",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AcVSz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Perfect. Thank you so much for the clear explanation!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
