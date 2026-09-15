@@ -1,0 +1,209 @@
+[
+  {
+    "client_msg_id": "21988a18-20b9-4973-897e-2076093dcbe4",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.10.1 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.10.1|github.com/datazip-inc/olake/…/v0.10.1\u003e\n*What’s New*\n• feat: optional schema discovery and stream validation during sync by \u003c@U0BHNPA3BQU\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1039|#1039\u003e\n• fix(iceberg): preserve OLake metadata columns by @copacabanaservice01 in \u003chttps://github.com/datazip-inc/olake/pull/1179|#1179\u003e\n• fix: trivy grpc failure by \u003c@U08S5BR47GA\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1221|#1221\u003e\n• chore(iceberg): drop unused io.minio:minio test dependency by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1222|#1222\u003e\n• fix: deduplication in Arrow CDC when insert+update in same sync by \u003c@U0BEF84EZ6V\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1195|#1195\u003e\nThanks for the contribution!",
+    "ts": "1789353796.760389",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "fire",
+        "count": 1,
+        "users": [
+          "U0820LSJZRP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jOqJT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.10.1 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.10.1",
+                "text": "github.com/datazip-inc/olake/…/v0.10.1"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: optional schema discovery and stream validation during sync by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BHNPA3BQU"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1039",
+                    "text": "#1039"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(iceberg): preserve OLake metadata columns by @copacabanaservice01 in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1179",
+                    "text": "#1179"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: trivy grpc failure by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S5BR47GA"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1221",
+                    "text": "#1221"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(iceberg): drop unused io.minio:minio test dependency by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1222",
+                    "text": "#1222"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: deduplication in Arrow CDC when insert+update in same sync by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1195",
+                    "text": "#1195"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
