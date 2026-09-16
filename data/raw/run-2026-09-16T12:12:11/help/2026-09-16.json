@@ -1,0 +1,505 @@
+[
+  {
+    "client_msg_id": "5aa6d0d6-6f40-4351-83bb-1a40992294e9",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Hi team, getting this error during full load + cdc in one of the tables\n```error occurred while reading records: error occurred while waiting for connections: thread[zenmaster_new.sms_campaigns_min[30]-max[\u003cnil\u003e]]: failed to close writer: failed to close writer: context canceled: prev error: failed to write records: failed to send batch: rpc error: code = Internal desc = grpc: error while marshaling: string field contains invalid UTF-8```\nDDL for table:\n```CREATE TABLE `sms_campaigns` (\n  `id` bigint NOT NULL AUTO_INCREMENT,\n  `name` blob,\n  `merchant_id` bigint NOT NULL,\n  `status` enum(\n    'scheduled',\n    'started',\n    'ended',\n    'draft',\n    'no balance',\n    'deleted',\n    'queued',\n    'approval_declined',\n    'approval_awaiting',\n    'insufficient_credits',\n    'invalid_reward',\n    'error',\n    'picked',\n    'completed',\n    'fallback_ready',\n    'editted',\n    'retry_ready'\n  ) DEFAULT 'draft',\n  `sender` text,\n  `send_time` datetime DEFAULT NULL,\n  `customers_selected` bigint DEFAULT '0',\n  `customers_reached` bigint DEFAULT '0',\n  `message` varchar(10000) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,\n  `msg_type` enum('Transactional', 'Promotional') DEFAULT NULL,\n  `is_test_campaign` int DEFAULT NULL,\n  `append_stop_link` int DEFAULT NULL,\n  `dlt_template_id` varchar(100) DEFAULT NULL,\n  `required_credits` int DEFAULT NULL,\n  `is_forced` tinyint(1) DEFAULT '1',\n  `filters` varchar(1000) DEFAULT NULL,\n  `no_balance_count` bigint NOT NULL DEFAULT '0',\n  `customers_converted` bigint DEFAULT '0',\n  `customers_location_fail` int NOT NULL DEFAULT '0',\n  `msm_id` bigint NOT NULL DEFAULT '0',\n  `user_id` bigint DEFAULT NULL,\n  `filter_id` bigint NOT NULL DEFAULT '0',\n  `offer_id` bigint NOT NULL DEFAULT '0',\n  `reward` varchar(1000) DEFAULT 'na',\n  `reward_expiry` datetime DEFAULT NULL,\n  `unicode_message` enum('on', 'off') NOT NULL DEFAULT 'off',\n  `customers_dnd_fail` int NOT NULL DEFAULT '0',\n  `customers_invalidphone_fail` int NOT NULL DEFAULT '0',\n  `customers_network_fail` int NOT NULL DEFAULT '0',\n  `customers_coupon_fail` int NOT NULL DEFAULT '0',\n  `customers_dlt_template_fail` int DEFAULT '0',\n  `customers_fill_incomplete` int DEFAULT '0',\n  `customers_blocked` int DEFAULT '0',\n  `batches_suppressed` int DEFAULT NULL,\n  `batches_noinput` int DEFAULT NULL,\n  `batches_failed` int DEFAULT NULL,\n  `revenue_generated` double DEFAULT '0',\n  `claim_count` bigint DEFAULT '0',\n  `credits_used` int DEFAULT '0',\n  `total_sms_sent` int DEFAULT '0',\n  `updated_on` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n  `created_on` datetime DEFAULT CURRENT_TIMESTAMP,\n  `run_time` datetime DEFAULT NULL,\n  `is_image` int DEFAULT NULL,\n  `image_url` varchar(500) DEFAULT NULL,\n  `abenabled` int DEFAULT '0',\n  `abpercentage` int DEFAULT '0',\n  `trackdays` int NOT NULL DEFAULT '7',\n  `approved_by` bigint DEFAULT NULL,\n  `approval_time` datetime DEFAULT NULL,\n  `cta_url` varchar(500) DEFAULT NULL,\n  `notification_status` longtext,\n  `error_id` bigint DEFAULT NULL,\n  `vendor_id` mediumtext,\n  `error_reason` varchar(5000) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,\n  `tracking_urls` text,\n  `dlt_header` varchar(255) DEFAULT NULL,\n  `gamified_templates` text,\n  `last_fallback_time` datetime DEFAULT NULL,\n  PRIMARY KEY (`id`),\n  KEY `idx_send_time` (`send_time`)\n) ENGINE = InnoDB DEFAULT CHARSET = latin1```\nIt's unclear from logs which column to look for invalid UTF-8, also if data is available in MySQL then it should be replicated either by sanitising UTF-8",
+    "ts": "1789544973.908769",
+    "thread_ts": "1789544973.908769",
+    "edited": {
+      "user": "U0A5EGHRLQY",
+      "ts": "1789544992.000000"
+    },
+    "reply_count": 4,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U0A5EGHRLQY"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1789548236.731839"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1789548270.756949"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1789549261.014529"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1789549413.885969"
+      }
+    ],
+    "latest_reply": "1789549413.885969",
+    "files": [
+      {
+        "id": "F0C2939KMG9",
+        "created": 1789544880,
+        "timestamp": 1789544880,
+        "name": "file-3f3cadc0bcf377e563a8e235e2bb715f.png",
+        "title": "file-3f3cadc0bcf377e563a8e235e2bb715f.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A5EGHRLQY",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 288732,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2939KMG9/file-3f3cadc0bcf377e563a8e235e2bb715f.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2939KMG9/download/file-3f3cadc0bcf377e563a8e235e2bb715f.png",
+        "original_h": 1244,
+        "original_w": 1934,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2939KMG9-bedd45a709/file-3f3cadc0bcf377e563a8e235e2bb715f_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2939KMG9-bedd45a709/file-3f3cadc0bcf377e563a8e235e2bb715f_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2939KMG9-bedd45a709/file-3f3cadc0bcf377e563a8e235e2bb715f_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2939KMG9-bedd45a709/file-3f3cadc0bcf377e563a8e235e2bb715f_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 232,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2939KMG9-bedd45a709/file-3f3cadc0bcf377e563a8e235e2bb715f_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 309,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2939KMG9-bedd45a709/file-3f3cadc0bcf377e563a8e235e2bb715f_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 463,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2939KMG9-bedd45a709/file-3f3cadc0bcf377e563a8e235e2bb715f_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 617,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C2939KMG9/file-3f3cadc0bcf377e563a8e235e2bb715f.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C2939KMG9-8598e7ac6d",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0C1RPY2QAK",
+        "created": 1789544906,
+        "timestamp": 1789544906,
+        "name": "job-49-logs-2026-09-15-22-40-48.tar.gz",
+        "title": "job-49-logs-2026-09-15-22-40-48.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0A5EGHRLQY",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 12754,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C1RPY2QAK/job-49-logs-2026-09-15-22-40-48.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C1RPY2QAK/download/job-49-logs-2026-09-15-22-40-48.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C1RPY2QAK/job-49-logs-2026-09-15-22-40-48.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C1RPY2QAK-77d81c7338",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U08S0TP9R3P",
+          "U0A8Y735340"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xvjl/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, getting this error during full load + cdc in one of the tables\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "error occurred while reading records: error occurred while waiting for connections: thread[zenmaster_new.sms_campaigns_min[30]-max[\u003cnil\u003e]]: failed to close writer: failed to close writer: context canceled: prev error: failed to write records: failed to send batch: rpc error: code = Internal desc = grpc: error while marshaling: string field contains invalid UTF-8"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DDL for table:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CREATE TABLE `sms_campaigns` (\n  `id` bigint NOT NULL AUTO_INCREMENT,\n  `name` blob,\n  `merchant_id` bigint NOT NULL,\n  `status` enum(\n    'scheduled',\n    'started',\n    'ended',\n    'draft',\n    'no balance',\n    'deleted',\n    'queued',\n    'approval_declined',\n    'approval_awaiting',\n    'insufficient_credits',\n    'invalid_reward',\n    'error',\n    'picked',\n    'completed',\n    'fallback_ready',\n    'editted',\n    'retry_ready'\n  ) DEFAULT 'draft',\n  `sender` text,\n  `send_time` datetime DEFAULT NULL,\n  `customers_selected` bigint DEFAULT '0',\n  `customers_reached` bigint DEFAULT '0',\n  `message` varchar(10000) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,\n  `msg_type` enum('Transactional', 'Promotional') DEFAULT NULL,\n  `is_test_campaign` int DEFAULT NULL,\n  `append_stop_link` int DEFAULT NULL,\n  `dlt_template_id` varchar(100) DEFAULT NULL,\n  `required_credits` int DEFAULT NULL,\n  `is_forced` tinyint(1) DEFAULT '1',\n  `filters` varchar(1000) DEFAULT NULL,\n  `no_balance_count` bigint NOT NULL DEFAULT '0',\n  `customers_converted` bigint DEFAULT '0',\n  `customers_location_fail` int NOT NULL DEFAULT '0',\n  `msm_id` bigint NOT NULL DEFAULT '0',\n  `user_id` bigint DEFAULT NULL,\n  `filter_id` bigint NOT NULL DEFAULT '0',\n  `offer_id` bigint NOT NULL DEFAULT '0',\n  `reward` varchar(1000) DEFAULT 'na',\n  `reward_expiry` datetime DEFAULT NULL,\n  `unicode_message` enum('on', 'off') NOT NULL DEFAULT 'off',\n  `customers_dnd_fail` int NOT NULL DEFAULT '0',\n  `customers_invalidphone_fail` int NOT NULL DEFAULT '0',\n  `customers_network_fail` int NOT NULL DEFAULT '0',\n  `customers_coupon_fail` int NOT NULL DEFAULT '0',\n  `customers_dlt_template_fail` int DEFAULT '0',\n  `customers_fill_incomplete` int DEFAULT '0',\n  `customers_blocked` int DEFAULT '0',\n  `batches_suppressed` int DEFAULT NULL,\n  `batches_noinput` int DEFAULT NULL,\n  `batches_failed` int DEFAULT NULL,\n  `revenue_generated` double DEFAULT '0',\n  `claim_count` bigint DEFAULT '0',\n  `credits_used` int DEFAULT '0',\n  `total_sms_sent` int DEFAULT '0',\n  `updated_on` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n  `created_on` datetime DEFAULT CURRENT_TIMESTAMP,\n  `run_time` datetime DEFAULT NULL,\n  `is_image` int DEFAULT NULL,\n  `image_url` varchar(500) DEFAULT NULL,\n  `abenabled` int DEFAULT '0',\n  `abpercentage` int DEFAULT '0',\n  `trackdays` int NOT NULL DEFAULT '7',\n  `approved_by` bigint DEFAULT NULL,\n  `approval_time` datetime DEFAULT NULL,\n  `cta_url` varchar(500) DEFAULT NULL,\n  `notification_status` longtext,\n  `error_id` bigint DEFAULT NULL,\n  `vendor_id` mediumtext,\n  `error_reason` varchar(5000) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,\n  `tracking_urls` text,\n  `dlt_header` varchar(255) DEFAULT NULL,\n  `gamified_templates` text,\n  `last_fallback_time` datetime DEFAULT NULL,\n  PRIMARY KEY (`id`),\n  KEY `idx_send_time` (`send_time`)\n) ENGINE = InnoDB DEFAULT CHARSET = latin1"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nIt's unclear from logs which column to look for invalid UTF-8, also if data is available in MySQL then it should be replicated either by sanitising UTF-8"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "18aa8cb8-4dc4-4dde-bb3e-db927cb4d9b1",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "Hi \u003c@U0A5EGHRLQY\u003e thanks for flagging this. We've identified the root cause, the source table has a BLOB column `name: blob`, and our MySQL connector currently treats BLOB column as plain text instead of raw binary data. Since these columns can contain bytes that aren't valid UTF-8 text, the sync fails when writing to Iceberg.\n\nWe already have a fix in progress \u003chttps://github.com/datazip-inc/olake/pull/1183|(PR #1183)\u003e that adds proper binary type support end-to-end . We'll share an ETA shortly. Thanks!",
+    "ts": "1789548236.731839",
+    "thread_ts": "1789544973.908769",
+    "edited": {
+      "user": "U08S0TP9R3P",
+      "ts": "1789548264.000000"
+    },
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A5EGHRLQY"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V/Zpr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " thanks for flagging this. We've identified the root cause, the source table has a BLOB column "
+              },
+              {
+                "type": "text",
+                "text": "name: blob",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and our MySQL connector currently treats BLOB column as plain text instead of raw binary data. Since these columns can contain bytes that aren't valid UTF-8 text, the sync fails when writing to Iceberg.\n\nWe already have a fix in progress "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1183",
+                "text": "(PR #1183)"
+              },
+              {
+                "type": "text",
+                "text": " that adds proper binary type support end-to-end . We'll share an ETA shortly. Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "76a6de84-e84a-4851-b536-59a538142411",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Thank you",
+    "ts": "1789548270.756949",
+    "thread_ts": "1789544973.908769",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ztrU8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thank you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "bd3435ab-cb58-4e53-9f04-023131616175",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0A5EGHRLQY\u003e ETA is ~1 week",
+    "ts": "1789549261.014529",
+    "thread_ts": "1789544973.908769",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y32ZA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " ETA is ~1 week"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4ae8b9da-ef67-40b7-8346-89af3e1005c8",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Sure works:+1:",
+    "ts": "1789549413.885969",
+    "thread_ts": "1789544973.908769",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WbvuY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sure works"
+              },
+              {
+                "type": "emoji",
+                "name": "thumbsup",
+                "unicode": "1f44d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
