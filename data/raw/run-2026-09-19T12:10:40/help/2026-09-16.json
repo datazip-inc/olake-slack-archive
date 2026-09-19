@@ -1,0 +1,744 @@
+[
+  {
+    "client_msg_id": "b9e76fb9-69ec-4c06-84e9-f5109166f686",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Hi team I was trying out Positional Deletes via Olake, but most my jobs are failing repeatedly, here are the logs to one of the jobs",
+    "ts": "1789576243.700209",
+    "thread_ts": "1789576243.700209",
+    "reply_count": 11,
+    "reply_users": [
+      "U0817E9CGRM",
+      "U0A5EGHRLQY"
+    ],
+    "replies": [
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1789577622.969109"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1789577871.186959"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1789578000.418829"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1789578113.150229"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1789578292.182749"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1789578620.777989"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1789623888.592699"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1789639047.541769"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1789639528.473449"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1789640053.291649"
+      },
+      {
+        "user": "U0A5EGHRLQY",
+        "ts": "1789640264.965909"
+      }
+    ],
+    "latest_reply": "1789640264.965909",
+    "files": [
+      {
+        "id": "F0C2F74PSGL",
+        "created": 1789576206,
+        "timestamp": 1789576206,
+        "name": "job-52-logs-2026-09-16-15-32-02.tar.gz",
+        "title": "job-52-logs-2026-09-16-15-32-02.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0A5EGHRLQY",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 43893,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2F74PSGL/job-52-logs-2026-09-16-15-32-02.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2F74PSGL/download/job-52-logs-2026-09-16-15-32-02.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C2F74PSGL/job-52-logs-2026-09-16-15-32-02.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C2F74PSGL-a0b850b8ae",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0C2DF59A73",
+        "created": 1789576230,
+        "timestamp": 1789576230,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A5EGHRLQY",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 283554,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2DF59A73/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2DF59A73/download/image.png",
+        "original_h": 1260,
+        "original_w": 1934,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DF59A73-f8791b120d/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DF59A73-f8791b120d/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DF59A73-f8791b120d/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DF59A73-f8791b120d/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 235,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DF59A73-f8791b120d/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 313,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DF59A73-f8791b120d/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 469,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DF59A73-f8791b120d/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 625,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C2DF59A73/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C2DF59A73-d21858191c",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 4,
+        "users": [
+          "U0817E9CGRM",
+          "U081MTF4GHZ",
+          "U08S0TP9R3P",
+          "U082APQJZNC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hCgMU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team I was trying out Positional Deletes via Olake, but most my jobs are failing repeatedly, here are the logs to one of the jobs"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "1b8ae875-13d9-4113-9862-3edba54013ca",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A5EGHRLQY\u003e I assume you have followed helm docs to add storage class?\n\u003chttps://olake.io/docs/install/kubernetes/#index-storage-for-positional-delete-writes|olake.io/docs/install/kubernetes#…\u003e\nAlso can you rerun this job?, as I can see there is only one error log which is of context. So it is unclear what exactly happened.\n\nIn worker log it is a signkill that arrived. which killed the pod.",
+    "ts": "1789577622.969109",
+    "thread_ts": "1789576243.700209",
+    "attachments": [
+      {
+        "fallback": "OLake: Deploy OLake on Kubernetes | CronJob Setup \u0026amp; Management Guide",
+        "id": 1,
+        "title": "Deploy OLake on Kubernetes | CronJob Setup \u0026amp; Management Guide",
+        "title_link": "https://olake.io/docs/install/kubernetes/#index-storage-for-positional-delete-writes",
+        "text": "Learn to deploy OLake sync tasks as Kubernetes CronJobs with ConfigMaps, PVC, and manual control for automated, recurring data pipelines.",
+        "image_url": "https://olake.io/img/logo/olake-blue-with-text.webp",
+        "image_bytes": 16350,
+        "image_height": 530,
+        "image_width": 1761,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/kubernetes/#index-storage-for-positional-delete-writes",
+        "original_url": "https://olake.io/docs/install/kubernetes/#index-storage-for-positional-delete-writes",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EO/k5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " I assume you have followed helm docs to add storage class?\n"
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/install/kubernetes/#index-storage-for-positional-delete-writes",
+                "text": "olake.io/docs/install/kubernetes#…"
+              },
+              {
+                "type": "text",
+                "text": "\nAlso can you rerun this job?, as I can see there is only one error log which is of context. So it is unclear what exactly happened.\n\nIn worker log it is a signkill that arrived. which killed the pod."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3a5d67ab-e811-4d0c-8eb1-5fb5d6412867",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Ohh my bad, I forgot to add this PVC config, will try using this.\nOne suggestion from my end if possible can we start adding the doc links along with the release announcement in \u003c#C081GUXUQ5U\u003e (Just a suggestion it will help while using a feature)",
+    "ts": "1789577871.186959",
+    "thread_ts": "1789576243.700209",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1q1Fe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ohh my bad, I forgot to add this PVC config, will try using this.\nOne suggestion from my end if possible can we start adding the doc links along with the release announcement in "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C081GUXUQ5U"
+              },
+              {
+                "type": "text",
+                "text": " (Just a suggestion it will help while using a feature)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b505a44c-04f1-4d36-b485-a624af0d6c9d",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A5EGHRLQY\u003e when you selected positional a warning was shown on ui to configure these right?",
+    "ts": "1789578000.418829",
+    "thread_ts": "1789576243.700209",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GpheB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " when you selected positional a warning was shown on ui to configure these right?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d0801407-c988-4d05-8f57-f3bdbdd06769",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "No, no warning there as well",
+    "ts": "1789578113.150229",
+    "thread_ts": "1789576243.700209",
+    "parent_user_id": "U0A5EGHRLQY",
+    "files": [
+      {
+        "id": "F0C2DPKD36V",
+        "created": 1789578094,
+        "timestamp": 1789578094,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A5EGHRLQY",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 34698,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2DPKD36V/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2DPKD36V/download/image.png",
+        "original_h": 232,
+        "original_w": 938,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DPKD36V-d9d5739f96/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DPKD36V-d9d5739f96/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DPKD36V-d9d5739f96/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2DPKD36V-d9d5739f96/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 89,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C2DPKD36V/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C2DPKD36V-fa7fefecb6",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D4HE7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "No, no warning there as well"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "24cd8e0c-1c26-4406-ad88-a46aa30a5a97",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A5EGHRLQY\u003e got it, you need to upgrade the ui version as well. \nThanks for the suggestion we will add docs with release notes.",
+    "ts": "1789578292.182749",
+    "thread_ts": "1789576243.700209",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "count": 1,
+        "users": [
+          "U0A5EGHRLQY"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PW0yF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " got it, you need to upgrade the ui version as well. \nThanks for the suggestion we will add docs with release notes."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e2c790f5-0e47-4b75-9e03-0f2a3e6829d9",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "One question though, I run compactions as well by olake fusion, I hope the index is not lost after compaction as well or does it, since compaction re-writes the s3 files",
+    "ts": "1789578620.777989",
+    "thread_ts": "1789576243.700209",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Pw4b6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "One question though, I run compactions as well by olake fusion, I hope the index is not lost after compaction as well or does it, since compaction re-writes the s3 files"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "cdff46e9-78f0-453f-93d0-fd0567322f84",
+    "type": "message",
+    "user": "U0817E9CGRM",
+    "text": "\u003c@U0A5EGHRLQY\u003e after compaction it reindex if any file changes present. And it is incremental. So only new changed will be reindexed.",
+    "ts": "1789623888.592699",
+    "thread_ts": "1789576243.700209",
+    "edited": {
+      "user": "U0817E9CGRM",
+      "ts": "1789633167.000000"
+    },
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U0A5EGHRLQY"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w+LRF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " after compaction it reindex if any file changes present. And it is incremental. So only new changed will be reindexed."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-30/9606512168950_ed2d7b26a22de8ef4376_72.png",
+      "first_name": "Ankit",
+      "real_name": "Ankit Sharma",
+      "display_name": "Ankit Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ankit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
