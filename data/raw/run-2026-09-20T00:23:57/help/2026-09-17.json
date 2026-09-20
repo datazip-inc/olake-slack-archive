@@ -1,0 +1,649 @@
+[
+  {
+    "client_msg_id": "c20dc953-f2e7-40d3-9d22-0d30d5b18881",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi,\nDoes Olake has SSO support planned in future?",
+    "ts": "1789629524.712169",
+    "thread_ts": "1789629524.712169",
+    "reply_count": 1,
+    "reply_users": [
+      "U08S0TP9R3P"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1789630100.762329"
+      }
+    ],
+    "latest_reply": "1789630100.762329",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ih/VB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi,\nDoes Olake has SSO support planned in future?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "dee890b5-3cee-47b1-8767-293f691d9589",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "Hi \u003c@U0BTUQGHDDF\u003e, we are not planning to support SSO in the OLake OSS.",
+    "ts": "1789630100.762329",
+    "thread_ts": "1789629524.712169",
+    "edited": {
+      "user": "U08S0TP9R3P",
+      "ts": "1789630113.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PPUss",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ", we are not planning to support SSO in the OLake OSS."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9050997a-d28b-4791-a78f-1facdcd3c919",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "hi team\nwhat can i do about this?\nrds postgres to s3\nolake version v0.9.5\nfor context the text length is around 2k chars",
+    "ts": "1789640945.427669",
+    "thread_ts": "1789640945.427669",
+    "reply_count": 6,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U09KQFGF7J4"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1789642498.396309"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1789642632.545529"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1789642828.820609"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1789642852.721609"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1789642930.962499"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1789643302.310159"
+      }
+    ],
+    "latest_reply": "1789643302.310159",
+    "files": [
+      {
+        "id": "F0C2LGYQPSM",
+        "created": 1789640870,
+        "timestamp": 1789640870,
+        "name": "Screenshot 2026-09-17 at 3.57.43 PM.png",
+        "title": "Screenshot 2026-09-17 at 3.57.43 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09KQFGF7J4",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 360848,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2LGYQPSM/screenshot_2026-09-17_at_3.57.43___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C2LGYQPSM/download/screenshot_2026-09-17_at_3.57.43___pm.png",
+        "original_h": 594,
+        "original_w": 1810,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2LGYQPSM-0dff913310/screenshot_2026-09-17_at_3.57.43___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2LGYQPSM-0dff913310/screenshot_2026-09-17_at_3.57.43___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2LGYQPSM-0dff913310/screenshot_2026-09-17_at_3.57.43___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2LGYQPSM-0dff913310/screenshot_2026-09-17_at_3.57.43___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 118,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2LGYQPSM-0dff913310/screenshot_2026-09-17_at_3.57.43___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 158,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C2LGYQPSM-0dff913310/screenshot_2026-09-17_at_3.57.43___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 236,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C2LGYQPSM/screenshot_2026-09-17_at_3.57.43___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C2LGYQPSM-ea261347ac",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 6,
+        "users": [
+          "U081MTF4GHZ",
+          "U08S0TP9R3P",
+          "U08S5BR47GA",
+          "U0820LSJZRP",
+          "U08RZQ547LJ",
+          "U0A8Y735340"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gk6jZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi team\nwhat can i do about this?\nrds postgres to s3\nolake version v0.9.5\nfor context the text length is around 2k chars"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "7edc4ce5-b4ae-488e-95fd-dc3fa809f6a3",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "Hey \u003c@U09KQFGF7J4\u003e, This is due to TOAST value in your table, during CDC syncs if your replication mode is set to `default` the toast values are not included hence olake currently adds this place holder text there. You can either set the replication mode to `FULL` if possible and it should work fine.\n\nHowever, we are working on a feature which will handle updates on toast containing rows even on `default` mode. You can follow this \u003chttps://github.com/datazip-inc/olake/issues/1176|issue\u003e for updates. Thanks",
+    "ts": "1789642498.396309",
+    "thread_ts": "1789640945.427669",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UyZqy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": ", This is due to TOAST value in your table, during CDC syncs if your replication mode is set to "
+              },
+              {
+                "type": "text",
+                "text": "default",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " the toast values are not included hence olake currently adds this place holder text there. You can either set the replication mode to "
+              },
+              {
+                "type": "text",
+                "text": "FULL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " if possible and it should work fine.\n\nHowever, we are working on a feature which will handle updates on toast containing rows even on "
+              },
+              {
+                "type": "text",
+                "text": "default",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " mode. You can follow this "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1176",
+                "text": "issue"
+              },
+              {
+                "type": "text",
+                "text": " for updates. Thanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ec3e5736-01a8-41af-a65a-2ea5874079ae",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "i see, how do i set replication mode to full? \u003c@U08S0TP9R3P\u003e",
+    "ts": "1789642632.545529",
+    "thread_ts": "1789640945.427669",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j7YfU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "i see, how do i set replication mode to full? "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S0TP9R3P"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "627f74c9-f8ee-4e12-b4c3-358704df7528",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U09KQFGF7J4\u003e You can use this query to check the current mode:\n```SELECT\n    c.relname AS table_name,\n    CASE c.relreplident\n        WHEN 'd' THEN 'DEFAULT'\n        WHEN 'n' THEN 'NOTHING'\n        WHEN 'f' THEN 'FULL'\n        WHEN 'i' THEN 'INDEX'\n    END AS replica_identity\nFROM pg_class c\nWHERE c.relname = 'your_table';```\nTo set it to full, please use this query:\n```ALTER TABLE your_table REPLICA IDENTITY FULL;```",
+    "ts": "1789642828.820609",
+    "thread_ts": "1789640945.427669",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "86zX5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " You can use this query to check the current mode:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SELECT\n    c.relname AS table_name,\n    CASE c.relreplident\n        WHEN 'd' THEN 'DEFAULT'\n        WHEN 'n' THEN 'NOTHING'\n        WHEN 'f' THEN 'FULL'\n        WHEN 'i' THEN 'INDEX'\n    END AS replica_identity\nFROM pg_class c\nWHERE c.relname = 'your_table';"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nTo set it to full, please use this query:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ALTER TABLE your_table REPLICA IDENTITY FULL;"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3ab98f4f-436c-43f0-a2f2-c1be54d8d212",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "thank you",
+    "ts": "1789642852.721609",
+    "thread_ts": "1789640945.427669",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oPGX0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "thank you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "00dd4620-a4b0-4430-99b9-25a98e976292",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U09KQFGF7J4\u003e setting it to full might increase wal logs size.",
+    "ts": "1789642930.962499",
+    "thread_ts": "1789640945.427669",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tgik+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " setting it to full might increase wal logs size."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "00e16ef1-86cd-4ee8-bd50-da71ad8e10b4",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "okayy",
+    "ts": "1789643302.310159",
+    "thread_ts": "1789640945.427669",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Mh0ri",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "okayy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
