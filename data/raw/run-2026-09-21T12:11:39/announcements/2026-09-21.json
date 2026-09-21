@@ -1,0 +1,158 @@
+[
+  {
+    "client_msg_id": "3ecbcce8-5306-480c-b630-85291ee5f474",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Helm v0.0.29 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.29|github.com/datazip-inc/olake-helm/…/olake-0.0.29\u003e\n:rocket: Features \u0026amp; Fixes in this release:\n• chore: upgrade from temporalio/auto-setup to temporalio/server \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/213|#213\u003e\n• fix: pull MinIO images from \u003chttp://quay.io|quay.io\u003e (Docker Hub repos deleted) by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/212|#212\u003e\nThanks for the contribution!",
+    "ts": "1789983697.547799",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8o6XU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.29 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.29",
+                "text": "github.com/datazip-inc/olake-helm/…/olake-0.0.29"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: upgrade from temporalio/auto-setup to temporalio/server "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/213",
+                    "text": "#213"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: pull MinIO images from "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://quay.io",
+                    "text": "quay.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " (Docker Hub repos deleted) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/212",
+                    "text": "#212"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
