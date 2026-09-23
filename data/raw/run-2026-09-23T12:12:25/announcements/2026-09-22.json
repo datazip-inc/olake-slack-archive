@@ -1,0 +1,86 @@
+[
+  {
+    "client_msg_id": "86526b94-3571-4593-b1c8-3bbaaf7284e6",
+    "type": "message",
+    "user": "U08SX0RU9FX",
+    "text": "Hey everyone, we’re live with Brenna’s webinar on *Building High-Performance Iceberg Data Platforms, Anywhere*!\nJoin us here: \u003chttps://app.livestorm.co/p/4b8315c9-daf5-4720-9a13-c7b0796e8be0|app.livestorm.co/p/…\u003e",
+    "ts": "1790087952.193969",
+    "attachments": [
+      {
+        "fallback": "Datazip Inc: Building High-Performance Iceberg Data Platforms, Anywhere | Datazip Inc",
+        "id": 1,
+        "title": "Building High-Performance Iceberg Data Platforms, Anywhere | Datazip Inc",
+        "title_link": "https://app.livestorm.co/p/4b8315c9-daf5-4720-9a13-c7b0796e8be0",
+        "image_url": "https://app.livestorm.co/p/4b8315c9-daf5-4720-9a13-c7b0796e8be0/og.png",
+        "image_bytes": 76493,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "Datazip Inc",
+        "service_icon": "https://app.livestorm.co/apple-icon-57x57.png",
+        "from_url": "https://app.livestorm.co/p/4b8315c9-daf5-4720-9a13-c7b0796e8be0",
+        "original_url": "https://app.livestorm.co/p/4b8315c9-daf5-4720-9a13-c7b0796e8be0",
+        "fields": [
+          {
+            "title": "Date",
+            "value": "Tuesday, September 22 at  8:00pm (IST)",
+            "short": true
+          }
+        ],
+        "blocks": null
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L87b9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey everyone, we’re live with Brenna’s webinar on "
+              },
+              {
+                "type": "text",
+                "text": "Building High-Performance Iceberg Data Platforms, Anywhere",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "!\nJoin us here: "
+              },
+              {
+                "type": "link",
+                "url": "https://app.livestorm.co/p/4b8315c9-daf5-4720-9a13-c7b0796e8be0",
+                "text": "app.livestorm.co/p/…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7413ac2c15ee2c732551bd08df109600.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "Anshika",
+      "real_name": "Anshika Gautam",
+      "display_name": "Anshika Gautam",
+      "team": "T0820LGJGRF",
+      "name": "anshika",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
