@@ -1,0 +1,239 @@
+[
+  {
+    "client_msg_id": "bc7004a6-eefe-46f6-b23d-1a8df0ffc13c",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake UI v0.5.3 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.5.3|github.com/datazip-inc/olake-ui/…/v0.5.3\u003e\n*What’s New*\n• fix: pull MinIO images from \u003chttp://quay.io|quay.io\u003e (Docker Hub repos deleted) by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/440|#440\u003e\n• fix(opt): update spec accoring to new destination revamp by \u003c@U08RZQ547LJ\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/413|#413\u003e\n• fix(deps): patch 16 HIGH severity vulnerabilities in UI dependencies by \u003c@U0BKJ1W8V0A\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/442|#442\u003e\n• fix: raise client timeouts for large stream catalogs by \u003c@U0BKJ1W8V0A\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/441|#441\u003e\n• chore: upgrade Temporal from auto-setup 1.22.3 to server 1.32.0 by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/436|#436\u003e\n• fix(opt): correct the commit time for table metrics by \u003c@U08RZQ547LJ\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/445|#445\u003e\nThanks for the contribution!",
+    "ts": "1790182461.481809",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UEeyY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.5.3 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.5.3",
+                "text": "github.com/datazip-inc/olake-ui/…/v0.5.3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: pull MinIO images from "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://quay.io",
+                    "text": "quay.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " (Docker Hub repos deleted) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/440",
+                    "text": "#440"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(opt): update spec accoring to new destination revamp by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08RZQ547LJ"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/413",
+                    "text": "#413"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(deps): patch 16 HIGH severity vulnerabilities in UI dependencies by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BKJ1W8V0A"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/442",
+                    "text": "#442"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: raise client timeouts for large stream catalogs by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BKJ1W8V0A"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/441",
+                    "text": "#441"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: upgrade Temporal from auto-setup 1.22.3 to server 1.32.0 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/436",
+                    "text": "#436"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(opt): correct the commit time for table metrics by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08RZQ547LJ"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/445",
+                    "text": "#445"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
