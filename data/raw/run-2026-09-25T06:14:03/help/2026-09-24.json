@@ -1,0 +1,370 @@
+[
+  {
+    "client_msg_id": "ef89e885-3a30-434f-a977-4f6e9875abd7",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Hi Team,\n\nWe are running **OLake v0.6.7** and nedd \u003c#C081MV728N7\u003e on a character encoding issue where non-recoverable `0x9D` (`U+009D` control character / mojibake) bytes appear in our Parquet files ingested from a source MariaDB database.\n\nThis is impacting multiple string fields (containing accented characters, smart/curly quotes, and apostrophes) across both our Dev and Prod pipelines (snapshot and CDC).\n\n1. Does the OLake MariaDB connector enforce strict UTF-8 decoding during binlog/snapshot extraction, or is there a way to preserve/configure source character set handling (e.g. `latin1` / `Windows-1252`)?\n2. In v0.6.7, is there any known behavior or configuration during Parquet serialization that could introduce `0x9D` (`C29D` in UTF-8) byte sequences when handling non-ASCII characters?\n\nAre these issues addressed in latest versions?",
+    "ts": "1790254410.020669",
+    "thread_ts": "1790254410.020669",
+    "reply_count": 2,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0C1QPWD94G"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1790257622.385009"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1790306380.442789"
+      }
+    ],
+    "latest_reply": "1790306380.442789",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U08S0TP9R3P",
+          "U08CR7HUWDC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CAi0E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\n\nWe are running **OLake v0.6.7** and nedd "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C081MV728N7"
+              },
+              {
+                "type": "text",
+                "text": " on a character encoding issue where non-recoverable `0x9D` (`U+009D` control character / mojibake) bytes appear in our Parquet files ingested from a source MariaDB database.\n\nThis is impacting multiple string fields (containing accented characters, smart/curly quotes, and apostrophes) across both our Dev and Prod pipelines (snapshot and CDC).\n\n1. Does the OLake MariaDB connector enforce strict UTF-8 decoding during binlog/snapshot extraction, or is there a way to preserve/configure source character set handling (e.g. `latin1` / `Windows-1252`)?\n2. In v0.6.7, is there any known behavior or configuration during Parquet serialization that could introduce `0x9D` (`C29D` in UTF-8) byte sequences when handling non-ASCII characters?\n\nAre these issues addressed in latest versions?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "29ee76b4-82a3-4c39-be6a-136e7df96035",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0C1QPWD94G\u003e,\nCould you please share the following from the affected MariaDB setup?\n1. DB version: `SELECT VERSION();`\n2. Column charset/collation:\n```SELECT COLUMN_NAME, CHARACTER_SET_NAME, COLLATION_NAME\nFROM information_schema.COLUMNS\nWHERE TABLE_SCHEMA='\u003cdb\u003e' AND TABLE_NAME='\u003ctable\u003e';```\n3. For one affected row:\n```SELECT HEX(col), HEX(CONVERT(BINARY(col) USING utf8mb4))\nFROM \u003ctable\u003e WHERE \u003cpk\u003e=\u003cid\u003e;```\n4. The OLake connector image/tag you're using as there is no olake v0.6.7 exist",
+    "ts": "1790257622.385009",
+    "thread_ts": "1790254410.020669",
+    "edited": {
+      "user": "U08CR7HUWDC",
+      "ts": "1790258156.000000"
+    },
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8R3t0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0C1QPWD94G"
+              },
+              {
+                "type": "text",
+                "text": ",\nCould you please share the following from the affected MariaDB setup?\n1. DB version: "
+              },
+              {
+                "type": "text",
+                "text": "SELECT VERSION();",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n2. Column charset/collation:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SELECT COLUMN_NAME, CHARACTER_SET_NAME, COLLATION_NAME\nFROM information_schema.COLUMNS\nWHERE TABLE_SCHEMA='\u003cdb\u003e' AND TABLE_NAME='\u003ctable\u003e';"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "3. For one affected row:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SELECT HEX(col), HEX(CONVERT(BINARY(col) USING utf8mb4))\nFROM \u003ctable\u003e WHERE \u003cpk\u003e=\u003cid\u003e;"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "4. The OLake connector image/tag you're using as there is no olake v0.6.7 exist"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "74e4cdc2-5587-4e53-b095-802f13a13946",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Hi team,\nI have one question, I have full load + cdc pipelines setup from my RDS MySQL to Iceberg. It's working on binlogs, I want to rename my RDS instance which means mysql host name changes in Olake Source configuration.\nIt's just the hostname change on same DB, same binlog files nothing changes there so my question is will my CDC pipelines keep working and pick from last CDC point after I change my hostname or will it do a full load again or something I should take care of before doing this",
+    "ts": "1790264101.364019",
+    "thread_ts": "1790264101.364019",
+    "reply_count": 1,
+    "reply_users": [
+      "U08S0TP9R3P"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1790265451.301449"
+      }
+    ],
+    "latest_reply": "1790265451.301449",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qby+k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team,\nI have one question, I have full load + cdc pipelines setup from my RDS MySQL to Iceberg. It's working on binlogs, I want to rename my RDS instance which means mysql host name changes in Olake Source configuration.\nIt's just the hostname change on same DB, same binlog files nothing changes there so my question is will my CDC pipelines keep working and pick from last CDC point after I change my hostname or will it do a full load again or something I should take care of before doing this"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "10b4191e-faa6-474f-8ef8-2d2dc8d1e1a6",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0A5EGHRLQY\u003e Yes, your CDC pipelines will keep working and resume from the last CDC checkpoint after the hostname change. No full load will be triggered. OLake stores the CDC checkpoint as the binlog file name and position (plus a replication server ID). It does not store the hostname.\n\nThe host is only used to open the connection, so once you update it in the Source config, the next sync connects to the new endpoint and continues from the saved binlog position.",
+    "ts": "1790265451.301449",
+    "thread_ts": "1790264101.364019",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SEZBm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " Yes, your CDC pipelines will keep working and resume from the last CDC checkpoint after the hostname change. No full load will be triggered. OLake stores the CDC checkpoint as the binlog file name and position (plus a replication server ID). It does not store the hostname.\n\nThe host is only used to open the connection, so once you update it in the Source config, the next sync connects to the new endpoint and continues from the saved binlog position."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "046ea86f-8569-48b0-b6d6-7051d424782d",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Apologize, version is 0.6.4\n\nBelow are the responses for your request.\n```\nMariaDB [(none)]\u0026gt; SELECT VERSION();\n+----------------------+\n| VERSION()            |\n+----------------------+\n| 10.11.16-MariaDB-log |\n+----------------------+\n1 row in set (0.280 sec)\n\nMariaDB [(none)]\u0026gt; SELECT COLUMN_NAME, CHARACTER_SET_NAME, COLLATION_NAME\n    -\u0026gt; FROM information_schema.COLUMNS\n    -\u0026gt; WHERE TABLE_SCHEMA='imagequixdb' AND TABLE_NAME='Galleries';\n+-------------------------------+--------------------+-------------------+\n| COLUMN_NAME                   | CHARACTER_SET_NAME | COLLATION_NAME    |\n+-------------------------------+--------------------+-------------------+\n| id                            | NULL               | NULL              |\n| custID                        | latin1             | latin1_swedish_ci |\n| galleryID                     | latin1             | latin1_swedish_ci |\n| type                          | NULL               | NULL              |\n| isPreOrder                    | NULL               | NULL              |\n| jobType                       | NULL               | NULL              |\n| orderFulfillmentType          | NULL               | NULL              |\n| title                         | latin1             | latin1_swedish_ci |\n| eventDate                     | NULL               | NULL              |\n| keyword                       | latin1             | latin1_swedish_ci |\n| password                      | latin1             | latin1_swedish_ci |\n| reference                     | latin1             | latin1_swedish_ci |\n| expirationDate                | NULL               | NULL              |\n| status                        | NULL               | NULL              |\n| version                       | NULL               | NULL              |\n| hidden                        | NULL               | NULL              |\n| retakeDate                    | NULL               | NULL              |\n| shipStartDate                 | NULL               | NULL              |\n| shipStartTime                 | NULL               | NULL              |\n| shipStartRegionID             | NULL               | NULL              |\n| orderHoldDate                 | NULL               | NULL              |\n| orderHoldDays                 | NULL               | NULL              |\n| orderHoldDirectShip           | NULL               | NULL              |\n| orderHoldDigitalDownloads     | NULL               | NULL              |\n| combineOrders                 | NULL               | NULL              |\n| createDate                    | NULL               | NULL              |\n| lastModifiedDate              | NULL               | NULL              |\n| lastViewedDate                | NULL               | NULL              |\n| viewCount                     | NULL               | NULL              |\n| welcomeMessage                | latin1             | latin1_swedish_ci |\n| welcomeImage                  | latin1             | latin1_swedish_ci |\n| priceSheetID                  | NULL               | NULL              |\n| numImages                     | NULL               | NULL              |\n| isGreenScreen                 | NULL               | NULL              |\n| manualOnlineCodes             | NULL               | NULL              |\n| onlyShowPrimaryImage          | NULL               | NULL              |\n| numYearbookSelections         | NULL               | NULL              |\n| yearbookSelectionMessage      | latin1             | latin1_swedish_ci |\n| yearbookSelectionDueDate      | NULL               | NULL              |\n| customDataSpecID              | NULL               | NULL              |\n| clientVersion                 | latin1             | latin1_swedish_ci |\n| labID                         | NULL               | NULL              |\n| imageStatus                   | NULL               | NULL              |\n| hiResImageLocationType        | NULL               | NULL              |\n| sourceSize                    | NULL               | NULL              |\n| packagingMetadata             | latin1             | latin1_swedish_ci |\n| galleryConfigID               | NULL               | NULL              |\n| marketingCampaignID           | NULL               | NULL              |\n| galleryMigrationDate          | NULL               | NULL              |\n| imageMigrationDate            | NULL               | NULL              |\n| thumbMigrationDate            | NULL               | NULL              |\n| customDate1                   | NULL               | NULL              |\n| customDate2                   | NULL               | NULL              |\n| customMarketing1              | latin1             | latin1_swedish_ci |\n| customMarketing2              | latin1             | latin1_swedish_ci |\n| customMarketing3              | latin1             | latin1_swedish_ci |\n| customMarketing4              | latin1             | latin1_swedish_ci |\n| customMarketing5              | latin1             | latin1_swedish_ci |\n| publishedDate                 | NULL               | NULL              |\n| disableFaceDetection          | NULL               | NULL              |\n| plicProjectID                 | latin1             | latin1_swedish_ci |\n| plicEcommerceGalleryID        | latin1             | latin1_swedish_ci |\n| plicInitiatedFromIQ           | NULL               | NULL              |\n| plicLastSynced                | NULL               | NULL              |\n| expirationTime                | NULL               | NULL              |\n| expirationTZOffsetMinutes     | NULL               | NULL              |\n| expirationRegionId            | NULL               | NULL              |\n| imageServiceReplaceOption     | NULL               | NULL              |\n| enableFacialRecognition       | NULL               | NULL              |\n| facialRecognitionCustomFormID | NULL               | NULL              |\n| jobTemplateID                 | NULL               | NULL              |\n| lastSubjectModifiedDate       | NULL               | NULL              |\n| showWelcomeImage              | NULL               | NULL              |\n| addBackToGallery              | NULL               | NULL              |\n| uid                           | latin1             | latin1_swedish_ci |\n| jobImage1                     | latin1             | latin1_swedish_ci |\n| jobImage2                     | latin1             | latin1_swedish_ci |\n| jobImage3                     | latin1             | latin1_swedish_ci |\n| jobImage4                     | latin1             | latin1_swedish_ci |\n| jobImage5                     | latin1             | latin1_swedish_ci |\n| jobImage6                     | latin1             | latin1_swedish_ci |\n| jobImage7                     | latin1             | latin1_swedish_ci |\n| selfRegistrationType          | latin1             | latin1_swedish_ci |\n+-------------------------------+--------------------+-------------------+\n83 rows in set (0.278 sec)\n\nMariaDB [(none)]\u0026gt; SELECT HEX(col), HEX(CONVERT(BINARY(col) USING utf8mb4))\n    -\u0026gt; FROM imagequixdb.Galleries WHERE id=1000451622;\nERROR 1054 (42S22): Unknown column 'col' in 'SELECT'\nMariaDB [(none)]\u0026gt; SELECT title,HEX(title), HEX(CONVERT(BINARY(title) USING utf8mb4))\n    -\u0026gt; FROM imagequixdb.Galleries WHERE id=1000451622;\n+----------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------+\n| title                                  | HEX(title)                                                               | HEX(CONVERT(BINARY(title) USING utf8mb4))                                |\n+----------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------+\n| Frdric Allal \u0026amp; Laura Allal Wedding   | 46729D649D72696320416C6C616C2026204C6175726120416C6C616C2057656464696E67 | 46723F643F72696320416C6C616C2026204C6175726120416C6C616C2057656464696E67 |\n+----------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------+\n1 row in set, 1 warning (0.281 sec)```",
+    "ts": "1790306380.442789",
+    "thread_ts": "1790254410.020669",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/YoaG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Apologize, version is 0.6.4\n\nBelow are the responses for your request.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nMariaDB [(none)]\u003e SELECT VERSION();\n+----------------------+\n| VERSION()            |\n+----------------------+\n| 10.11.16-MariaDB-log |\n+----------------------+\n1 row in set (0.280 sec)\n\nMariaDB [(none)]\u003e SELECT COLUMN_NAME, CHARACTER_SET_NAME, COLLATION_NAME\n    -\u003e FROM information_schema.COLUMNS\n    -\u003e WHERE TABLE_SCHEMA='imagequixdb' AND TABLE_NAME='Galleries';\n+-------------------------------+--------------------+-------------------+\n| COLUMN_NAME                   | CHARACTER_SET_NAME | COLLATION_NAME    |\n+-------------------------------+--------------------+-------------------+\n| id                            | NULL               | NULL              |\n| custID                        | latin1             | latin1_swedish_ci |\n| galleryID                     | latin1             | latin1_swedish_ci |\n| type                          | NULL               | NULL              |\n| isPreOrder                    | NULL               | NULL              |\n| jobType                       | NULL               | NULL              |\n| orderFulfillmentType          | NULL               | NULL              |\n| title                         | latin1             | latin1_swedish_ci |\n| eventDate                     | NULL               | NULL              |\n| keyword                       | latin1             | latin1_swedish_ci |\n| password                      | latin1             | latin1_swedish_ci |\n| reference                     | latin1             | latin1_swedish_ci |\n| expirationDate                | NULL               | NULL              |\n| status                        | NULL               | NULL              |\n| version                       | NULL               | NULL              |\n| hidden                        | NULL               | NULL              |\n| retakeDate                    | NULL               | NULL              |\n| shipStartDate                 | NULL               | NULL              |\n| shipStartTime                 | NULL               | NULL              |\n| shipStartRegionID             | NULL               | NULL              |\n| orderHoldDate                 | NULL               | NULL              |\n| orderHoldDays                 | NULL               | NULL              |\n| orderHoldDirectShip           | NULL               | NULL              |\n| orderHoldDigitalDownloads     | NULL               | NULL              |\n| combineOrders                 | NULL               | NULL              |\n| createDate                    | NULL               | NULL              |\n| lastModifiedDate              | NULL               | NULL              |\n| lastViewedDate                | NULL               | NULL              |\n| viewCount                     | NULL               | NULL              |\n| welcomeMessage                | latin1             | latin1_swedish_ci |\n| welcomeImage                  | latin1             | latin1_swedish_ci |\n| priceSheetID                  | NULL               | NULL              |\n| numImages                     | NULL               | NULL              |\n| isGreenScreen                 | NULL               | NULL              |\n| manualOnlineCodes             | NULL               | NULL              |\n| onlyShowPrimaryImage          | NULL               | NULL              |\n| numYearbookSelections         | NULL               | NULL              |\n| yearbookSelectionMessage      | latin1             | latin1_swedish_ci |\n| yearbookSelectionDueDate      | NULL               | NULL              |\n| customDataSpecID              | NULL               | NULL              |\n| clientVersion                 | latin1             | latin1_swedish_ci |\n| labID                         | NULL               | NULL              |\n| imageStatus                   | NULL               | NULL              |\n| hiResImageLocationType        | NULL               | NULL              |\n| sourceSize                    | NULL               | NULL              |\n| packagingMetadata             | latin1             | latin1_swedish_ci |\n| galleryConfigID               | NULL               | NULL              |\n| marketingCampaignID           | NULL               | NULL              |\n| galleryMigrationDate          | NULL               | NULL              |\n| imageMigrationDate            | NULL               | NULL              |\n| thumbMigrationDate            | NULL               | NULL              |\n| customDate1                   | NULL               | NULL              |\n| customDate2                   | NULL               | NULL              |\n| customMarketing1              | latin1             | latin1_swedish_ci |\n| customMarketing2              | latin1             | latin1_swedish_ci |\n| customMarketing3              | latin1             | latin1_swedish_ci |\n| customMarketing4              | latin1             | latin1_swedish_ci |\n| customMarketing5              | latin1             | latin1_swedish_ci |\n| publishedDate                 | NULL               | NULL              |\n| disableFaceDetection          | NULL               | NULL              |\n| plicProjectID                 | latin1             | latin1_swedish_ci |\n| plicEcommerceGalleryID        | latin1             | latin1_swedish_ci |\n| plicInitiatedFromIQ           | NULL               | NULL              |\n| plicLastSynced                | NULL               | NULL              |\n| expirationTime                | NULL               | NULL              |\n| expirationTZOffsetMinutes     | NULL               | NULL              |\n| expirationRegionId            | NULL               | NULL              |\n| imageServiceReplaceOption     | NULL               | NULL              |\n| enableFacialRecognition       | NULL               | NULL              |\n| facialRecognitionCustomFormID | NULL               | NULL              |\n| jobTemplateID                 | NULL               | NULL              |\n| lastSubjectModifiedDate       | NULL               | NULL              |\n| showWelcomeImage              | NULL               | NULL              |\n| addBackToGallery              | NULL               | NULL              |\n| uid                           | latin1             | latin1_swedish_ci |\n| jobImage1                     | latin1             | latin1_swedish_ci |\n| jobImage2                     | latin1             | latin1_swedish_ci |\n| jobImage3                     | latin1             | latin1_swedish_ci |\n| jobImage4                     | latin1             | latin1_swedish_ci |\n| jobImage5                     | latin1             | latin1_swedish_ci |\n| jobImage6                     | latin1             | latin1_swedish_ci |\n| jobImage7                     | latin1             | latin1_swedish_ci |\n| selfRegistrationType          | latin1             | latin1_swedish_ci |\n+-------------------------------+--------------------+-------------------+\n83 rows in set (0.278 sec)\n\nMariaDB [(none)]\u003e SELECT HEX(col), HEX(CONVERT(BINARY(col) USING utf8mb4))\n    -\u003e FROM imagequixdb.Galleries WHERE id=1000451622;\nERROR 1054 (42S22): Unknown column 'col' in 'SELECT'\nMariaDB [(none)]\u003e SELECT title,HEX(title), HEX(CONVERT(BINARY(title) USING utf8mb4))\n    -\u003e FROM imagequixdb.Galleries WHERE id=1000451622;\n+----------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------+\n| title                                  | HEX(title)                                                               | HEX(CONVERT(BINARY(title) USING utf8mb4))                                |\n+----------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------+\n| Frdric Allal \u0026 Laura Allal Wedding   | 46729D649D72696320416C6C616C2026204C6175726120416C6C616C2057656464696E67 | 46723F643F72696320416C6C616C2026204C6175726120416C6C616C2057656464696E67 |\n+----------------------------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------+\n1 row in set, 1 warning (0.281 sec)"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
