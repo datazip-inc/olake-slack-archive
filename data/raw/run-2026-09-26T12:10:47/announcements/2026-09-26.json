@@ -1,0 +1,511 @@
+[
+  {
+    "client_msg_id": "6e0ceb1a-b19c-4baa-9601-ee8744ccfc7f",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.11.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.11.0|github.com/datazip-inc/olake/…/v0.11.0\u003e\n*What’s New*\n• feat: source type in telemetry sync completed event and more config conditions by \u003c@U08S5BR47GA\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1202|#1202\u003e\n• fix(postgres): make publication validation case-sensitive by @rohankumarsingh in \u003chttps://github.com/datazip-inc/olake/pull/1217|#1217\u003e\n• fix: pull MinIO images from \u003chttp://quay.io|quay.io\u003e (Docker Hub repos deleted) by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1232|#1232\u003e\n• feat: Support Horizon catalog by \u003c@U0BEF84EZ6V\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1198|#1198\u003e\n       → *Want to know more about the Horizon catalog? Check out the \u003chttps://olake.io/docs/writers/iceberg/catalog/rest/?rest-catalog=horizon|docs\u003e.*\n• chore(make): self-contained destination compose, s3 source shares its MinIO by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1186|#1186\u003e\n• ci: add maintainer-approved AI code review with OpenCodeReview by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1236|#1236\u003e\n• chore(iceberg): rename Java writer package from io.debezium to io.olake by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1248|#1248\u003e\n• fix: pull MinIO images from olakego mirror (\u003chttp://quay.io|quay.io\u003e removed them too) by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1255|#1255\u003e\n• feat(iceberg): add v3 deletion vector support by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1162|#1162\u003e\n       → *Learn more about deletion vectors and how OLake handles upserts in the \u003chttps://olake.io/docs/understanding/terminologies/olake/#upsert|docs\u003e.*\n\n:rotating_light: OLake UI v0.6.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.6.0|github.com/datazip-inc/olake-ui/…/v0.6.0\u003e\n*What’s New*\n• fix: pull MinIO images from olakego mirror (\u003chttp://quay.io|quay.io\u003e removed them too) by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/456|#456\u003e\n• feat: store target query engines and pass them to discover by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/439|#439\u003e\n       → *For more details on target query engines, check out the \u003chttps://olake.io/docs/getting-started/job-level-properties/#2-target-query-engines|docs\u003e.*\n\nThanks for the contribution!",
+    "ts": "1790414071.957639",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "P2TM8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.11.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.11.0",
+                "text": "github.com/datazip-inc/olake/…/v0.11.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: source type in telemetry sync completed event and more config conditions by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S5BR47GA"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1202",
+                    "text": "#1202"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(postgres): make publication validation case-sensitive by @rohankumarsingh in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1217",
+                    "text": "#1217"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: pull MinIO images from "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://quay.io",
+                    "text": "quay.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " (Docker Hub repos deleted) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1232",
+                    "text": "#1232"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: Support Horizon catalog by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1198",
+                    "text": "#1198"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "       → "
+              },
+              {
+                "type": "text",
+                "text": "Want to know more about the Horizon catalog? Check out the ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/writers/iceberg/catalog/rest/?rest-catalog=horizon",
+                "text": "docs",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(make): self-contained destination compose, s3 source shares its MinIO by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1186",
+                    "text": "#1186"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ci: add maintainer-approved AI code review with OpenCodeReview by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1236",
+                    "text": "#1236"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(iceberg): rename Java writer package from io.debezium to io.olake by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1248",
+                    "text": "#1248"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: pull MinIO images from olakego mirror ("
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://quay.io",
+                    "text": "quay.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " removed them too) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1255",
+                    "text": "#1255"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(iceberg): add v3 deletion vector support by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1162",
+                    "text": "#1162"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "       → "
+              },
+              {
+                "type": "text",
+                "text": "Learn more about deletion vectors and how OLake handles upserts in the ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/understanding/terminologies/olake/#upsert",
+                "text": "docs",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.6.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.6.0",
+                "text": "github.com/datazip-inc/olake-ui/…/v0.6.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: pull MinIO images from olakego mirror ("
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://quay.io",
+                    "text": "quay.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " removed them too) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/456",
+                    "text": "#456"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: store target query engines and pass them to discover by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/439",
+                    "text": "#439"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "       → "
+              },
+              {
+                "type": "text",
+                "text": "For more details on target query engines, check out the ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/getting-started/job-level-properties/#2-target-query-engines",
+                "text": "docs",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
