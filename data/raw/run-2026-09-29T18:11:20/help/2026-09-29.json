@@ -1,0 +1,393 @@
+[
+  {
+    "client_msg_id": "bf63f249-bb29-41d4-8b3b-d5a40b58db18",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "\u003c@U0A9LUUNP43\u003e why is the sync taking so much time even though I selected only one table with around 100 records?",
+    "ts": "1790666701.641499",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cVpfH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " why is the sync taking so much time even though I selected only one table with around 100 records?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1e0f4734-4c3d-494a-9cf5-c531b636f000",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "and eventually getting this error",
+    "ts": "1790667082.619089",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "files": [
+      {
+        "id": "F0C5AV8D0MA",
+        "created": 1790667066,
+        "timestamp": 1790667066,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0C4QTL8Z8T",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 75002,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5AV8D0MA/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5AV8D0MA/download/image.png",
+        "original_h": 417,
+        "original_w": 1050,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 143,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 191,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C5AV8D0MA/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C5AV8D0MA-9aa299c1ce",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yldnO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "and eventually getting this error"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dc777668-213e-466f-922c-3855454efe57",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Can you please download the logs and share it again ?",
+    "ts": "1790668293.572729",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VJy5D",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Can you please download the logs and share it again ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7355fdfd-0ce3-42f8-803a-9cd8784efbb6",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "\u003c@U0A9LUUNP43\u003e check dm",
+    "ts": "1790672277.774399",
+    "thread_ts": "1790583407.242299",
+    "edited": {
+      "user": "U0C4QTL8Z8T",
+      "ts": "1790672286.000000"
+    },
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OCQ3K",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " check dm"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9d64c31d-8702-4944-b954-4726965e40eb",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Thanks for sharing we will look into it.",
+    "ts": "1790674903.245069",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oOF4b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for sharing we will look into it."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4fb8c88b-be06-488a-b74b-9ba66b1b045b",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Hey, we currently don’t support Cosmos DB, and its behaviour is unexpected, so we’ve raised a community issue for this and are expecting someone from the OLake community to pick it up. If you’re interested, you can pick it up as well.\nAlso, please try the incremental mode once, and if that doesn’t work either, let us know.",
+    "ts": "1790685023.380149",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bwUmr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Hey, we currently don’t support Cosmos DB, and its behaviour is unexpected, so we’ve raised a community issue for this and are expecting someone from the OLake community to pick it up. If you’re interested, you can pick it up as well.\nAlso, please try the incremental mode once, and if that doesn’t work either, let us know."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
