@@ -1,0 +1,1373 @@
+[
+  {
+    "client_msg_id": "ae4077ab-6863-43ff-97de-bf9382476b81",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi Team,\nCompaction doesn't seem to be taking effect on one of my Iceberg tables, and I'd appreciate some help figuring out why.\n\n*Setup*\n• Source: Kafka → OLake (CDC, append-only, `dedup_inserts: false`)\n• Catalog: `\u0026lt;REST Catalog - Lakekeeper\u0026gt;`, storage: GCS ('s3://\u0026lt;bucket_name\u0026gt;/...')\n• Table: `ticket_events_kafka_topic`, `PARTITION BY day(event_at)`\n• Compaction enabled with lite, medium and full all configured:\n```\nself-optimizing.enabled = true\nself-optimizing.target-size = 268435456   (256 MB)\nself-optimizing.minor.trigger.cron = */10 * * * *\nself-optimizing.major.trigger.cron = 20 */3 * * *\nself-optimizing.full.trigger.cron  = 0 */12 * * *\n```\n\n*What I'm seeing*\n```\nData files:        2088\nDelete files:      0\nTotal size:        2.02 GB\nAvg file size:     ~1 MB\nLast commit:       2026-09-25 18:56:12 UTC\n```\nThe average file size is ~1 MB against a 256 MB target.\n\nCREATE TABLE `ticket_events_kafka_topic` (\n  `ticket_created_at` datetime DEFAULT NULL,\n  `event_sub_type` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `_kafka_key` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `cm_id` bigint(20) DEFAULT NULL,\n  `_olake_id` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `_olake_timestamp` datetime DEFAULT NULL,\n  `_op_type` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `attr3` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `queue_key` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `sub_status_key` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `actor_id` bigint(20) DEFAULT NULL,\n  `attr4` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `attr1` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `_kafka_timestamp` datetime DEFAULT NULL,\n  `_kafka_offset` bigint(20) DEFAULT NULL,\n  `task_id` bigint(20) DEFAULT NULL,\n  `_kafka_partition` int(11) DEFAULT NULL,\n  `new_value` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `actor_type` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `ingested_at` datetime DEFAULT NULL,\n  `attr5` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `event_id` bigint(20) DEFAULT NULL,\n  `attr2` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `event_at` datetime DEFAULT NULL,\n  `folder_id` bigint(20) DEFAULT NULL,\n  `previous_duration_minutes` bigint(20) DEFAULT NULL,\n  `assigned_agent_id` bigint(20) DEFAULT NULL,\n  `old_value` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `event_detail` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `event_type` varchar(\u003ctel:1073741824|1073741824\u003e) DEFAULT NULL,\n  `_cdc_timestamp` datetime DEFAULT NULL\n)\nPARTITION BY (day(event_at))\nPROPERTIES (\"self-optimizing.target-size\" = \"268435456\", \"write.format.default\" = \"parquet\", \"self-optimizing.enabled\" = \"true\", \"self-optimizing.minor.trigger.cron\" = \"*/10 * * * *\", \"location\" = \"s3://\u0026lt;bucket_name\u0026gt;/*01a0d8fa-8276-7bc2-8175-793842aaf805/01a0d8fa-82af-7110-9cab-890f21a9df61*\", \"self-optimizing.full.trigger.cron\" = \"0 */12 * * *\", \"olake_2pc\" = \"{\\\"id\\\":\\\"\\\",\\\"state\\\":\\\"{\\\\\"consumer_group_id\\\\\":\\\\\"olake-consumer-group-1790346688\\\\\",\\\\\"partition_0\\\\\":11754646,\\\\\"partition_1\\\\\":11781657,\\\\\"partition_4\\\\\":11814581,\\\\\"partition_3\\\\\":11809023,\\\\\"partition_2\\\\\":11807114}\\\",\\\"dedup_inserts\\\":false}\", \"self-optimizing.major.trigger.cron\" = \"20 */3 * * *\");",
+    "ts": "1790581283.908629",
+    "thread_ts": "1790581283.908629",
+    "reply_count": 2,
+    "reply_users": [
+      "U0BF1NS2UJ0"
+    ],
+    "replies": [
+      {
+        "user": "U0BF1NS2UJ0",
+        "ts": "1790585696.323639"
+      },
+      {
+        "user": "U0BF1NS2UJ0",
+        "ts": "1790587123.109979"
+      }
+    ],
+    "latest_reply": "1790587123.109979",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 4,
+        "users": [
+          "U0A9LUUNP43",
+          "U0A8Y735340",
+          "U0BF1NS2UJ0",
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YW0G+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nCompaction doesn't seem to be taking effect on one of my Iceberg tables, and I'd appreciate some help figuring out why.\n\n*Setup*\n• Source: Kafka → OLake (CDC, append-only, `dedup_inserts: false`)\n• Catalog: `\u003cREST Catalog - Lakekeeper\u003e`, storage: GCS ('s3://\u003cbucket_name\u003e/...')\n• Table: `ticket_events_kafka_topic`, `PARTITION BY day(event_at)`\n• Compaction enabled with lite, medium and full all configured:\n```\nself-optimizing.enabled = true\nself-optimizing.target-size = 268435456   (256 MB)\nself-optimizing.minor.trigger.cron = */10 * * * *\nself-optimizing.major.trigger.cron = 20 */3 * * *\nself-optimizing.full.trigger.cron  = 0 */12 * * *\n```\n\n*What I'm seeing*\n```\nData files:        2088\nDelete files:      0\nTotal size:        2.02 GB\nAvg file size:     ~1 MB\nLast commit:       2026-09-25 18:56:12 UTC\n```\nThe average file size is ~1 MB against a 256 MB target.\n\nCREATE TABLE `ticket_events_kafka_topic` (\n  `ticket_created_at` datetime DEFAULT NULL,\n  `event_sub_type` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `_kafka_key` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `cm_id` bigint(20) DEFAULT NULL,\n  `_olake_id` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `_olake_timestamp` datetime DEFAULT NULL,\n  `_op_type` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `attr3` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `queue_key` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `sub_status_key` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `actor_id` bigint(20) DEFAULT NULL,\n  `attr4` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `attr1` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `_kafka_timestamp` datetime DEFAULT NULL,\n  `_kafka_offset` bigint(20) DEFAULT NULL,\n  `task_id` bigint(20) DEFAULT NULL,\n  `_kafka_partition` int(11) DEFAULT NULL,\n  `new_value` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `actor_type` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `ingested_at` datetime DEFAULT NULL,\n  `attr5` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `event_id` bigint(20) DEFAULT NULL,\n  `attr2` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `event_at` datetime DEFAULT NULL,\n  `folder_id` bigint(20) DEFAULT NULL,\n  `previous_duration_minutes` bigint(20) DEFAULT NULL,\n  `assigned_agent_id` bigint(20) DEFAULT NULL,\n  `old_value` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `event_detail` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `event_type` varchar("
+              },
+              {
+                "type": "link",
+                "url": "tel:1073741824",
+                "text": "1073741824"
+              },
+              {
+                "type": "text",
+                "text": ") DEFAULT NULL,\n  `_cdc_timestamp` datetime DEFAULT NULL\n)\nPARTITION BY (day(event_at))\nPROPERTIES (\"self-optimizing.target-size\" = \"268435456\", \"write.format.default\" = \"parquet\", \"self-optimizing.enabled\" = \"true\", \"self-optimizing.minor.trigger.cron\" = \"*/10 * * * *\", \"location\" = \"s3://\u003cbucket_name\u003e/"
+              },
+              {
+                "type": "text",
+                "text": "01a0d8fa-8276-7bc2-8175-793842aaf805/01a0d8fa-82af-7110-9cab-890f21a9df61",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\", \"self-optimizing.full.trigger.cron\" = \"0 */12 * * *\", \"olake_2pc\" = \"{\\\"id\\\":\\\"\\\",\\\"state\\\":\\\"{\\\\\"consumer_group_id\\\\\":\\\\\"olake-consumer-group-1790346688\\\\\",\\\\\"partition_0\\\\\":11754646,\\\\\"partition_1\\\\\":11781657,\\\\\"partition_4\\\\\":11814581,\\\\\"partition_3\\\\\":11809023,\\\\\"partition_2\\\\\":11807114}\\\",\\\"dedup_inserts\\\":false}\", \"self-optimizing.major.trigger.cron\" = \"20 */3 * * *\");"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "fd6446fd-72e8-4ed1-a6a7-b0ca3fef1fd5",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "Hi  OLake team, I’m using *OLake v0.11.0* with *Azure Cosmos DB (MongoDB API)* as the source and *GCS via Iceberg* as the destination for my `herely` database.\nBoth source and destination connection tests pass, but sync fails during chunk boundary calculation because OLake still calls `splitVector` even though I configured *Timestamp-based sync*:\n```(CommandNotSupported) Command 'splitVector' not supported```\nI also saw `CursorNotFound` on the `messages` collection.\nIs Azure Cosmos DB MongoDB API fully supported in this setup, and is there any recommended workaround/configuration?",
+    "ts": "1790583407.242299",
+    "thread_ts": "1790583407.242299",
+    "reply_count": 9,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0A9LUUNP43",
+      "U0C4QTL8Z8T"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790585026.496639"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790585158.551249"
+      },
+      {
+        "user": "U0C4QTL8Z8T",
+        "ts": "1790585910.273959"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790586210.936049"
+      },
+      {
+        "user": "U0C4QTL8Z8T",
+        "ts": "1790586484.545979"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790586642.541309"
+      },
+      {
+        "user": "U0C4QTL8Z8T",
+        "ts": "1790586934.539029"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1790588266.917699"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790600522.514349"
+      }
+    ],
+    "latest_reply": "1790600522.514349",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U0A9LUUNP43",
+          "U0C4QTL8Z8T"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BtiS7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi  OLake team, I’m using "
+              },
+              {
+                "type": "text",
+                "text": "OLake v0.11.0",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " with "
+              },
+              {
+                "type": "text",
+                "text": "Azure Cosmos DB (MongoDB API)",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " as the source and "
+              },
+              {
+                "type": "text",
+                "text": "GCS via Iceberg",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " as the destination for my "
+              },
+              {
+                "type": "text",
+                "text": "herely",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " database.\nBoth source and destination connection tests pass, but sync fails during chunk boundary calculation because OLake still calls "
+              },
+              {
+                "type": "text",
+                "text": "splitVector",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " even though I configured "
+              },
+              {
+                "type": "text",
+                "text": "Timestamp-based sync",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ":\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(CommandNotSupported) Command 'splitVector' not supported"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I also saw "
+              },
+              {
+                "type": "text",
+                "text": "CursorNotFound",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " on the "
+              },
+              {
+                "type": "text",
+                "text": "messages",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " collection.\nIs Azure Cosmos DB MongoDB API fully supported in this setup, and is there any recommended workaround/configuration?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "93fb2e19-05ed-4588-80c1-fc7f4f393ffb",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Thanks for raising the issue. We are looking into it and will get back to you.",
+    "ts": "1790585026.496639",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KKjoE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for raising the issue. We are looking into it and will get back to you."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6bdb016d-64fa-4dbb-bbcf-dbd32c59c505",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Could you please let us know which mode you are currently using and share the relevant logs with us?",
+    "ts": "1790585158.551249",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Q9vnh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Could you please let us know which mode you are currently using and share the relevant logs with us?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "72b543e2-80a9-4c34-b3ef-b6c8eb2ba147",
+    "type": "message",
+    "user": "U0BF1NS2UJ0",
+    "text": "Hi \u003c@U0A6088AMM3\u003e\nThank you for sharing the issue with us. If you don't mind can we schedule a call over this at some time you are available today?",
+    "ts": "1790585696.323639",
+    "thread_ts": "1790581283.908629",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "q71dv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": "\nThank you for sharing the issue with us. If you don't mind can we schedule a call over this at some time you are available today?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-07-02/11504750021509_6b74b4d6bda37a3f4865_72.png",
+      "first_name": "Ashi",
+      "real_name": "Ashi Sharma",
+      "display_name": "Ashi Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ashi",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1e46446e-0f90-455a-a84d-78d05d327818",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "\u003c@U0A9LUUNP43\u003e I’m currently using *Timestamp-based sync mode*.\nThe source is *Azure Cosmos DB (MongoDB API)* and the destination is *GCS via Iceberg*. Both connection tests pass, but the sync fails while calculating chunk boundaries because `splitVector` is being called.\nI’ll share the relevant logs here as well. The main error is:\n`(CommandNotSupported) Command 'splitVector' not supported`\nI also saw a `CursorNotFound` error for the `messages` collection.",
+    "ts": "1790585910.273959",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ifA8y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " I’m currently using "
+              },
+              {
+                "type": "text",
+                "text": "Timestamp-based sync mode",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nThe source is "
+              },
+              {
+                "type": "text",
+                "text": "Azure Cosmos DB (MongoDB API)",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and the destination is "
+              },
+              {
+                "type": "text",
+                "text": "GCS via Iceberg",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". Both connection tests pass, but the sync fails while calculating chunk boundaries because "
+              },
+              {
+                "type": "text",
+                "text": "splitVector",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is being called.\nI’ll share the relevant logs here as well. The main error is:\n"
+              },
+              {
+                "type": "text",
+                "text": "(CommandNotSupported) Command 'splitVector' not supported",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nI also saw a "
+              },
+              {
+                "type": "text",
+                "text": "CursorNotFound",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " error for the "
+              },
+              {
+                "type": "text",
+                "text": "messages",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " collection."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ac0bf2ea-3f37-468a-9676-ef95a17385dc",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Just to clarify, by mode I was referring to the sync mode you are currently using (CDC, incremental, or backfill).",
+    "ts": "1790586210.936049",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KM/4z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Just to clarify, by mode I was referring to the sync mode you are currently using (CDC, incremental, or backfill)."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "475e6ecf-7a42-4875-8350-be438a68b9a7",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "\u003c@U0A9LUUNP43\u003e I’m currently using *Full Refresh* sync mode with *Upsert* ingestion mode.",
+    "ts": "1790586484.545979",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ptNLx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " I’m currently using "
+              },
+              {
+                "type": "text",
+                "text": "Full Refresh",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " sync mode with "
+              },
+              {
+                "type": "text",
+                "text": "Upsert",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ingestion mode."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "bcaa94b8-12fb-4c8d-87a3-fbe18f914f63",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Could you please share the logs from the failed job? If they contain any sensitive or critical data, you can share them with me via DM as well.",
+    "ts": "1790586642.541309",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "x8btd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Could you please share the logs from the failed job? If they contain any sensitive or critical data, you can share them with me via DM as well."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fac1045c-0ec5-48f3-abfa-f32eeff9c36e",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "\u003c@U0A9LUUNP43\u003e check your dm",
+    "ts": "1790586934.539029",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RyNrW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " check your dm"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8e03dbe6-e06e-49c9-8778-d0017a5e3b05",
+    "type": "message",
+    "user": "U0BF1NS2UJ0",
+    "text": "\u003c@U0A6088AMM3\u003e Also can you please confirm:\n1. How many files do you have in each partition?\n2. If compaction is successfully getting completed for the iceberg table?\n3. And just want to confirm: can you please check if a pod with optimizer in its name is running.\n",
+    "ts": "1790587123.109979",
+    "thread_ts": "1790581283.908629",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MOUky",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " Also can you please confirm:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "How many files do you have in each partition?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "If compaction is successfully getting completed for the iceberg table?"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "And just want to confirm: can you please check if a pod with optimizer in its name is running."
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-07-02/11504750021509_6b74b4d6bda37a3f4865_72.png",
+      "first_name": "Ashi",
+      "real_name": "Ashi Sharma",
+      "display_name": "Ashi Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ashi",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "47b6c47c-8cf7-49b5-b6af-0705dba0bc05",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0C4QTL8Z8T\u003e,\n\nWe found the issue in the current UI saves *Timestamp* as `\"Timestamp\"`, while the sync expects `\"timestamp\"`. This causes it to fall back to Split Vector, which Cosmos DB doesn’t support. We’ll fix this in the next connector release.\n*Workaround:*\n1. Open DevTools → *Network* and click *Save* on the source.\n2. Find the `PUT` request to `/api/v1/project/\u003cid\u003e/sources/\u003cid\u003e`.\n3. Right-click → *Copy → Copy as cURL*.\n4. Change `\"chunking_strategy\":\"Timestamp\"` to `\"chunking_strategy\":\"timestamp\"` and run the cURL.\n       Example of the edited part:\n```...\\\"backoff_retry_count\\\":3,\\\"chunking_strategy\\\":\\\"timestamp\\\",\\\"```\nThen re-run the sync. *Don’t save the source again from the UI*, as it will change it back to `\"Timestamp\"`.\nPlease let us know if the sync works after this.",
+    "ts": "1790588266.917699",
+    "thread_ts": "1790583407.242299",
+    "edited": {
+      "user": "U08CR7HUWDC",
+      "ts": "1790592251.000000"
+    },
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bKbEt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": ",\n\nWe found the issue in the current UI saves "
+              },
+              {
+                "type": "text",
+                "text": "Timestamp",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " as "
+              },
+              {
+                "type": "text",
+                "text": "\"Timestamp\"",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", while the sync expects "
+              },
+              {
+                "type": "text",
+                "text": "\"timestamp\"",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". This causes it to fall back to Split Vector, which Cosmos DB doesn’t support. We’ll fix this in the next connector release.\n"
+              },
+              {
+                "type": "text",
+                "text": "Workaround:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Open DevTools → "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Network",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " and click "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Save",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " on the source."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Find the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "PUT",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " request to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "/api/v1/project/\u003cid\u003e/sources/\u003cid\u003e",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Right-click → "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Copy → Copy as cURL",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Change "
+                  },
+                  {
+                    "type": "text",
+                    "text": "\"chunking_strategy\":\"Timestamp\"",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "\"chunking_strategy\":\"timestamp\"",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " and run the cURL."
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "       Example of the edited part:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "...\\\"backoff_retry_count\\\":3,\\\"chunking_strategy\\\":\\\"timestamp\\\",\\\""
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Then re-run the sync. "
+              },
+              {
+                "type": "text",
+                "text": "Don’t save the source again from the UI",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", as it will change it back to "
+              },
+              {
+                "type": "text",
+                "text": "\"Timestamp\"",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nPlease let us know if the sync works after this."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3d478122-8e60-4d5d-b318-4cba462ff94d",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e We have created an issue regarding this and will keep you updated.\n\u003chttps://github.com/datazip-inc/olake/issues/1262|github.com/datazip-inc/olake/issues/1262\u003e",
+    "ts": "1790600522.514349",
+    "thread_ts": "1790583407.242299",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1790600582.000000"
+    },
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kPq75",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " We have created an issue regarding this and will keep you updated.\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1262",
+                "text": "github.com/datazip-inc/olake/issues/1262"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
