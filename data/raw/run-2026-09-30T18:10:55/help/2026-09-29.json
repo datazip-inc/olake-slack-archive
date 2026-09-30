@@ -1,0 +1,1167 @@
+[
+  {
+    "client_msg_id": "bf63f249-bb29-41d4-8b3b-d5a40b58db18",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "\u003c@U0A9LUUNP43\u003e why is the sync taking so much time even though I selected only one table with around 100 records?",
+    "ts": "1790666701.641499",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cVpfH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " why is the sync taking so much time even though I selected only one table with around 100 records?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1e0f4734-4c3d-494a-9cf5-c531b636f000",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "and eventually getting this error",
+    "ts": "1790667082.619089",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "files": [
+      {
+        "id": "F0C5AV8D0MA",
+        "created": 1790667066,
+        "timestamp": 1790667066,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0C4QTL8Z8T",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 75002,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5AV8D0MA/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5AV8D0MA/download/image.png",
+        "original_h": 417,
+        "original_w": 1050,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 143,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5AV8D0MA-be505b82de/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 191,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C5AV8D0MA/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C5AV8D0MA-9aa299c1ce",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yldnO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "and eventually getting this error"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dc777668-213e-466f-922c-3855454efe57",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Can you please download the logs and share it again ?",
+    "ts": "1790668293.572729",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VJy5D",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Can you please download the logs and share it again ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7355fdfd-0ce3-42f8-803a-9cd8784efbb6",
+    "type": "message",
+    "user": "U0C4QTL8Z8T",
+    "text": "\u003c@U0A9LUUNP43\u003e check dm",
+    "ts": "1790672277.774399",
+    "thread_ts": "1790583407.242299",
+    "edited": {
+      "user": "U0C4QTL8Z8T",
+      "ts": "1790672286.000000"
+    },
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OCQ3K",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " check dm"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/133cf39b044f9b133a61b2e1a7a38254.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+      "first_name": "prashantverma",
+      "real_name": "prashantverma",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "prashantverma",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9d64c31d-8702-4944-b954-4726965e40eb",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Thanks for sharing we will look into it.",
+    "ts": "1790674903.245069",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oOF4b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for sharing we will look into it."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "4fb8c88b-be06-488a-b74b-9ba66b1b045b",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0C4QTL8Z8T\u003e Hey, we currently don’t support Cosmos DB, and its behaviour is unexpected, so we’ve raised a community issue for this and are expecting someone from the OLake community to pick it up. If you’re interested, you can pick it up as well.\nAlso, please try the incremental mode once, and if that doesn’t work either, let us know.",
+    "ts": "1790685023.380149",
+    "thread_ts": "1790583407.242299",
+    "parent_user_id": "U0C4QTL8Z8T",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bwUmr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C4QTL8Z8T"
+              },
+              {
+                "type": "text",
+                "text": " Hey, we currently don’t support Cosmos DB, and its behaviour is unexpected, so we’ve raised a community issue for this and are expecting someone from the OLake community to pick it up. If you’re interested, you can pick it up as well.\nAlso, please try the incremental mode once, and if that doesn’t work either, let us know."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "34b47847-6f29-4c5b-882a-6bb8302d56dc",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nWe have a mongo collection whose per document size is 10 MB.\nIn the stream discovery step it is getting timeout.\nCan someone please help with this issue",
+    "ts": "1790746295.279899",
+    "thread_ts": "1790746295.279899",
+    "reply_count": 14,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0A9LUUNP43",
+      "U0BTUQGHDDF"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790748026.745999"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1790748563.989069"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790748607.097049"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790750470.411879"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1790751456.141309"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1790751500.614999"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1790751524.508679"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790751571.242919"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790753451.208869"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1790753505.825289"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790768200.717409"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1790768844.413809"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1790785810.615149"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1790789834.858709"
+      }
+    ],
+    "latest_reply": "1790789834.858709",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LrVFG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nWe have a mongo collection whose per document size is 10 MB.\nIn the stream discovery step it is getting timeout.\nCan someone please help with this issue"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "a2ef5ff8-00cb-4844-b587-d581d572a423",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "Hey \u003c@U0BTUQGHDDF\u003e thanks for raising the issue can you please share your logs.",
+    "ts": "1790748026.745999",
+    "thread_ts": "1790746295.279899",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1790748538.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "imHd4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " thanks for raising the issue can you please share your logs."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "327fe681-38a5-46dc-86b7-2f5c1633018b",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "ts": "1790748563.989069",
+    "thread_ts": "1790746295.279899",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0C5N9LB1L4",
+        "created": 1790748558,
+        "timestamp": 1790748558,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 187647,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5N9LB1L4/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5N9LB1L4/download/image.png",
+        "original_h": 1270,
+        "original_w": 1482,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5N9LB1L4-5b24534ac0/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5N9LB1L4-5b24534ac0/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5N9LB1L4-5b24534ac0/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5N9LB1L4-5b24534ac0/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 309,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5N9LB1L4-5b24534ac0/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 411,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5N9LB1L4-5b24534ac0/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 617,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C5N9LB1L4/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C5N9LB1L4-b95b6acfba",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3b8832ab-92a9-41f8-873f-ccec19edf53f",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0BTUQGHDDF\u003e thanks for sharing the logs we are looking into this and get back to you soon.",
+    "ts": "1790748607.097049",
+    "thread_ts": "1790746295.279899",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "p5oKc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " thanks for sharing the logs we are looking into this and get back to you soon."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b793dbe9-295c-48de-be91-00155a5acb7e",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0BTUQGHDDF\u003e Can you please share your worker logs and also once try with increasing max discover threads on job creation  and let us know if that works for you?",
+    "ts": "1790750470.411879",
+    "thread_ts": "1790746295.279899",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1790750793.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0C5JPD727L",
+        "created": 1790750756,
+        "timestamp": 1790750756,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A9LUUNP43",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 65823,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5JPD727L/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5JPD727L/download/image.png",
+        "original_h": 554,
+        "original_w": 2188,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 91,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 122,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 182,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 243,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5JPD727L-20006719d8/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 259,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C5JPD727L/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C5JPD727L-e86447c04e",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TBYB5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " Can you please share your worker logs and also once try with increasing max discover threads on job creation  and let us know if that works for you?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b56ea160-f95b-4e20-a4c9-f46253457a74",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "ts": "1790751456.141309",
+    "thread_ts": "1790746295.279899",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0C6DBS3W72",
+        "created": 1790751444,
+        "timestamp": 1790751444,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 822748,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6DBS3W72/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6DBS3W72/download/image.png",
+        "original_h": 1324,
+        "original_w": 3018,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 158,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 211,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 316,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 421,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6DBS3W72-49dd214dd6/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 449,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C6DBS3W72/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C6DBS3W72-ff53e78e86",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0197411e-9b06-4198-9665-7c52f40a837c",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "This is the logs for worker pod",
+    "ts": "1790751500.614999",
+    "thread_ts": "1790746295.279899",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0C5LUW215F",
+        "created": 1790751488,
+        "timestamp": 1790751488,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 1050069,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5LUW215F/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C5LUW215F/download/image.png",
+        "original_h": 1220,
+        "original_w": 3024,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 145,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 194,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 290,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 387,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C5LUW215F-828280e277/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 413,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C5LUW215F/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C5LUW215F-854974c109",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+5ryY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This is the logs for worker pod"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2d02dd25-1a47-43a6-bf7c-2f14a35691ce",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "I increased max discover threads to 10 but still it failed",
+    "ts": "1790751524.508679",
+    "thread_ts": "1790746295.279899",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KCWe1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I increased max discover threads to 10 but still it failed"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "907c3ee6-fdc3-4b74-a45c-d02f095c27bc",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0BTUQGHDDF\u003e Thanks for sharing the logs we will look into this and get back to you soon",
+    "ts": "1790751571.242919",
+    "thread_ts": "1790746295.279899",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kUPOn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for sharing the logs we will look into this and get back to you soon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
