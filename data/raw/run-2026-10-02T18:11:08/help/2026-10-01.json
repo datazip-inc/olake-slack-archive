@@ -1,0 +1,381 @@
+[
+  {
+    "client_msg_id": "f9de6a2e-0928-44d9-8c28-370e2bfa3b6b",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "Hi team, somewhat urgent,\nsay i have a olake stream to sync, mode cdc only, source is mysql, dest is s3\ni wanna choose the cdc file to start from, how can i do this",
+    "ts": "1790847500.900589",
+    "thread_ts": "1790847500.900589",
+    "reply_count": 5,
+    "reply_users": [
+      "U09KQFGF7J4",
+      "U0A9LUUNP43"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790847568.869919"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1790847581.361259"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1790847604.218389"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790847937.243109"
+      },
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1790861481.764079"
+      }
+    ],
+    "latest_reply": "1790861481.764079",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "S04n9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, somewhat urgent,\nsay i have a olake stream to sync, mode cdc only, source is mysql, dest is s3\ni wanna choose the cdc file to start from, how can i do this"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "b2adcb2f-ab50-4002-99c7-72373c46b8f7",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U09KQFGF7J4\u003e Can you please explain a little more about the cdc file you are talking about ?",
+    "ts": "1790847568.869919",
+    "thread_ts": "1790847500.900589",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "leVdq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " Can you please explain a little more about the cdc file you are talking about ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7e9ffb7c-0ddd-4af0-add7-37222a8a2dd5",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "binlog file sorry",
+    "ts": "1790847581.361259",
+    "thread_ts": "1790847500.900589",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rogti",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "binlog file sorry"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fa47601e-e16a-44c4-a3a4-c0a463bd9890",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "could we get on call, i will explain the issue",
+    "ts": "1790847604.218389",
+    "thread_ts": "1790847500.900589",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ki2BZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "could we get on call, i will explain the issue"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "842f146c-7b23-4c7a-9dcf-4d59822971eb",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "Let's connect\n\u003chttps://meet.google.com/ecm-intn-ivq|meet.google.com/ecm-intn-ivq\u003e",
+    "ts": "1790847937.243109",
+    "thread_ts": "1790847500.900589",
+    "attachments": [
+      {
+        "fallback": "Meet",
+        "id": 1,
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ecm-intn-ivq",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "service_name": "meet.google.com",
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "from_url": "https://meet.google.com/ecm-intn-ivq",
+        "original_url": "https://meet.google.com/ecm-intn-ivq",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cP2ju",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Let's connect\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ecm-intn-ivq",
+                "text": "meet.google.com/ecm-intn-ivq"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d30753e9-6f69-4326-9858-4e5964e90532",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "Hey \u003c@U09KQFGF7J4\u003e, you have to update the `state` column in the table `olake-dev-job`/ olake-prod-job that you will find in the running postgres (If you are unable to get let us know). Now follow below steps:\n\n- Get the value of state for that particular job which you want to update\n- update values in this state example\n\n``` \"position\": {\n            \"Name\": \"mysql-bin.000076\", // this is your binlog file name\n            \"Pos\": 198 // this is position of the binlog file\n        }```\n- update your job after updating your state, (make sure you use where condition properly else all job will get updated)\n- Try running sync after saving\n- see logs of it you will see first line of log containing that state you saved (if not connect back with us)\n\nThanks",
+    "ts": "1790861481.764079",
+    "thread_ts": "1790847500.900589",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1790863172.000000"
+    },
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bCwg2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": ", you have to update the "
+              },
+              {
+                "type": "text",
+                "text": "state",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " column in the table `olake-dev-job`/ olake-prod-job that you will find in the running postgres (If you are unable to get let us know). Now follow below steps:\n\n- Get the value of state for that particular job which you want to update\n- update values in this state example\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": " \"position\": {\n            \"Name\": \"mysql-bin.000076\", // this is your binlog file name\n            \"Pos\": 198 // this is position of the binlog file\n        }"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "- update your job after updating your state, (make sure you use where condition properly else all job will get updated)\n- Try running sync after saving\n- see logs of it you will see first line of log containing that state you saved (if not connect back with us)\n\nThanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
