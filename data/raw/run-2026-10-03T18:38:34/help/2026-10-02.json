@@ -1,0 +1,199 @@
+[
+  {
+    "client_msg_id": "b12d624c-0479-4054-8921-a5db25db2de1",
+    "type": "message",
+    "user": "U0A69TASN7Q",
+    "text": "any idea ? \u003c@U09BK0WKBQR\u003e",
+    "ts": "1790966165.506529",
+    "thread_ts": "1790966165.506529",
+    "reply_count": 1,
+    "reply_users": [
+      "U082APQJZNC"
+    ],
+    "replies": [
+      {
+        "user": "U082APQJZNC",
+        "ts": "1790970305.139619"
+      }
+    ],
+    "latest_reply": "1790970305.139619",
+    "files": [
+      {
+        "id": "F0C6AJT3LUW",
+        "created": 1790966135,
+        "timestamp": 1790966135,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A69TASN7Q",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 63517,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6AJT3LUW/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6AJT3LUW/download/image.png",
+        "original_h": 737,
+        "original_w": 1020,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6AJT3LUW-0ddba8ae43/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6AJT3LUW-0ddba8ae43/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6AJT3LUW-0ddba8ae43/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6AJT3LUW-0ddba8ae43/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 260,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6AJT3LUW-0ddba8ae43/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 347,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6AJT3LUW-0ddba8ae43/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 520,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6AJT3LUW-0ddba8ae43/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 694,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C6AJT3LUW/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C6AJT3LUW-0a31656659",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z77NW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "any idea ? "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-04/10223396117862_31af3ce4e66c39832a7c_72.jpg",
+      "first_name": "vimla",
+      "real_name": "vimla",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "vimlachoudhary2612",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "e7ba32f2-51c9-4552-9d7f-0764631a34f3",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "Hey \u003c@U0A69TASN7Q\u003e they have probably gotten email from github or some automation script which scans your profiles.\n\nYou can ignore them. They are spamming others as well with help of AI.",
+    "ts": "1790970305.139619",
+    "thread_ts": "1790966165.506529",
+    "parent_user_id": "U0A69TASN7Q",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8iQm0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A69TASN7Q"
+              },
+              {
+                "type": "text",
+                "text": " they have probably gotten email from github or some automation script which scans your profiles.\n\nYou can ignore them. They are spamming others as well with help of AI."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
