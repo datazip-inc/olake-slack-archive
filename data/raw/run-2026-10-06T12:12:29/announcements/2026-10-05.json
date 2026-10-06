@@ -1,0 +1,142 @@
+[
+  {
+    "client_msg_id": "b8a519e1-59b6-4802-893d-4cb17b4efabd",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.11.3 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.11.3|github.com/datazip-inc/olake/…/v0.11.3\u003e\n*What’s New*\n• fix(iceberg): bump jackson to 2.22.3 and ignore parquet's shaded copy by \u003c@U08S5BR47GA\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1279|#1279\u003e\n• fix: mysql latin1 charset decoding using cp1252 instead of ISO-8859-1 by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1280|#1280\u003e\nThanks for the contribution!",
+    "ts": "1791197791.669479",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wKhHy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.11.3 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.11.3",
+                "text": "github.com/datazip-inc/olake/…/v0.11.3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(iceberg): bump jackson to 2.22.3 and ignore parquet's shaded copy by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S5BR47GA"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1279",
+                    "text": "#1279"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: mysql latin1 charset decoding using cp1252 instead of ISO-8859-1 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1280",
+                    "text": "#1280"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
