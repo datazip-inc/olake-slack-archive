@@ -1,0 +1,1037 @@
+[
+  {
+    "client_msg_id": "1c8e007d-c0b1-4888-a205-615d6865d177",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nOne of our sync job is failing and here are the logs.\nPossible reason of failiure is metadata.json file exceeded 1 MB.\nPlease suggest us what can we do here?",
+    "ts": "1791283377.097869",
+    "thread_ts": "1791283377.097869",
+    "reply_count": 8,
+    "reply_users": [
+      "U08RZQ547LJ",
+      "U0A9LUUNP43",
+      "U0BTUQGHDDF"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1791283647.527029"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1791287383.676609"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1791287584.059839"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1791288580.096139"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1791295786.684499"
+      },
+      {
+        "user": "U08RZQ547LJ",
+        "ts": "1791304635.984499"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1791309586.219949"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1791309812.146789"
+      }
+    ],
+    "latest_reply": "1791309812.146789",
+    "files": [
+      {
+        "id": "F0C70GAJT6J",
+        "created": 1791283334,
+        "timestamp": 1791283334,
+        "name": "job-8-logs-2026-10-03-23-30-01.tar.gz",
+        "title": "job-8-logs-2026-10-03-23-30-01.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 7153,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C70GAJT6J/job-8-logs-2026-10-03-23-30-01.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C70GAJT6J/download/job-8-logs-2026-10-03-23-30-01.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C70GAJT6J/job-8-logs-2026-10-03-23-30-01.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C70GAJT6J-6f6134ad8a",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o8jAl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nOne of our sync job is failing and here are the logs.\nPossible reason of failiure is metadata.json file exceeded 1 MB.\nPlease suggest us what can we do here?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "c0647f51-b18f-4298-9fcd-bcecaf08cf70",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0BTUQGHDDF\u003e, thanks for raising this issue. We’ll get back to you soon regarding this.\ncc \u003c@U08RZQ547LJ\u003e",
+    "ts": "1791283647.527029",
+    "thread_ts": "1791283377.097869",
+    "edited": {
+      "user": "U0A9LUUNP43",
+      "ts": "1791286609.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DYok+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ", thanks for raising this issue. We’ll get back to you soon regarding this.\ncc "
+              },
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9834d831-7e48-4693-8ade-12688678ac98",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0BTUQGHDDF\u003e, can you please convey which catalog you are using?",
+    "ts": "1791287383.676609",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VcovJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ", can you please convey which catalog you are using?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-17/11822132740359_2f3ca56214f1f64695be_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal Prasad Singh",
+      "display_name": "Badal Prasad Singh",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a10e3121-3e5a-42cb-aff7-37538a78bc6a",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Catalog type: REST\nEndpoint: \u003chttps://biglake.googleapis.com/iceberg/v1/restcatalog|biglake.googleapis.com/iceberg/v1/restcatalog\u003e",
+    "ts": "1791287584.059839",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2TSpu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Catalog type: REST\nEndpoint: "
+              },
+              {
+                "type": "link",
+                "url": "https://biglake.googleapis.com/iceberg/v1/restcatalog",
+                "text": "biglake.googleapis.com/iceberg/v1/restcatalog"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "37eac702-0037-4dbe-9d16-0fba8d5e88c2",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0BTUQGHDDF\u003e, this error comes from a BigLake limit: an Iceberg table's `metadata.json` can't be larger than *1 MB.* You can check this \u003chttps://docs.cloud.google.com/lakehouse/docs/set-up-lakehouse-iceberg-rest-catalog|documentation\u003e, under Data limitations.\n\nYour data is safe. The sync state didn't move forward, so the next successful run will pick up from where it stopped. It would be great if you could DM me your latest `metadata.json` for this iceberg table. This will show us exactly what's taking up the space.\n\nTo find `metadata.json`:\n1. Open the GCS bucket you set as the BigLake Catalog Path in your OLake destination.\n2. Open the namespace folder `juno_v2_prod_order_juno_v2_prod_order`, then the table folder `order_v2`, then `metadata/`. If the folders aren't laid out like that, search the bucket for `order_v2`. \n3. Pick the `*.metadata.json` file with the highest number at the start of its name (e.g. `01243-xxxx.metadata.json`). That's the latest version. You can sort the files based on date created / added, and share the latest one.",
+    "ts": "1791288580.096139",
+    "thread_ts": "1791283377.097869",
+    "attachments": [
+      {
+        "fallback": "Google Cloud Documentation: Set up the Apache Iceberg REST catalog endpoint  |  Lakehouse  |  Google Cloud Documentation",
+        "id": 1,
+        "title": "Set up the Apache Iceberg REST catalog endpoint  |  Lakehouse  |  Google Cloud Documentation",
+        "title_link": "https://docs.cloud.google.com/lakehouse/docs/set-up-lakehouse-iceberg-rest-catalog",
+        "text": "Create a Lakehouse REST catalog endpoint for interoperability between query engines like Spark and BigQuery.",
+        "image_url": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
+        "image_bytes": 17405,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "Google Cloud Documentation",
+        "service_icon": "https://www.gstatic.com/devrel-devsite/prod/vc572093a046b25fad0d22bd3210637939b9c971bea06a064d6f48a166bf893c5/clouddocs/images/favicons/onecloud/super_cloud.png",
+        "from_url": "https://docs.cloud.google.com/lakehouse/docs/set-up-lakehouse-iceberg-rest-catalog",
+        "original_url": "https://docs.cloud.google.com/lakehouse/docs/set-up-lakehouse-iceberg-rest-catalog",
+        "blocks": null
+      }
+    ],
+    "edited": {
+      "user": "U08RZQ547LJ",
+      "ts": "1791289110.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0C6XMPFJ6R",
+        "created": 1791287890,
+        "timestamp": 1791287890,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08RZQ547LJ",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 34092,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6XMPFJ6R/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6XMPFJ6R/download/image.png",
+        "original_h": 165,
+        "original_w": 873,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6XMPFJ6R-fa2d88be29/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6XMPFJ6R-fa2d88be29/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6XMPFJ6R-fa2d88be29/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6XMPFJ6R-fa2d88be29/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 68,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6XMPFJ6R-fa2d88be29/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 91,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C6XMPFJ6R-fa2d88be29/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 136,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C6XMPFJ6R/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C6XMPFJ6R-344fe0d430",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eHK9U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ", this error comes from a BigLake limit: an Iceberg table's "
+              },
+              {
+                "type": "text",
+                "text": "metadata.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " can't be larger than "
+              },
+              {
+                "type": "text",
+                "text": "1 MB. ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "You can check this "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.cloud.google.com/lakehouse/docs/set-up-lakehouse-iceberg-rest-catalog",
+                "text": "documentation"
+              },
+              {
+                "type": "text",
+                "text": ", under Data limitations.\n\nYour data is safe. The sync state didn't move forward, so the next successful run will pick up from where it stopped. It would be great if you could DM me your latest "
+              },
+              {
+                "type": "text",
+                "text": "metadata.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for this iceberg table. This will show us exactly what's taking up the space.\n\nTo find "
+              },
+              {
+                "type": "text",
+                "text": "metadata.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ":\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Open the GCS bucket you set as the BigLake Catalog Path in your OLake destination."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Open the namespace folder "
+                  },
+                  {
+                    "type": "text",
+                    "text": "juno_v2_prod_order_juno_v2_prod_order",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ", then the table folder "
+                  },
+                  {
+                    "type": "text",
+                    "text": "order_v2",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ", then "
+                  },
+                  {
+                    "type": "text",
+                    "text": "metadata/",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ". If the folders aren't laid out like that, search the bucket for "
+                  },
+                  {
+                    "type": "text",
+                    "text": "order_v2",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ". "
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Pick the "
+                  },
+                  {
+                    "type": "text",
+                    "text": "*.metadata.json",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " file with the highest number at the start of its name (e.g. "
+                  },
+                  {
+                    "type": "text",
+                    "text": "01243-xxxx.metadata.json",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "). That's the latest version. You can sort the files based on date created / added, and share the latest one."
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-17/11822132740359_2f3ca56214f1f64695be_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal Prasad Singh",
+      "display_name": "Badal Prasad Singh",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "786d491b-a74a-4047-8026-adf9c458a804",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "All the next run failed, So I have paused the job.",
+    "ts": "1791295786.684499",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0C6NST6H0F",
+        "created": 1791295741,
+        "timestamp": 1791295741,
+        "name": "juno_v2_prod_order_juno_v2_prod_order_order_v2_0coj4s26ezvutp5w_metadata_01243-6ac0fd4a-0000-2fac-870d-f4030438a2a8.metadata.json",
+        "title": "juno_v2_prod_order_juno_v2_prod_order_order_v2_0coj4s26ezvutp5w_metadata_01243-6ac0fd4a-0000-2fac-870d-f4030438a2a8.metadata.json",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "json",
+        "pretty_type": "JSON",
+        "user": "U0BTUQGHDDF",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 1048459,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6NST6H0F/juno_v2_prod_order_juno_v2_prod_order_order_v2_0coj4s26ezvutp5w_metadata_01243-6ac0fd4a-0000-2fac-870d-f4030438a2a8.metadata.json",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C6NST6H0F/download/juno_v2_prod_order_juno_v2_prod_order_order_v2_0coj4s26ezvutp5w_metadata_01243-6ac0fd4a-0000-2fac-870d-f4030438a2a8.metadata.json",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C6NST6H0F/juno_v2_prod_order_juno_v2_prod_order_order_v2_0coj4s26ezvutp5w_metadata_01243-6ac0fd4a-0000-2fac-870d-f4030438a2a8.metadata.json",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C6NST6H0F-849e30609c",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C6NST6H0F/juno_v2_prod_order_juno_v2_prod_order_order_v2_0coj4s26ezvutp5w_metadata_01243-6ac0fd4a-0000-2fac-870d-f4030438a2a8.metadata.json/edit",
+        "preview": "{\"current-schema-id\":0,\"current-snapshot-id\":2433205786420985114,\"default-sort-order-id\":1,\"default-spec-id\":0,\"format-version\":2,\"last-column-id\":6,\"last-partition-id\":1000,\"last-sequence-number\":1243,\"last-updated-ms\":1791069413825,\"location\":\"gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w\",\"metadata-log\":[{\"metadata-file\":\"gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w/metadata/01143-6abcd5df-0000-20b4-b739-f40304392ff0.metadata.json\",\"timestamp-ms\":1790979395516},{\"metadata-file\":\"gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w/metadata/01144-6ac01a2c-0000-2d73-9915-f40304392fb8.metadata.json\",\"timestamp-ms\":1790980321410},{\"metadata-file\":\"gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w/metadata/01145-6ac02c84-0000-2b34-ba50-f403043d585c.metadata.json\",\"times...",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003e{\u0026quot;current-schema-id\u0026quot;:0,\u0026quot;current-snapshot-id\u0026quot;:2433205786420985114,\u0026quot;default-sort-order-id\u0026quot;:1,\u0026quot;default-spec-id\u0026quot;:0,\u0026quot;format-version\u0026quot;:2,\u0026quot;last-column-id\u0026quot;:6,\u0026quot;last-partition-id\u0026quot;:1000,\u0026quot;last-sequence-number\u0026quot;:1243,\u0026quot;last-updated-ms\u0026quot;:1791069413825,\u0026quot;location\u0026quot;:\u0026quot;gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w\u0026quot;,\u0026quot;metadata-log\u0026quot;:[{\u0026quot;metadata-file\u0026quot;:\u0026quot;gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w/metadata/01143-6abcd5df-0000-20b4-b739-f40304392ff0.metadata.json\u0026quot;,\u0026quot;timestamp-ms\u0026quot;:1790979395516},{\u0026quot;metadata-file\u0026quot;:\u0026quot;gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w/metadata/01144-6ac01a2c-0000-2d73-9915-f40304392fb8.metadata.json\u0026quot;,\u0026quot;timestamp-ms\u0026quot;:1790980321410},{\u0026quot;metadata-file\u0026quot;:\u0026quot;gs://analytics-dataplatform-457708-olake-lake/juno_v2_prod_order_juno_v2_prod_order/order_v2/0coj4s26ezvutp5w/metadata/01145-6ac02c84-0000-2b34-ba50-f403043d585c.metadata.json\u0026quot;,\u0026quot;times...\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 1,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0C74442RB4",
+        "created": 1791295781,
+        "timestamp": 1791295781,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 291525,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C74442RB4/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C74442RB4/download/image.png",
+        "original_h": 786,
+        "original_w": 1692,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C74442RB4-fd70d5d831/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C74442RB4-fd70d5d831/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C74442RB4-fd70d5d831/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C74442RB4-fd70d5d831/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 167,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C74442RB4-fd70d5d831/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 223,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C74442RB4-fd70d5d831/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 334,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C74442RB4/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C74442RB4-3f95291cba",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Exzs4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "All the next run failed, So I have paused the job."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8b954e31-7cb4-4537-808d-673e13f37039",
+    "type": "message",
+    "user": "U08RZQ547LJ",
+    "text": "Hey \u003c@U0BTUQGHDDF\u003e, the issue is that too many snapshot entries are being stored in your Iceberg table’s _metdata.json_.\n\n*Solution:* Expire old snapshots after a certain limit to keep _metadata.json_ under 1 MB. Before that, I’d like to confirm: are you still in the POC stage, or is this a production issue right now?",
+    "ts": "1791304635.984499",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MXByZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ", the issue is that too many snapshot entries are being stored in your Iceberg table’s "
+              },
+              {
+                "type": "text",
+                "text": "metdata.json",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Solution:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Expire old snapshots after a certain limit to keep "
+              },
+              {
+                "type": "text",
+                "text": "metadata.json",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " under 1 MB. Before that, I’d like to confirm: are you still in the POC stage, or is this a production issue right now?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-08-17/11822132740359_2f3ca56214f1f64695be_72.jpg",
+      "first_name": "Badal",
+      "real_name": "Badal Prasad Singh",
+      "display_name": "Badal Prasad Singh",
+      "team": "T0820LGJGRF",
+      "name": "badal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ab86abba-c3e8-414f-b35b-cdbfae89aae2",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "This is a production issue.",
+    "ts": "1791309586.219949",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08RZQ547LJ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bDPk8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This is a production issue."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6291b27a-32d2-410c-9d90-bbffaab33d2b",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Will this be handled by olake in later versions or shall we schedule a script for the same?",
+    "ts": "1791309812.146789",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NjJh7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Will this be handled by olake in later versions or shall we schedule a script for the same?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
