@@ -1,0 +1,56 @@
+[
+  {
+    "client_msg_id": "31becce0-f6f1-4af7-8a4c-304cb2878a89",
+    "type": "message",
+    "user": "U0BCLRYDUQK",
+    "text": "Hey \u003c@U0BTUQGHDDF\u003e can we connect to drill down on this issue around 2:30?",
+    "ts": "1791441676.773249",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NjbL6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " can we connect to drill down on this issue around 2:30?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-24/11435234301522_528c3a3a4d1dc14d66d6_72.png",
+      "first_name": "Mihir",
+      "real_name": "Mihir Narayan",
+      "display_name": "Mihir Narayan",
+      "team": "T0820LGJGRF",
+      "name": "mihir",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
