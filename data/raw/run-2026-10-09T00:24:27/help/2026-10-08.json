@@ -1,0 +1,197 @@
+[
+  {
+    "client_msg_id": "c725e7d0-b06d-4618-a67e-89ba2f7f1304",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Sure",
+    "ts": "1791448794.491929",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3dmZ7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sure"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c75cf29b-7d56-4248-9ff7-8db1b16b260c",
+    "type": "message",
+    "user": "U0BCLRYDUQK",
+    "text": "\u003c@U0BTUQGHDDF\u003e can you join here?\n\u003chttps://meet.google.com/oui-vbbf-gkn|meet.google.com/oui-vbbf-gkn\u003e",
+    "ts": "1791450096.865289",
+    "thread_ts": "1791283377.097869",
+    "attachments": [
+      {
+        "fallback": "Meet",
+        "id": 1,
+        "title": "Meet",
+        "title_link": "https://meet.google.com/oui-vbbf-gkn",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "service_name": "meet.google.com",
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "from_url": "https://meet.google.com/oui-vbbf-gkn",
+        "original_url": "https://meet.google.com/oui-vbbf-gkn",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZomW/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " can you join here?\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/oui-vbbf-gkn",
+                "text": "meet.google.com/oui-vbbf-gkn"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-24/11435234301522_528c3a3a4d1dc14d66d6_72.png",
+      "first_name": "Mihir",
+      "real_name": "Mihir Narayan",
+      "display_name": "Mihir Narayan",
+      "team": "T0820LGJGRF",
+      "name": "mihir",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a7dcaf38-6e15-464f-a723-314b88271570",
+    "type": "message",
+    "user": "U0BCLRYDUQK",
+    "text": "\u003c@U0BTUQGHDDF\u003e as per our discussion, this issue is now resolved and your sync is running fine now.\nPlease update here when you schedule the call with your team to discuss the recommended solution(via olake fusion). cc: \u003c@U082APQJZNC\u003e \u003c@U0820LSJZRP\u003e",
+    "ts": "1791455195.859859",
+    "thread_ts": "1791283377.097869",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U0820LSJZRP",
+          "U082APQJZNC"
+        ]
+      },
+      {
+        "name": "rocket",
+        "count": 1,
+        "users": [
+          "U082APQJZNC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e/zBE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " as per our discussion, this issue is now resolved and your sync is running fine now.\nPlease update here when you schedule the call with your team to discuss the recommended solution(via olake fusion). cc: "
+              },
+              {
+                "type": "user",
+                "user_id": "U082APQJZNC"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U0820LSJZRP"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-24/11435234301522_528c3a3a4d1dc14d66d6_72.png",
+      "first_name": "Mihir",
+      "real_name": "Mihir Narayan",
+      "display_name": "Mihir Narayan",
+      "team": "T0820LGJGRF",
+      "name": "mihir",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
