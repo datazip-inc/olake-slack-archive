@@ -1,0 +1,603 @@
+[
+  {
+    "client_msg_id": "33e464a0-faf2-4328-b0b3-a4d096891b9c",
+    "type": "message",
+    "user": "U0A5EGHRLQY",
+    "text": "Hi team, I was trying to upgrade to this release but getting following error:\n```Error: UPGRADE FAILED: execution error at (olake/templates/olake-worker/serviceaccount.yaml:4:26): Fusion is not supported when global.logFileStorageMode is s3; set fusion.enabled to false or use nfs```\nHave we removed support for fusion when `logFileStorageMode` is s3?\nHere is the addition I did in my current values file along with setting `global.logFileStorageMode=s3`:\n```\ns3LogFileStorage:\n  bucket: \"\u0026lt;my-bucket\u0026gt;\"\n  prefix: \"olake/logs\"\n  region: \"ap-south-1\"\n  minio:\n    enabled: false\n  external:\n    role:\n      enabled: true\n      annotations:\n        \u003chttp://eks.amazonaws.com/role-arn|eks.amazonaws.com/role-arn\u003e: \"\u0026lt;arn\u0026gt;\"```\nPS: The role ARN I am using here is same as `global.jobServiceAccount.annotations` ARN which is used for s3 authentication for iceberg writes",
+    "ts": "1791568537.516499",
+    "thread_ts": "1791568537.516499",
+    "attachments": [
+      {
+        "color": "D0D0D0",
+        "fallback": "[October 9th, 2026 12:03 PM] nayan: :rotating_light: OLake Helm v0.0.30 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.30|github.com/datazip-inc/olake-helm/…/olake-0.0.30\u003e\n:rocket: Features \u0026 Fixes in this release:\n• chore: added-s3 by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/189|#189\u003e\n• refactor(helm): split s3LogFileStorage into minio and external blocks by \u003c@U0BMJKKJ694\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/227|#227\u003e\n:rotating_light: OLake UI v0.7.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.7.0|github.com/datazip-inc/olake-ui/…/v0.7.0\u003e\n*What’s New*\n• chore: fixed-axios-version by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/472|#472\u003e\n• feat: s3-log-storage by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/418|#418\u003e\n\n:rotating_light: OLake Go v0.12.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.12.0|github.com/datazip-inc/olake/…/v0.12.0\u003e\n*What’s New*\n• chore: added s3 flag by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1061|#1061\u003e\n:books: *Documentation*\n• *S3 log storage on Docker:* \u003chttps://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration|Configuration Guide\u003e\n• *S3 log storage on Kubernetes:* \u003chttps://olake.io/docs/install/kubernetes/#s3-log-file-storage-configuration|Configuration Guide\u003e\n\nThanks for the contribution!",
+        "id": 1,
+        "author_id": "U09BK0WKBQR",
+        "author_name": "Nayan Joshi",
+        "author_subname": "Nayan Joshi",
+        "author_link": "https://getolake.slack.com/team/U09BK0WKBQR",
+        "author_icon": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_48.png",
+        "text": ":rotating_light: OLake Helm v0.0.30 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.30|github.com/datazip-inc/olake-helm/…/olake-0.0.30\u003e\n:rocket: Features \u0026 Fixes in this release:\n• chore: added-s3 by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/189|#189\u003e\n• refactor(helm): split s3LogFileStorage into minio and external blocks by \u003c@U0BMJKKJ694\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/227|#227\u003e\n:rotating_light: OLake UI v0.7.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.7.0|github.com/datazip-inc/olake-ui/…/v0.7.0\u003e\n*What’s New*\n• chore: fixed-axios-version by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/472|#472\u003e\n• feat: s3-log-storage by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/418|#418\u003e\n\n:rotating_light: OLake Go v0.12.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.12.0|github.com/datazip-inc/olake/…/v0.12.0\u003e\n*What’s New*\n• chore: added s3 flag by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1061|#1061\u003e\n:books: *Documentation*\n• *S3 log storage on Docker:* \u003chttps://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration|Configuration Guide\u003e\n• *S3 log storage on Kubernetes:* \u003chttps://olake.io/docs/install/kubernetes/#s3-log-file-storage-configuration|Configuration Guide\u003e\n\nThanks for the contribution!",
+        "from_url": "https://getolake.slack.com/archives/C081GUXUQ5U/p1791527624111639",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "gmVf4",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "emoji",
+                    "name": "rotating_light",
+                    "unicode": "1f6a8"
+                  },
+                  {
+                    "type": "text",
+                    "text": " OLake Helm v0.0.30 Released"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "rotating_light",
+                    "unicode": "1f6a8"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "link",
+                    "unicode": "1f517"
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.30",
+                    "text": "github.com/datazip-inc/olake-helm/…/olake-0.0.30"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "rocket",
+                    "unicode": "1f680"
+                  },
+                  {
+                    "type": "text",
+                    "text": " Features \u0026 Fixes in this release:\n"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_list",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "chore: added-s3 by "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U0A9LUUNP43"
+                      },
+                      {
+                        "type": "text",
+                        "text": " in "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://github.com/datazip-inc/olake-helm/pull/189",
+                        "text": "#189"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "refactor(helm): split s3LogFileStorage into minio and external blocks by "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U0BMJKKJ694"
+                      },
+                      {
+                        "type": "text",
+                        "text": " in "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://github.com/datazip-inc/olake-helm/pull/227",
+                        "text": "#227"
+                      }
+                    ]
+                  }
+                ],
+                "style": "bullet",
+                "indent": 0,
+                "border": 0,
+                "offset": 0
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "rotating_light",
+                    "unicode": "1f6a8"
+                  },
+                  {
+                    "type": "text",
+                    "text": " OLake UI v0.7.0 Released"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "rotating_light",
+                    "unicode": "1f6a8"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\nRelease: "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.7.0",
+                    "text": "github.com/datazip-inc/olake-ui/…/v0.7.0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "text",
+                    "text": "What’s New",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_list",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "chore: fixed-axios-version by "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U0A9LUUNP43"
+                      },
+                      {
+                        "type": "text",
+                        "text": " in "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://github.com/datazip-inc/olake-ui/pull/472",
+                        "text": "#472"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "feat: s3-log-storage by "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U0A9LUUNP43"
+                      },
+                      {
+                        "type": "text",
+                        "text": " in "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://github.com/datazip-inc/olake-ui/pull/418",
+                        "text": "#418"
+                      }
+                    ]
+                  }
+                ],
+                "style": "bullet",
+                "indent": 0,
+                "border": 0,
+                "offset": 0
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "\n\n"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "rotating_light",
+                    "unicode": "1f6a8"
+                  },
+                  {
+                    "type": "text",
+                    "text": " OLake Go v0.12.0 Released"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "rotating_light",
+                    "unicode": "1f6a8"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\nRelease: "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/releases/tag/v0.12.0",
+                    "text": "github.com/datazip-inc/olake/…/v0.12.0"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "text",
+                    "text": "What’s New",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_list",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "chore: added s3 flag by "
+                      },
+                      {
+                        "type": "user",
+                        "user_id": "U0A9LUUNP43"
+                      },
+                      {
+                        "type": "text",
+                        "text": " in "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://github.com/datazip-inc/olake/pull/1061",
+                        "text": "#1061"
+                      }
+                    ]
+                  }
+                ],
+                "style": "bullet",
+                "indent": 0,
+                "border": 0,
+                "offset": 0
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "books",
+                    "unicode": "1f4da"
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "text",
+                    "text": "Documentation",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_list",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "S3 log storage on Docker:",
+                        "style": {
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": " "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration",
+                        "text": "Configuration Guide"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "S3 log storage on Kubernetes:",
+                        "style": {
+                          "bold": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": " "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://olake.io/docs/install/kubernetes/#s3-log-file-storage-configuration",
+                        "text": "Configuration Guide"
+                      }
+                    ]
+                  }
+                ],
+                "style": "bullet",
+                "indent": 0,
+                "border": 0,
+                "offset": 0
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "\n\nThanks for the contribution!"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "footer": "Slack Conversation",
+        "ts": 1791527624.111639
+      }
+    ],
+    "reply_count": 1,
+    "reply_users": [
+      "U0A9LUUNP43"
+    ],
+    "replies": [
+      {
+        "user": "U0A9LUUNP43",
+        "ts": "1791579918.771759"
+      }
+    ],
+    "latest_reply": "1791579918.771759",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OJw3D",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, I was trying to upgrade to this release but getting following error:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Error: UPGRADE FAILED: execution error at (olake/templates/olake-worker/serviceaccount.yaml:4:26): Fusion is not supported when global.logFileStorageMode is s3; set fusion.enabled to false or use nfs"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Have we removed support for fusion when "
+              },
+              {
+                "type": "text",
+                "text": "logFileStorageMode",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is s3?\nHere is the addition I did in my current values file along with setting "
+              },
+              {
+                "type": "text",
+                "text": "global.logFileStorageMode=s3",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ":\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\ns3LogFileStorage:\n  bucket: \"\u003cmy-bucket\u003e\"\n  prefix: \"olake/logs\"\n  region: \"ap-south-1\"\n  minio:\n    enabled: false\n  external:\n    role:\n      enabled: true\n      annotations:\n        eks.amazonaws.com/role-arn: \"\u003carn\u003e\""
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PS: The role ARN I am using here is same as "
+              },
+              {
+                "type": "text",
+                "text": "global.jobServiceAccount.annotations",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ARN which is used for s3 authentication for iceberg writes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-18/10154210991702_92d2354e991d37ad2291_72.jpg",
+      "first_name": "Shiv",
+      "real_name": "Shiv Kumar",
+      "display_name": "Shiv Kumar",
+      "team": "T0820LGJGRF",
+      "name": "shiv.kumar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "6bba2508-cfa4-4d30-a7f1-17d7b493358f",
+    "type": "message",
+    "user": "U0A9LUUNP43",
+    "text": "\u003c@U0A5EGHRLQY\u003e We currently don't support Fusion with S3 as the `logFileStorageMode`. Our internal team is working on adding this capability, and we expect to release it soon.\nSince you're using Fusion, Helm is throwing the following error because Fusion is currently incompatible with S3 log storage:\n`Fusion is not supported when global.logFileStorageMode is s3; set fusion.enabled to false or use nfs`\nAs a result, the Helm upgrade is blocked.\nCC: \u003c@U08RZQ547LJ\u003e",
+    "ts": "1791579918.771759",
+    "thread_ts": "1791568537.516499",
+    "parent_user_id": "U0A5EGHRLQY",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b/dA2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " We currently don't support Fusion with S3 as the "
+              },
+              {
+                "type": "text",
+                "text": "logFileStorageMode",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". Our internal team is working on adding this capability, and we expect to release it soon.\nSince you're using Fusion, Helm is throwing the following error because Fusion is currently incompatible with S3 log storage:\n"
+              },
+              {
+                "type": "text",
+                "text": "Fusion is not supported when global.logFileStorageMode is s3; set fusion.enabled to false or use nfs",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nAs a result, the Helm upgrade is blocked.\nCC: "
+              },
+              {
+                "type": "user",
+                "user_id": "U08RZQ547LJ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-01-20/10317917323687_829830efa9992cab4234_72.png",
+      "first_name": "Saksham",
+      "real_name": "Saksham samarth",
+      "display_name": "Saksham samarth",
+      "team": "T0820LGJGRF",
+      "name": "saksham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
