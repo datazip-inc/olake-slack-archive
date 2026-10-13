@@ -1,0 +1,1784 @@
+[
+  {
+    "client_msg_id": "dfd3ff0f-3c89-4232-baef-81d4b6144c1e",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0A6088AMM3\u003e,\nThanks for the detailed report. To confirm the root cause could you help with the following?\n*Memory at the time of the crash* \nRight after the pod is killed, run this on the node where it was running and share the output:\n```dmesg -T | grep -iE \"out of memory|oom-kill|killed process\" -A3```\nThis can help identify which process was killed (`java` or go) and its memory usage at the time of the OOM event.\n*During the sync, capture process memory every 5 seconds:*\n```while true; do\n  date +%T\n  kubectl exec \u003csync-pod\u003e -- ps -eo pid,rss,comm --sort=-rss | head -5\n  sleep 5\ndone```\nAlternatively, a Grafana graph of `container_memory_working_set_bytes` for the sync pod would help.\n*Additional information needed:*\nOutput of `kubectl describe pod \u003csync-pod\u003e`.\nOutput of `kubectl describe node \u003cnode\u003e`.\nWere any other pods running on the same node during the sync?",
+    "ts": "1791789352.280919",
+    "thread_ts": "1791786897.382099",
+    "edited": {
+      "user": "U08CR7HUWDC",
+      "ts": "1791789394.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xT7yV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ",\nThanks for the detailed report. To confirm the root cause could you help with the following?\n"
+              },
+              {
+                "type": "text",
+                "text": "Memory at the time of the crash ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nRight after the pod is killed, run this on the node where it was running and share the output:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dmesg -T | grep -iE \"out of memory|oom-kill|killed process\" -A3"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This can help identify which process was killed ("
+              },
+              {
+                "type": "text",
+                "text": "java",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " or go) and its memory usage at the time of the OOM event.\n"
+              },
+              {
+                "type": "text",
+                "text": "During the sync, capture process memory every 5 seconds:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "while true; do\n  date +%T\n  kubectl exec \u003csync-pod\u003e -- ps -eo pid,rss,comm --sort=-rss | head -5\n  sleep 5\ndone"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Alternatively, a Grafana graph of "
+              },
+              {
+                "type": "text",
+                "text": "container_memory_working_set_bytes",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for the sync pod would help.\n"
+              },
+              {
+                "type": "text",
+                "text": "Additional information needed:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nOutput of "
+              },
+              {
+                "type": "text",
+                "text": "kubectl describe pod \u003csync-pod\u003e",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nOutput of "
+              },
+              {
+                "type": "text",
+                "text": "kubectl describe node \u003cnode\u003e",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nWere any other pods running on the same node during the sync?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1c56a7b5-42a1-41f4-910b-e0af860bb2c7",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "Hi team, whats the significance of this?\ndoes this help in any way or just tagging of sorts?",
+    "ts": "1791790293.879109",
+    "thread_ts": "1791790293.879109",
+    "reply_count": 4,
+    "reply_users": [
+      "U0820LSJZRP",
+      "U09KQFGF7J4"
+    ],
+    "replies": [
+      {
+        "user": "U0820LSJZRP",
+        "ts": "1791790411.837649"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1791790523.201779"
+      },
+      {
+        "user": "U0820LSJZRP",
+        "ts": "1791790692.286439"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1791790708.907529"
+      }
+    ],
+    "latest_reply": "1791790708.907529",
+    "files": [
+      {
+        "id": "F0C8GR0BKV0",
+        "created": 1791790264,
+        "timestamp": 1791790264,
+        "name": "Screenshot 2026-10-12 at 1.00.58 PM.png",
+        "title": "Screenshot 2026-10-12 at 1.00.58 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09KQFGF7J4",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 41386,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8GR0BKV0/screenshot_2026-10-12_at_1.00.58___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8GR0BKV0/download/screenshot_2026-10-12_at_1.00.58___pm.png",
+        "original_h": 392,
+        "original_w": 1868,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8GR0BKV0-750939f089/screenshot_2026-10-12_at_1.00.58___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8GR0BKV0-750939f089/screenshot_2026-10-12_at_1.00.58___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8GR0BKV0-750939f089/screenshot_2026-10-12_at_1.00.58___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8GR0BKV0-750939f089/screenshot_2026-10-12_at_1.00.58___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 76,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8GR0BKV0-750939f089/screenshot_2026-10-12_at_1.00.58___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 101,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8GR0BKV0-750939f089/screenshot_2026-10-12_at_1.00.58___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 151,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C8GR0BKV0/screenshot_2026-10-12_at_1.00.58___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C8GR0BKV0-6356b7eae6",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sonpI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team, whats the significance of this?\ndoes this help in any way or just tagging of sorts?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "8f409ed2-1d1b-4126-8f94-a7469aa2fa33",
+    "type": "message",
+    "user": "U0820LSJZRP",
+    "text": "It helps the OLake figure out what might be the compatible delete type for your setup.",
+    "ts": "1791790411.837649",
+    "thread_ts": "1791790293.879109",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4I/ni",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "It helps the OLake figure out what might be the compatible delete type for your setup."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-20/8487710291348_f516f170d918085eb255_72.jpg",
+      "first_name": "Rohan",
+      "real_name": "Rohan Khameshra",
+      "display_name": "Rohan Khameshra",
+      "team": "T0820LGJGRF",
+      "name": "rohan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "82a19c6b-944e-4444-ad49-c32cf73353e7",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "any docs on delete type?",
+    "ts": "1791790523.201779",
+    "thread_ts": "1791790293.879109",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VStRl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "any docs on delete type?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a0c35559-564e-4205-bfe2-d816a37593fc",
+    "type": "message",
+    "user": "U0820LSJZRP",
+    "text": "This is few blogs we wrote about this:\n• \u003chttps://olake.io/blog/iceberg-delete-formats-cdc-equality-vs-positional-vs-deletion-vectors/|olake.io/blog/iceberg-delete-formats-cdc-equality-vs-positional-vs-deletion-vectors\u003e\n• \u003chttps://olake.io/blog/iceberg-interoperability-myth-row-level-deletes/|olake.io/blog/iceberg-interoperability-myth-row-level-deletes\u003e",
+    "ts": "1791790692.286439",
+    "thread_ts": "1791790293.879109",
+    "attachments": [
+      {
+        "fallback": "Iceberg Equality vs Positional Deletes vs Deletion Vectors",
+        "id": 1,
+        "title": "Iceberg Equality vs Positional Deletes vs Deletion Vectors",
+        "title_link": "https://olake.io/blog/iceberg-delete-formats-cdc-equality-vs-positional-vs-deletion-vectors/",
+        "text": "Equality deletes, position deletes, and deletion vectors compared for CDC pipelines: what each stores, which query engines can read them, what compaction fixes, and the table properties to set explicitly.",
+        "image_url": "https://olake.io/img/og/blog/cover/apache-iceberg-delete-formats-for-cdc-cover.jpg",
+        "image_bytes": 42818,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "olake.io",
+        "from_url": "https://olake.io/blog/iceberg-delete-formats-cdc-equality-vs-positional-vs-deletion-vectors/",
+        "original_url": "https://olake.io/blog/iceberg-delete-formats-cdc-equality-vs-positional-vs-deletion-vectors/",
+        "fields": [
+          {
+            "title": "Written by",
+            "value": "Anshika",
+            "short": true
+          },
+          {
+            "title": "Time to read",
+            "value": "14.1",
+            "short": true
+          }
+        ],
+        "blocks": null,
+        "ts": 1788998400
+      },
+      {
+        "fallback": "Iceberg Interoperability: Write Once, Read Anywhere?",
+        "id": 2,
+        "title": "Iceberg Interoperability: Write Once, Read Anywhere?",
+        "title_link": "https://olake.io/blog/iceberg-interoperability-myth-row-level-deletes/",
+        "text": "The Iceberg interoperability myth: how row-level delete support can leave a table readable in Spark but not in Snowflake, on the same catalog and data.",
+        "image_url": "https://olake.io/img/og/blog/cover/cover_interop.jpg",
+        "image_bytes": 58731,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "olake.io",
+        "from_url": "https://olake.io/blog/iceberg-interoperability-myth-row-level-deletes/",
+        "original_url": "https://olake.io/blog/iceberg-interoperability-myth-row-level-deletes/",
+        "fields": [
+          {
+            "title": "Written by",
+            "value": "Siddharth Chevella",
+            "short": true
+          },
+          {
+            "title": "Time to read",
+            "value": "14.77",
+            "short": true
+          }
+        ],
+        "blocks": null,
+        "ts": 1788825600
+      }
+    ],
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kN/2Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "This is few blogs we wrote about this:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/blog/iceberg-delete-formats-cdc-equality-vs-positional-vs-deletion-vectors/",
+                    "text": "olake.io/blog/iceberg-delete-formats-cdc-equality-vs-positional-vs-deletion-vectors"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/blog/iceberg-interoperability-myth-row-level-deletes/",
+                    "text": "olake.io/blog/iceberg-interoperability-myth-row-level-deletes"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-20/8487710291348_f516f170d918085eb255_72.jpg",
+      "first_name": "Rohan",
+      "real_name": "Rohan Khameshra",
+      "display_name": "Rohan Khameshra",
+      "team": "T0820LGJGRF",
+      "name": "rohan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5a2f7fdc-f086-43b8-bda6-0670dfa4058c",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "thank you!",
+    "ts": "1791790708.907529",
+    "thread_ts": "1791790293.879109",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "afEI5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "thank you!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f7fa345e-f693-49e3-8b53-c63ed1a95c57",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "hi team, how do deal w this?\ndont see an opt to set that prop\nno query engine selected, same problem faced when set to databricks,apache spark\ndest s3",
+    "ts": "1791791800.213229",
+    "thread_ts": "1791791800.213229",
+    "reply_count": 5,
+    "reply_users": [
+      "U09DXRC7N91",
+      "U09KQFGF7J4"
+    ],
+    "replies": [
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1791791821.750089"
+      },
+      {
+        "user": "U09DXRC7N91",
+        "ts": "1791794324.343929"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1791796041.866479"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1791796069.698539"
+      },
+      {
+        "user": "U09DXRC7N91",
+        "ts": "1791797255.411369"
+      }
+    ],
+    "latest_reply": "1791797255.411369",
+    "files": [
+      {
+        "id": "F0C8LQCHXUL",
+        "created": 1791791391,
+        "timestamp": 1791791391,
+        "name": "Screenshot 2026-10-12 at 1.19.49 PM.png",
+        "title": "Screenshot 2026-10-12 at 1.19.49 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09KQFGF7J4",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 253244,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8LQCHXUL/screenshot_2026-10-12_at_1.19.49___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8LQCHXUL/download/screenshot_2026-10-12_at_1.19.49___pm.png",
+        "original_h": 1094,
+        "original_w": 2864,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 138,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 183,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 275,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 367,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LQCHXUL-5f74b12412/screenshot_2026-10-12_at_1.19.49___pm_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 391,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C8LQCHXUL/screenshot_2026-10-12_at_1.19.49___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C8LQCHXUL-0ee8d8559c",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0C8LRFE8DS",
+        "created": 1791791735,
+        "timestamp": 1791791735,
+        "name": "Screenshot 2026-10-12 at 1.25.33 PM.png",
+        "title": "Screenshot 2026-10-12 at 1.25.33 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09KQFGF7J4",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 254009,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8LRFE8DS/screenshot_2026-10-12_at_1.25.33___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8LRFE8DS/download/screenshot_2026-10-12_at_1.25.33___pm.png",
+        "original_h": 1396,
+        "original_w": 2932,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 171,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 229,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 343,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 457,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRFE8DS-dee3dcb2ac/screenshot_2026-10-12_at_1.25.33___pm_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 488,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C8LRFE8DS/screenshot_2026-10-12_at_1.25.33___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C8LRFE8DS-0724a9acea",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      },
+      {
+        "id": "F0C8LRJUTRS",
+        "created": 1791791762,
+        "timestamp": 1791791762,
+        "name": "Screenshot 2026-10-12 at 1.26.00 PM.png",
+        "title": "Screenshot 2026-10-12 at 1.26.00 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09KQFGF7J4",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 242602,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8LRJUTRS/screenshot_2026-10-12_at_1.26.00___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8LRJUTRS/download/screenshot_2026-10-12_at_1.26.00___pm.png",
+        "original_h": 1598,
+        "original_w": 2918,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 197,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 263,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 394,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 526,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C8LRJUTRS-88b6b41230/screenshot_2026-10-12_at_1.26.00___pm_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 561,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C8LRJUTRS/screenshot_2026-10-12_at_1.26.00___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C8LRJUTRS-d9bce6393f",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MQh1V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi team, how do deal w this?\ndont see an opt to set that prop\nno query engine selected, same problem faced when set to databricks,apache spark\ndest s3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "fadfe49f-99bc-47ad-9558-3d302842f8dc",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "source ver is 0.12 i reckon, whatevers latest",
+    "ts": "1791791821.750089",
+    "thread_ts": "1791791800.213229",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4JgFh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "source ver is 0.12 i reckon, whatevers latest"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "acb8ee00-bd19-44bf-957d-b6f83e54aae6",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi \u003c@U08CR7HUWDC\u003e ,\nI have shared a detailed analysis of job that failed yesterday. Can you have a look?\n\nContext: OLake v0.12.0 (olakego/source-postgres:v0.12.0), OLake UI + workers on GKE. Source migration / public.lenskart_last_year_cases (Postgres 18.4) → Iceberg lenskart_migration_db.lenskart_last_year_cases via REST catalog (Lakekeeper 0.10.4) on Wasabi S3 (ap-southeast-1). Full refresh, max_threads: 2, retry_count: 5, Standalone (no CDC), legacy writer (arrow_writes not set).\n\nWhy this table is unusual — this is the crux:\nrows            : 78,523,153\nheap            :    16 GB\nTOAST           : 4,488 GB      \u0026lt;- ticket_response + conversation_response (jsonb)\nindexes         :    23 GB\ntotal           : 4,527 GB\navg JSON/row    : ~131 KB  (ticket_response ~39.5 KB + conversation_response ~79.7 KB)\ntotal on wire   : ~10.3 TB\n\n1. Kernel OOM dump — the node was recycled since, but GCP's serial-console log has the dmesg output verbatim:\nolake invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=993\nCPU: 7 UID: 0 PID: 690600 Comm: olake Not tainted 6.12.94+ #1\nmemory: usage 29037432kB, limit 29029444kB, failcnt 403935\noom-kill:constraint=CONSTRAINT_MEMCG, oom_memcg=/kubepods.slice,\n  task_memcg=/kubepods.slice/kubepods-burstable.slice/kubepods-burstable-pod501d708c_cc30_41e0_94e0_092157c5c263.slice/...,\n  task=java,pid=690688,uid=0\nMemory cgroup out of memory: Killed process 690688 (java)  total-vm:30703192kB, anon-rss:12007688kB, pgtables:24472kB, oom_score_adj:993\nMemory cgroup out of memory: Killed process 690561 (olake) total-vm:13169024kB, anon-rss:11671996kB, pgtables:23264kB, oom_score_adj:993\nMemory cgroup out of memory: Killed process 690600 (olake) total-vm:13169024kB, anon-rss:11671996kB, pgtables:23264kB, oom_score_adj:993\nBoth processes were killed, each holding ~11.5 GiB:\n• java (Iceberg writer) — anon-rss 11.45 GiB, total-vm 29.3 GiB\n• olake (Go connector) — anon-rss 11.13 GiB\n• combined ≈ 22.6 GiB\n\nTwo details worth noting: the kill was at oom_memcg=/kubepods.slice (limit 27.7 GiB) — the node's pod-allocatable cgroup, not a container limit, because the sync pod has no memory limit, so nothing capped it earlier. And oom_score_adj: 993 falls out of the 256Mi request vs 22 GiB actual usage.\n\n2. Memory over time — from cAdvisor (container_memory_working_set_bytes{namespace=\"olake\", pod=~\"sync.*\", image!~\".*kafka.*\"}); scanning all of 2026-10-11 returns exactly one series, this pod:\ntime (UTC)   working set     RSS\n01:00:10        0.00 GiB   0.00 GiB\n01:00:20        0.81 GiB   0.60 GiB\n01:00:40        2.38 GiB   2.17 GiB\n01:00:50        5.68 GiB   5.46 GiB\n01:01:00       13.97 GiB  13.74 GiB\n01:01:20       17.99 GiB  17.74 GiB\n01:01:40       22.13 GiB  21.87 GiB   \u0026lt;- last sample; killed at 01:01:33\n0 → 22 GiB in ~90 seconds (~250 MB/s), starting the instant the two backfill threads began reading. cAdvisor's 22.13 GiB and the kernel's 22.58 GiB agree to within 2% from independent sources.\n\nCorrelating with olake.log:\n01:00:08  Dropping Iceberg table: lenskart_migration_db.lenskart_last_year_cases\n01:00:11  Started shared Iceberg JVM on port 50051\n01:00:12  Starting backfill for stream[lenskart_last_year_cases] with 9 chunks\n01:00:12  created writer for chunk min['(1048576,0)'] max['(1310720,0)']\n01:00:12  created writer for chunk min['(0,0)']       max['(262144,0)']    # max_threads=2\n01:01:31  Successfully wrote 8361 events for thread: ... across 0 files    # 27,086 ms gRPC call\n01:01:33  \u0026lt;OOM kill\u0026gt;\n01:01:36  worker.log: pod failed (exit code: 137, reason: OOMKilled)\nstate.json: {}                                                            # nothing checkpointed\nSo one batch of 8,361 records had landed with a second in flight — roughly 2 GB of source bytes in flight produced ~22.6 GiB of RSS (~11x amplification). across 0 files says the writer was still accumulating in heap.\n\nSmall note on your ps snippet: the connector image (eclipse-temurin:17-jre-noble) ships without procps, so ps -eo pid,rss,comm doesn't work inside the pod — we had to read /proc/\u0026lt;pid\u0026gt;/status. Might be worth adding for debuggability.\n\n3. Pod / node\n• Pod: requests: 256Mi / 100m, no limits, QoS Burstable, restartPolicy: Never, exit 137 at 96 s.\n• Node: 8 vCPU / 32 GB, 28.9 GiB allocatable, kubepods.slice limit 27.7 GiB, kernel 6.12.94+, otherwise idle.\n\n4. Other pods on the node during the sync — yes, but all small:\nolake        sync-123-146-…  (this job)      17.99 GiB @01:01:30 (peak 22.13)\nolake        sync-123-141-…  (Kafka sync)     3.45 GiB\nlakekeeper   lakekeeper-69768bc894-zxdjj      1.08 GiB\nkube-system  6 daemonsets                    ~0.21 GiB total\n≈4.7 GiB was already in use; the sync pod took everything left.\n\n\nOur reading of the code (v0.12.0 — please correct us):\n1. drivers/postgres/internal/backfill.go sizes ctid chunks as constants.EffectiveParquetSize (2 GB) ÷ block size → 262,144 blocks, derived from relpages, i.e. heap only. With 16 GB heap but 4,488 GB of TOAST, \"9 chunks\" is really ~8.7M rows / ~500 GB of JSON each.\n2. destination/writers.go:253 flushes at 10k records or MaxDestinationBatchBytes (1 GB). At 131 KB/row the byte cap wins: 8,361 × 131 KB ≈ 1.07 GB — matching the log exactly.\n3. destination/iceberg/iceberg.go:146 picks legacywriter unless arrow_writes is set, so that whole batch crosses gRPC and is expanded in JVM heap.\n4. destination/iceberg/java_client.go:188 launches the writer with -XX:MaxRAMPercentage=75.0; with no container limit that's computed against the node's 32 GB → ~24 GB ceiling, so G1 expands instead of collecting.\n5. protocol/sync.go:122 runs ClearState + DropStreams for full-refresh streams on every run — hence state.json: {} and a restart from zero (plus a re-dropped destination) on each attempt.",
+    "ts": "1791793388.140699",
+    "thread_ts": "1791786897.382099",
+    "parent_user_id": "U0A6088AMM3",
+    "files": [
+      {
+        "id": "F0C8M1DQPU4",
+        "created": 1791793190,
+        "timestamp": 1791793190,
+        "name": "olake_report.md",
+        "title": "olake_report.md",
+        "mimetype": "text/plain",
+        "image_exif_rotation": 0,
+        "filetype": "markdown",
+        "pretty_type": "Markdown (raw)",
+        "user": "U0A6088AMM3",
+        "mode": "snippet",
+        "editable": true,
+        "is_external": false,
+        "external_type": "",
+        "size": 11409,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8M1DQPU4/olake_report.md",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8M1DQPU4/download/olake_report.md",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C8M1DQPU4/olake_report.md",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C8M1DQPU4-f42bb8a581",
+        "edit_link": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C8M1DQPU4/olake_report.md/edit",
+        "preview": "# OLake job 146 OOM — diagnostic report\n\nPostgres → Iceberg full refresh, OLake v0.12.0, GKE.\nCrash captured: **2026-10-11 01:01:33 UTC**, pod `sync-123-146-2026-10-11t01-00-00z`.\n",
+        "preview_highlight": "\u003cdiv class=\"CodeMirror cm-s-default CodeMirrorServer\"\u003e\n\u003cdiv class=\"CodeMirror-code\"\u003e\n\u003cdiv\u003e\u003cpre\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e#\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e \u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eO\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eL\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ea\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ek\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ee\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e \u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ej\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eo\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eb\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e \u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e4\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e6\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e \u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eO\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eO\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eM\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e \u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e—\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e \u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ed\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ei\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ea\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eg\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003en\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eo\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003es\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003et\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ei\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ec\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003e \u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003er\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ee\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003ep\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003eo\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003er\u003c/span\u003e\u003cspan class=\"cm-header cm-header-1\"\u003et\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003e\u0026#8203;\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003ePostgres → Iceberg full refresh, OLake v0.12.0, GKE.\u003c/pre\u003e\u003c/div\u003e\n\u003cdiv\u003e\u003cpre\u003eCrash captured: \u003cspan class=\"cm-strong\"\u003e*\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e*\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e2\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e2\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e6\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e \u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-strong cm-builtin\"\u003e:\u003c/span\u003e\u003cspan class=\"cm-strong cm-builtin\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-strong cm-builtin\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-strong cm-builtin\"\u003e:\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e3\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e3\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e \u003c/span\u003e\u003cspan class=\"cm-strong\"\u003eU\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003eT\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003eC\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e*\u003c/span\u003e\u003cspan class=\"cm-strong\"\u003e*\u003c/span\u003e, pod \u003cspan class=\"cm-comment\"\u003e`\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003es\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003ey\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003en\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003ec\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e2\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e3\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e4\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e6\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e2\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e2\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e6\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003et\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e1\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e-\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e0\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003ez\u003c/span\u003e\u003cspan class=\"cm-comment\"\u003e`\u003c/span\u003e.\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n",
+        "lines": 240,
+        "lines_more": 235,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08CR7HUWDC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BTpNS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " ,\nI have shared a detailed analysis of job that failed yesterday. Can you have a look?\n\nContext: OLake v0.12.0 (olakego/source-postgres:v0.12.0), OLake UI + workers on GKE. Source migration / public.lenskart_last_year_cases (Postgres 18.4) → Iceberg lenskart_migration_db.lenskart_last_year_cases via REST catalog (Lakekeeper 0.10.4) on Wasabi S3 (ap-southeast-1). Full refresh, max_threads: 2, retry_count: 5, Standalone (no CDC), legacy writer (arrow_writes not set).\n\nWhy this table is unusual — this is the crux:\nrows            : 78,523,153\nheap            :    16 GB\nTOAST           : 4,488 GB      \u003c- ticket_response + conversation_response (jsonb)\nindexes         :    23 GB\ntotal           : 4,527 GB\navg JSON/row    : ~131 KB  (ticket_response ~39.5 KB + conversation_response ~79.7 KB)\ntotal on wire   : ~10.3 TB\n\n1. Kernel OOM dump — the node was recycled since, but GCP's serial-console log has the dmesg output verbatim:\nolake invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=993\nCPU: 7 UID: 0 PID: 690600 Comm: olake Not tainted 6.12.94+ #1\nmemory: usage 29037432kB, limit 29029444kB, failcnt 403935\noom-kill:constraint=CONSTRAINT_MEMCG, oom_memcg=/kubepods.slice,\n  task_memcg=/kubepods.slice/kubepods-burstable.slice/kubepods-burstable-pod501d708c_cc30_41e0_94e0_092157c5c263.slice/...,\n  task=java,pid=690688,uid=0\nMemory cgroup out of memory: Killed process 690688 (java)  total-vm:30703192kB, anon-rss:12007688kB, pgtables:24472kB, oom_score_adj:993\nMemory cgroup out of memory: Killed process 690561 (olake) total-vm:13169024kB, anon-rss:11671996kB, pgtables:23264kB, oom_score_adj:993\nMemory cgroup out of memory: Killed process 690600 (olake) total-vm:13169024kB, anon-rss:11671996kB, pgtables:23264kB, oom_score_adj:993\nBoth processes were killed, each holding ~11.5 GiB:\n• java (Iceberg writer) — anon-rss 11.45 GiB, total-vm 29.3 GiB\n• olake (Go connector) — anon-rss 11.13 GiB\n• combined ≈ 22.6 GiB\n\nTwo details worth noting: the kill was at oom_memcg=/kubepods.slice (limit 27.7 GiB) — the node's pod-allocatable cgroup, not a container limit, because the sync pod has no memory limit, so nothing capped it earlier. And oom_score_adj: 993 falls out of the 256Mi request vs 22 GiB actual usage.\n\n2. Memory over time — from cAdvisor (container_memory_working_set_bytes{namespace=\"olake\", pod=~\"sync.*\", image!~\".*kafka.*\"}); scanning all of 2026-10-11 returns exactly one series, this pod:\ntime (UTC)   working set     RSS\n01:00:10        0.00 GiB   0.00 GiB\n01:00:20        0.81 GiB   0.60 GiB\n01:00:40        2.38 GiB   2.17 GiB\n01:00:50        5.68 GiB   5.46 GiB\n01:01:00       13.97 GiB  13.74 GiB\n01:01:20       17.99 GiB  17.74 GiB\n01:01:40       22.13 GiB  21.87 GiB   \u003c- last sample; killed at 01:01:33\n0 → 22 GiB in ~90 seconds (~250 MB/s), starting the instant the two backfill threads began reading. cAdvisor's 22.13 GiB and the kernel's 22.58 GiB agree to within 2% from independent sources.\n\nCorrelating with olake.log:\n01:00:08  Dropping Iceberg table: lenskart_migration_db.lenskart_last_year_cases\n01:00:11  Started shared Iceberg JVM on port 50051\n01:00:12  Starting backfill for stream[lenskart_last_year_cases] with 9 chunks\n01:00:12  created writer for chunk min['(1048576,0)'] max['(1310720,0)']\n01:00:12  created writer for chunk min['(0,0)']       max['(262144,0)']    # max_threads=2\n01:01:31  Successfully wrote 8361 events for thread: ... across 0 files    # 27,086 ms gRPC call\n01:01:33  \u003cOOM kill\u003e\n01:01:36  worker.log: pod failed (exit code: 137, reason: OOMKilled)\nstate.json: {}                                                            # nothing checkpointed\nSo one batch of 8,361 records had landed with a second in flight — roughly 2 GB of source bytes in flight produced ~22.6 GiB of RSS (~11x amplification). across 0 files says the writer was still accumulating in heap.\n\nSmall note on your ps snippet: the connector image (eclipse-temurin:17-jre-noble) ships without procps, so ps -eo pid,rss,comm doesn't work inside the pod — we had to read /proc/\u003cpid\u003e/status. Might be worth adding for debuggability.\n\n3. Pod / node\n• Pod: requests: 256Mi / 100m, no limits, QoS Burstable, restartPolicy: Never, exit 137 at 96 s.\n• Node: 8 vCPU / 32 GB, 28.9 GiB allocatable, kubepods.slice limit 27.7 GiB, kernel 6.12.94+, otherwise idle.\n\n4. Other pods on the node during the sync — yes, but all small:\nolake        sync-123-146-…  (this job)      17.99 GiB @01:01:30 (peak 22.13)\nolake        sync-123-141-…  (Kafka sync)     3.45 GiB\nlakekeeper   lakekeeper-69768bc894-zxdjj      1.08 GiB\nkube-system  6 daemonsets                    ~0.21 GiB total\n≈4.7 GiB was already in use; the sync pod took everything left.\n\n\nOur reading of the code (v0.12.0 — please correct us):\n1. drivers/postgres/internal/backfill.go sizes ctid chunks as constants.EffectiveParquetSize (2 GB) ÷ block size → 262,144 blocks, derived from relpages, i.e. heap only. With 16 GB heap but 4,488 GB of TOAST, \"9 chunks\" is really ~8.7M rows / ~500 GB of JSON each.\n2. destination/writers.go:253 flushes at 10k records or MaxDestinationBatchBytes (1 GB). At 131 KB/row the byte cap wins: 8,361 × 131 KB ≈ 1.07 GB — matching the log exactly.\n3. destination/iceberg/iceberg.go:146 picks legacywriter unless arrow_writes is set, so that whole batch crosses gRPC and is expanded in JVM heap.\n4. destination/iceberg/java_client.go:188 launches the writer with -XX:MaxRAMPercentage=75.0; with no container limit that's computed against the node's 32 GB → ~24 GB ceiling, so G1 expands instead of collecting.\n5. protocol/sync.go:122 runs ClearState + DropStreams for full-refresh streams on every run — hence state.json: {} and a restart from zero (plus a re-dropped destination) on each attempt."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ab8114a7-b3a8-4539-97e3-fa6897f5f477",
+    "type": "message",
+    "user": "U09DXRC7N91",
+    "text": "Hi \u003c@U09KQFGF7J4\u003e, could you please confirm which version of the Olake UI you’re using?",
+    "ts": "1791794324.343929",
+    "thread_ts": "1791791800.213229",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YrVeN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": ", could you please confirm which version of the Olake UI you’re using?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-08/9473862747107_d45dc157e7e1c050c244_72.png",
+      "first_name": "Deepanshu",
+      "real_name": "Deepanshu Pal",
+      "display_name": "Deepanshu Pal",
+      "team": "T0820LGJGRF",
+      "name": "deepanshu",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "896511e8-c05b-41c5-9425-08504e04e6a5",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "```\u003chttp://docker.io/olakego/ui@sha256:392343a899931c8aa43852c2dded3c2e10cf225bead7ad77b7230e2dfb5d5394|docker.io/olakego/ui@sha256:392343a899931c8aa43852c2dded3c2e10cf225bead7ad77b7230e2dfb5d5394\u003e```",
+    "ts": "1791796041.866479",
+    "thread_ts": "1791791800.213229",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U09DXRC7N91"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PMk6L",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "docker.io/olakego/ui@sha256:392343a899931c8aa43852c2dded3c2e10cf225bead7ad77b7230e2dfb5d5394"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "170d32ea-414d-4e16-93fc-8205712a296f",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "latest was pulled like in the last 48 hours\n```\nolakego/ui:latest```",
+    "ts": "1791796069.698539",
+    "thread_ts": "1791791800.213229",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "98/M6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "latest was pulled like in the last 48 hours\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nolakego/ui:latest"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "72f4d7ec-f071-43ab-b0e0-7eccf2798bf5",
+    "type": "message",
+    "user": "U09DXRC7N91",
+    "text": "Thanks, \u003c@U09KQFGF7J4\u003e for sharing the details!\nAs a temporary workaround, you can downgrade the source Olake version to *v0.10.1* to get the S3 destination working. Your Iceberg destination should continue to work as expected.\nWe’re working on a fix and will release it soon.",
+    "ts": "1791797255.411369",
+    "thread_ts": "1791791800.213229",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rgMLK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks, "
+              },
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " for sharing the details!\nAs a temporary workaround, you can downgrade the source Olake version to "
+              },
+              {
+                "type": "text",
+                "text": "v0.10.1",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to get the S3 destination working. Your Iceberg destination should continue to work as expected.\nWe’re working on a fix and will release it soon."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-09-08/9473862747107_d45dc157e7e1c050c244_72.png",
+      "first_name": "Deepanshu",
+      "real_name": "Deepanshu Pal",
+      "display_name": "Deepanshu Pal",
+      "team": "T0820LGJGRF",
+      "name": "deepanshu",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "49f71602-377b-4189-a10a-451cb6b65c19",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nIn one of my sync jobs, I am getting DDL observed in binlog, invalidating cached column metadata: DROP TEMPORARY TABLE IF EXISTS `temp_order_summary_4410` /* generated by server */ in logs.\nIs there any issue in the synd job?\nAttached the log file for your reference.",
+    "ts": "1791807130.481399",
+    "thread_ts": "1791807130.481399",
+    "reply_count": 1,
+    "reply_users": [
+      "U08CR7HUWDC"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1791811434.734009"
+      }
+    ],
+    "latest_reply": "1791811434.734009",
+    "files": [
+      {
+        "id": "F0C8DJGRXEZ",
+        "created": 1791807116,
+        "timestamp": 1791807116,
+        "name": "job-11-logs-2026-10-12-11-05-02.tar.gz",
+        "title": "job-11-logs-2026-10-12-11-05-02.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 171848,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8DJGRXEZ/job-11-logs-2026-10-12-11-05-02.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C8DJGRXEZ/download/job-11-logs-2026-10-12-11-05-02.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C8DJGRXEZ/job-11-logs-2026-10-12-11-05-02.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C8DJGRXEZ-7d7477d4a8",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1xkkd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nIn one of my sync jobs, I am getting DDL observed in binlog, invalidating cached column metadata: DROP TEMPORARY TABLE IF EXISTS `temp_order_summary_4410` /* generated by server */ in logs.\nIs there any issue in the synd job?\nAttached the log file for your reference."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "d8e45a9e-4313-4e08-9e03-2dd865afde1d",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0A6088AMM3\u003e, Since your table contains TOAST columns, you will need to increase the pod's memory limit.",
+    "ts": "1791810412.581509",
+    "thread_ts": "1791786897.382099",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PYcPU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", Since your table contains TOAST columns, you will need to increase the pod's memory limit."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5f9afc46-e7b1-48a4-ac27-d3a3bfd0ec71",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0BTUQGHDDF\u003e,\nThere's no issue with your selected streams. The DDL statements in the log (`DROP TEMPORARY TABLE ... temp_order_summary_*` and similar) are on other tables in the same MySQL instance, not on the tables you're syncing. OLake logs every DDL it sees in the binlog, which is why these lines show up, but they don't affect your sync or your data.",
+    "ts": "1791811434.734009",
+    "thread_ts": "1791807130.481399",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OXPGG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ",\nThere's no issue with your selected streams. The DDL statements in the log ("
+              },
+              {
+                "type": "text",
+                "text": "DROP TEMPORARY TABLE ... temp_order_summary_*",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and similar) are on other tables in the same MySQL instance, not on the tables you're syncing. OLake logs every DDL it sees in the binlog, which is why these lines show up, but they don't affect your sync or your data."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dfdc6aea-98fc-482c-a39f-457f26067b15",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hey \u003c@U08CR7HUWDC\u003e  thanks,  Two things:\n1. Memory sizing: the table is ~4.5 TB (78.5M rows, ~131 KB of JSON per row). The failed run peaked at 22.6 GiB RSS (java 11.45 + olake 11.13) with max_threads: 2, after only one 8,361-record batch had flushed. What would you recommend allocating — and does that peak stay bounded, or keep growing as the run progresses? Our sync pods get requests: 256Mi with no limits, Can we set resources per-job?\n2. Resume on failure: if a full refresh dies midway, can it continue from where it stopped? Ours restarts from zero each attempt (state.json: {}, destination re-dropped). For a one-time dump of this size (~50 h run), is incremental with an int cursor + append_mode the right pattern instead?",
+    "ts": "1791813996.157669",
+    "thread_ts": "1791786897.382099",
+    "edited": {
+      "user": "U0A6088AMM3",
+      "ts": "1791814005.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CbTbU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": "  thanks,  Two things:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Memory sizing: the table is ~4.5 TB (78.5M rows, ~131 KB of JSON per row). The failed run peaked at 22.6 GiB RSS (java 11.45 + olake 11.13) with max_threads: 2, after only one 8,361-record batch had flushed. What would you recommend allocating — and does that peak stay bounded, or keep growing as the run progresses? Our sync pods get requests: 256Mi with no limits, Can we set resources per-job?"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n2. Resume on failure: if a full refresh dies midway, can it continue from where it stopped? Ours restarts from zero each attempt (state.json: {}, destination re-dropped). For a one-time dump of this size (~50 h run), is incremental with an int cursor + append_mode the right pattern instead?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "72f50324-bf79-4435-bc7a-f32101893ee6",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0A6088AMM3\u003e\n*1.* You can create a 64 GB pod for now. We're already working on a feature to configure sync pod resource limits, which will be merged soon. You can track its progress here: \u003chttps://github.com/datazip-inc/olake-helm/pull/218|github.com/datazip-inc/olake-helm/pull/218\u003e\n*2.* We support resumable full loads. However, to resume from the point of failure, you need to select either *Full Refresh + CDC* or *Full Refresh + Incremental* mode.",
+    "ts": "1791814378.885559",
+    "thread_ts": "1791786897.382099",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "C3x3n",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "1.",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " You can create a 64 GB pod for now. We're already working on a feature to configure sync pod resource limits, which will be merged soon. You can track its progress here: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/pull/218",
+                "text": "github.com/datazip-inc/olake-helm/pull/218"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "2.",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " We support resumable full loads. However, to resume from the point of failure, you need to select either "
+              },
+              {
+                "type": "text",
+                "text": "Full Refresh + CDC",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " or "
+              },
+              {
+                "type": "text",
+                "text": "Full Refresh + Incremental",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " mode."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9dbfd201-32e8-44a9-b8fa-4f3ce72cd2da",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08CR7HUWDC\u003e Will try and let you know",
+    "ts": "1791817699.611369",
+    "thread_ts": "1791786897.382099",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lr+Zy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " Will try and let you know"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
