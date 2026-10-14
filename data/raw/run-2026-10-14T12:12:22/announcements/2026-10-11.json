@@ -1,0 +1,148 @@
+[
+  {
+    "client_msg_id": "256320ec-22dd-4ef9-9cfb-e19b183dc264",
+    "type": "message",
+    "user": "U0BCX4Z0KGC",
+    "text": "Hello all!\n\nWe're hosting a community call this Thursday at 9:30PM IST to show you how you can query your lakehouse data through any engine.\n\nRegister here: \u003chttps://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496|app.livestorm.co/p/…\u003e",
+    "ts": "1791785858.846459",
+    "attachments": [
+      {
+        "fallback": "Datazip Inc: OLake Community Call #11 - Interoperability is here! | Datazip Inc",
+        "id": 1,
+        "title": "OLake Community Call #11 - Interoperability is here! | Datazip Inc",
+        "title_link": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+        "image_url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496/og.png",
+        "image_bytes": 96561,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "Datazip Inc",
+        "service_icon": "https://app.livestorm.co/apple-icon-57x57.png",
+        "from_url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+        "original_url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+        "fields": [
+          {
+            "title": "Date",
+            "value": "Thursday, October 15 at  9:30pm (IST)",
+            "short": true
+          }
+        ],
+        "blocks": null
+      }
+    ],
+    "files": [
+      {
+        "id": "F0C81508JMD",
+        "created": 1791785654,
+        "timestamp": 1791785654,
+        "name": "community-call-11-1c.png",
+        "title": "community-call-11-1c.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0BCX4Z0KGC",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 793770,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C81508JMD/community-call-11-1c.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C81508JMD/download/community-call-11-1c.png",
+        "original_h": 1080,
+        "original_w": 1080,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 480,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 720,
+        "thumb_960": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T0820LGJGRF-F0C81508JMD-356ba7b15e/community-call-11-1c_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 1024,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C81508JMD/community-call-11-1c.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C81508JMD-978657888f",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pdL4I",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello all!\n\nWe're hosting a community call this Thursday at 9:30PM IST to show you how you can query your lakehouse data through any engine.\n\nRegister here: "
+              },
+              {
+                "type": "link",
+                "url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+                "text": "app.livestorm.co/p/…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-25/11431743754951_710fed4ccfecef645f5a_72.jpg",
+      "first_name": "Advaita",
+      "real_name": "Advaita",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "advaita",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
