@@ -1,0 +1,189 @@
+[
+  {
+    "client_msg_id": "f20bcf7a-c247-4721-a96d-55706c5fcea7",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi \u003c@U08CR7HUWDC\u003e I created a spot node (8 GB CPU, 64 GB RAM) and scheduled the sync pod on it, but the pod disappeared this morning and the job failed.\n\nCan I resume the job from where it stopped, or will the destination data and progress be lost since I started it with Full Refresh + Incremental?\n\nAlso, can I increase the source's max threads and resume the job without losing progress?\n\nPS: When I query the data using the StarRocks external catalog, the row count still shows 0, even though the logs indicate that around 17 million rows have already been ingested.\n\nI found that:\nOLake commits to Iceberg once per chunk, at chunk completion — not continuously. Because OLake sizes its chunks from Postgres heap pages only (ignoring TOAST, where 4,488 GB of the 4,527 GB table actually lives), the 78.5M-row table was split into just 9 chunks of ~10M rows, each taking ~11 hours. The spot VM was preempted at 12.5 hours, when the two in-flight chunks were 93% and 88% complete. Neither reached its commit point, so nothing was committed. Everything written became uncommitted Parquet files that no snapshot references, and since Iceberg only exposes data through snapshots, every query engine correctly reports 0 rows.\n\nI found that there is setting  chunk_column: id cuts chunks to ~9k rows and the commit interval to ~25 second\n\nThe ctid splitter sizes chunks from relpages, which only counts the 16 GB main heap — the 4,488 GB of TOASTed jsonb is invisible to it. So it made just 9 chunks, each ~10M rows / ~1.2 TB of actual payload (~11 h each), and since the commit happens at chunk close, the spot preemption at 12.5 h caught both in-flight chunks at 93% and 88% → nothing committed, table shows 0 snapshots.\n\nFix looks like chunk_column: id (int PK) → ~8,600 chunks of 10k ids → a commit every ~45 s. Two questions:\n\n1. Where do I set it? I don't see the field in the UI's stream settings — is there a way to edit streams.json / selected_streams for an existing job, or does it need the API/DB?\n2. Do I need to clear the job state first? GetOrSplitChunks seems to reuse state chunks when present, so the 9 ctid ranges still sitting in state would override the new chunk column — is that right?\n\nAlso: should the ctid splitter account for TOAST (pg_total_relation_size) rather than relpages?",
+    "ts": "1791879963.808549",
+    "thread_ts": "1791786897.382099",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "100",
+        "count": 1,
+        "users": [
+          "U082APQJZNC"
+        ]
+      },
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U082APQJZNC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cvpqi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " I created a spot node (8 GB CPU, 64 GB RAM) and scheduled the sync pod on it, but the pod disappeared this morning and the job failed.\n\nCan I resume the job from where it stopped, or will the destination data and progress be lost since I started it with Full Refresh + Incremental?\n\nAlso, can I increase the source's max threads and resume the job without losing progress?\n\nPS: When I query the data using the StarRocks external catalog, the row count still shows 0, even though the logs indicate that around 17 million rows have already been ingested.\n\nI found that:\nOLake commits to Iceberg once per chunk, at chunk completion — not continuously. Because OLake sizes its chunks from Postgres heap pages only (ignoring TOAST, where 4,488 GB of the 4,527 GB table actually lives), the 78.5M-row table was split into just 9 chunks of ~10M rows, each taking ~11 hours. The spot VM was preempted at 12.5 hours, when the two in-flight chunks were 93% and 88% complete. Neither reached its commit point, so nothing was committed. Everything written became uncommitted Parquet files that no snapshot references, and since Iceberg only exposes data through snapshots, every query engine correctly reports 0 rows.\n\nI found that there is setting  chunk_column: id cuts chunks to ~9k rows and the commit interval to ~25 second\n\nThe ctid splitter sizes chunks from relpages, which only counts the 16 GB main heap — the 4,488 GB of TOASTed jsonb is invisible to it. So it made just 9 chunks, each ~10M rows / ~1.2 TB of actual payload (~11 h each), and since the commit happens at chunk close, the spot preemption at 12.5 h caught both in-flight chunks at 93% and 88% → nothing committed, table shows 0 snapshots.\n\nFix looks like chunk_column: id (int PK) → ~8,600 chunks of 10k ids → a commit every ~45 s. Two questions:\n\n1. Where do I set it? I don't see the field in the UI's stream settings — is there a way to edit streams.json / selected_streams for an existing job, or does it need the API/DB?\n2. Do I need to clear the job state first? GetOrSplitChunks seems to reuse state chunks when present, so the 9 ctid ranges still sitting in state would override the new chunk column — is that right?\n\nAlso: should the ctid splitter account for TOAST (pg_total_relation_size) rather than relpages?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5d06a40f-4cc1-412c-9734-a758482fa6da",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0A6088AMM3\u003e ,\nThanks for the detailed analysis, you're right. OLake commits once per chunk. In your case the chunk size was calculated wrong: the ctid splitter only counts the heap pages and ignores TOAST, so your table was split into 9 huge chunks of about 11 hours each. With correctly sized chunks, most of the data would already have been committed and the job would have resumed from the last completed chunk.\nWe'll fix the chunk-size calculation so it includes TOAST. Could you please open an issue with these details at \u003chttps://github.com/datazip-inc/olake/issues|github.com/datazip-inc/olake/issues\u003e so you can track the fix there?",
+    "ts": "1791881340.754819",
+    "thread_ts": "1791786897.382099",
+    "edited": {
+      "user": "U08CR7HUWDC",
+      "ts": "1791881411.000000"
+    },
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gXPxP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": " ,\nThanks for the detailed analysis, you're right. OLake commits once per chunk. In your case the chunk size was calculated wrong: the ctid splitter only counts the heap pages and ignores TOAST, so your table was split into 9 huge chunks of about 11 hours each. With correctly sized chunks, most of the data would already have been committed and the job would have resumed from the last completed chunk.\nWe'll fix the chunk-size calculation so it includes TOAST. Could you please open an issue with these details at "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues",
+                "text": "github.com/datazip-inc/olake/issues"
+              },
+              {
+                "type": "text",
+                "text": " so you can track the fix there?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "aedb6d2f-437d-4250-b526-72364768ffb9",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "\u003c@U08CR7HUWDC\u003e Sure!",
+    "ts": "1791884409.971759",
+    "thread_ts": "1791786897.382099",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4O0TK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " Sure!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
