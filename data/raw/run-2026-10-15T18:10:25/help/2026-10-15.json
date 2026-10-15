@@ -1,0 +1,533 @@
+[
+  {
+    "client_msg_id": "cadf8bca-1d4d-4455-8db3-9696bb1c7df6",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Hi Team,\nWe are working on setting up replication for a PostgreSQL database. However, since the database is not ready yet, we would like to understand the additional columns that Olake generates during replication before proceeding with the setup.\nCould you please share the details of these columns along with a few sample records for reference?\nThanks!",
+    "ts": "1792062870.276299",
+    "thread_ts": "1792062870.276299",
+    "reply_count": 6,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0C1QPWD94G"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792065087.997459"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1792066635.795039"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792066858.963699"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1792066917.306139"
+      },
+      {
+        "user": "U0C1QPWD94G",
+        "ts": "1792068888.046239"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792069342.579509"
+      }
+    ],
+    "latest_reply": "1792069342.579509",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "svBjB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nWe are working on setting up replication for a PostgreSQL database. However, since the database is not ready yet, we would like to understand the additional columns that Olake generates during replication before proceeding with the setup.\nCould you please share the details of these columns along with a few sample records for reference?\nThanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "06f7f30b-ba09-4551-b39e-6bbe0ea99e26",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0C1QPWD94G\u003e\nAttached is an example file demonstrating how to sync data from PostgreSQL to Parquet files.\nFor more information, please refer to the \u003chttps://olake.io/docs/connectors/postgres/|OLake PostgreSQL Connector documentation\u003e.",
+    "ts": "1792065087.997459",
+    "thread_ts": "1792062870.276299",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake Postgres Connector: Sync Modes and CDC | OLake",
+        "id": 1,
+        "title": "OLake Postgres Connector: Sync Modes and CDC | OLake",
+        "title_link": "https://olake.io/docs/connectors/postgres/",
+        "text": "Learn to configure OLake Postgres Connector for fast full refresh, incremental sync, and CDC. Tips on chunking, setup, and troubleshooting errors included.",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/connectors/postgres/",
+        "original_url": "https://olake.io/docs/connectors/postgres/",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0C1QPWD94G",
+    "files": [
+      {
+        "id": "F0C9AJKL1DZ",
+        "created": 1792065014,
+        "timestamp": 1792065014,
+        "name": "2026-04-07_12-49-30_01KNKZVA29KQJW3SE09BRXTQDK.parquet",
+        "title": "2026-04-07_12-49-30_01KNKZVA29KQJW3SE09BRXTQDK.parquet",
+        "mimetype": "application/octet-stream",
+        "image_exif_rotation": 0,
+        "filetype": "binary",
+        "pretty_type": "Binary",
+        "user": "U08CR7HUWDC",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 2050,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C9AJKL1DZ/2026-04-07_12-49-30_01knkzva29kqjw3se09brxtqdk.parquet",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C9AJKL1DZ/download/2026-04-07_12-49-30_01knkzva29kqjw3se09brxtqdk.parquet",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C9AJKL1DZ/2026-04-07_12-49-30_01knkzva29kqjw3se09brxtqdk.parquet",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C9AJKL1DZ-84f589bc49",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Evez/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0C1QPWD94G"
+              },
+              {
+                "type": "text",
+                "text": "\nAttached is an example file demonstrating how to sync data from PostgreSQL to Parquet files.\nFor more information, please refer to the "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/connectors/postgres/",
+                "text": "OLake PostgreSQL Connector documentation"
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1980d229-5e2e-41c1-8e06-a2d1e2b2fd68",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "\u003c@U08CR7HUWDC\u003e Can you also confirm what would be the time standard of _cdc_timestamp column. UTC or time standard of where olake is running from?",
+    "ts": "1792066635.795039",
+    "thread_ts": "1792062870.276299",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lfuxD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " Can you also confirm what would be the time standard of _cdc_timestamp column. UTC or time standard of where olake is running from?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3ac2b2a6-4824-4f7a-9b90-4dd4f71607eb",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0C1QPWD94G\u003e The value is the time(in UTC) the transaction committed in Postgres",
+    "ts": "1792066858.963699",
+    "thread_ts": "1792062870.276299",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0C1QPWD94G"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "q/pSI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0C1QPWD94G"
+              },
+              {
+                "type": "text",
+                "text": " The value is the time(in UTC) the transaction committed in Postgres"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "543b8b51-f842-4a2d-a9f3-76ceae99859b",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Thank you",
+    "ts": "1792066917.306139",
+    "thread_ts": "1792062870.276299",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ztrU8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thank you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fa7ad2c7-f5f3-47ab-93f1-c55e146dc952",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "UTC for all the database? correct?",
+    "ts": "1792068888.046239",
+    "thread_ts": "1792062870.276299",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dAw92",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "UTC for all the database? correct?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "84bd9acd-7e66-4f87-a0b3-f784a266adb1",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "yeah",
+    "ts": "1792069342.579509",
+    "thread_ts": "1792062870.276299",
+    "parent_user_id": "U0C1QPWD94G",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 1,
+        "users": [
+          "U0C1QPWD94G"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FKAR/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "yeah"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "386ee1b7-ca97-4a59-9202-8508d201311c",
+    "type": "message",
+    "user": "U0C9L6L5PJN",
+    "text": "Hi team ,\ni want to get more info on the Hackathon happening in Bangalore .\nis there anyone i can connect with ?",
+    "ts": "1792086605.688579",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZnC5z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team ,\ni want to get more info on the Hackathon happening in Bangalore .\nis there anyone i can connect with ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/5e515d6f9007a5cc05e48bab0ea2b734.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+      "first_name": "pawanajjark",
+      "real_name": "pawanajjark",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "pawanajjark",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
