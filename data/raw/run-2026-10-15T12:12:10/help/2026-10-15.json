@@ -1,0 +1,212 @@
+[
+  {
+    "client_msg_id": "cadf8bca-1d4d-4455-8db3-9696bb1c7df6",
+    "type": "message",
+    "user": "U0C1QPWD94G",
+    "text": "Hi Team,\nWe are working on setting up replication for a PostgreSQL database. However, since the database is not ready yet, we would like to understand the additional columns that Olake generates during replication before proceeding with the setup.\nCould you please share the details of these columns along with a few sample records for reference?\nThanks!",
+    "ts": "1792062870.276299",
+    "thread_ts": "1792062870.276299",
+    "reply_count": 1,
+    "reply_users": [
+      "U08CR7HUWDC"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792065087.997459"
+      }
+    ],
+    "latest_reply": "1792065087.997459",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "svBjB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nWe are working on setting up replication for a PostgreSQL database. However, since the database is not ready yet, we would like to understand the additional columns that Olake generates during replication before proceeding with the setup.\nCould you please share the details of these columns along with a few sample records for reference?\nThanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-09-11/12025268419831_d88a3bbcaad2a0554a6a_72.png",
+      "first_name": "rajasaravanesh",
+      "real_name": "rajasaravanesh",
+      "display_name": "rajas",
+      "team": "T0820LGJGRF",
+      "name": "rgunaseelan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "06f7f30b-ba09-4551-b39e-6bbe0ea99e26",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0C1QPWD94G\u003e\nAttached is an example file demonstrating how to sync data from PostgreSQL to Parquet files.\nFor more information, please refer to the \u003chttps://olake.io/docs/connectors/postgres/|OLake PostgreSQL Connector documentation\u003e.",
+    "ts": "1792065087.997459",
+    "thread_ts": "1792062870.276299",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake Postgres Connector: Sync Modes and CDC | OLake",
+        "id": 1,
+        "title": "OLake Postgres Connector: Sync Modes and CDC | OLake",
+        "title_link": "https://olake.io/docs/connectors/postgres/",
+        "text": "Learn to configure OLake Postgres Connector for fast full refresh, incremental sync, and CDC. Tips on chunking, setup, and troubleshooting errors included.",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/connectors/postgres/",
+        "original_url": "https://olake.io/docs/connectors/postgres/",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0C1QPWD94G",
+    "files": [
+      {
+        "id": "F0C9AJKL1DZ",
+        "created": 1792065014,
+        "timestamp": 1792065014,
+        "name": "2026-04-07_12-49-30_01KNKZVA29KQJW3SE09BRXTQDK.parquet",
+        "title": "2026-04-07_12-49-30_01KNKZVA29KQJW3SE09BRXTQDK.parquet",
+        "mimetype": "application/octet-stream",
+        "image_exif_rotation": 0,
+        "filetype": "binary",
+        "pretty_type": "Binary",
+        "user": "U08CR7HUWDC",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 2050,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0C9AJKL1DZ/2026-04-07_12-49-30_01knkzva29kqjw3se09brxtqdk.parquet",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0C9AJKL1DZ/download/2026-04-07_12-49-30_01knkzva29kqjw3se09brxtqdk.parquet",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0C9AJKL1DZ/2026-04-07_12-49-30_01knkzva29kqjw3se09brxtqdk.parquet",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0C9AJKL1DZ-84f589bc49",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Evez/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0C1QPWD94G"
+              },
+              {
+                "type": "text",
+                "text": "\nAttached is an example file demonstrating how to sync data from PostgreSQL to Parquet files.\nFor more information, please refer to the "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/connectors/postgres/",
+                "text": "OLake PostgreSQL Connector documentation"
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
