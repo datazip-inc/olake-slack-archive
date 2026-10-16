@@ -1,0 +1,84 @@
+[
+  {
+    "client_msg_id": "899da408-7424-443e-9983-7dec6a5bebd9",
+    "type": "message",
+    "user": "U0BCX4Z0KGC",
+    "text": "Community Call starting in 20 minutes! See you there!\n\n\u003chttps://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496|app.livestorm.co/p/…\u003e",
+    "ts": "1792078787.026849",
+    "attachments": [
+      {
+        "fallback": "Datazip Inc: OLake Community Call #11 - Interoperability is here! | Datazip Inc",
+        "id": 1,
+        "title": "OLake Community Call #11 - Interoperability is here! | Datazip Inc",
+        "title_link": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+        "image_url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496/og.png",
+        "image_bytes": 96561,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "Datazip Inc",
+        "service_icon": "https://app.livestorm.co/apple-icon-57x57.png",
+        "from_url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+        "original_url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+        "fields": [
+          {
+            "title": "Date",
+            "value": "Thursday, October 15 at  9:30pm (IST)",
+            "short": true
+          }
+        ],
+        "blocks": null
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "rocket",
+        "count": 1,
+        "users": [
+          "U082APQJZNC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OyljA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Community Call starting in 20 minutes! See you there!\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://app.livestorm.co/p/2da656cb-531a-4982-b32c-e187013a8496",
+                "text": "app.livestorm.co/p/…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-25/11431743754951_710fed4ccfecef645f5a_72.jpg",
+      "first_name": "Advaita",
+      "real_name": "Advaita",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "advaita",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
