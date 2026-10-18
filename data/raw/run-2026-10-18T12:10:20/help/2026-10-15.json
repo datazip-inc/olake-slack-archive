@@ -1,0 +1,92 @@
+[
+  {
+    "type": "message",
+    "user": "USLACKBOT",
+    "text": "This message was deleted.",
+    "ts": "1792086605.688579",
+    "thread_ts": "1792086605.688579",
+    "subtype": "tombstone",
+    "hidden": true,
+    "reply_count": 1,
+    "reply_users": [
+      "U082APQJZNC"
+    ],
+    "replies": [
+      {
+        "user": "U082APQJZNC",
+        "ts": "1792093669.817309"
+      }
+    ],
+    "parent_user_id": "USLACKBOT",
+    "latest_reply": "1792093669.817309",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://a.slack-edge.com/80588/img/slackbot_72.png",
+      "first_name": "slackbot",
+      "real_name": "Slackbot",
+      "display_name": "Slackbot",
+      "team": "T0820LGJGRF",
+      "name": "slackbot",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "c4e1b759-84f8-4e0f-b93e-4a5039c1183e",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "Not the right channel, ask in \u003c#C081MT4PVLK\u003e",
+    "ts": "1792093669.817309",
+    "thread_ts": "1792086605.688579",
+    "parent_user_id": "USLACKBOT",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "APTxW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Not the right channel, ask in "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C081MT4PVLK"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

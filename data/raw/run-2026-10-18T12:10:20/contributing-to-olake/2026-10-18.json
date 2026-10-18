@@ -1,0 +1,259 @@
+[
+  {
+    "client_msg_id": "1ac68add-752d-4a04-9ecc-f364b39051ae",
+    "type": "message",
+    "user": "U0C9DEZBNGK",
+    "text": "Hi everyone! :wave: I’m working on \u003chttps://github.com/datazip-inc/olake/issues/1317|OLake issue #1317\u003e, which aims to commit Go checksum files and ensure `go.mod` stays tidy through lint checks.\nMy plan is to:\n• Remove `go.sum` and `go.work.sum` from `.gitignore`.\n• Add `go mod tidy -diff` checks to `make olake.lint` and `make test.lint`.\n• Update the pre-commit hook to run relevant checks when dependency files change.\nI’ll verify everything by running `make gomod` and testing both lint targets.\nPlease share any suggestions or feedback. Thanks!",
+    "ts": "1792313948.135899",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yDoZd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone! "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": " I’m working on "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1317",
+                "text": "OLake issue #1317"
+              },
+              {
+                "type": "text",
+                "text": ", which aims to commit Go checksum files and ensure "
+              },
+              {
+                "type": "text",
+                "text": "go.mod",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " stays tidy through lint checks.\nMy plan is to:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Remove "
+                  },
+                  {
+                    "type": "text",
+                    "text": "go.sum",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "go.work.sum",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " from "
+                  },
+                  {
+                    "type": "text",
+                    "text": ".gitignore",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Add "
+                  },
+                  {
+                    "type": "text",
+                    "text": "go mod tidy -diff",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " checks to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "make olake.lint",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " and "
+                  },
+                  {
+                    "type": "text",
+                    "text": "make test.lint",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Update the pre-commit hook to run relevant checks when dependency files change."
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I’ll verify everything by running "
+              },
+              {
+                "type": "text",
+                "text": "make gomod",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and testing both lint targets.\nPlease share any suggestions or feedback. Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-15/12327642879809_40f35b2b369a775dbed9_72.jpg",
+      "first_name": "Prakhar",
+      "real_name": "Prakhar Tripathi",
+      "display_name": "Prakhar Tripathi",
+      "team": "T0820LGJGRF",
+      "name": "gurawliprakhar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "715a66f2-5a94-4eb3-9a8a-0ccad39510cf",
+    "type": "message",
+    "user": "U0C9DEZBNGK",
+    "text": "Hi everyone! I’ve completed the changes for \u003chttps://github.com/datazip-inc/olake/issues/1317|issue #1317\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1321|PR #1321\u003e and tested them locally. Everything is working as expected.",
+    "ts": "1792319320.343069",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yniGD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone! I’ve completed the changes for "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1317",
+                "text": "issue #1317"
+              },
+              {
+                "type": "text",
+                "text": " in "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1321",
+                "text": "PR #1321"
+              },
+              {
+                "type": "text",
+                "text": " and tested them locally. Everything is working as expected."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-15/12327642879809_40f35b2b369a775dbed9_72.jpg",
+      "first_name": "Prakhar",
+      "real_name": "Prakhar Tripathi",
+      "display_name": "Prakhar Tripathi",
+      "team": "T0820LGJGRF",
+      "name": "gurawliprakhar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
