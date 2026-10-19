@@ -1,0 +1,206 @@
+[
+  {
+    "client_msg_id": "a88bb0d7-78a3-4542-ae1e-845e36a3742c",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "Hi gang!\nI have question regarding `state.json` - in order to resume an olake replication after a pause or after switching to a new machine, I need the state json.\nMy question is, how do you usually handle storing the state? I would've expected that it's stored in the iceberg sink, but turns out that isn't the case.\nRight now, I have a small script which downloads the state from S3 before the docker starts and uploads it after it finishes, but I'm not sure if this is optimal.",
+    "ts": "1792410626.455559",
+    "thread_ts": "1792410626.455559",
+    "reply_count": 2,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0CA4S2GS4B"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792411279.461479"
+      },
+      {
+        "user": "U0CA4S2GS4B",
+        "ts": "1792411335.951359"
+      }
+    ],
+    "latest_reply": "1792411335.951359",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KsRrP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi gang!\nI have question regarding "
+              },
+              {
+                "type": "text",
+                "text": "state.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " - in order to resume an olake replication after a pause or after switching to a new machine, I need the state json.\nMy question is, how do you usually handle storing the state? I would've expected that it's stored in the iceberg sink, but turns out that isn't the case.\nRight now, I have a small script which downloads the state from S3 before the docker starts and uploads it after it finishes, but I'm not sure if this is optimal."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "31edbffb-d398-470a-9ab2-522e2b732132",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0CA4S2GS4B\u003e,\nWe already store state in Iceberg metadata. `state.json` is a leftover from earlier versions, when we kept state only in that file, and we haven't fully removed it yet. We're tracking that here: \u003chttps://github.com/datazip-inc/olake/issues/1251|github.com/datazip-inc/olake/issues/1251\u003e\nHow are you running OLake: Helm, Docker, or just the CLI?",
+    "ts": "1792411279.461479",
+    "thread_ts": "1792410626.455559",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eDpcx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0CA4S2GS4B"
+              },
+              {
+                "type": "text",
+                "text": ",\nWe already store state in Iceberg metadata. "
+              },
+              {
+                "type": "text",
+                "text": "state.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is a leftover from earlier versions, when we kept state only in that file, and we haven't fully removed it yet. We're tracking that here: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1251",
+                "text": "github.com/datazip-inc/olake/issues/1251"
+              },
+              {
+                "type": "text",
+                "text": "\nHow are you running OLake: Helm, Docker, or just the CLI?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "19fade3b-556c-4145-8674-1d7e55037100",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "I'm running a docker- so I should be good just not passing `--state` at all?",
+    "ts": "1792411335.951359",
+    "thread_ts": "1792410626.455559",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hox7X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I'm running a docker- so I should be good just not passing "
+              },
+              {
+                "type": "text",
+                "text": "--state",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " at all?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
