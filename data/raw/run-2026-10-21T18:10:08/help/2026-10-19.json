@@ -1,0 +1,432 @@
+[
+  {
+    "client_msg_id": "a88bb0d7-78a3-4542-ae1e-845e36a3742c",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "Hi gang!\nI have question regarding `state.json` - in order to resume an olake replication after a pause or after switching to a new machine, I need the state json.\nMy question is, how do you usually handle storing the state? I would've expected that it's stored in the iceberg sink, but turns out that isn't the case.\nRight now, I have a small script which downloads the state from S3 before the docker starts and uploads it after it finishes, but I'm not sure if this is optimal.",
+    "ts": "1792410626.455559",
+    "thread_ts": "1792410626.455559",
+    "reply_count": 4,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U0CA4S2GS4B"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792411279.461479"
+      },
+      {
+        "user": "U0CA4S2GS4B",
+        "ts": "1792411335.951359"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792412242.909939"
+      },
+      {
+        "user": "U0CA4S2GS4B",
+        "ts": "1792412321.863999"
+      }
+    ],
+    "latest_reply": "1792412321.863999",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KsRrP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi gang!\nI have question regarding "
+              },
+              {
+                "type": "text",
+                "text": "state.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " - in order to resume an olake replication after a pause or after switching to a new machine, I need the state json.\nMy question is, how do you usually handle storing the state? I would've expected that it's stored in the iceberg sink, but turns out that isn't the case.\nRight now, I have a small script which downloads the state from S3 before the docker starts and uploads it after it finishes, but I'm not sure if this is optimal."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "31edbffb-d398-470a-9ab2-522e2b732132",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0CA4S2GS4B\u003e,\nWe already store state in Iceberg metadata. `state.json` is a leftover from earlier versions, when we kept state only in that file, and we haven't fully removed it yet. We're tracking that here: \u003chttps://github.com/datazip-inc/olake/issues/1251|github.com/datazip-inc/olake/issues/1251\u003e\nHow are you running OLake: Helm, Docker, or just the CLI?",
+    "ts": "1792411279.461479",
+    "thread_ts": "1792410626.455559",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eDpcx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0CA4S2GS4B"
+              },
+              {
+                "type": "text",
+                "text": ",\nWe already store state in Iceberg metadata. "
+              },
+              {
+                "type": "text",
+                "text": "state.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is a leftover from earlier versions, when we kept state only in that file, and we haven't fully removed it yet. We're tracking that here: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1251",
+                "text": "github.com/datazip-inc/olake/issues/1251"
+              },
+              {
+                "type": "text",
+                "text": "\nHow are you running OLake: Helm, Docker, or just the CLI?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "19fade3b-556c-4145-8674-1d7e55037100",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "I'm running a docker- so I should be good just not passing `--state` at all?",
+    "ts": "1792411335.951359",
+    "thread_ts": "1792410626.455559",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hox7X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I'm running a docker- so I should be good just not passing "
+              },
+              {
+                "type": "text",
+                "text": "--state",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " at all?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2fa135ea-a97e-4282-8b44-c900d1774b1c",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U0CA4S2GS4B\u003e\nNot yet. Until we close \u003chttps://github.com/datazip-inc/olake/issues/1251|github.com/datazip-inc/olake/issues/1251\u003e, you'll still need to pass `--state`. If you leave it out, OLake starts with empty state and re-syncs everything from scratch.\n\nIf you'd like to avoid the script for now, there's a workaround: S3 mode. You pass your file paths as `s3://...`, OLake reads them from S3 at the start of the run, and it writes `state.json` back to the same location after a successful sync. It's not a complete solution, though:\n• The state file has to exist in S3 before the first run. Start it with `{}`.\n• In S3 mode, logs go to stdout only. If you want to keep logs per sync, you'll need to capture the container output yourself (for example with `docker logs`).\nHere are the env vars for S3 mode: \u003chttps://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration:~:text=OLAKE_STORAGE_MODE%3A%20s3,your%2Dsecret%2Dkey|olake.io/docs/install/olake-ui#…\u003e",
+    "ts": "1792412242.909939",
+    "thread_ts": "1792410626.455559",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake UI Install with Docker Compose | OLake",
+        "id": 1,
+        "title": "OLake UI Install with Docker Compose | OLake",
+        "title_link": "https://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration:~:text=OLAKE_STORAGE_MODE%3A%20s3,your%2Dsecret%2Dkey",
+        "text": "Quickly deploy OLake UI with Docker Compose. Manage jobs, configure encryption, customize data directory, and troubleshoot common deployment issues.",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration:~:text=OLAKE_STORAGE_MODE%3A%20s3,your%2Dsecret%2Dkey",
+        "original_url": "https://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration:~:text=OLAKE_STORAGE_MODE%3A%20s3,your%2Dsecret%2Dkey",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2EVLj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0CA4S2GS4B"
+              },
+              {
+                "type": "text",
+                "text": "\nNot yet. Until we close "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1251",
+                "text": "github.com/datazip-inc/olake/issues/1251"
+              },
+              {
+                "type": "text",
+                "text": ", you'll still need to pass "
+              },
+              {
+                "type": "text",
+                "text": "--state",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". If you leave it out, OLake starts with empty state and re-syncs everything from scratch.\n\nIf you'd like to avoid the script for now, there's a workaround: S3 mode. You pass your file paths as "
+              },
+              {
+                "type": "text",
+                "text": "s3://...",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", OLake reads them from S3 at the start of the run, and it writes "
+              },
+              {
+                "type": "text",
+                "text": "state.json",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " back to the same location after a successful sync. It's not a complete solution, though:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The state file has to exist in S3 before the first run. Start it with "
+                  },
+                  {
+                    "type": "text",
+                    "text": "{}",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "In S3 mode, logs go to stdout only. If you want to keep logs per sync, you'll need to capture the container output yourself (for example with "
+                  },
+                  {
+                    "type": "text",
+                    "text": "docker logs",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ")."
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Here are the env vars for S3 mode: "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/install/olake-ui/#s3-log-file-storage-configuration:~:text=OLAKE_STORAGE_MODE%3A%20s3,your%2Dsecret%2Dkey",
+                "text": "olake.io/docs/install/olake-ui#…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "b77dff2f-000f-4577-9e7c-f198d8f15f37",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "Right, I'll read up on it. Thanks for the help!",
+    "ts": "1792412321.863999",
+    "thread_ts": "1792410626.455559",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QQ80g",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Right, I'll read up on it. Thanks for the help!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
