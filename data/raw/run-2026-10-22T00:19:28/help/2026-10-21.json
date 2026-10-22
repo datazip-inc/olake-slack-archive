@@ -1,0 +1,46 @@
+[
+  {
+    "client_msg_id": "843d4c7f-9cbf-457e-85b4-842a8a191298",
+    "type": "message",
+    "user": "U0C9NNCA1NY",
+    "text": "Hey guys!  We're planning to run OLake UI (v0.7.0) behind oauth2-proxy for Entra in our production environment. Three quick confirmations would help us commit without surprises:\n\n  1. Does the UI use SSE or WebSockets for anything (live sync status, job\n     progress, logs streaming)? Any specific endpoints we should allow explicit\n     proxy pass-through for?\n\n  2. Does the Go/Gin backend currently read any X-Forwarded-* or\n     X-Auth-Request-* headers that oauth2-proxy injects? Any CSRF behavior\n     tied to Origin/Referer we should know about?\n\n  3. For the /bundle/import + /bundle/export endpoints (PR #338) — does the\n     current implementation accept session-cookie auth only, or does it also\n     support a static API key / token header for scripted callers behind an\n     auth proxy?\n\n  Thanks!",
+    "ts": "1792610668.367469",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m3/rY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey guys!  We're planning to run OLake UI (v0.7.0) behind oauth2-proxy for Entra in our production environment. Three quick confirmations would help us commit without surprises:\n\n  1. Does the UI use SSE or WebSockets for anything (live sync status, job\n     progress, logs streaming)? Any specific endpoints we should allow explicit\n     proxy pass-through for?\n\n  2. Does the Go/Gin backend currently read any X-Forwarded-* or\n     X-Auth-Request-* headers that oauth2-proxy injects? Any CSRF behavior\n     tied to Origin/Referer we should know about?\n\n  3. For the /bundle/import + /bundle/export endpoints (PR #338) — does the\n     current implementation accept session-cookie auth only, or does it also\n     support a static API key / token header for scripted callers behind an\n     auth proxy?\n\n  Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/795f3359b0c8ff503aa607e154a45221.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "aanand",
+      "real_name": "aanand",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "aanand",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
