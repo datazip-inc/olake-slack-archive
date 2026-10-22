@@ -1,0 +1,55 @@
+[
+  {
+    "client_msg_id": "4553f1e5-b87e-468b-b1cd-8b738672015a",
+    "type": "message",
+    "user": "U0C9DEZBNGK",
+    "text": "Hi everyone! I’ve addressed issue #671 in \u003chttps://github.com/datazip-inc/olake/pull/1343|PR #1343\u003e by adding denormalized integration tests for MySQL, PostgreSQL, and MongoDB, covering full refresh, CDC, and incremental sync across Iceberg Legacy, Iceberg Arrow, and Parquet.\nAll three database tests have passed. Could someone please review the PR and share feedback? Thanks!",
+    "ts": "1792608383.180269",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c6XgY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone! I’ve addressed issue #671 in "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1343",
+                "text": "PR #1343"
+              },
+              {
+                "type": "text",
+                "text": " by adding denormalized integration tests for MySQL, PostgreSQL, and MongoDB, covering full refresh, CDC, and incremental sync across Iceberg Legacy, Iceberg Arrow, and Parquet.\nAll three database tests have passed. Could someone please review the PR and share feedback? Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-15/12327642879809_40f35b2b369a775dbed9_72.jpg",
+      "first_name": "Prakhar",
+      "real_name": "Prakhar Tripathi",
+      "display_name": "Prakhar Tripathi",
+      "team": "T0820LGJGRF",
+      "name": "gurawliprakhar",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
