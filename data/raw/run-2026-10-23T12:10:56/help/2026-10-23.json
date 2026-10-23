@@ -1,0 +1,202 @@
+[
+  {
+    "client_msg_id": "6293f2b9-5765-4b48-b488-6d33884ec798",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nWe have a use case in which we have data in a sharded collection. MongoDB splits its documents across 3 shards (rs1, rs2, rs3), and each customer’s records live on exactly one of them. No single shard has the full table; each has about a third.\nSo how do we create it's job?",
+    "ts": "1792750499.037779",
+    "thread_ts": "1792750499.037779",
+    "edited": {
+      "user": "U0BTUQGHDDF",
+      "ts": "1792750508.000000"
+    },
+    "reply_count": 2,
+    "reply_users": [
+      "U08CR7HUWDC"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792751661.187749"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792757145.432329"
+      }
+    ],
+    "latest_reply": "1792757145.432329",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08CR7HUWDC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iZl/Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nWe have a use case in which we have data in a sharded collection. MongoDB splits its documents across 3 shards (rs1, rs2, rs3), and each customer’s records live on exactly one of them. No single shard has the full table; each has about a third.\nSo how do we create it's job?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "79355389-d2fc-411e-8eef-ed3487a43bea",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0BTUQGHDDF\u003e, We’ll update you on this by EOD.",
+    "ts": "1792751661.187749",
+    "thread_ts": "1792750499.037779",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VzSAD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ", We’ll update you on this by EOD."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d46df21d-67ef-4a44-bdc8-7fd6a6db9020",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0BTUQGHDDF\u003e,\ncreate a single MongoDB source pointing at your *mongos* hosts (not the individual shards) and leave Replica Set empty.\nuse *OLake v1.0.1*",
+    "ts": "1792757145.432329",
+    "thread_ts": "1792750499.037779",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AnSLl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ",\ncreate a single MongoDB source pointing at your "
+              },
+              {
+                "type": "text",
+                "text": "mongos",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " hosts (not the individual shards) and leave Replica Set empty.\nuse "
+              },
+              {
+                "type": "text",
+                "text": "OLake v1.0.1",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
