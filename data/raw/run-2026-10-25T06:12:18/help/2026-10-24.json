@@ -1,0 +1,198 @@
+[
+  {
+    "client_msg_id": "6AD568C4-36BC-4E52-94DF-9BD9AC89DC81",
+    "type": "message",
+    "user": "U0CBD62CUV8",
+    "text": "\u003c@U08CR7HUWDC\u003e - these geodatatypes and varint features will be available in anytime near future. The compaction engine also takes care of v3 compaction",
+    "ts": "1792832550.705199",
+    "thread_ts": "1792697674.678459",
+    "parent_user_id": "U0CBD62CUV8",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bqTZN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " - these geodatatypes and varint features will be available in anytime near future. The compaction engine also takes care of v3 compaction"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/b190af7f53a3c34f1100644b12f8ca9e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+      "first_name": "Sambit",
+      "real_name": "Sambit Dixit",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "sambitdixit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "805213c2-2e0c-440d-8151-73dfa3c234b6",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0CBD62CUV8\u003e these will be added by Jan 2027",
+    "ts": "1792832873.879479",
+    "thread_ts": "1792697674.678459",
+    "parent_user_id": "U0CBD62CUV8",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IEaYF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0CBD62CUV8"
+              },
+              {
+                "type": "text",
+                "text": " these will be added by Jan 2027"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5846E780-51D1-4D18-8854-F96744B5C511",
+    "type": "message",
+    "user": "U0CBD62CUV8",
+    "text": "Ok. Is the v3 feature available for compaction fusion engine",
+    "ts": "1792834466.320739",
+    "thread_ts": "1792697674.678459",
+    "parent_user_id": "U0CBD62CUV8",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tMe+Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ok. Is the v3 feature available for compaction fusion engine"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/b190af7f53a3c34f1100644b12f8ca9e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+      "first_name": "Sambit",
+      "real_name": "Sambit Dixit",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "sambitdixit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d95f9ea4-92e7-42b7-9540-0242c8235780",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "Not yet, it will take Jan 2027 as well",
+    "ts": "1792836565.421529",
+    "thread_ts": "1792697674.678459",
+    "edited": {
+      "user": "U082APQJZNC",
+      "ts": "1792836575.000000"
+    },
+    "parent_user_id": "U0CBD62CUV8",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Hurxs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Not yet, it will take Jan 2027 as well"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

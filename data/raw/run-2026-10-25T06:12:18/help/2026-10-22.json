@@ -1,0 +1,426 @@
+[
+  {
+    "client_msg_id": "e68bee6b-53de-43fb-9569-ce67b91b0aad",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hey guys,\nGetting this error.\nI have added the logs.",
+    "ts": "1792655056.277599",
+    "thread_ts": "1792655056.277599",
+    "reply_count": 1,
+    "reply_users": [
+      "U08CR7HUWDC"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792655819.090569"
+      }
+    ],
+    "latest_reply": "1792655819.090569",
+    "files": [
+      {
+        "id": "F0CC2GN8WHE",
+        "created": 1792655042,
+        "timestamp": 1792655042,
+        "name": "job-11-logs-2026-10-22-05-10-03.tar.gz",
+        "title": "job-11-logs-2026-10-22-05-10-03.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 539386,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CC2GN8WHE/job-11-logs-2026-10-22-05-10-03.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CC2GN8WHE/download/job-11-logs-2026-10-22-05-10-03.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CC2GN8WHE/job-11-logs-2026-10-22-05-10-03.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CC2GN8WHE-f51e710e45",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08CR7HUWDC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8x4Gw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey guys,\nGetting this error.\nI have added the logs."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "9c738e8d-2e71-4bc6-bc5f-663b131768b3",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0BTUQGHDDF\u003e,\nThe sync failed because the MySQL connection dropped while OLake was reading table column info (`invalid connection` on `tbl_orders_franchise_commission`), which stopped CDC. Please check why the connection is being closed on your side (MySQL `wait_timeout` or a proxy/load balancer idle timeout), and upgrade to v0.12.3, which stops re-fetching table metadata on every `DROP TEMPORARY TABLE` .",
+    "ts": "1792655819.090569",
+    "thread_ts": "1792655056.277599",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fyx1v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": ",\nThe sync failed because the MySQL connection dropped while OLake was reading table column info ("
+              },
+              {
+                "type": "text",
+                "text": "invalid connection",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " on "
+              },
+              {
+                "type": "text",
+                "text": "tbl_orders_franchise_commission",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "), which stopped CDC. Please check why the connection is being closed on your side (MySQL "
+              },
+              {
+                "type": "text",
+                "text": "wait_timeout",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " or a proxy/load balancer idle timeout), and upgrade to v0.12.3, which stops re-fetching table metadata on every "
+              },
+              {
+                "type": "text",
+                "text": "DROP TEMPORARY TABLE",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "1D83CC12-B08D-4A81-A67A-A645AAD0B57A",
+    "type": "message",
+    "user": "U0CBD62CUV8",
+    "text": "Hi Guys - Does olake support iceberg v3 spec ? ",
+    "ts": "1792697674.678459",
+    "thread_ts": "1792697674.678459",
+    "reply_count": 6,
+    "reply_users": [
+      "U082APQJZNC",
+      "U08CR7HUWDC",
+      "U0CBD62CUV8"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1792727881.357839"
+      },
+      {
+        "user": "U0CBD62CUV8",
+        "ts": "1792734204.208049"
+      },
+      {
+        "user": "U0CBD62CUV8",
+        "ts": "1792832550.705199"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1792832873.879479"
+      },
+      {
+        "user": "U0CBD62CUV8",
+        "ts": "1792834466.320739"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1792836565.421529"
+      }
+    ],
+    "latest_reply": "1792836565.421529",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "s4Jks",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Guys - Does olake support iceberg v3 spec ? "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/b190af7f53a3c34f1100644b12f8ca9e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+      "first_name": "Sambit",
+      "real_name": "Sambit Dixit",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "sambitdixit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "d6fed7af-e480-4fef-9d11-1efc803c45fb",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "Hey \u003c@U0CBD62CUV8\u003e \nYes, we support the V3 spec. We write DVs to the Iceberg destination. Support for GeoDataTypes and Variant is currently a work in progress.",
+    "ts": "1792727881.357839",
+    "thread_ts": "1792697674.678459",
+    "parent_user_id": "U0CBD62CUV8",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zJ6Em",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0CBD62CUV8"
+              },
+              {
+                "type": "text",
+                "text": " \nYes, we support the V3 spec. We write DVs to the Iceberg destination. Support for GeoDataTypes and Variant is currently a work in progress."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "116BCE97-4164-43D0-9D88-CDB941B391A8",
+    "type": "message",
+    "user": "U0CBD62CUV8",
+    "text": "Thanks \u003c@U08CR7HUWDC\u003e ",
+    "ts": "1792734204.208049",
+    "thread_ts": "1792697674.678459",
+    "parent_user_id": "U0CBD62CUV8",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pJCzd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks "
+              },
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/b190af7f53a3c34f1100644b12f8ca9e.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+      "first_name": "Sambit",
+      "real_name": "Sambit Dixit",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "sambitdixit",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
