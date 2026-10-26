@@ -1,0 +1,1970 @@
+[
+  {
+    "client_msg_id": "23e1baf1-32e0-4325-a397-f1461fa7e577",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Go v0.12.3 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v0.12.3|github.com/datazip-inc/olake/…/v0.12.3\u003e\n*What’s New*\n• ci(deps): commit go.sum and go.work.sum, check tidy in lint by \u003c@U0C9DEZBNGK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1321|#1321\u003e\n• chore: test-added-bot by \u003c@U0A9LUUNP43\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1297|#1297\u003e\n• fix(mongodb): move the test stack to mongo:9.0 by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1331|#1331\u003e\n• ci: stop OpenCodeReview self-update and pin v1.13.2 by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1332|#1332\u003e\n• fix(release): cross-compile drivers instead of emulating the Go compiler by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1316|#1316\u003e\n• feat(mysql): keep cached column metadata in step with the binlog (anchoring + DDL) by \u003c@U0C2002LU5A\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1298|#1298\u003e\n• chore: bump go to 1.26.10 and klauspost/compress to v1.18.7 by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1336|#1336\u003e\n• feat(postgres): recommend wal_sender_timeout=0 in test connection by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1326|#1326\u003e\n:rotating_light: OLake Go v1.0.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v1.0.0|github.com/datazip-inc/olake/…/v1.0.0\u003e\n*What’s New*\n:warning: *Legacy stream will be deprecated soon*:warning:\n• chore: streams v2 - split catalog into available_streams and selected_streams by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1145|#1145\u003e\n:books: *Documentation*\n• *Streams v2:* \u003chttps://olake.io/docs/install/docker-cli/#streams-config|Guide\u003e\n:rotating_light: OLake Go v1.0.1 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v1.0.1|github.com/datazip-inc/olake/…/v1.0.1\u003e\n*What’s New*\n• fix(mongodb): make timestamp chunking strategy case-insensitive by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1345|#1345\u003e\nThanks for the contribution!",
+    "ts": "1792931877.788579",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BqNt1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v0.12.3 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v0.12.3",
+                "text": "github.com/datazip-inc/olake/…/v0.12.3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ci(deps): commit go.sum and go.work.sum, check tidy in lint by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C9DEZBNGK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1321",
+                    "text": "#1321"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: test-added-bot by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0A9LUUNP43"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1297",
+                    "text": "#1297"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(mongodb): move the test stack to mongo:9.0 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1331",
+                    "text": "#1331"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ci: stop OpenCodeReview self-update and pin v1.13.2 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1332",
+                    "text": "#1332"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(release): cross-compile drivers instead of emulating the Go compiler by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1316",
+                    "text": "#1316"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(mysql): keep cached column metadata in step with the binlog (anchoring + DDL) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C2002LU5A"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1298",
+                    "text": "#1298"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: bump go to 1.26.10 and klauspost/compress to v1.18.7 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1336",
+                    "text": "#1336"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(postgres): recommend wal_sender_timeout=0 in test connection by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1326",
+                    "text": "#1326"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v1.0.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v1.0.0",
+                "text": "github.com/datazip-inc/olake/…/v1.0.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "warning",
+                "unicode": "26a0-fe0f",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Legacy stream will be deprecated soon",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "emoji",
+                "name": "warning",
+                "unicode": "26a0-fe0f",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: streams v2 - split catalog into available_streams and selected_streams by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1145",
+                    "text": "#1145"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "books",
+                "unicode": "1f4da"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "Documentation",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Streams v2:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/install/docker-cli/#streams-config",
+                    "text": "Guide"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v1.0.1 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v1.0.1",
+                "text": "github.com/datazip-inc/olake/…/v1.0.1"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(mongodb): make timestamp chunking strategy case-insensitive by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1345",
+                    "text": "#1345"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "62cfb86c-dbd0-4974-9dc9-91b3553c5824",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake UI v0.7.1 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.7.1|github.com/datazip-inc/olake-ui/…/v0.7.1\u003e\n*What’s New*\n• chore(deps): bump go to 1.26.9 and \u003chttp://golang.org/x/net|golang.org/x/net\u003e to v0.60.0 by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/481|#481\u003e\n• feat: add Kafka upsert with dedup keys in stream config(UI) by \u003c@U0BEF84EZ6V\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/426|#426\u003e\n• fix: default CONTAINER_REGISTRY_BASE to \u003chttp://docker.io|docker.io\u003e by \u003c@U0BMJKKJ694\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/453|#453\u003e\n• fix: s3 append mode by \u003c@U09DXRC7N91\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/482|#482\u003e\n• feat(ui): add CDC prerequisite checks to source test connection by \u003c@U0BKJ1W8V0A\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/459|#459\u003e\n• fix(ui): link Horizon destination to its docs instead of Glue by \u003c@U0BKJ1W8V0A\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/471|#471\u003e\n• feat(api): convert long-running endpoints to submit-and-poll by \u003c@U0BKJ1W8V0A\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/454|#454\u003e\n:rotating_light: OLake UI v0.7.2 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.7.2|github.com/datazip-inc/olake-ui/…/v0.7.2\u003e\n*What’s New*\n• fix: fix vulnerabilities and upgrade react-router to v7 by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/488|#488\u003e\n• fix(release): cross-compile the server instead of emulating the Go compiler by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/487|#487\u003e\n• fix: govuln and trivy by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/491|#491\u003e\n• fix: address UX feedback issues by \u003c@U0C9YKNHSF7\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/484|#484\u003e\n• chore: add dependabot config for go, npm, docker and actions by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/478|#478\u003e\n• chore: adding fusion telemetry id url by \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/473|#473\u003e\n• chore: fix optimizer creation through k8s by \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/480|#480\u003e\n• feat(logs): show worker logs next to sync logs in the task logs page by \u003c@U0BKJ1W8V0A\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/467|#467\u003e\n:rotating_light: OLake UI v0.8.0 Released:rotating_light:\n:rotating_light: *Requires olake-worker \u0026gt;= `v0.4.2`*\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.8.0|github.com/datazip-inc/olake-ui/…/v0.8.0\u003e\n*What’s New* \n• chore: support streams v2 split catalog (available_streams + selected_streams) by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/420|#420\u003e\nThanks for the contribution!",
+    "ts": "1792932691.658029",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CJyGs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.7.1 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.7.1",
+                "text": "github.com/datazip-inc/olake-ui/…/v0.7.1"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(deps): bump go to 1.26.9 and "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://golang.org/x/net",
+                    "text": "golang.org/x/net"
+                  },
+                  {
+                    "type": "text",
+                    "text": " to v0.60.0 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/481",
+                    "text": "#481"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: add Kafka upsert with dedup keys in stream config(UI) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BEF84EZ6V"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/426",
+                    "text": "#426"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: default CONTAINER_REGISTRY_BASE to "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://docker.io",
+                    "text": "docker.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BMJKKJ694"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/453",
+                    "text": "#453"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: s3 append mode by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U09DXRC7N91"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/482",
+                    "text": "#482"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(ui): add CDC prerequisite checks to source test connection by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BKJ1W8V0A"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/459",
+                    "text": "#459"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(ui): link Horizon destination to its docs instead of Glue by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BKJ1W8V0A"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/471",
+                    "text": "#471"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(api): convert long-running endpoints to submit-and-poll by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BKJ1W8V0A"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/454",
+                    "text": "#454"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.7.2 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.7.2",
+                "text": "github.com/datazip-inc/olake-ui/…/v0.7.2"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: fix vulnerabilities and upgrade react-router to v7 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/488",
+                    "text": "#488"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(release): cross-compile the server instead of emulating the Go compiler by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/487",
+                    "text": "#487"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: govuln and trivy by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/491",
+                    "text": "#491"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: address UX feedback issues by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C9YKNHSF7"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/484",
+                    "text": "#484"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: add dependabot config for go, npm, docker and actions by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/478",
+                    "text": "#478"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: adding fusion telemetry id url by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/473",
+                    "text": "#473"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: fix optimizer creation through k8s by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/480",
+                    "text": "#480"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(logs): show worker logs next to sync logs in the task logs page by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BKJ1W8V0A"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/467",
+                    "text": "#467"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.8.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Requires olake-worker \u003e= ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "v0.4.2",
+                "style": {
+                  "bold": true,
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.8.0",
+                "text": "github.com/datazip-inc/olake-ui/…/v0.8.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: support streams v2 split catalog (available_streams + selected_streams) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/420",
+                    "text": "#420"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7be42c73-981e-4b7c-8bb8-d12d35f6d08c",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Fusion v0.2.0 Released:rotating_light:\n:rotating_light: *Requires olake-helm chart version \u0026gt;= `v0.0.31`*\nRelease: \u003chttps://github.com/datazip-inc/olake-fusion/releases/tag/v0.2.0|github.com/datazip-inc/olake-fusion/…/v0.2.0\u003e\n*What’s New*\n• fix(dist): package Prometheus reporter jar in release-bin assembly by \u003c@U0BMJKKJ694\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/24|#24\u003e\n• fix: cache snapshots by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/20|#20\u003e\n• fix: pull MinIO images from \u003chttp://quay.io|quay.io\u003e (Docker Hub repos deleted) by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/39|#39\u003e\n• chore: workflow related changes by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/25|#25\u003e\n• chore: critical vuln fixes by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/40|#40\u003e\n• feat: plan fail as process fail by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/31|#31\u003e\n• hotfix(planner): plan compaction of all partitions in a single run by \u003c@U08RZQ547LJ\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/26|#26\u003e\n• chore: frontend based high vulnerability fixes by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/49|#49\u003e\n• fix: pull MinIO images from olakego mirror (\u003chttp://quay.io|quay.io\u003e removed them too) by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/50|#50\u003e\n• chore(deps): backend based high vulnerabilities by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/48|#48\u003e\n• chore(deps): frontend high vulnerabilities by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/56|#56\u003e\n• feat: telemetry by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/15|#15\u003e\n• fix: fusion releaser by in \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/64|#64\u003e\n• chore: add claude.md to fusion by in \u003c@U08RZQ547LJ\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/62|#62\u003e\n• chore: merging to master by \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/70|#70\u003e\n• feat: spark optimizer managed by k8s by \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/69|#69\u003e\n• chore: fusion integration tests by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/59|#59\u003e\n• feat(telemetry): report UnknownHostException on catalog creation by \u003c@U0C510Q1PQC\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/63|#63\u003e\n• fix: integration test workflow run only on push to master and all PRs by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/76|#76\u003e\nThanks for the contribution!",
+    "ts": "1792933202.302649",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "utwT7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Fusion v0.2.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Requires olake-helm chart version \u003e= ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "v0.0.31",
+                "style": {
+                  "bold": true,
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-fusion/releases/tag/v0.2.0",
+                "text": "github.com/datazip-inc/olake-fusion/…/v0.2.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(dist): package Prometheus reporter jar in release-bin assembly by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BMJKKJ694"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/24",
+                    "text": "#24"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: cache snapshots by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/20",
+                    "text": "#20"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: pull MinIO images from "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://quay.io",
+                    "text": "quay.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " (Docker Hub repos deleted) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/39",
+                    "text": "#39"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: workflow related changes by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/25",
+                    "text": "#25"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: critical vuln fixes by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/40",
+                    "text": "#40"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: plan fail as process fail by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/31",
+                    "text": "#31"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "hotfix(planner): plan compaction of all partitions in a single run by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08RZQ547LJ"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/26",
+                    "text": "#26"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: frontend based high vulnerability fixes by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/49",
+                    "text": "#49"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: pull MinIO images from olakego mirror ("
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://quay.io",
+                    "text": "quay.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " removed them too) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/50",
+                    "text": "#50"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(deps): backend based high vulnerabilities by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/48",
+                    "text": "#48"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(deps): frontend high vulnerabilities by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/56",
+                    "text": "#56"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: telemetry by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/15",
+                    "text": "#15"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: fusion releaser by in "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/64",
+                    "text": "#64"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: add claude.md to fusion by in "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08RZQ547LJ"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/62",
+                    "text": "#62"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: merging to master by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/70",
+                    "text": "#70"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: spark optimizer managed by k8s by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/69",
+                    "text": "#69"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: fusion integration tests by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/59",
+                    "text": "#59"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(telemetry): report UnknownHostException on catalog creation by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C510Q1PQC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/63",
+                    "text": "#63"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: integration test workflow run only on push to master and all PRs by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/76",
+                    "text": "#76"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "014bae20-195f-45c8-ae43-48c9b7f0d11f",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Helm v0.0.31 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.31|github.com/datazip-inc/olake-helm/…/olake-0.0.31\u003e\n:rocket: Features \u0026 Fixes in this release:\n• fix(helm): default CONTAINER_REGISTRY_BASE to \u003chttp://docker.io|docker.io\u003e by \u003c@U0BMJKKJ694\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/216|#216\u003e\n• feat: configurable CPU/memory resources for all jobs pods via jobProfiles by \u003c@U08CR7HUWDC\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/218|#218\u003e\n• fix(ci): remove chart-releaser temp files before gh-pages checkout by \u003c@U0C7SJL01RS\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/243|#243\u003e\n• chore: adding optimizer management through k8s by \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/229|#229\u003e\n:rotating_light: OLake Go v1.0.2 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake/releases/tag/v1.0.2|github.com/datazip-inc/olake/…/v1.0.2\u003e\n*What’s New*\n• feat: save 2pc metadata state for every sync by \u003c@U0A69TASN7Q\u003e in \u003chttps://github.com/datazip-inc/olake/pull/1302|#1302\u003e\nThanks for the contribution!",
+    "ts": "1792957532.406379",
+    "edited": {
+      "user": "U09BK0WKBQR",
+      "ts": "1792957625.000000"
+    },
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RSAGa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.31 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.31",
+                "text": "github.com/datazip-inc/olake-helm/…/olake-0.0.31"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(helm): default CONTAINER_REGISTRY_BASE to "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://docker.io",
+                    "text": "docker.io"
+                  },
+                  {
+                    "type": "text",
+                    "text": " by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BMJKKJ694"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/216",
+                    "text": "#216"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: configurable CPU/memory resources for all jobs pods via jobProfiles by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08CR7HUWDC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/218",
+                    "text": "#218"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(ci): remove chart-releaser temp files before gh-pages checkout by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C7SJL01RS"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/243",
+                    "text": "#243"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: adding optimizer management through k8s by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/229",
+                    "text": "#229"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v1.0.2 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/releases/tag/v1.0.2",
+                "text": "github.com/datazip-inc/olake/…/v1.0.2"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: save 2pc metadata state for every sync by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0A69TASN7Q"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake/pull/1302",
+                    "text": "#1302"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contri"
+              },
+              {
+                "type": "text",
+                "text": "b"
+              },
+              {
+                "type": "text",
+                "text": "ution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
