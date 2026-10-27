@@ -1,0 +1,220 @@
+[
+  {
+    "client_msg_id": "7dcdcc38-8f4d-4683-8ef7-090155ddfe42",
+    "type": "message",
+    "user": "U0A2YS9H2HW",
+    "text": "Hi everyone! I’ve been using OLake for a while and it’s generally been working well, but I recently ran into an issue with PostgreSQL CDC when updating a primary key. I looked through the code and wanted to share what I found.\n\nWhen updating a primary key through PostgreSQL CDC, OLake leaves the row with the old key in the destination.\n\nFor example:\nCREATE TABLE cdc_test (\nid INTEGER PRIMARY KEY,\nname TEXT\n);\n\nINSERT INTO cdc_test VALUES (1, 'sample');\n\n-- Run after the initial sync\nUPDATE cdc_test SET id = 2 WHERE id = 1;\nExpected: only the row with id = 2 remains.\nActual: both id = 1 and id = 2 remain.\n\nThe following code paths appear to explain this:\n\n• pkg/waljs/pgoutput.go: emitUpdate converts NewTuple and emits a single \"update\" event. OldTuple is used to recover unchanged TOAST values, but not to detect primary key changes or emit a delete for the old key.\n• drivers/abstract/cdc.go: _olake_id is generated from the primary key values in change.Data. Updating the key produces a new ID, so the update cannot remove the row with the old ID.\n• tests/postgres/postgres_util_test.go: the update test does not modify the primary key, col_bigserial, so it does not cover this case.A possible fix would be to compare the old and new primary key values in emitUpdate and emit events in this order:Primary key changed:delete(old key)update(new row)\nPrimary key unchanged:\nupdate(new row)\nPostgreSQL’s pgoutput UPDATE message includes the old key when the primary key changes under REPLICA IDENTITY DEFAULT. The implementation would also need to handle composite keys and the different old-tuple formats associated with replica identity settings.\n\nRegression tests should verify that changing a single or composite primary key removes the old row, while updates that leave the primary key unchanged continue to work.\n\nDoes this analysis and proposed fix make sense? Is there an existing issue or planned fix for this?",
+    "ts": "1793092503.397439",
+    "thread_ts": "1793092503.397439",
+    "reply_count": 2,
+    "reply_users": [
+      "U082APQJZNC",
+      "U08S5BR47GA"
+    ],
+    "replies": [
+      {
+        "user": "U082APQJZNC",
+        "ts": "1793092631.040479"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1793109680.372569"
+      }
+    ],
+    "latest_reply": "1793109680.372569",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 3,
+        "users": [
+          "U08S5BR47GA",
+          "U08CR7HUWDC",
+          "U0820LSJZRP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "F2HR5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone! I’ve been using OLake for a while and it’s generally been working well, but I recently ran into an issue with PostgreSQL CDC when updating a primary key. I looked through the code and wanted to share what I found.\n\nWhen updating a primary key through PostgreSQL CDC, OLake leaves the row with the old key in the destination.\n\nFor example:\nCREATE TABLE cdc_test (\nid INTEGER PRIMARY KEY,\nname TEXT\n);\n\nINSERT INTO cdc_test VALUES (1, 'sample');\n\n-- Run after the initial sync\nUPDATE cdc_test SET id = 2 WHERE id = 1;\nExpected: only the row with id = 2 remains.\nActual: both id = 1 and id = 2 remain.\n\nThe following code paths appear to explain this:\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "pkg/waljs/pgoutput.go: emitUpdate converts NewTuple and emits a single \"update\" event. OldTuple is used to recover unchanged TOAST values, but not to detect primary key changes or emit a delete for the old key."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "drivers/abstract/cdc.go: _olake_id is generated from the primary key values in change.Data. Updating the key produces a new ID, so the update cannot remove the row with the old ID."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "tests/postgres/postgres_util_test.go: the update test does not modify the primary key, col_bigserial, so it does not cover this case.A possible fix would be to compare the old and new primary key values in emitUpdate and emit events in this order:Primary key changed:delete(old key)update(new row)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nPrimary key unchanged:\nupdate(new row)\nPostgreSQL’s pgoutput UPDATE message includes the old key when the primary key changes under REPLICA IDENTITY DEFAULT. The implementation would also need to handle composite keys and the different old-tuple formats associated with replica identity settings.\n\nRegression tests should verify that changing a single or composite primary key removes the old row, while updates that leave the primary key unchanged continue to work.\n\nDoes this analysis and proposed fix make sense? Is there an existing issue or planned fix for this?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/8a6674b8d9812b1eb4fc7a8481af1b44.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "osamu",
+      "real_name": "osamu",
+      "display_name": "osamu",
+      "team": "T0820LGJGRF",
+      "name": "nishimoto-osamu",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "56adf298-63e3-4ee9-add0-04729e9753af",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U08CR7HUWDC\u003e",
+    "ts": "1793092631.040479",
+    "thread_ts": "1793092503.397439",
+    "parent_user_id": "U0A2YS9H2HW",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "a1HNC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08CR7HUWDC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "edeb543c-0f94-48b8-bac6-d69e99c4f3d0",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "Hi \u003c@U0A2YS9H2HW\u003e, thanks for the detailed report. We checked it and confirmed the issue. You can go ahead and raise a PR for the fix.\nThis problem probably exists in MySQL CDC as well, since binlog UPDATE events also carry before and after images. It would be appreciated if you could cover that in this PR too. Also make sure the interop feature doesn’t break with these changes, since it may be affected.",
+    "ts": "1793109680.372569",
+    "thread_ts": "1793092503.397439",
+    "parent_user_id": "U0A2YS9H2HW",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tnPCr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A2YS9H2HW"
+              },
+              {
+                "type": "text",
+                "text": ", thanks for the detailed report. We checked it and confirmed the issue. You can go ahead and raise a PR for the fix.\nThis problem probably exists in MySQL CDC as well, since binlog UPDATE events also carry before and after images. It would be appreciated if you could cover that in this PR too. Also make sure the interop feature doesn’t break with these changes, since it may be affected."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
