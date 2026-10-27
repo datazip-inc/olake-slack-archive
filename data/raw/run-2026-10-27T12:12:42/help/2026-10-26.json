@@ -1,0 +1,578 @@
+[
+  {
+    "client_msg_id": "9a8c0478-6062-4bce-80a4-fa480026a277",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "hii team, any change recently on stream addition triggering a clear destination for streams  apart from the ones being added/removed? example\ni have a job, mysql src, dest s3\nit already syncs s1,s2...s9\ni add s10, i am prompted that a bunch of other tables will also have their clear dest get ran, why so",
+    "ts": "1793014163.128909",
+    "thread_ts": "1793014163.128909",
+    "reply_count": 4,
+    "reply_users": [
+      "U08CR7HUWDC",
+      "U09KQFGF7J4"
+    ],
+    "replies": [
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1793014213.084909"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1793015309.457779"
+      },
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1793038322.753389"
+      },
+      {
+        "user": "U09KQFGF7J4",
+        "ts": "1793081845.973329"
+      }
+    ],
+    "latest_reply": "1793081845.973329",
+    "files": [
+      {
+        "id": "F0CC3C9NMAS",
+        "created": 1793014136,
+        "timestamp": 1793014136,
+        "name": "Screenshot 2026-10-26 at 4.58.51 PM.png",
+        "title": "Screenshot 2026-10-26 at 4.58.51 PM.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09KQFGF7J4",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 299041,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CC3C9NMAS/screenshot_2026-10-26_at_4.58.51___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CC3C9NMAS/download/screenshot_2026-10-26_at_4.58.51___pm.png",
+        "original_h": 1606,
+        "original_w": 1412,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CC3C9NMAS-206d86f461/screenshot_2026-10-26_at_4.58.51___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CC3C9NMAS-206d86f461/screenshot_2026-10-26_at_4.58.51___pm_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CC3C9NMAS-206d86f461/screenshot_2026-10-26_at_4.58.51___pm_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CC3C9NMAS-206d86f461/screenshot_2026-10-26_at_4.58.51___pm_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 317,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CC3C9NMAS-206d86f461/screenshot_2026-10-26_at_4.58.51___pm_480.png",
+        "thumb_480_w": 422,
+        "thumb_480_h": 480,
+        "thumb_720": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CC3C9NMAS-206d86f461/screenshot_2026-10-26_at_4.58.51___pm_720.png",
+        "thumb_720_w": 633,
+        "thumb_720_h": 720,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CC3C9NMAS/screenshot_2026-10-26_at_4.58.51___pm.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CC3C9NMAS-6b0d8c06ca",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U081MTF4GHZ"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LBzJV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hii team, any change recently on stream addition triggering a clear destination for streams  apart from the ones being added/removed? example\ni have a job, mysql src, dest s3\nit already syncs s1,s2...s9\ni add s10, i am prompted that a bunch of other tables will also have their clear dest get ran, why so"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "890f782d-fdc6-4238-9d2a-5bc9886c90a4",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "src ver: v0.7.5",
+    "ts": "1793014213.084909",
+    "thread_ts": "1793014163.128909",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BrzHk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "src ver: v0.7.5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ccb3fabb-60c9-4aa3-ab94-27104d9fc2f6",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "\u003c@U09KQFGF7J4\u003e we are looking into this, will update you on this soon",
+    "ts": "1793015309.457779",
+    "thread_ts": "1793014163.128909",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jZCnN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": " we are looking into this, will update you on this soon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8146e6be-775e-4a0b-a14b-fbc50ab83286",
+    "type": "message",
+    "user": "U0A6088AMM3",
+    "text": "Hi team :wave: Found what looks like a shutdown-ordering bug in the Kafka connector's offset commit. It makes a sync fail after its data has already been committed, and leaves Kafka offsets un-advanced. Happens intermittently — roughly when a flush runs long. Logs attached.\n\nSetup\n• OLake v0.10.1 (olakego/source-kafka:v0.10.1), OLake UI + workers on GKE (olake-helm)\n• Source: Kafka, single topic, consumer group olake-consumer-group-1790346688, job runs every ~4 minutes\n• Destination: Iceberg via REST catalog (Lakekeeper 0.10.4)\n• Storage: a GCS bucket accessed through its S3-compatible interop endpoint — s3_endpoint=\u003chttps://storage.googleapis.com|storage.googleapis.com\u003e, path-style access, HMAC access key + secret (the Lakekeeper warehouse is configured with flavor: s3-compat). So every write goes out over the S3 API to GCS rather than to real S3.\n• JAVA_TOOL_OPTIONS=-Xmx3g on the sync pod\n\nThe failing run (00:08 UTC)\n00:09:39  pod scheduled (it waited 99s for capacity)\n00:09:52  Iceberg JVM starts\n00:10-11  5 batches / 7,281 records written\n00:11:18  Iceberg snapshot 3220331503359002232 COMMITTED (MergeAppend)   \u0026lt;- data landed\n00:11:32  \"Successfully committed ...\" / staged snapshot id\n00:11:34  reader group_01M5TRP5WFS3...: post cdc: generation id: 59933\n00:11:35  \"Monitoring stopped\"                                           \u0026lt;- ctx already cancelled\n00:11:36  retry attempt[1], retrying after 60.00 seconds due to err:\n          post cdc error: commit failed for reader group_01M5TRP5WFS3...: context canceled\n00:11:43  SIGKILL -\u0026gt; exit 137\n\nWhy I think it's a race, not an environment issue\n\"Monitoring stopped\" is emitted by StatsLogger (utils/logger/logger.go:148) only on ctx.Done() — so the context was already cancelled before the offset commit was attempted. The commit at drivers/kafka/internal/cdc.go:218 uses that same sync context:\n\n_, generationID := reader.GroupMetadata()\nlogger.Debugf(\"reader %s post cdc: generation id: %d\", readerID, generationID)\n\nif err := reader.CommitRecords(ctx, messages...); err != nil {   // ctx already cancelled\n    return fmt.Errorf(\"commit failed for reader %s: %w\", readerID, err)\n}\nlogger.Infof(\"committed %d partitions for reader %s\", len(messages), readerID)\n\nThen the generic retry wrapper (utils/utils.go:499) sleeps 60 s and retries with the same dead context, which can never succeed. The process is still in that sleep when the grace period expires, so it ends as SIGKILL / exit 137.\n\nA healthy run of the same job shows the opposite ordering — commit completes before teardown:\n12:25:49  committed 1 partitions for reader group_01M5W2K2F50Y6PQRFVK3K7S0F6\n12:25:49  updated global state with consumer_group_id: olake-consumer-group-1790346688 for 1 streams\n12:25:58  Iceberg snapshot 3547349163519303328 committed\n12:26:10  Monitoring stopped\n\nThe difference seems to be how long the Iceberg flush takes. In the failing run the commit path took ~13 s (00:11:18 → 00:11:32); writing to GCS over the S3 interop endpoint is not the fastest path, so a slow flush is easy to hit here. When it runs long, teardown wins the race.\n\nImpact\nThe Iceberg snapshot is committed but the Kafka offsets are not, so the next run re-reads those records. Depending on the stream's append/upsert setting that's either duplicates in the destination or extra dedupe work. The run is also reported as failed despite its data having landed, which makes the job look unhealthy when it partly isn't.",
+    "ts": "1793018777.124819",
+    "thread_ts": "1793018777.124819",
+    "reply_count": 7,
+    "reply_users": [
+      "U0817E9CGRM",
+      "U08CR7HUWDC",
+      "U0A6088AMM3"
+    ],
+    "replies": [
+      {
+        "user": "U08CR7HUWDC",
+        "ts": "1793019889.626179"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1793090105.719299"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1793091851.590169"
+      },
+      {
+        "user": "U0A6088AMM3",
+        "ts": "1793094169.812339"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1793094232.619559"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1793095175.368909"
+      },
+      {
+        "user": "U0817E9CGRM",
+        "ts": "1793096744.907839"
+      }
+    ],
+    "latest_reply": "1793096744.907839",
+    "files": [
+      {
+        "id": "F0CD09M59EU",
+        "created": 1793018686,
+        "timestamp": 1793018686,
+        "name": "job-141-logs-2026-10-26-00-09-44.tar.gz",
+        "title": "job-141-logs-2026-10-26-00-09-44.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0A6088AMM3",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 6197,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CD09M59EU/job-141-logs-2026-10-26-00-09-44.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CD09M59EU/download/job-141-logs-2026-10-26-00-09-44.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CD09M59EU/job-141-logs-2026-10-26-00-09-44.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CD09M59EU-3af41ec91e",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sI5vp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi team "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": " Found what looks like a shutdown-ordering bug in the Kafka connector's offset commit. It makes a sync fail after its data has already been committed, and leaves Kafka offsets un-advanced. Happens intermittently — roughly when a flush runs long. Logs attached.\n\nSetup\n• OLake v0.10.1 (olakego/source-kafka:v0.10.1), OLake UI + workers on GKE (olake-helm)\n• Source: Kafka, single topic, consumer group olake-consumer-group-1790346688, job runs every ~4 minutes\n• Destination: Iceberg via REST catalog (Lakekeeper 0.10.4)\n• Storage: a GCS bucket accessed through its S3-compatible interop endpoint — s3_endpoint="
+              },
+              {
+                "type": "link",
+                "url": "https://storage.googleapis.com",
+                "text": "storage.googleapis.com"
+              },
+              {
+                "type": "text",
+                "text": ", path-style access, HMAC access key + secret (the Lakekeeper warehouse is configured with flavor: s3-compat). So every write goes out over the S3 API to GCS rather than to real S3.\n• JAVA_TOOL_OPTIONS=-Xmx3g on the sync pod\n\nThe failing run (00:08 UTC)\n00:09:39  pod scheduled (it waited 99s for capacity)\n00:09:52  Iceberg JVM starts\n00:10-11  5 batches / 7,281 records written\n00:11:18  Iceberg snapshot 3220331503359002232 COMMITTED (MergeAppend)   \u003c- data landed\n00:11:32  \"Successfully committed ...\" / staged snapshot id\n00:11:34  reader group_01M5TRP5WFS3...: post cdc: generation id: 59933\n00:11:35  \"Monitoring stopped\"                                           \u003c- ctx already cancelled\n00:11:36  retry attempt[1], retrying after 60.00 seconds due to err:\n          post cdc error: commit failed for reader group_01M5TRP5WFS3...: context canceled\n00:11:43  SIGKILL -\u003e exit 137\n\nWhy I think it's a race, not an environment issue\n\"Monitoring stopped\" is emitted by StatsLogger (utils/logger/logger.go:148) only on ctx.Done() — so the context was already cancelled before the offset commit was attempted. The commit at drivers/kafka/internal/cdc.go:218 uses that same sync context:\n\n_, generationID := reader.GroupMetadata()\nlogger.Debugf(\"reader %s post cdc: generation id: %d\", readerID, generationID)\n\nif err := reader.CommitRecords(ctx, messages...); err != nil {   // ctx already cancelled\n    return fmt.Errorf(\"commit failed for reader %s: %w\", readerID, err)\n}\nlogger.Infof(\"committed %d partitions for reader %s\", len(messages), readerID)\n\nThen the generic retry wrapper (utils/utils.go:499) sleeps 60 s and retries with the same dead context, which can never succeed. The process is still in that sleep when the grace period expires, so it ends as SIGKILL / exit 137.\n\nA healthy run of the same job shows the opposite ordering — commit completes before teardown:\n12:25:49  committed 1 partitions for reader group_01M5W2K2F50Y6PQRFVK3K7S0F6\n12:25:49  updated global state with consumer_group_id: olake-consumer-group-1790346688 for 1 streams\n12:25:58  Iceberg snapshot 3547349163519303328 committed\n12:26:10  Monitoring stopped\n\nThe difference seems to be how long the Iceberg flush takes. In the failing run the commit path took ~13 s (00:11:18 → 00:11:32); writing to GCS over the S3 interop endpoint is not the fastest path, so a slow flush is easy to hit here. When it runs long, teardown wins the race.\n\nImpact\nThe Iceberg snapshot is committed but the Kafka offsets are not, so the next run re-reads those records. Depending on the stream's append/upsert setting that's either duplicates in the destination or extra dedupe work. The run is also reported as failed despite its data having landed, which makes the job look unhealthy when it partly isn't."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-12-30/10205672920838_9348da909b29f70dd9f5_72.png",
+      "first_name": "Avinash",
+      "real_name": "Avinash Kumar 2",
+      "display_name": "Avinash Kumar 2",
+      "team": "T0820LGJGRF",
+      "name": "avinash.kumar2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 3
+  },
+  {
+    "client_msg_id": "a770d7fe-600f-4037-b5a4-aa166c530eea",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U0A6088AMM3\u003e,\nThanks for the logs! There shouldn’t be any duplicate data, as Kafka offsets are committed with the Iceberg snapshot (2PC). The next run will recover and align offsets without re-reading records.\nThe pod received a SIGTERM and was then killed with exit code 137, possibly due to memory issue,\nCould you please check the memory usage of the pod around the time of failure and let us know?",
+    "ts": "1793019889.626179",
+    "thread_ts": "1793018777.124819",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/D8tr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ",\nThanks for the logs! There shouldn’t be any duplicate data, as Kafka offsets are committed with the Iceberg snapshot (2PC). The next run will recover and align offsets without re-reading records.\nThe pod received a SIGTERM and was then killed with exit code 137, possibly due to memory issue,\nCould you please check the memory usage of the pod around the time of failure and let us know?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e15bb47a-803e-4f50-a69b-0c82103ef888",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hey \u003c@U09KQFGF7J4\u003e, We’ve released OLake UI v0.8.1 and OLake Connector v1.1.0. Please upgrade to these versions and let us know if they resolve your issue.",
+    "ts": "1793038322.753389",
+    "thread_ts": "1793014163.128909",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6T1tj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U09KQFGF7J4"
+              },
+              {
+                "type": "text",
+                "text": ", We’ve released OLake UI v0.8.1 and OLake Connector v1.1.0. Please upgrade to these versions and let us know if they resolve your issue."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "16081e0a-0a95-47c2-9486-16fda932c0f2",
+    "type": "message",
+    "user": "U09KQFGF7J4",
+    "text": "\u003c@U09GW6Z3PPG\u003e",
+    "ts": "1793081845.973329",
+    "thread_ts": "1793014163.128909",
+    "parent_user_id": "U09KQFGF7J4",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zzWSd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09GW6Z3PPG"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-10-05/9642283017650_7a5b9dcb3f6a7a91abd3_72.png",
+      "first_name": "Anirudh",
+      "real_name": "Anirudh Anirudh",
+      "display_name": "Anirudh Anirudh",
+      "team": "T0820LGJGRF",
+      "name": "anirudh.anirudh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
