@@ -1,0 +1,56 @@
+[
+  {
+    "client_msg_id": "4b79e4df-8439-40b9-a2b5-75d71a1de208",
+    "type": "message",
+    "user": "U0BF1NS2UJ0",
+    "text": "Hi \u003c@U0A6088AMM3\u003e, is your issue fixed now? Do update us.",
+    "ts": "1793255538.203339",
+    "thread_ts": "1793018777.124819",
+    "parent_user_id": "U0A6088AMM3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gWWtc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6088AMM3"
+              },
+              {
+                "type": "text",
+                "text": ", is your issue fixed now? Do update us."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-07-02/11504750021509_6b74b4d6bda37a3f4865_72.png",
+      "first_name": "Ashi",
+      "real_name": "Ashi Sharma",
+      "display_name": "Ashi Sharma",
+      "team": "T0820LGJGRF",
+      "name": "ashi",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
