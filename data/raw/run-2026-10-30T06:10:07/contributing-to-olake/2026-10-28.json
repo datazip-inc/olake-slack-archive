@@ -1,0 +1,451 @@
+[
+  {
+    "client_msg_id": "738bd846-2500-4b87-a334-5f739ddb2e2a",
+    "type": "message",
+    "user": "U0A2YS9H2HW",
+    "text": "Thanks for confirming! Unfortunately, I don’t have the capacity to take on the fix or testing at the moment. Could your team handle the PostgreSQL and MySQL fixes and the interop validation? I hope the code analysis above helps.",
+    "ts": "1793180566.442809",
+    "thread_ts": "1793092503.397439",
+    "parent_user_id": "U0A2YS9H2HW",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1diah",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks for confirming! Unfortunately, I don’t have the capacity to take on the fix or testing at the moment. Could your team handle the PostgreSQL and MySQL fixes and the interop validation? I hope the code analysis above helps."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/8a6674b8d9812b1eb4fc7a8481af1b44.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "osamu",
+      "real_name": "osamu",
+      "display_name": "osamu",
+      "team": "T0820LGJGRF",
+      "name": "nishimoto-osamu",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "d2c34dc7-691e-4878-92c5-3553837496ef",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U0A2YS9H2HW\u003e. In that case, could you create an issue on the OLake repo (\u003chttps://github.com/datazip-inc/olake/issues|github.com/datazip-inc/olake/issues\u003e)? That way someone from the community can pick it up.\n\nAlso, could you let us know if this is a blocker for you, so we can prioritize it accordingly?",
+    "ts": "1793181429.424969",
+    "thread_ts": "1793092503.397439",
+    "parent_user_id": "U0A2YS9H2HW",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U082APQJZNC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FYaIf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A2YS9H2HW"
+              },
+              {
+                "type": "text",
+                "text": ". In that case, could you create an issue on the OLake repo ("
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues",
+                "text": "github.com/datazip-inc/olake/issues"
+              },
+              {
+                "type": "text",
+                "text": ")? That way someone from the community can pick it up.\n\nAlso, could you let us know if this is a blocker for you, so we can prioritize it accordingly?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "df75fc0d-fc06-4f07-b372-2aa653e575ea",
+    "type": "message",
+    "user": "U0CA5QHRGKE",
+    "text": "Hii all, i recently participated in the hacktober x olake event and wanted to start contributing to the repo. Are there any issues that have Bounty on it, that I should start working on and is there any position available?",
+    "ts": "1793181467.940479",
+    "thread_ts": "1793181467.940479",
+    "reply_count": 5,
+    "reply_users": [
+      "U09BK0WKBQR",
+      "U0CA5QHRGKE"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1793181855.913359"
+      },
+      {
+        "user": "U0CA5QHRGKE",
+        "ts": "1793182242.428199"
+      },
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1793182590.290729"
+      },
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1793273795.489399"
+      },
+      {
+        "user": "U0CA5QHRGKE",
+        "ts": "1793298611.694609"
+      }
+    ],
+    "latest_reply": "1793298611.694609",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6rflg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hii all, i recently participated in the hacktober x olake event and wanted to start contributing to the repo. Are there any issues that have Bounty on it, that I should start working on and is there any position available?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7c3716b16fc6c1ce1510a26dc44e23d4.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "ayush",
+      "real_name": "ayush sawant",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "ayushsawant034",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "0a143fb3-8802-4b4b-afd1-0f18108703ca",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "The bounty issues are oprn for the people who have atleast done 4-5 contributions in the repo. this is because they have a good knowledge of the code base and need less guidance while merging their PR's on time. For now if you want I can point you to some good issues that you can start pick up. Does this sounds good?",
+    "ts": "1793181855.913359",
+    "thread_ts": "1793181467.940479",
+    "parent_user_id": "U0CA5QHRGKE",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sImD8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "The bounty issues are oprn for the people who have atleast done 4-5 contributions in the repo. this is because they have a good knowledge of the code base and need less guidance while merging their PR's on time. For now if you want I can point you to some good issues that you can start pick up. Does this sounds good?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a6acd39a-88a9-4e24-82ca-cbd49809c9f0",
+    "type": "message",
+    "user": "U0CA5QHRGKE",
+    "text": "Yes, sounds good",
+    "ts": "1793182242.428199",
+    "thread_ts": "1793181467.940479",
+    "parent_user_id": "U0CA5QHRGKE",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/v01W",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes, sounds good"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7c3716b16fc6c1ce1510a26dc44e23d4.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "ayush",
+      "real_name": "ayush sawant",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "ayushsawant034",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "cc3dce38-491c-473f-9f15-5eed86b9372f",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "Give me time till EOD will get back to you with some good issues",
+    "ts": "1793182590.290729",
+    "thread_ts": "1793181467.940479",
+    "parent_user_id": "U0CA5QHRGKE",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0817E9CGRM"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TLz7O",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Give me time till EOD will get back to you with some good issues"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "02659d79-5cee-41c8-968e-cb3d3d30dc80",
+    "type": "message",
+    "user": "U0A2YS9H2HW",
+    "text": "I’ve opened the issue here: \u003chttps://github.com/datazip-inc/olake/issues/1363|#1363\u003e, including the reproduction steps and code analysis.\n\nIt’s a blocker for reliable CDC on tables where primary keys can change. Full refresh is a possible workaround, but it adds database load and sync time. Thanks for looking into it!",
+    "ts": "1793253321.491889",
+    "thread_ts": "1793092503.397439",
+    "parent_user_id": "U0A2YS9H2HW",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WZdnm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I’ve opened the issue here: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1363",
+                "text": "#1363"
+              },
+              {
+                "type": "text",
+                "text": ", including the reproduction steps and code analysis.\n\nIt’s a blocker for reliable CDC on tables where primary keys can change. Full refresh is a possible workaround, but it adds database load and sync time. Thanks for looking into it!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/8a6674b8d9812b1eb4fc7a8481af1b44.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+      "first_name": "osamu",
+      "real_name": "osamu",
+      "display_name": "osamu",
+      "team": "T0820LGJGRF",
+      "name": "nishimoto-osamu",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "8da29f54-9d6a-4faa-870c-ec345bb6692b",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U0A2YS9H2HW\u003e, thanks for raising the issue. we will try to prioritize it and assign to someone soon.",
+    "ts": "1793254018.986809",
+    "thread_ts": "1793092503.397439",
+    "parent_user_id": "U0A2YS9H2HW",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tVRt2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A2YS9H2HW"
+              },
+              {
+                "type": "text",
+                "text": ", thanks for raising the issue. we will try to prioritize it and assign to someone soon."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
