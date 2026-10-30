@@ -1,0 +1,117 @@
+[
+  {
+    "client_msg_id": "2dc404a3-bfc4-4afe-9958-05e3ba08fabc",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003chttps://github.com/datazip-inc/olake/issues/1254|github.com/datazip-inc/olake/issues/1254\u003e\n\u003chttps://github.com/datazip-inc/olake/issues/1243|kafka: tls_skip_verify is silently ignored unless an ssl block is also provided · Issue #1243 · data…\u003e\n\u003chttps://github.com/datazip-inc/olake/issues/1131|github.com/datazip-inc/olake/issues/1131\u003e\n\nThese are some issues you can go through and just comment on the one you want to work on.",
+    "ts": "1793273795.489399",
+    "thread_ts": "1793181467.940479",
+    "parent_user_id": "U0CA5QHRGKE",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Uo5Ua",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1254",
+                "text": "github.com/datazip-inc/olake/issues/1254"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1243",
+                "text": "kafka: tls_skip_verify is silently ignored unless an ssl block is also provided · Issue #1243 · data…"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/1131",
+                "text": "github.com/datazip-inc/olake/issues/1131"
+              },
+              {
+                "type": "text",
+                "text": "\n\nThese are some issues you can go through and just comment on the one you want to work on."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f739802c-25c9-4051-b03f-ccc35290abd5",
+    "type": "message",
+    "user": "U0CA5QHRGKE",
+    "text": "Thanks, I will take a look",
+    "ts": "1793298611.694609",
+    "thread_ts": "1793181467.940479",
+    "parent_user_id": "U0CA5QHRGKE",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/2F1l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks, I will take a look"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/7c3716b16fc6c1ce1510a26dc44e23d4.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+      "first_name": "ayush",
+      "real_name": "ayush sawant",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "ayushsawant034",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
