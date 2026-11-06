@@ -1,0 +1,384 @@
+[
+  {
+    "client_msg_id": "7ede4403-d640-435b-94c5-1589f5404fd8",
+    "type": "message",
+    "user": "U0CED0272DP",
+    "text": "Hello,\n\nI wanted to ask about OLake's mapping of MySQL `DECIMAL` columns to `DOUBLE` in Iceberg rather than preserving their precision and scale.\n\nFor example, our MySQL `DECIMAL(18,2)` columns become Iceberg `DOUBLE` columns. This introduces a potential loss of precision for financial data, even though both MySQL and Iceberg support exact decimal types natively.\n\nIs this a deliberate architectural decision, or a current connector limitation? Are there plans to support native Iceberg `DECIMAL` types?",
+    "ts": "1793698454.585819",
+    "thread_ts": "1793698454.585819",
+    "reply_count": 5,
+    "reply_users": [
+      "U0BCLRYDUQK",
+      "U0CED0272DP"
+    ],
+    "replies": [
+      {
+        "user": "U0BCLRYDUQK",
+        "ts": "1793698510.655009"
+      },
+      {
+        "user": "U0BCLRYDUQK",
+        "ts": "1793698511.781049"
+      },
+      {
+        "user": "U0BCLRYDUQK",
+        "ts": "1793698558.102969"
+      },
+      {
+        "user": "U0BCLRYDUQK",
+        "ts": "1793698601.675339"
+      },
+      {
+        "user": "U0CED0272DP",
+        "ts": "1793698700.704129"
+      }
+    ],
+    "latest_reply": "1793698700.704129",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ksWnn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello,\n\nI wanted to ask about OLake's mapping of MySQL "
+              },
+              {
+                "type": "text",
+                "text": "DECIMAL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " columns to "
+              },
+              {
+                "type": "text",
+                "text": "DOUBLE",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in Iceberg rather than preserving their precision and scale.\n\nFor example, our MySQL "
+              },
+              {
+                "type": "text",
+                "text": "DECIMAL(18,2)",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " columns become Iceberg "
+              },
+              {
+                "type": "text",
+                "text": "DOUBLE",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " columns. This introduces a potential loss of precision for financial data, even though both MySQL and Iceberg support exact decimal types natively.\n\nIs this a deliberate architectural decision, or a current connector limitation? Are there plans to support native Iceberg "
+              },
+              {
+                "type": "text",
+                "text": "DECIMAL",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " types?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/38f1b69bc0c481d31d64a9ff5f9501d0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "lew",
+      "real_name": "lew",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "lewis.peckover",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "2c723590-aaeb-4ec8-8975-446395807e8e",
+    "type": "message",
+    "user": "U0BCLRYDUQK",
+    "text": "Yes this will be released soon",
+    "ts": "1793698510.655009",
+    "thread_ts": "1793698454.585819",
+    "parent_user_id": "U0CED0272DP",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0HRTA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes this will be released soon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-24/11435234301522_528c3a3a4d1dc14d66d6_72.png",
+      "first_name": "Mihir",
+      "real_name": "Mihir Narayan",
+      "display_name": "Mihir Narayan",
+      "team": "T0820LGJGRF",
+      "name": "mihir",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "c4b61669-7c78-4fbf-9390-de1b6f53bdc9",
+    "type": "message",
+    "user": "U0BCLRYDUQK",
+    "text": "\u003chttps://github.com/datazip-inc/olake/pull/1374|github.com/datazip-inc/olake/pull/1374\u003e",
+    "ts": "1793698511.781049",
+    "thread_ts": "1793698454.585819",
+    "parent_user_id": "U0CED0272DP",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BgOJh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1374",
+                "text": "github.com/datazip-inc/olake/pull/1374"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-24/11435234301522_528c3a3a4d1dc14d66d6_72.png",
+      "first_name": "Mihir",
+      "real_name": "Mihir Narayan",
+      "display_name": "Mihir Narayan",
+      "team": "T0820LGJGRF",
+      "name": "mihir",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "cb2fc6c3-10b8-4c76-b8ce-b9f938b34f1d",
+    "type": "message",
+    "user": "U0BCLRYDUQK",
+    "text": "We are adding support of adding decimal type in destination in the above PR",
+    "ts": "1793698558.102969",
+    "thread_ts": "1793698454.585819",
+    "parent_user_id": "U0CED0272DP",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "count": 1,
+        "users": [
+          "U0CED0272DP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MGDqP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "We are adding support of adding decimal type in destination in the above PR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-24/11435234301522_528c3a3a4d1dc14d66d6_72.png",
+      "first_name": "Mihir",
+      "real_name": "Mihir Narayan",
+      "display_name": "Mihir Narayan",
+      "team": "T0820LGJGRF",
+      "name": "mihir",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "0620cecd-ef92-4674-b38a-293f77f5bd5e",
+    "type": "message",
+    "user": "U0BCLRYDUQK",
+    "text": "\u003c@U0CED0272DP\u003e I will update in this thread as well when this is released",
+    "ts": "1793698601.675339",
+    "thread_ts": "1793698454.585819",
+    "parent_user_id": "U0CED0272DP",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Kwv9E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0CED0272DP"
+              },
+              {
+                "type": "text",
+                "text": " I will update in this thread as well when this is released"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-06-24/11435234301522_528c3a3a4d1dc14d66d6_72.png",
+      "first_name": "Mihir",
+      "real_name": "Mihir Narayan",
+      "display_name": "Mihir Narayan",
+      "team": "T0820LGJGRF",
+      "name": "mihir",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6b0e00a3-db96-4c6f-b5c7-87b49b016cf6",
+    "type": "message",
+    "user": "U0CED0272DP",
+    "text": "that's great news, thanks",
+    "ts": "1793698700.704129",
+    "thread_ts": "1793698454.585819",
+    "parent_user_id": "U0CED0272DP",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ucKAj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "that's great news, thanks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/38f1b69bc0c481d31d64a9ff5f9501d0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "lew",
+      "real_name": "lew",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "lewis.peckover",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
