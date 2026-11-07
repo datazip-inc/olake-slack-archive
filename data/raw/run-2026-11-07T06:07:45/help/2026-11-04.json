@@ -1,0 +1,421 @@
+[
+  {
+    "client_msg_id": "d44f6699-2562-44f3-9900-99f5ad7c03f0",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "Hi everyone!\nI’ve noticed that several complex type (`jsonb`, `text[]`) are replicated by olake as `string`- is there anything to be done about that? i.e. have `jsonb` replicated as `variant` and `text[]` replicated as `list\u0026lt;string\u0026gt;`?",
+    "ts": "1793795890.072239",
+    "thread_ts": "1793795890.072239",
+    "reply_count": 4,
+    "reply_users": [
+      "U08S5BR47GA",
+      "U0CA4S2GS4B"
+    ],
+    "replies": [
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1793797244.199049"
+      },
+      {
+        "user": "U0CA4S2GS4B",
+        "ts": "1793798807.001159"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1793799067.031019"
+      },
+      {
+        "user": "U0CA4S2GS4B",
+        "ts": "1793799548.285559"
+      }
+    ],
+    "latest_reply": "1793799548.285559",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d33m1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi everyone!\nI’ve noticed that several complex type ("
+              },
+              {
+                "type": "text",
+                "text": "jsonb",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "text",
+                "text": "text[]",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ") are replicated by olake as "
+              },
+              {
+                "type": "text",
+                "text": "string",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "- is there anything to be done about that? i.e. have "
+              },
+              {
+                "type": "text",
+                "text": "jsonb",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " replicated as "
+              },
+              {
+                "type": "text",
+                "text": "variant",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and "
+              },
+              {
+                "type": "text",
+                "text": "text[]",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " replicated as "
+              },
+              {
+                "type": "text",
+                "text": "list\u003cstring\u003e",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "1122a66c-df93-4ba2-94b3-00728a285f6f",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "Hi \u003c@U0CA4S2GS4B\u003e, this is expected behaviour right now. Complex Postgres types like `jsonb` ,`text[]`, etc. are written as strings. The full source-to-destination type mapping is here: \u003chttps://olake.io/docs/connectors/postgres/#data-type-mapping|olake.io/docs/connectors/postgres#…\u003e\n\n\nthe variant support is on our roadmap and will be releasing support for it in coming months. You can create a issue for the same on olake repo as well\n\u003chttps://github.com/datazip-inc/olake/issues|github.com/datazip-inc/olake/issues\u003e",
+    "ts": "1793797244.199049",
+    "thread_ts": "1793795890.072239",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake Postgres Connector: Sync Modes and CDC | OLake",
+        "id": 1,
+        "title": "OLake Postgres Connector: Sync Modes and CDC | OLake",
+        "title_link": "https://olake.io/docs/connectors/postgres/#data-type-mapping",
+        "text": "Learn to configure OLake Postgres Connector for fast full refresh, incremental sync, and CDC. Tips on chunking, setup, and troubleshooting errors included.",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/connectors/postgres/#data-type-mapping",
+        "original_url": "https://olake.io/docs/connectors/postgres/#data-type-mapping",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kumOo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0CA4S2GS4B"
+              },
+              {
+                "type": "text",
+                "text": ", this is expected behaviour right now. Complex Postgres types like "
+              },
+              {
+                "type": "text",
+                "text": "jsonb",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ,"
+              },
+              {
+                "type": "text",
+                "text": "text[]",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", etc. are written as strings. The full source-to-destination type mapping is here: "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/connectors/postgres/#data-type-mapping",
+                "text": "olake.io/docs/connectors/postgres#…"
+              },
+              {
+                "type": "text",
+                "text": "\n\n\nthe variant support is on our roadmap and will be releasing support for it in coming months. You can create a issue for the same on olake repo as well\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues",
+                "text": "github.com/datazip-inc/olake/issues"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "77e4f729-70a4-4cd0-b253-7d3338318c7a",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "\u003chttps://github.com/datazip-inc/olake/issues/802|github.com/datazip-inc/olake/issues/802\u003e - there’s this open issue, which covers (among other things) the complex type string fallback. There was also a PR fixing that issue, but it was closed without merging.",
+    "ts": "1793798807.001159",
+    "thread_ts": "1793795890.072239",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LCGev",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues/802",
+                "text": "github.com/datazip-inc/olake/issues/802"
+              },
+              {
+                "type": "text",
+                "text": " - there’s this open issue, which covers (among other things) the complex type string fallback. There was also a PR fixing that issue, but it was closed without merging."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "42bbc694-fdee-446a-ad0f-bbdea183e246",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "\u003c@U0CA4S2GS4B\u003e , we will pick this issue in coming months, you can keep a track from here as well as, we'll update you once it's released.",
+    "ts": "1793799067.031019",
+    "thread_ts": "1793795890.072239",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H8UXb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0CA4S2GS4B"
+              },
+              {
+                "type": "text",
+                "text": " , we will pick this issue in coming months, you can keep a track from here as well as, we'll update you once it's released."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a90a1772-ca11-4d78-8a3a-d0aeef0b0a16",
+    "type": "message",
+    "user": "U0CA4S2GS4B",
+    "text": "thanks!",
+    "ts": "1793799548.285559",
+    "thread_ts": "1793795890.072239",
+    "parent_user_id": "U0CA4S2GS4B",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S5BR47GA"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OJlya",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12350929704258_2934402a8a9671f16cb6_72.png",
+      "first_name": "Ittai",
+      "real_name": "Ittai Dafner",
+      "display_name": "Ittai Dafner",
+      "team": "T0820LGJGRF",
+      "name": "dafner",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
