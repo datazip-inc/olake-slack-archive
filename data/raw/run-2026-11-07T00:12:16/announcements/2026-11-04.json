@@ -1,0 +1,418 @@
+[
+  {
+    "client_msg_id": "cd92dbc6-8d16-49ef-a60b-ab1ac280112c",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake UI v0.9.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.9.0|github.com/datazip-inc/olake-ui/…/v0.9.0\u003e\n*What’s New*\n• ci: require approval before running integration tests on PRs by \u003c@U0C7SJL01RS\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/519|#519\u003e\n• feat: GitOps for sources, destinations, jobs, and streams by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/423|#423\u003e\n• feat: file-based GitOps watcher for local and Docker Compose by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/424|#424\u003e\n• feat(gitops): external secret references in source and destination configs by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/508|#508\u003e\n:rotating_light: OLake Worker v0.5.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/v0.5.0|github.com/datazip-inc/olake-helm/…/v0.5.0\u003e\n*What’s New*\n• ci(integration-test): require approval before running integration tests on PRs by \u003c@U0C7SJL01RS\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/265|#265\u003e\n• feat: helm gitops support by \u003c@U08S0TP9R3P\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/198|#198\u003e\n\n:books: *Documentation*\n• *GitOps Docker Compose:* \u003chttps://olake.io/docs/install/gitops/docker/|Guide\u003e\n• *GitOps Kubernetes:* \u003chttps://olake.io/docs/install/gitops/kubernetes/|Guide\u003e\nThanks for the contribution!",
+    "ts": "1793862256.068389",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake GitOps with Docker Compose | OLake",
+        "id": 1,
+        "title": "OLake GitOps with Docker Compose | OLake",
+        "title_link": "https://olake.io/docs/install/gitops/docker/",
+        "text": "Define sources, destinations, jobs, and streams as JSON files. OLake UI on Docker Compose watches the folder and keeps those objects in sync.",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/gitops/docker/",
+        "original_url": "https://olake.io/docs/install/gitops/docker/",
+        "blocks": null
+      },
+      {
+        "fallback": "OLake: OLake GitOps with Kubernetes | OLake",
+        "id": 2,
+        "title": "OLake GitOps with Kubernetes | OLake",
+        "title_link": "https://olake.io/docs/install/gitops/kubernetes/",
+        "text": "Manage OLake Go sources, destinations, jobs and streams as labelled Kubernetes objects, without using the OLake UI.",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/install/gitops/kubernetes/",
+        "original_url": "https://olake.io/docs/install/gitops/kubernetes/",
+        "blocks": null
+      }
+    ],
+    "edited": {
+      "user": "U09BK0WKBQR",
+      "ts": "1793862383.000000"
+    },
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "rocket",
+        "count": 1,
+        "users": [
+          "U0820LSJZRP"
+        ]
+      },
+      {
+        "name": "raised_hands",
+        "count": 1,
+        "users": [
+          "U0CED0272DP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dWsL1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.9.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.9.0",
+                "text": "github.com/datazip-inc/olake-ui/…/v0.9.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ci: require approval before running integration tests on PRs by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C7SJL01RS"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/519",
+                    "text": "#519"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: GitOps for sources, destinations, jobs, and streams by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/423",
+                    "text": "#423"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: file-based GitOps watcher for local and Docker Compose by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/424",
+                    "text": "#424"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(gitops): external secret references in source and destination configs by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/508",
+                    "text": "#508"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Worker v0.5.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/v0.5.0",
+                "text": "github.com/datazip-inc/olake-helm/…/v0.5.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ci(integration-test): require approval before running integration tests on PRs by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C7SJL01RS"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/265",
+                    "text": "#265"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: helm gitops support by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S0TP9R3P"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/198",
+                    "text": "#198"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "books",
+                "unicode": "1f4da"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "Documentation",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GitOps Docker Compose:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/install/gitops/docker/",
+                    "text": "Guide"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GitOps Kubernetes:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/install/gitops/kubernetes/",
+                    "text": "Guide"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
