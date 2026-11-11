@@ -1,0 +1,67 @@
+[
+  {
+    "client_msg_id": "fcb4bc5e-9fc2-42db-9ece-e9b28e788cb3",
+    "type": "message",
+    "user": "U0CA1UGBSTV",
+    "text": "Hi \u003c@U09BK0WKBQR\u003e, I’ve opened the PR for #1131 (S3 same-second incremental cursor bug): \u003chttps://github.com/datazip-inc/olake/pull/1382|github.com/datazip-inc/olake/pull/1382\u003e\n\nThe fix uses \u0026gt;= on the cursor and keeps track of keys already read in that second, so they aren’t synced twice. I also had to change the abstract incremental layer, because since #1302 a same-second sync was hitting the recovery path and skipping the read. The validation video is in the PR. I’ve also left an open question there about whether this needs a state version bump. Could you take a look when you get time? Thanks!",
+    "ts": "1794288800.639029",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CeWKG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": ", I’ve opened the PR for #1131 (S3 same-second incremental cursor bug): "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/pull/1382",
+                "text": "github.com/datazip-inc/olake/pull/1382"
+              },
+              {
+                "type": "text",
+                "text": "\n\nThe fix uses \u003e= on the cursor and keeps track of keys already read in that second, so they aren’t synced twice. I also had to change the abstract incremental layer, because since #1302 a same-second sync was hitting the recovery path and skipping the read. The validation video is in the PR. I’ve also left an open question there about whether this needs a state version bump. Could you take a look when you get time? Thanks!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider",
+        "block_id": "1JDDm"
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-10-19/12376613373840_8b7bd3607421f93c3a02_72.jpg",
+      "first_name": "Shreeram",
+      "real_name": "Shreeram M",
+      "display_name": "Sea",
+      "team": "T0820LGJGRF",
+      "name": "shreerammuduvil",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
