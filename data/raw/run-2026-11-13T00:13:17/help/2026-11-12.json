@@ -1,0 +1,1180 @@
+[
+  {
+    "client_msg_id": "625f7bf4-178a-4145-aa17-8a842ac09492",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nI am not getting few tables in the discovery step.\nattaching discover logs for your reference.\nWhereas when I login to the mysql server with the same user, I can see the table.\nThe table name is payment_response.",
+    "ts": "1794477020.733759",
+    "thread_ts": "1794477020.733759",
+    "reply_count": 4,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U0BTUQGHDDF"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1794477697.932579"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1794477818.957889"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1794478088.689699"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1794478191.966349"
+      }
+    ],
+    "latest_reply": "1794478191.966349",
+    "files": [
+      {
+        "id": "F0CGY3L7V6H",
+        "created": 1794476945,
+        "timestamp": 1794476945,
+        "name": "discover (1).log",
+        "title": "discover (1).log",
+        "mimetype": "application/octet-stream",
+        "image_exif_rotation": 0,
+        "filetype": "binary",
+        "pretty_type": "Binary",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 1449233,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CGY3L7V6H/discover__1_.log",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CGY3L7V6H/download/discover__1_.log",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CGY3L7V6H/discover__1_.log",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CGY3L7V6H-99ffba7060",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BcuZf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nI am not getting few tables in the discovery step.\nattaching discover logs for your reference.\nWhereas when I login to the mysql server with the same user, I can see the table.\nThe table name is payment_response."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "1b6a1292-5e46-4c89-9b2a-6876e9759710",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e Thanks for the logs. Discovery reads the table list from `INFORMATION_SCHEMA.TABLES` for the configured database (`POS`) and keeps only entries with `TABLE_TYPE = 'BASE TABLE'`\n\nCould you run this query as the same user and share the output?\n```SELECT TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, ENGINE\nFROM INFORMATION_SCHEMA.TABLES\nWHERE TABLE_NAME = 'payment_response';```",
+    "ts": "1794477697.932579",
+    "thread_ts": "1794477020.733759",
+    "edited": {
+      "user": "U08S0TP9R3P",
+      "ts": "1794477715.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OhFOI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for the logs. Discovery reads the table list from "
+              },
+              {
+                "type": "text",
+                "text": "INFORMATION_SCHEMA.TABLES",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " for the configured database ("
+              },
+              {
+                "type": "text",
+                "text": "POS",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ") and keeps only entries with "
+              },
+              {
+                "type": "text",
+                "text": "TABLE_TYPE = 'BASE TABLE'",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\nCould you run this query as the same user and share the output?\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SELECT TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, ENGINE\nFROM INFORMATION_SCHEMA.TABLES\nWHERE TABLE_NAME = 'payment_response';"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "00ceb122-c5b5-4cb0-84d8-ae8193f1928d",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "ts": "1794477818.957889",
+    "thread_ts": "1794477020.733759",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0CH3AV88PL",
+        "created": 1794477815,
+        "timestamp": 1794477815,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "image_exif_rotation": 0,
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 57153,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CH3AV88PL/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CH3AV88PL/download/image.png",
+        "original_h": 304,
+        "original_w": 1168,
+        "thumb_64": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CH3AV88PL-5b9f746337/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CH3AV88PL-5b9f746337/image_80.png",
+        "thumb_160": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CH3AV88PL-5b9f746337/image_160.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CH3AV88PL-5b9f746337/image_360.png",
+        "thumb_360_gif": "",
+        "thumb_360_w": 360,
+        "thumb_360_h": 94,
+        "thumb_480": "https://files.slack.com/files-tmb/T0820LGJGRF-F0CH3AV88PL-5b9f746337/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 125,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CH3AV88PL/image.png",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CH3AV88PL-bd46a4f3a7",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7267645a-2fab-4016-b4c4-f1770c21e615",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e Thanks for checking. `payment_response` is in the `john_jacobs` database, but the source is configured with database `POS`. A MySQL source in OLake discovers tables from the configured database only, so tables in `john_jacobs` do not appear.\n\nFrom the logs:\n```Starting discover for MySQL database POS```\n\nA new source pointing to `john_jacobs` database/schema and a job can be created to resolve this.",
+    "ts": "1794478088.689699",
+    "thread_ts": "1794477020.733759",
+    "edited": {
+      "user": "U08S0TP9R3P",
+      "ts": "1794478151.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b731R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " Thanks for checking. "
+              },
+              {
+                "type": "text",
+                "text": "payment_response",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is in the "
+              },
+              {
+                "type": "text",
+                "text": "john_jacobs",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " database, but the source is configured with database "
+              },
+              {
+                "type": "text",
+                "text": "POS",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". A MySQL source in OLake discovers tables from the configured database only, so tables in "
+              },
+              {
+                "type": "text",
+                "text": "john_jacobs",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " do not appear.\n\nFrom the logs:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Starting discover for MySQL database POS"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\nA new source pointing to "
+              },
+              {
+                "type": "text",
+                "text": "john_jacobs",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " database/schema and a job can be created to resolve this."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2923cc4f-5836-4c89-a21f-e824a3da1265",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Sorry, My bad",
+    "ts": "1794478191.966349",
+    "thread_ts": "1794477020.733759",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "11NiJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sorry, My bad"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e7aaf7bb-228f-4e7a-9cac-39e34c6247bd",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e could you please share the discover logs for this job.",
+    "ts": "1794483323.533229",
+    "thread_ts": "1794460570.380949",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "odyJf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " could you please share the discover logs for this job."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6a417d4a-1304-429d-baf8-ee12187d811d",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "ts": "1794484565.448409",
+    "thread_ts": "1794460570.380949",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0CGY760LEP",
+        "created": 1794484562,
+        "timestamp": 1794484562,
+        "name": "discover_new.log",
+        "title": "discover_new.log",
+        "mimetype": "application/octet-stream",
+        "image_exif_rotation": 0,
+        "filetype": "binary",
+        "pretty_type": "Binary",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 245202,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CGY760LEP/discover_new.log",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CGY760LEP/download/discover_new.log",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CGY760LEP/discover_new.log",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CGY760LEP-f26be09652",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6ef91825-e810-4e0a-b68a-452bd4b5e0db",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e Hi, here’s what’s causing the failure and how to get the sync running again.\n\n*Why the sync fails*\nIn `scheduled_gv_creation_mapping`, the field `retryCount` is stored as an integer in most documents, but as a double in some. Evident from here:\n```[ { _id: 'double', count: 47817 }, { _id: 'int', count: 539921 } ]```\nWhen OLake discovers a collection, it reads a sample: the first and last 10,000 documents. In your collection, every document in that sample had an integer, so OLake created the Iceberg column as `int`. When the sync reaches the documents in between that hold double, the column would need to change from `int` to `double`. Iceberg does not allow that change, so the sync fails. Clearing the destination doesn’t help on its own, because the table gets created again with the same `int` type.\n\n\n*Long term fix*\nWe are adding SMT (single message transform) support in about 2 to 3 months. It will handle cases like this automatically. Until then, you can use either of the two workarounds below.\n\n*Workaround 1: create the table yourself*\n1. Pause the job, then clear the destination for it in the OLake UI.\n2. Create the table with Spark SQL:\n```CREATE TABLE olake_iceberg.juno_v2_prod_order_rs2_juno_v2_prod_order.scheduled_gv_creation_mapping (\n  _olake_id  STRING NOT NULL,\n  retrycount DOUBLE\n) USING iceberg\nTBLPROPERTIES ('format-version' = '2');\n\nALTER TABLE olake_iceberg.juno_v2_prod_order_rs2_juno_v2_prod_order.scheduled_gv_creation_mapping\n  SET IDENTIFIER FIELDS _olake_id;```\n`olake_iceberg` is the catalog name in your Spark config; if yours is different, use that. The database and table name must match what OLake used before, so please check them before you clear the destination.\n3. Run the sync. OLake uses this table and adds all the other columns on its own.\n\n*Workaround 2: change the field type in the OLake database* \nOLake keeps each job’s stream schema in its Postgres database. If you change `retryCount` to double there, OLake creates the table with a double column.\n1. Pause the job and make sure no sync is running.\n2. Connect to the OLake Postgres database. On a default docker setup:\n3. `docker exec -it temporal-postgresql psql -U temporal -d postgres`\n4. Open the job table and find the row for your job: `olake-dev-job` on docker setups, `olake-staging-job` on Kubernetes/Helm setups.\n5. The stream schema is in one of two JSON columns: `available_streams_config` in newer OLake versions, or `streams_config` in older ones. Use the one that is not empty.\n6. In that JSON, find the stream `scheduled_gv_creation_mapping`, then go to `type_schema` → `properties` → `retryCount` → `type`, and change it from `[\"integer_small\"]` to `[\"number\"]`  and save it in the db. \n7. In the OLake UI, clear the destination for the job.\n8. Run the sync. The table is created with `retrycount` as double, and both integer and double values load correctly. (Do not do edit streams again before sync)\n\nLater, Edit Streams may show this field as integer again. That is fine; the table stays double and the sync keeps working. If you ever clear the destination again, make this change once more before you sync.\n\n*Note*\nBoth workarounds are for CDC and incremental syncs, which is what your job uses. They don’t hold for full refresh, because full refresh recreates the table on every run.\n\nLet us know if anything comes up we can get on a call.",
+    "ts": "1794494055.694419",
+    "thread_ts": "1794460570.380949",
+    "edited": {
+      "user": "U08S0TP9R3P",
+      "ts": "1794494074.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bNB1k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " Hi, here’s what’s causing the failure and how to get the sync running again.\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Why the sync fails",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nIn "
+              },
+              {
+                "type": "text",
+                "text": "scheduled_gv_creation_mapping",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", the field "
+              },
+              {
+                "type": "text",
+                "text": "retryCount",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is stored as an integer in most documents, but as a double in some. Evident from here:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "[ { _id: 'double', count: 47817 }, { _id: 'int', count: 539921 } ]"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "When OLake discovers a collection, it reads a sample: the first and last 10,000 documents. In your collection, every document in that sample had an integer, so OLake created the Iceberg column as "
+              },
+              {
+                "type": "text",
+                "text": "int",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". When the sync reaches the documents in between that hold double, the column would need to change from "
+              },
+              {
+                "type": "text",
+                "text": "int",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to "
+              },
+              {
+                "type": "text",
+                "text": "double",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ". Iceberg does not allow that change, so the sync fails. Clearing the destination doesn’t help on its own, because the table gets created again with the same "
+              },
+              {
+                "type": "text",
+                "text": "int",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " type.\n\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Long term fix",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nWe are adding SMT (single message transform) support in about 2 to 3 months. It will handle cases like this automatically. Until then, you can use either of the two workarounds below.\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Workaround 1: create the table yourself",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Pause the job, then clear the destination for it in the OLake UI."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Create the table with Spark SQL:"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CREATE TABLE olake_iceberg.juno_v2_prod_order_rs2_juno_v2_prod_order.scheduled_gv_creation_mapping (\n  _olake_id  STRING NOT NULL,\n  retrycount DOUBLE\n) USING iceberg\nTBLPROPERTIES ('format-version' = '2');\n\nALTER TABLE olake_iceberg.juno_v2_prod_order_rs2_juno_v2_prod_order.scheduled_gv_creation_mapping\n  SET IDENTIFIER FIELDS _olake_id;"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "olake_iceberg",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " is the catalog name in your Spark config; if yours is different, use that. The database and table name must match what OLake used before, so please check them before you clear the destination.\n3. Run the sync. OLake uses this table and adds all the other columns on its own.\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Workaround 2: change the field type in the OLake database ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nOLake keeps each job’s stream schema in its Postgres database. If you change "
+              },
+              {
+                "type": "text",
+                "text": "retryCount",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " to double there, OLake creates the table with a double column.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Pause the job and make sure no sync is running."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Connect to the OLake Postgres database. On a default docker setup:"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "docker exec -it temporal-postgresql psql -U temporal -d postgres",
+                    "style": {
+                      "code": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Open the job table and find the row for your job: "
+                  },
+                  {
+                    "type": "text",
+                    "text": "olake-dev-job",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " on docker setups, "
+                  },
+                  {
+                    "type": "text",
+                    "text": "olake-staging-job",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " on Kubernetes/Helm setups."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "The stream schema is in one of two JSON columns: "
+                  },
+                  {
+                    "type": "text",
+                    "text": "available_streams_config",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " in newer OLake versions, or "
+                  },
+                  {
+                    "type": "text",
+                    "text": "streams_config",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " in older ones. Use the one that is not empty."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "In that JSON, find the stream "
+                  },
+                  {
+                    "type": "text",
+                    "text": "scheduled_gv_creation_mapping",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ", then go to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "type_schema",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " → "
+                  },
+                  {
+                    "type": "text",
+                    "text": "properties",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " → "
+                  },
+                  {
+                    "type": "text",
+                    "text": "retryCount",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " → "
+                  },
+                  {
+                    "type": "text",
+                    "text": "type",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ", and change it from "
+                  },
+                  {
+                    "type": "text",
+                    "text": "[\"integer_small\"]",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "[\"number\"]",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "  and save it in the db. "
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "In the OLake UI, clear the destination for the job."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Run the sync. The table is created with "
+                  },
+                  {
+                    "type": "text",
+                    "text": "retrycount",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " as double, and both integer and double values load correctly. (Do not do edit streams again before sync)"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\nLater, Edit Streams may show this field as integer again. That is fine; the table stays double and the sync keeps working. If you ever clear the destination again, make this change once more before you sync.\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Note",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nBoth workarounds are for CDC and incremental syncs, which is what your job uses. They don’t hold for full refresh, because full refresh recreates the table on every run.\n\nLet us know if anything comes up we can get on a call."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
