@@ -1,0 +1,207 @@
+[
+  {
+    "client_msg_id": "438c9a11-c4fe-4cd6-b79e-c18153b606ec",
+    "type": "message",
+    "user": "U0CED0272DP",
+    "text": "Somewhat related to the above question, I was going to ask if there were any plans - or reasons not to - to allow discovery to work across multiple databases in the mysql connector. It appears the postgres connector has a `schemas` property which is ~equivalent to this. (postgres schemas and mysql databases being conceptually equivalent to stream namespaces - I think?)\n\nWe have a lot of databases, and this would allow us to massively reduce the number of redundant binlog readers.",
+    "ts": "1794743283.344509",
+    "thread_ts": "1794743283.344509",
+    "reply_count": 1,
+    "reply_users": [
+      "U08S0TP9R3P"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1794750472.080649"
+      }
+    ],
+    "latest_reply": "1794750472.080649",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2m2bU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Somewhat related to the above question, I was going to ask if there were any plans - or reasons not to - to allow discovery to work across multiple databases in the mysql connector. It appears the postgres connector has a "
+              },
+              {
+                "type": "text",
+                "text": "schemas",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " property which is ~equivalent to this. (postgres schemas and mysql databases being conceptually equivalent to stream namespaces - I think?)\n\nWe have a lot of databases, and this would allow us to massively reduce the number of redundant binlog readers."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/38f1b69bc0c481d31d64a9ff5f9501d0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "lew",
+      "real_name": "lew",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "lewis.peckover",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  },
+  {
+    "client_msg_id": "5a082d4a-c408-4df6-a529-9dd108bf0f11",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u0026gt;  It appears the postgres connector has a `schemas` property which is ~equivalent to this. (postgres schemas and mysql databases being conceptually equivalent to stream namespaces - I think?)\n\u003c@U0CED0272DP\u003e In Postgres, schema is a logical separation within a database. OLake Postgres connector provides support to select particular schemas within a database, not multiple database - `schemas`\n\n\u0026gt; I was going to ask if there were any plans - or reasons not to - to allow discovery to work across multiple databases in the mysql connector\nThere is no reason any of such. If this is something that could be helpful for your use case please raise an issue \u003chttps://github.com/datazip-inc/olake/issues|here\u003e . We will get back on the ETA shortly after internal discussion. Thanks",
+    "ts": "1794750472.080649",
+    "thread_ts": "1794743283.344509",
+    "parent_user_id": "U0CED0272DP",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U0CED0272DP"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ov8fl",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " It appears the postgres connector has a "
+              },
+              {
+                "type": "text",
+                "text": "schemas",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " property which is ~equivalent to this. (postgres schemas and mysql databases being conceptually equivalent to stream namespaces - I think?)"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U0CED0272DP"
+              },
+              {
+                "type": "text",
+                "text": " In Postgres, schema is a logical separation within a database. OLake Postgres connector provides support to select particular schemas within a database, not multiple database - "
+              },
+              {
+                "type": "text",
+                "text": "schemas",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I was going to ask if there were any plans - or reasons not to - to allow discovery to work across multiple databases in the mysql connector"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThere is no reason any of such. If this is something that could be helpful for your use case please raise an issue "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake/issues",
+                "text": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": ". We will get back on the ETA shortly after internal discussion. Thanks",
+                "style": {
+                  "unlink": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
