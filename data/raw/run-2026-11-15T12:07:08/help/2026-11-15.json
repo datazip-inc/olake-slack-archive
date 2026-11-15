@@ -1,0 +1,66 @@
+[
+  {
+    "client_msg_id": "438c9a11-c4fe-4cd6-b79e-c18153b606ec",
+    "type": "message",
+    "user": "U0CED0272DP",
+    "text": "Somewhat related to the above question, I was going to ask if there were any plans - or reasons not to - to allow discovery to work across multiple databases in the mysql connector. It appears the postgres connector has a `schemas` property which is ~equivalent to this. (postgres schemas and mysql databases being conceptually equivalent to stream namespaces - I think?)\n\nWe have a lot of databases, and this would allow us to massively reduce the number of redundant binlog readers.",
+    "ts": "1794743283.344509",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2m2bU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Somewhat related to the above question, I was going to ask if there were any plans - or reasons not to - to allow discovery to work across multiple databases in the mysql connector. It appears the postgres connector has a "
+              },
+              {
+                "type": "text",
+                "text": "schemas",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " property which is ~equivalent to this. (postgres schemas and mysql databases being conceptually equivalent to stream namespaces - I think?)\n\nWe have a lot of databases, and this would allow us to massively reduce the number of redundant binlog readers."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/38f1b69bc0c481d31d64a9ff5f9501d0.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+      "first_name": "lew",
+      "real_name": "lew",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "lewis.peckover",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
