@@ -1,0 +1,249 @@
+[
+  {
+    "client_msg_id": "3efb1fa7-66e4-4034-bded-4721e465090e",
+    "type": "message",
+    "user": "U0CHXN5RV71",
+    "text": "hey all, Heramb here (most people call me *Vansh*). I’ve done cloud cost FinOps work, I’m comfortable with Go, and I’ve spent time on data pipelines. I’m not looking for a warm-up task. I want to work on something real in olake-go, and I’m confident I can handle it.\n\nCould you *guide* me on the following?\n\nWhich open olake-go issues are unassigned right now? CDC and incremental sync are where I want to go.\nIs the PostgreSQL primary key update bug osamu described (old row stays in the destination) taken? If not, I’d like to pick it up.\nDo bounty issues need a maintainer to assign them, or can I grab one and start?\nIs there a design doc for the driver and writer layers? If not, which files should I read first before opening a PR?\nHow do I get an issue assigned to me? Should I comment on it first and wait, or is there a process I should follow? Also, should I ask here before opening a new issue, or go ahead and raise it?\n\nPoint me to whatever you think I should take next.",
+    "ts": "1794907311.626259",
+    "thread_ts": "1794907311.626259",
+    "reply_count": 2,
+    "reply_users": [
+      "U09BK0WKBQR",
+      "U0CHXN5RV71"
+    ],
+    "replies": [
+      {
+        "user": "U09BK0WKBQR",
+        "ts": "1794907543.812429"
+      },
+      {
+        "user": "U0CHXN5RV71",
+        "ts": "1794914333.831219"
+      }
+    ],
+    "latest_reply": "1794914333.831219",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PKx3X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey all, Heramb here (most people call me "
+              },
+              {
+                "type": "text",
+                "text": "Vansh",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "). I’ve done cloud cost FinOps work, I’m comfortable with Go, and I’ve spent time on data pipelines. I’m not looking for a warm-up task. I want to work on something real in olake-go, and I’m confident I can handle it.\n\nCould you "
+              },
+              {
+                "type": "text",
+                "text": "guide ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "me on the following?\n\nWhich open olake-go issues are unassigned right now? CDC and incremental sync are where I want to go.\nIs the PostgreSQL primary key update bug osamu described (old row stays in the destination) taken? If not, I’d like to pick it up.\nDo bounty issues need a maintainer to assign them, or can I grab one and start?\nIs there a design doc for the driver and writer layers? If not, which files should I read first before opening a PR?\nHow do I get an issue assigned to me? Should I comment on it first and wait, or is there a process I should follow? Also, should I ask here before opening a new issue, or go ahead and raise it?\n\nPoint me to whatever you think I should take next."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-16/12627021837089_92e71fd2356ef544eb77_72.jpg",
+      "first_name": "Heramb",
+      "real_name": "Heramb Inamke",
+      "display_name": "Heramb Inamke",
+      "team": "T0820LGJGRF",
+      "name": "heramb15012006",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "1e76287d-8593-46a7-ad10-f18c6ed246f2",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "Hey, you will have to start with good first issues. this is what is recommended for the first time contributors. the bounty issues are only provided to the contributors that have done significant amount of contributions (5-6) and are familiar with the code base. to get the issue assigned to you just comment on that issue, if we believe the issue is of lower priority we will redirect you to better issues. this doc will help you with how to raise a PR and what all instructions needs to be followed: \u003chttps://olake.io/docs/community/issues-and-prs/|olake.io/docs/community/issues-and-prs\u003e",
+    "ts": "1794907543.812429",
+    "thread_ts": "1794907311.626259",
+    "attachments": [
+      {
+        "fallback": "OLake: Raise an Issue or Pull Request for OLake | OLake",
+        "id": 1,
+        "title": "Raise an Issue or Pull Request for OLake | OLake",
+        "title_link": "https://olake.io/docs/community/issues-and-prs/",
+        "text": "How to raise an issue or pull request for OLake Go: fork and clone the repo, branch from staging, run pre-commit checks, commit and request review.",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/community/issues-and-prs/",
+        "original_url": "https://olake.io/docs/community/issues-and-prs/",
+        "blocks": null
+      }
+    ],
+    "parent_user_id": "U0CHXN5RV71",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZiZP5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey, you will have to start with good first issues. this is what is recommended for the first time contributors. the bounty issues are only provided to the contributors that have done significant amount of contributions (5-6) and are familiar with the code base. to get the issue assigned to you just comment on that issue, if we believe the issue is of lower priority we will redirect you to better issues. this doc will help you with how to raise a PR and what all instructions needs to be followed: "
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/community/issues-and-prs/",
+                "text": "olake.io/docs/community/issues-and-prs"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ae5df3e8-5995-48e1-8d29-4e6a9edd41fb",
+    "type": "message",
+    "user": "U0CHXN5RV71",
+    "text": "ohhhhh, got it bosss, thnx !!! :grin:",
+    "ts": "1794914333.831219",
+    "thread_ts": "1794907311.626259",
+    "parent_user_id": "U0CHXN5RV71",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nEOCP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ohhhhh, got it bosss, thnx !!! "
+              },
+              {
+                "type": "emoji",
+                "name": "grin",
+                "unicode": "1f601"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-16/12627021837089_92e71fd2356ef544eb77_72.jpg",
+      "first_name": "Heramb",
+      "real_name": "Heramb Inamke",
+      "display_name": "Heramb Inamke",
+      "team": "T0820LGJGRF",
+      "name": "heramb15012006",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9b482ba4-941d-4a1e-8bbb-b4bec58f1b09",
+    "type": "message",
+    "user": "U0CJDAM2A1L",
+    "text": "Hi! I’m a new contributor. I noticed AddConstantToInterface and SplitAndTrim\nin utils/utils.go have no unit tests. I’ve written table-driven tests for\nthem following the style in utils_test.go (all passing locally). Would a PR\nadding these be welcome? Also, in types/set.go, Hash() returns “false” when\nhashstructure.Hash fails (there’s an unfinished TODO), so failing elements\nwould share the same key. How would you prefer that to be handled?",
+    "ts": "1794915189.217329",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rnjhG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi! I’m a new contributor. I noticed AddConstantToInterface and SplitAndTrim\nin utils/utils.go have no unit tests. I’ve written table-driven tests for\nthem following the style in utils_test.go (all passing locally). Would a PR\nadding these be welcome? Also, in types/set.go, Hash() returns “false” when\nhashstructure.Hash fails (there’s an unfinished TODO), so failing elements\nwould share the same key. How would you prefer that to be handled?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-17/12622034840149_a4991726ed563f0a91cd_72.jpg",
+      "first_name": "Vansh",
+      "real_name": "Vansh Chaudhary",
+      "display_name": "Vansh Chaudhary",
+      "team": "T0820LGJGRF",
+      "name": "chaudharyvansh67",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
