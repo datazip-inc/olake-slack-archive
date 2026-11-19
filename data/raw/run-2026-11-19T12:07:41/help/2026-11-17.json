@@ -1,0 +1,259 @@
+[
+  {
+    "type": "message",
+    "user": "USLACKBOT",
+    "text": "This message was deleted.",
+    "ts": "1794906308.571059",
+    "thread_ts": "1794906308.571059",
+    "subtype": "tombstone",
+    "hidden": true,
+    "reply_count": 2,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U0CHXN5RV71"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1794906433.643669"
+      },
+      {
+        "user": "U0CHXN5RV71",
+        "ts": "1794906633.730639"
+      }
+    ],
+    "parent_user_id": "USLACKBOT",
+    "latest_reply": "1794906633.730639",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://a.slack-edge.com/80588/img/slackbot_72.png",
+      "first_name": "slackbot",
+      "real_name": "Slackbot",
+      "display_name": "Slackbot",
+      "team": "T0820LGJGRF",
+      "name": "slackbot",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "b5fe3585-caea-4d39-b376-09863fb4dd04",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0CHXN5RV71\u003e we have a channel specifically to help you with contribution. Please ask your queries there \u003c#C081KBMJQUD\u003e",
+    "ts": "1794906433.643669",
+    "thread_ts": "1794906308.571059",
+    "edited": {
+      "user": "U08S0TP9R3P",
+      "ts": "1794906445.000000"
+    },
+    "parent_user_id": "USLACKBOT",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kECUK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0CHXN5RV71"
+              },
+              {
+                "type": "text",
+                "text": " we have a channel specifically to help you with contribution. Please ask your queries there "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C081KBMJQUD"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6f1c546b-73f7-418d-b9af-a0948087ef6f",
+    "type": "message",
+    "user": "U0CHXN5RV71",
+    "text": "gotcha, thnx !!",
+    "ts": "1794906633.730639",
+    "thread_ts": "1794906308.571059",
+    "parent_user_id": "USLACKBOT",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ik1VH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "gotcha, thnx !!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-16/12627021837089_92e71fd2356ef544eb77_72.jpg",
+      "first_name": "Heramb",
+      "real_name": "Heramb Inamke",
+      "display_name": "Heramb Inamke",
+      "team": "T0820LGJGRF",
+      "name": "heramb15012006",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "590387a6-7cb3-410e-b78b-8e1cbb53534f",
+    "type": "message",
+    "user": "U08CR7HUWDC",
+    "text": "hi \u003c@U0A5EGHRLQY\u003e \u003c@U0BK9RABQ66\u003e,\nwe’ve released *MySQL blue/green switchover support* in OLake v1.1.2\nYou can follow the steps in the documentation to migrate your existing jobs to GTID:\n\u003chttps://olake.io/docs/connectors/mysql/#migrate-an-existing-job-to-gtid|olake.io/docs/connectors/mysql#…\u003e\nPlease give it a try and let us know how it works for you",
+    "ts": "1794909386.352039",
+    "attachments": [
+      {
+        "fallback": "OLake: OLake MySQL Connector: Setup and Sync Modes | OLake",
+        "id": 1,
+        "title": "OLake MySQL Connector: Setup and Sync Modes | OLake",
+        "title_link": "https://olake.io/docs/connectors/mysql/#migrate-an-existing-job-to-gtid",
+        "text": "Configure OLake MySQL connector for full refresh, CDC; learn prerequisites, connection setup, data type mapping, and common troubleshooting tips",
+        "image_url": "https://olake.io/img/logo/olake-og-card.png",
+        "image_bytes": 39569,
+        "image_height": 630,
+        "image_width": 1200,
+        "service_name": "OLake",
+        "from_url": "https://olake.io/docs/connectors/mysql/#migrate-an-existing-job-to-gtid",
+        "original_url": "https://olake.io/docs/connectors/mysql/#migrate-an-existing-job-to-gtid",
+        "blocks": null
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "count": 3,
+        "users": [
+          "U082APQJZNC",
+          "U0820LSJZRP",
+          "U0CHXN5RV71"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "q9y8q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A5EGHRLQY"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BK9RABQ66"
+              },
+              {
+                "type": "text",
+                "text": ",\nwe’ve released "
+              },
+              {
+                "type": "text",
+                "text": "MySQL blue/green switchover support",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in OLake v1.1.2\nYou can follow the steps in the documentation to migrate your existing jobs to GTID:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://olake.io/docs/connectors/mysql/#migrate-an-existing-job-to-gtid",
+                "text": "olake.io/docs/connectors/mysql#…"
+              },
+              {
+                "type": "text",
+                "text": "\nPlease give it a try and let us know how it works for you"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-12/8442403966164_648365f959467ae5ae55_72.png",
+      "first_name": "VIKASH",
+      "real_name": "VIKASH CHOUDHARY",
+      "display_name": "VIKASH CHOUDHARY",
+      "team": "T0820LGJGRF",
+      "name": "vikash",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
