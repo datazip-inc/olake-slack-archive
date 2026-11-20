@@ -1,0 +1,345 @@
+[
+  {
+    "client_msg_id": "087c1019-1f70-46a5-a2ef-b6a27ab10e34",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake UI v0.9.3 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-ui/releases/tag/v0.9.3|github.com/datazip-inc/olake-ui/…/v0.9.3\u003e\n*What’s New*\n• chore(deps): apply Dependabot updates (hive, postcss-selector-parser, @babel/core, minimatch) by \u003c@U0C9YKNHSF7\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/532|#532\u003e\n• fix(docker): install ca-certificates and add entrypoint to update certs by \u003c@U0CA5QHRGKE\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/516|#516\u003e\n• feat: lock Postgres preserve_toast_values after source creation by \u003c@U0C9YKNHSF7\u003e in \u003chttps://github.com/datazip-inc/olake-ui/pull/486|#486\u003e\n\n:rotating_light: OLake Go v1.2.0 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-go/releases/tag/v1.2.0|github.com/datazip-inc/olake-go/…/v1.2.0\u003e\n*What’s New*\n• fix: bump go to 1.26.11 to resolve GO-2026-6859 by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake-go/pull/1389|#1389\u003e\n• feat: add postgres toast column resolution when unavailable during cdc by \u003c@U08S5BR47GA\u003e in \u003chttps://github.com/datazip-inc/olake-go/pull/1264|#1264\u003e\n• feat: decimal support in destination and drivers by \u003c@U0BCLRYDUQK\u003e in \u003chttps://github.com/datazip-inc/olake-go/pull/1374|#1374\u003e\n:books: *Documentation*\n• *Toast column handling:* \u003chttps://olake.io/docs/connectors/postgres/#toast-columns-preserve|Guide\u003e\nThanks for the contribution!",
+    "ts": "1794897289.527069",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yh/t2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake UI v0.9.3 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-ui/releases/tag/v0.9.3",
+                "text": "github.com/datazip-inc/olake-ui/…/v0.9.3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(deps): apply Dependabot updates (hive, postcss-selector-parser, @babel/core, minimatch) by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C9YKNHSF7"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/532",
+                    "text": "#532"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(docker): install ca-certificates and add entrypoint to update certs by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0CA5QHRGKE"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/516",
+                    "text": "#516"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: lock Postgres preserve_toast_values after source creation by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C9YKNHSF7"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-ui/pull/486",
+                    "text": "#486"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Go v1.2.0 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-go/releases/tag/v1.2.0",
+                "text": "github.com/datazip-inc/olake-go/…/v1.2.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: bump go to 1.26.11 to resolve GO-2026-6859 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-go/pull/1389",
+                    "text": "#1389"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: add postgres toast column resolution when unavailable during cdc by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U08S5BR47GA"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-go/pull/1264",
+                    "text": "#1264"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: decimal support in destination and drivers by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BCLRYDUQK"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-go/pull/1374",
+                    "text": "#1374"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "books",
+                "unicode": "1f4da"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "Documentation",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Toast column handling:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://olake.io/docs/connectors/postgres/#toast-columns-preserve",
+                    "text": "Guide"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
