@@ -1,0 +1,237 @@
+[
+  {
+    "client_msg_id": "dc649efd-cd42-4183-a0c1-943084318dff",
+    "type": "message",
+    "user": "U0820LSJZRP",
+    "text": "Hey folks :wave: _OLake v1.0 is out!_ :tada: We’re hosting a live session to walk through what’s new.\n\n:spiral_calendar_pad: _Thu, 26 Nov · 8:30 pm IST / 10 am ET / 3 pm GMT / 7 am PT · 1 hour_\nWhat we’ll cover:\n• _Streams V2:_ why we split `streams.json` and what changes in your configs. Worth catching before you upgrade.\n• _Live demo:_ creating a Kafka → Iceberg upsert job through GitOps, end to end\n• _Snapshot expiry in OLake Fusion:_ keeping your Iceberg tables from growing without limit\n• _Open Q\u0026amp;A for the rest of the hour:_ bring your weird edge cases, the engineers who built it will be there\nGrab a spot here :point_right: \u003chttps://luma.com/olake-3y9w?utm_source=slack_olake\u0026amp;utm_medium=community\u0026amp;utm_campaign=webinar_26nov|luma.com/olake-3y9w?…\u003e\n\nAlready tried v1.0, or stuck on something? Drop it in the thread and we’ll answer it live :raised_hands:",
+    "ts": "1795104149.766309",
+    "attachments": [
+      {
+        "fallback": "OLake v1.0 Release Webinar · Luma",
+        "id": 1,
+        "title": "OLake v1.0 Release Webinar · Luma",
+        "title_link": "https://luma.com/olake-3y9w?utm_source=slack_olake\u0026utm_medium=community\u0026utm_campaign=webinar_26nov",
+        "text": "A live walkthrough of OLake v1.0 for data engineers moving data from databases and Kafka into Apache Iceberg.\nGetting data into Iceberg is the easy part. The…",
+        "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=600,height=600/uploads/hz/b56780ed-d9ae-4b1d-b102-b6a148d5cdc5.png",
+        "image_bytes": 17528,
+        "image_height": 600,
+        "image_width": 600,
+        "service_name": "luma.com",
+        "service_icon": "https://luma.com/apple-touch-icon.png",
+        "from_url": "https://luma.com/olake-3y9w?utm_source=slack_olake\u0026utm_medium=community\u0026utm_campaign=webinar_26nov",
+        "original_url": "https://luma.com/olake-3y9w?utm_source=slack_olake\u0026utm_medium=community\u0026utm_campaign=webinar_26nov",
+        "blocks": null
+      }
+    ],
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "rocket",
+        "count": 1,
+        "users": [
+          "U0CAD203NLC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yAi0R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey folks "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "OLake v1.0 is out!",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " We’re hosting a live session to walk through what’s new.\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "spiral_calendar_pad",
+                "unicode": "1f5d3-fe0f",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " Thu, 26 Nov · 8:30 pm IST / 10 am ET / 3 pm GMT / 7 am PT · 1 hour",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nWhat we’ll cover:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Streams V2:",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " why we split "
+                  },
+                  {
+                    "type": "text",
+                    "text": "streams.json",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " and what changes in your configs. Worth catching before you upgrade."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Live demo:",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " creating a Kafka → Iceberg upsert job through GitOps, end to end"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Snapshot expiry in OLake Fusion:",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " keeping your Iceberg tables from growing without limit"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Open Q\u0026A for the rest of the hour:",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " bring your weird edge cases, the engineers who built it will be there"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Grab a spot here "
+              },
+              {
+                "type": "emoji",
+                "name": "point_right",
+                "unicode": "1f449"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://luma.com/olake-3y9w?utm_source=slack_olake\u0026utm_medium=community\u0026utm_campaign=webinar_26nov",
+                "text": "luma.com/olake-3y9w?…"
+              },
+              {
+                "type": "text",
+                "text": "\n\nAlready tried v1.0, or stuck on something? Drop it in the thread and we’ll answer it live "
+              },
+              {
+                "type": "emoji",
+                "name": "raised_hands",
+                "unicode": "1f64c"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-02-20/8487710291348_f516f170d918085eb255_72.jpg",
+      "first_name": "Rohan",
+      "real_name": "Rohan Khameshra",
+      "display_name": "Rohan Khameshra",
+      "team": "T0820LGJGRF",
+      "name": "rohan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
