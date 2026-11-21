@@ -1,0 +1,60 @@
+[
+  {
+    "client_msg_id": "48fdbc78-e2a7-4fc5-bc9f-ed678c611d96",
+    "type": "message",
+    "user": "U0CK46G2F1B",
+    "text": "Hey everyone! :wave:\nIam Srividya Kollepu,\n\nI’m really happy to be part of the OLake community and excited to learn and contribute to the project.\n\nI genuinely appreciate the idea behind OLake and the work the team is doing to simplify data ingestion and replication.\n\nI’ve started learning the fundamentals related to the project, beginning with data engineering, databases, data pipelines, data lakes, lakehouses, Apache Iceberg and OLake’s architecture.\n\nI’m taking things from the ground up so I can build a better understanding of the project before making meaningful contributions.\n\nI’m looking forward to exploring the codebase, learning from everyone and gradually becoming an active contributor.\n\nI’d really appreciate any suggestions, learning resources or guidance from experienced contributors on where a beginner should focus first.\n\nHappy to be here! :blush:",
+    "ts": "1795181669.127879",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AAe4A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey everyone! "
+              },
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": "\nIam Srividya Kollepu,\n\nI’m really happy to be part of the OLake community and excited to learn and contribute to the project.\n\nI genuinely appreciate the idea behind OLake and the work the team is doing to simplify data ingestion and replication.\n\nI’ve started learning the fundamentals related to the project, beginning with data engineering, databases, data pipelines, data lakes, lakehouses, Apache Iceberg and OLake’s architecture.\n\nI’m taking things from the ground up so I can build a better understanding of the project before making meaningful contributions.\n\nI’m looking forward to exploring the codebase, learning from everyone and gradually becoming an active contributor.\n\nI’d really appreciate any suggestions, learning resources or guidance from experienced contributors on where a beginner should focus first.\n\nHappy to be here! "
+              },
+              {
+                "type": "emoji",
+                "name": "blush",
+                "unicode": "1f60a"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-19/12640134650663_569c3ec3933758d4aed9_72.png",
+      "first_name": "srividya",
+      "real_name": "srividya kollepu",
+      "display_name": "srividya kollepu",
+      "team": "T0820LGJGRF",
+      "name": "srividyakollepu325",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
