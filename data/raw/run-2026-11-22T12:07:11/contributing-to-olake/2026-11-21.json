@@ -1,0 +1,337 @@
+[
+  {
+    "client_msg_id": "57d78dc3-1dd9-4718-96eb-0b74ab99012c",
+    "type": "message",
+    "user": "U0CKQHAUDL3",
+    "text": "Hi all, I’m Bishal, a student getting started with OLake contributions. [I’m participating in SWoC 2026.]\nI’ve commented on olake-go #871 (Oracle extents chunking): [paste your GitHub comment link]. I read #914 and I’m going through the Oracle backfill code on `staging`.\nOne question: is there a recommended way to run an Oracle instance locally for testing the Oracle driver? Thanks!",
+    "ts": "1795293588.834929",
+    "thread_ts": "1795293588.834929",
+    "reply_count": 5,
+    "reply_users": [
+      "U08S5BR47GA",
+      "U0CKQHAUDL3"
+    ],
+    "replies": [
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1795293946.379699"
+      },
+      {
+        "user": "U0CKQHAUDL3",
+        "ts": "1795294270.351189"
+      },
+      {
+        "user": "U08S5BR47GA",
+        "ts": "1795294437.252669"
+      },
+      {
+        "user": "U0CKQHAUDL3",
+        "ts": "1795294528.726099"
+      },
+      {
+        "user": "U0CKQHAUDL3",
+        "ts": "1795295059.291069"
+      }
+    ],
+    "latest_reply": "1795295059.291069",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WCR7C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi all, I’m Bishal, a student getting started with OLake contributions. [I’m participating in SWoC 2026.]\nI’ve commented on olake-go #871 (Oracle extents chunking): [paste your GitHub comment link]. I read #914 and I’m going through the Oracle backfill code on "
+              },
+              {
+                "type": "text",
+                "text": "staging",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\nOne question: is there a recommended way to run an Oracle instance locally for testing the Oracle driver? Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-21/12671526676005_64f4a82b076ee5f3dfd1_72.png",
+      "first_name": "Bishal",
+      "real_name": "Bishal Das",
+      "display_name": "Bishal Das",
+      "team": "T0820LGJGRF",
+      "name": "bishaldas5112007",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "6986593d-a748-476f-a726-388ecce68b5c",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "you can use any supported oracle db version for testing. there is one docker compose file in the oracle driver folder as well which can be used.",
+    "ts": "1795293946.379699",
+    "thread_ts": "1795293588.834929",
+    "parent_user_id": "U0CKQHAUDL3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "InI8v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "you can use any supported oracle db version for testing. there is one docker compose file in the oracle driver folder as well which can be used."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "fed48308-3f08-4104-bbb4-81d048252f80",
+    "type": "message",
+    "user": "U0CKQHAUDL3",
+    "text": "Thanks, I’ll use the compose file in the Oracle driver folder. Two quick things: is the extents strategy still wanted after #914, and could you assign #871 to me on GitHub? I’ll share my approach on the issue before opening a PR.",
+    "ts": "1795294270.351189",
+    "thread_ts": "1795293588.834929",
+    "parent_user_id": "U0CKQHAUDL3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZDnYw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks, I’ll use the compose file in the Oracle driver folder. Two quick things: is the extents strategy still wanted after #914, and could you assign #871 to me on GitHub? I’ll share my approach on the issue before opening a PR."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-21/12671526676005_64f4a82b076ee5f3dfd1_72.png",
+      "first_name": "Bishal",
+      "real_name": "Bishal Das",
+      "display_name": "Bishal Das",
+      "team": "T0820LGJGRF",
+      "name": "bishaldas5112007",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "25ab63f6-20f6-44fc-b8e4-c62003cd7905",
+    "type": "message",
+    "user": "U08S5BR47GA",
+    "text": "will get back to you with higher priority good first issues soon",
+    "ts": "1795294437.252669",
+    "thread_ts": "1795293588.834929",
+    "parent_user_id": "U0CKQHAUDL3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mwXPH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "will get back to you with higher priority good first issues soon"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8889399667842_330540a748c61e115e93_72.png",
+      "first_name": "Vaibhav",
+      "real_name": "Vaibhav Verma",
+      "display_name": "Vaibhav Verma",
+      "team": "T0820LGJGRF",
+      "name": "vaibhav",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3545fe74-1d80-47f7-8479-560b2f36ff61",
+    "type": "message",
+    "user": "U0CKQHAUDL3",
+    "text": "Thanks, that works. I’ll wait for the issues you have in mind. Meanwhile I’ll look through the good first issue list and the Oracle driver code so I’m ready. If #871 is still useful later, I’m happy to take it.",
+    "ts": "1795294528.726099",
+    "thread_ts": "1795293588.834929",
+    "parent_user_id": "U0CKQHAUDL3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yQJp8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Thanks, that works. I’ll wait for the issues you have in mind. Meanwhile I’ll look through the good first issue list and the Oracle driver code so I’m ready. If #871 is still useful later, I’m happy to take it."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-21/12671526676005_64f4a82b076ee5f3dfd1_72.png",
+      "first_name": "Bishal",
+      "real_name": "Bishal Das",
+      "display_name": "Bishal Das",
+      "team": "T0820LGJGRF",
+      "name": "bishaldas5112007",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7cb40cc3-35bb-43b9-8500-4944f0ca4064",
+    "type": "message",
+    "user": "U0CKQHAUDL3",
+    "text": "Quick update: I’ve commented on #649 (unit tests for `stream_configured.go`) since it’s a small scoped task. Happy to switch if you have something higher priority in mind. [\u003chttps://github.com/datazip-inc/olake-go/pull/663#issuecomment-7069201106|github.com/datazip-inc/olake-go/pull/663#…\u003e]",
+    "ts": "1795295059.291069",
+    "thread_ts": "1795293588.834929",
+    "parent_user_id": "U0CKQHAUDL3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1c6Uo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Quick update: I’ve commented on #649 (unit tests for "
+              },
+              {
+                "type": "text",
+                "text": "stream_configured.go",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ") since it’s a small scoped task. Happy to switch if you have something higher priority in mind. ["
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-go/pull/663#issuecomment-7069201106",
+                "text": "github.com/datazip-inc/olake-go/pull/663#…"
+              },
+              {
+                "type": "text",
+                "text": "]"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-21/12671526676005_64f4a82b076ee5f3dfd1_72.png",
+      "first_name": "Bishal",
+      "real_name": "Bishal Das",
+      "display_name": "Bishal Das",
+      "team": "T0820LGJGRF",
+      "name": "bishaldas5112007",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "client_msg_id": "7c221af4-064f-43d2-b635-c05ce2aa3ae5",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nWe have a mongo collection which is sharded but _id is not the shard column, So there are few records with same _id value in different shards because of which our sync is failing.\nI have notified our tech team about the issue but just curious can we handle it from olake?",
+    "ts": "1795151107.245569",
+    "thread_ts": "1795151107.245569",
+    "reply_count": 4,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U0BTUQGHDDF"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795155155.201059"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795160324.411409"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795162240.121699"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795162349.776519"
+      }
+    ],
+    "latest_reply": "1795162349.776519",
+    "files": [
+      {
+        "id": "F0CKGV89E82",
+        "created": 1795151103,
+        "timestamp": 1795151103,
+        "name": "job-63-logs-2026-11-20-03-55-35.tar.gz",
+        "title": "job-63-logs-2026-11-20-03-55-35.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 8988,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CKGV89E82/job-63-logs-2026-11-20-03-55-35.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CKGV89E82/download/job-63-logs-2026-11-20-03-55-35.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CKGV89E82/job-63-logs-2026-11-20-03-55-35.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CKGV89E82-77ceb8395e",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2cBlh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nWe have a mongo collection which is sharded but _id is not the shard column, So there are few records with same _id value in different shards because of which our sync is failing.\nI have notified our tech team about the issue but just curious can we handle it from olake?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "31749c68-607f-493d-bef4-9479080a8318",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e For the affected collection, do all writes go through mongos so MongoDB routes each document by the shard key, or does any service or script write directly to a shard (custom routing)? Also, could you share the shard key of customer_v2?",
+    "ts": "1795155155.201059",
+    "thread_ts": "1795151107.245569",
+    "edited": {
+      "user": "U08S0TP9R3P",
+      "ts": "1795155196.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Rdf7d",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " For the affected collection, do all writes go through mongos so MongoDB routes each document by the shard key, or does any service or script write directly to a shard (custom routing)? Also, could you share the shard key of customer_v2?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2bd61a8e-1a8f-4fe8-8b04-34eb2caf79d0",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e Could you check whether both documents with `_id=40052023` in `customer_v2` have every shard key field present (we suspect shard key is missing in one of them).",
+    "ts": "1795160324.411409",
+    "thread_ts": "1795151107.245569",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lC7iu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " Could you check whether both documents with "
+              },
+              {
+                "type": "text",
+                "text": "_id=40052023",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " in "
+              },
+              {
+                "type": "text",
+                "text": "customer_v2",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " have every shard key field present (we suspect shard key is missing in one of them)."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
