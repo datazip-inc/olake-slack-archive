@@ -1,0 +1,241 @@
+[
+  {
+    "client_msg_id": "d9f9ff49-00d8-4649-b371-06ddcd3304d3",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e did you try increasing the max threads. Did it help ?",
+    "ts": "1795434940.093949",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l/nsw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " did you try increasing the max threads. Did it help ?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "7c4cea23-160b-43e7-9857-e6eb55dff3a1",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "No",
+    "ts": "1795434957.928319",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mce3j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "No"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "94dc8f3f-7d24-4ab4-8e7c-c4f832d59085",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Can We connect?",
+    "ts": "1795434971.802229",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RkGS3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Can We connect?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "dedbc514-dd76-465c-9727-2a62b7518cdc",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "Sure, we can connect in 10 mins here: \u003chttps://meet.google.com/xfk-xkhq-sux|meet.google.com/xfk-xkhq-sux\u003e",
+    "ts": "1795435118.158209",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BVy4u",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Sure, we can connect in 10 mins here: "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xfk-xkhq-sux",
+                "text": "meet.google.com/xfk-xkhq-sux"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "952b72eb-1a7f-4b1e-9853-d8731970dba4",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "I have joined",
+    "ts": "1795435407.768569",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/OEXp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "I have joined"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
