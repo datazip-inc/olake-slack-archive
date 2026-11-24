@@ -1,0 +1,51 @@
+[
+  {
+    "client_msg_id": "dccba96b-80bd-40e5-8f90-8483fb168479",
+    "type": "message",
+    "user": "U0CL1GZT5T3",
+    "text": "Hi Team, I want to create DynamoDB connector for OLake, could you please assign this issue to me: \u003chttps://github.com/datazip-inc/olake-go/issues/963|github.com/datazip-inc/olake-go/issues/963\u003e",
+    "ts": "1795437565.506149",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OywZz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team, I want to create DynamoDB connector for OLake, could you please assign this issue to me: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-go/issues/963",
+                "text": "github.com/datazip-inc/olake-go/issues/963"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-22/12708062006736_f644fbe23e86c92cf673_72.jpg",
+      "first_name": "Nitish",
+      "real_name": "Nitish Songara",
+      "display_name": "Nitish Songara",
+      "team": "T0820LGJGRF",
+      "name": "nitishsongara75",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
