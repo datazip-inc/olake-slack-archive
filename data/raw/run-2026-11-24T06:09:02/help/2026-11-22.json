@@ -1,0 +1,659 @@
+[
+  {
+    "client_msg_id": "5eeca16a-dfb1-4098-83bb-3fdc8830e323",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nIt was a cdc scheduled run,\nMostly it finishes in 1 minute, but this run took around 4 hours and the data is also not that huge.\nWhy it could be taking this long to complete?",
+    "ts": "1795405793.471969",
+    "thread_ts": "1795405793.471969",
+    "reply_count": 26,
+    "reply_users": [
+      "U082APQJZNC",
+      "U08S0TP9R3P",
+      "U0BRSG8EMC6",
+      "U0BTUQGHDDF"
+    ],
+    "replies": [
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795405926.981729"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795406388.453539"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795406459.525899"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795406500.081869"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795411043.055749"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795411141.713329"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795411155.877249"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795411165.110149"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795434940.093949"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795434957.928319"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795434971.802229"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795435118.158209"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795435407.768569"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795435846.224179"
+      },
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795437656.419589"
+      },
+      {
+        "user": "U0BRSG8EMC6",
+        "ts": "1795439955.811459"
+      },
+      {
+        "user": "U0BRSG8EMC6",
+        "ts": "1795440012.619639"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795440085.270029"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795441373.694989"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795441397.487679"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795442582.696749"
+      },
+      {
+        "user": "U0BTUQGHDDF",
+        "ts": "1795442650.276229"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795442776.591069"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795487557.353869"
+      },
+      {
+        "user": "U0BRSG8EMC6",
+        "ts": "1795487926.330889"
+      },
+      {
+        "user": "U082APQJZNC",
+        "ts": "1795488242.398449"
+      }
+    ],
+    "latest_reply": "1795488242.398449",
+    "files": [
+      {
+        "id": "F0CKXEK2B1T",
+        "created": 1795405790,
+        "timestamp": 1795405790,
+        "name": "job-55-logs-2026-11-22-16-35-02.tar.gz",
+        "title": "job-55-logs-2026-11-22-16-35-02.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 5117,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CKXEK2B1T/job-55-logs-2026-11-22-16-35-02.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CKXEK2B1T/download/job-55-logs-2026-11-22-16-35-02.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CKXEK2B1T/job-55-logs-2026-11-22-16-35-02.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CKXEK2B1T-6762c2e11e",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rmdZ1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nIt was a cdc scheduled run,\nMostly it finishes in 1 minute, but this run took around 4 hours and the data is also not that huge.\nWhy it could be taking this long to complete?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 4
+  },
+  {
+    "client_msg_id": "7b50a15f-1162-44e1-be59-9fb4bf59048a",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Does some settings needs to be changed for this?",
+    "ts": "1795405926.981729",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 2,
+        "users": [
+          "U08S0TP9R3P",
+          "U0A9LUUNP43"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CcZbl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Does some settings needs to be changed for this?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "5557af0a-dac4-442b-af4b-45eef2a5e856",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "Cc \u003c@U0A9LUUNP43\u003e \u003c@U08S0TP9R3P\u003e",
+    "ts": "1795406388.453539",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WYyAF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cc "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A9LUUNP43"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S0TP9R3P"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "496f23a1-80f8-4d6b-971e-e8a67346ba41",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0BTUQGHDDF\u003e just to confirm, Manish told me that Tue is the deadline for the migration taking place, all table full load is done and cdc is started and working fine?",
+    "ts": "1795406459.525899",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NKS8Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " just to confirm, Manish told me that Tue is the deadline for the migration taking place, all table full load is done and cdc is started and working fine?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "73af91c6-c10a-47a1-9536-6bac5ab4142e",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Yes, full load is complete and cdc is working fine.",
+    "ts": "1795406500.081869",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "rocket",
+        "count": 5,
+        "users": [
+          "U082APQJZNC",
+          "U0820LSJZRP",
+          "U0A9LUUNP43",
+          "U0817E9CGRM",
+          "U08CR7HUWDC"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lawk5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yes, full load is complete and cdc is working fine."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "2a0cdf4d-2cf0-4ff1-bd2b-a13b6715f83a",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u0026gt;  Does some settings needs to be changed for this?\n\u003c@U0BTUQGHDDF\u003e from the logs, reading the oplog was much slower than usual for this run, likely due to higher activity on the database, so each collection took longer to catch up.\n\nWith max_threads at 2, only 2 of the 7 collections ran at a time, and the rest waited with a growing backlog. Please increase max_threads to 7 so all collections run in parallel.",
+    "ts": "1795411043.055749",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D8NJr",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " Does some settings needs to be changed for this?"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " from the logs, reading the oplog was much slower than usual for this run, likely due to higher activity on the database, so each collection took longer to catch up.\n\nWith max_threads at 2, only 2 of the 7 collections ran at a time, and the rest waited with a growing backlog. Please increase max_threads to 7 so all collections run in parallel."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "260417c9-693e-4385-8ed1-d71e74a1710d",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "You are talking about stream discovery threads, or the one in source?",
+    "ts": "1795411141.713329",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WCEpk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "You are talking about stream discovery threads, or the one in source?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "51e1a0ba-ed74-495b-924d-409f52991fef",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "source config",
+    "ts": "1795411155.877249",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eV6T6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "source config"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "6da375f9-954b-4501-a645-4813ea50468c",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "ok",
+    "ts": "1795411165.110149",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "luWBi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ok"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
