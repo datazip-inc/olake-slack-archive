@@ -1,0 +1,94 @@
+Name:             sync-123-54-2026-11-25t16-20-00z
+Namespace:        olake
+Priority:         0
+Service Account:  olake-job
+Node:             gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8/10.160.0.7
+Start Time:       Wed, 25 Nov 2026 16:20:02 +0000
+Labels:           app.kubernetes.io/component=mongodb-sync
+                  app.kubernetes.io/managed-by=olake-workers
+                  app.kubernetes.io/name=olake
+                  olake.io/connector=mongodb
+                  olake.io/job-id=54
+                  olake.io/operation-type=sync
+                  olake.io/workflow-id=sync-123-54-2026-11-25t16-20-00z
+                  topology.kubernetes.io/region=asia-south1
+                  topology.kubernetes.io/zone=asia-south1-a
+Annotations:      kubernetes.io/limit-ranger: LimitRanger plugin set: memory limit for container connector
+                  olake.io/connector-type: mongodb
+                  olake.io/created-at: 2026-11-25T16:20:02Z
+                  olake.io/created-by-pod: olake.io/olake-workers/olake-workers-5c768bcd74-btcdg
+                  olake.io/job-id: 54
+                  olake.io/operation-type: sync
+                  olake.io/workflow-id: sync-123-54-2026-11-25T16:20:00Z
+Status:           Running
+IP:               10.120.3.5
+IPs:
+  IP:  10.120.3.5
+Containers:
+  connector:
+    Container ID:  containerd://855e6c01527d2cd4b0403100b57d4a4d6579cbb51135c2a20934ee436c079774
+    Image:         olakego/source-mongodb:v1.2.2
+    Image ID:      docker.io/olakego/source-mongodb@sha256:ac25240e6fe4f7e64c0cbe820f1cfe44bc5ffbb2a957929f21f0d5219d805b3a
+    Port:          <none>
+    Host Port:     <none>
+    Args:
+      sync
+      --config
+      /mnt/config/source.json
+      --destination
+      /mnt/config/destination.json
+      --state
+      /mnt/config/state.json
+      --available-streams
+      /mnt/config/available_streams.json
+      --selected-streams
+      /mnt/config/selected_streams.json
+    State:          Running
+      Started:      Wed, 25 Nov 2026 16:20:03 +0000
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      memory:  55Gi
+    Requests:
+      cpu:     100m
+      memory:  256Mi
+    Liveness:  exec [/bin/sh -c echo ok > /mnt/config/.healthcheck] delay=10s timeout=5s period=30s #success=1 #failure=3
+    Environment Variables from:
+      olake-global-env  ConfigMap  Optional: true
+    Environment:
+      OLAKE_WORKFLOW_ID:       sync-123-54-2026-11-25T16:20:00Z
+      OLAKE_S3_CONFIG_FOLDER:  
+      OLAKE_SECRET_KEY:        
+    Mounts:
+      /mnt/config from job-storage (rw,path="11ad83cc9f8dd79f35f2aa1260ae8e5da3af912007ed4a7ea957b8b527ccefe9")
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-fzkmp (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  job-storage:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  olake-shared-storage
+    ReadOnly:   false
+  kube-api-access-fzkmp:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   Burstable
+Node-Selectors:              cloud.google.com/gke-nodepool=olake-orders-v2
+Tolerations:                 dedicated=orders-v2:NoSchedule
+                             node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  66s   default-scheduler  Successfully assigned olake/sync-123-54-2026-11-25t16-20-00z to gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+  Normal  Pulled     66s   kubelet            spec.containers{connector}: Container image "olakego/source-mongodb:v1.2.2" already present on machine and can be accessed by the pod
+  Normal  Created    66s   kubelet            spec.containers{connector}: Container created
+  Normal  Started    66s   kubelet            spec.containers{connector}: Container started

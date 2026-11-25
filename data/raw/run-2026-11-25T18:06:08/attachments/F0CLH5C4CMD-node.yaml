@@ -1,0 +1,390 @@
+apiVersion: v1
+kind: Node
+metadata:
+  annotations:
+    container.googleapis.com/instance_id: "30473204034918563"
+    csi.volume.kubernetes.io/nodeid: '{"pd.csi.storage.gke.io":"projects/analytics-dataplatform-457708/zones/asia-south1-a/instances/gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8","podcertificate.gke.io":"gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8"}'
+    node.alpha.kubernetes.io/ttl: "0"
+    node.gke.io/last-applied-node-labels: addon.gke.io/node-local-dns-ds-ready=true,cloud.google.com/gke-boot-disk=pd-balanced,cloud.google.com/gke-container-runtime=containerd,cloud.google.com/gke-cpu-scaling-level=8,cloud.google.com/gke-logging-variant=DEFAULT,cloud.google.com/gke-max-pods-per-node=110,cloud.google.com/gke-memory-gb-scaling-level=65,cloud.google.com/gke-netd-ready=true,cloud.google.com/gke-nodepool=olake-orders-v2,cloud.google.com/gke-os-distribution=cos,cloud.google.com/gke-provisioning=standard,cloud.google.com/gke-stack-type=IPV4,cloud.google.com/machine-family=e2,cloud.google.com/private-node=false,disk-type.gke.io/pd-balanced=true,disk-type.gke.io/pd-extreme=true,disk-type.gke.io/pd-ssd=true,disk-type.gke.io/pd-standard=true,iam.gke.io/gke-metadata-server-enabled=true
+    node.gke.io/last-applied-node-taints: dedicated=orders-v2:NoSchedule
+    volumes.kubernetes.io/controller-managed-attach-detach: "true"
+  creationTimestamp: "2026-11-25T13:45:30Z"
+  labels:
+    addon.gke.io/node-local-dns-ds-ready: "true"
+    beta.kubernetes.io/arch: amd64
+    beta.kubernetes.io/instance-type: e2-highmem-8
+    beta.kubernetes.io/os: linux
+    cloud.google.com/gke-boot-disk: pd-balanced
+    cloud.google.com/gke-container-runtime: containerd
+    cloud.google.com/gke-cpu-scaling-level: "8"
+    cloud.google.com/gke-logging-variant: DEFAULT
+    cloud.google.com/gke-max-pods-per-node: "110"
+    cloud.google.com/gke-memory-gb-scaling-level: "65"
+    cloud.google.com/gke-netd-ready: "true"
+    cloud.google.com/gke-nodepool: olake-orders-v2
+    cloud.google.com/gke-os-distribution: cos
+    cloud.google.com/gke-provisioning: standard
+    cloud.google.com/gke-stack-type: IPV4
+    cloud.google.com/machine-family: e2
+    cloud.google.com/private-node: "false"
+    disk-type.gke.io/pd-balanced: "true"
+    disk-type.gke.io/pd-extreme: "true"
+    disk-type.gke.io/pd-ssd: "true"
+    disk-type.gke.io/pd-standard: "true"
+    failure-domain.beta.kubernetes.io/region: asia-south1
+    failure-domain.beta.kubernetes.io/zone: asia-south1-a
+    iam.gke.io/gke-metadata-server-enabled: "true"
+    kubernetes.io/arch: amd64
+    kubernetes.io/hostname: gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+    kubernetes.io/os: linux
+    node.kubernetes.io/instance-type: e2-highmem-8
+    topology.gke.io/zone: asia-south1-a
+    topology.kubernetes.io/region: asia-south1
+    topology.kubernetes.io/zone: asia-south1-a
+  name: gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+  resourceVersion: "1795623656753743008"
+  uid: 8b5e6947-872f-454d-9833-8e7e6a31cd05
+spec:
+  podCIDR: 10.120.3.0/24
+  podCIDRs:
+  - 10.120.3.0/24
+  providerID: gce://analytics-dataplatform-457708/asia-south1-a/gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+  taints:
+  - effect: NoSchedule
+    key: dedicated
+    value: orders-v2
+status:
+  addresses:
+  - address: 10.160.0.7
+    type: InternalIP
+  - address: 8.231.103.152
+    type: ExternalIP
+  - address: gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+    type: Hostname
+  allocatable:
+    cpu: 7910m
+    ephemeral-storage: "47060071478"
+    hugepages-1Gi: "0"
+    hugepages-2Mi: "0"
+    memory: 60042288Ki
+    pods: "110"
+  capacity:
+    cpu: "8"
+    ephemeral-storage: 98831908Ki
+    hugepages-1Gi: "0"
+    hugepages-2Mi: "0"
+    memory: 65850416Ki
+    pods: "110"
+  conditions:
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: Swap is not active
+    reason: SwapNotDetected
+    status: "False"
+    type: Swap
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: Root filesystem is not read only
+    reason: ReadOnlyRootFileSystemNotDetected
+    status: "False"
+    type: ReadOnlyRootFileSystem
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: No changes detected to the kubelet configuration file.
+    reason: NoKubeletConfigChangeDetected
+    status: "False"
+    type: KubeletConfigChanged
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: docker overlay2 is functioning properly
+    reason: NoCorruptDockerOverlay2
+    status: "False"
+    type: CorruptDockerOverlay2
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: kernel has no deadlock
+    reason: KernelHasNoDeadlock
+    status: "False"
+    type: KernelDeadlock
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: XFS has not shutdown
+    reason: XfsHasNotShutDown
+    status: "False"
+    type: XfsShutdown
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: 'No deprecation risk: did not find any deprecated ''auths'' field in
+      containerd''s config'
+    reason: DeprecatedAuthsFieldInContainerdConfigurationNotDetected
+    status: "False"
+    type: DeprecatedAuthsFieldInContainerdConfiguration
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: 'No deprecation risk: did not find any deprecations other than 3 configs
+      fields (auths/configs/mirrors), pulling schema v1 images and using v1alpha2
+      CRI.'
+    reason: DeprecatedOtherContainerdFeaturesNotDetected
+    status: "False"
+    type: DeprecatedOtherContainerdFeatures
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: 'No deprecation risk: did not pull any schema v1 images'
+    reason: DeprecatedPullingSchemaV1ImageDetected
+    status: "False"
+    type: DeprecatedPullingSchemaV1Image
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: 'No deprecation risk: did not use v1alpha2 CRI'
+    reason: DeprecatedUsingV1Alpha2CriNotDetected
+    status: "False"
+    type: DeprecatedUsingV1Alpha2Cri
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: No unsupported EBPF programs detected
+    reason: UnsupportedEBPFProgramsNotDetected
+    status: "False"
+    type: UnsupportedEBPFPrograms
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: System resources are within normal range.
+    reason: ResourcesOK
+    status: "False"
+    type: ResourceExhausted
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: docker is functioning properly
+    reason: NoFrequentDockerRestart
+    status: "False"
+    type: FrequentDockerRestart
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: 'No deprecation risk: did not find any deprecated ''configs'' field in
+      containerd''s config'
+    reason: DeprecatedConfigsFieldInContainerdConfigurationNotDetected
+    status: "False"
+    type: DeprecatedConfigsFieldInContainerdConfiguration
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: Root filesystem has no storage pressure
+    reason: StoragePressureRootFileSystemNotDetected
+    status: "False"
+    type: StoragePressureRootFileSystem
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: No unsupported CNI detected for DPv2 migration
+    reason: DPv2MigrationUnsupportedCNINotDetected
+    status: "False"
+    type: DPv2MigrationUnsupportedCNI
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: kubelet is functioning properly
+    reason: NoFrequentKubeletRestart
+    status: "False"
+    type: FrequentKubeletRestart
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: node is functioning properly
+    reason: NoFrequentUnregisterNetDevice
+    status: "False"
+    type: FrequentUnregisterNetDevice
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: '{"unmanaged": {"kernel.cad_pid": "1"}}'
+    reason: NodeSysctlChange
+    status: "True"
+    type: SysctlChanged
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: containerd is functioning properly
+    reason: NoFrequentContainerdRestart
+    status: "False"
+    type: FrequentContainerdRestart
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: UEFI CPER has no fatal error
+    reason: CperHardwareHasNoFatalError
+    status: "False"
+    type: CperHardwareErrorFatal
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: 'No deprecation risk: did not find any deprecated ''mirrors'' field in
+      containerd''s config'
+    reason: DeprecatedMirrorsFieldInContainerdConfigurationNotDetected
+    status: "False"
+    type: DeprecatedMirrorsFieldInContainerdConfiguration
+  - lastHeartbeatTime: "2026-11-25T13:45:33Z"
+    lastTransitionTime: "2026-11-25T13:45:33Z"
+    message: NodeController create implicit route
+    reason: RouteCreated
+    status: "False"
+    type: NetworkUnavailable
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: kubelet has sufficient memory available
+    reason: KubeletHasSufficientMemory
+    status: "False"
+    type: MemoryPressure
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: kubelet has no disk pressure
+    reason: KubeletHasNoDiskPressure
+    status: "False"
+    type: DiskPressure
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:29Z"
+    message: kubelet has sufficient PID available
+    reason: KubeletHasSufficientPID
+    status: "False"
+    type: PIDPressure
+  - lastHeartbeatTime: "2026-11-25T16:20:56Z"
+    lastTransitionTime: "2026-11-25T13:45:34Z"
+    message: kubelet is posting ready status
+    reason: KubeletReady
+    status: "True"
+    type: Ready
+  daemonEndpoints:
+    kubeletEndpoint:
+      Port: 10250
+  features:
+    supplementalGroupsPolicy: true
+  images:
+  - names:
+    - docker.io/olakego/source-mongodb@sha256:ac25240e6fe4f7e64c0cbe820f1cfe44bc5ffbb2a957929f21f0d5219d805b3a
+    - docker.io/olakego/source-mongodb:v1.2.2
+    sizeBytes: 348490687
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/cilium@sha256:8d970ad8a695a359de7918068eb8b343ec37b8a331eeab0db26ac5cc77c18c43
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/cilium/cilium@sha256:8d970ad8a695a359de7918068eb8b343ec37b8a331eeab0db26ac5cc77c18c43
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/cilium@sha256:8d970ad8a695a359de7918068eb8b343ec37b8a331eeab0db26ac5cc77c18c43
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/cilium/cilium@sha256:8d970ad8a695a359de7918068eb8b343ec37b8a331eeab0db26ac5cc77c18c43
+    sizeBytes: 209957225
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/prometheus-engine/prometheus@sha256:e9d39fbb1b191aa85afa902d5dc368d5ae33105ae501a4211c7e178121ae5c68
+    sizeBytes: 146591850
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gcp-compute-persistent-disk-csi-driver@sha256:342b8730db84dce6df8255093e152bf288ed4f9d3306f61bcf9c75ba98221640
+    sizeBytes: 130762699
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/kube-proxy-amd64:v1.35.9-gke.1673000
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/kube-proxy:v1.35.9-gke.1673000
+    - gcr.io/gke-on-prem-staging/kube-proxy-amd64:v1.35.9-gke.400
+    - gcr.io/gke-on-prem-staging/kube-proxy:v1.35.9-gke.400
+    - gcr.io/gke-release-staging/kube-proxy-amd64:v1.35.9-gke.400
+    sizeBytes: 123158906
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/k8s-dns-node-cache@sha256:da292007c12afac42992203755d5e0ec20631f2ee39c8f8d23e388a4d17a0576
+    sizeBytes: 55835999
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/fluent-bit@sha256:9aeaf3c0386c0afab73fbfa173086c2e60dd6d1c7038a16832bdfd487171bfba
+    sizeBytes: 52081748
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metadata-server@sha256:2fee46b5e5af5f3f0b3953284d596962a0daf00bde8c1a5345512617cff184fa
+    sizeBytes: 46357112
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/certgen@sha256:b2414c40ac404c6b29412d1f134421497cbcb0695d6be2e641cca5f5c2568f70
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/cilium/certgen@sha256:b2414c40ac404c6b29412d1f134421497cbcb0695d6be2e641cca5f5c2568f70
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/certgen@sha256:b2414c40ac404c6b29412d1f134421497cbcb0695d6be2e641cca5f5c2568f70
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/cilium/certgen@sha256:b2414c40ac404c6b29412d1f134421497cbcb0695d6be2e641cca5f5c2568f70
+    sizeBytes: 45661447
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/slim-daemon/anet-agent@sha256:cc200fc0d003dd163230ff31368e588c833220a9944fabdc1d27d2922be6b7eb
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/cilium/slim-daemon/anet-agent@sha256:cc200fc0d003dd163230ff31368e588c833220a9944fabdc1d27d2922be6b7eb
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/slim-daemon/anet-agent@sha256:cc200fc0d003dd163230ff31368e588c833220a9944fabdc1d27d2922be6b7eb
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/cilium/slim-daemon/anet-agent@sha256:cc200fc0d003dd163230ff31368e588c833220a9944fabdc1d27d2922be6b7eb
+    sizeBytes: 41116897
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/nvidia-gpu-device-plugin@sha256:0a9317b2adc14dbb6807f705f38815e55582ba9738b767732b5cdd4f563d13f8
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/nvidia-gpu-device-plugin@sha256:0a9317b2adc14dbb6807f705f38815e55582ba9738b767732b5cdd4f563d13f8
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/nvidia-gpu-device-plugin@sha256:0a9317b2adc14dbb6807f705f38815e55582ba9738b767732b5cdd4f563d13f8
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/nvidia-gpu-device-plugin@sha256:0a9317b2adc14dbb6807f705f38815e55582ba9738b767732b5cdd4f563d13f8
+    sizeBytes: 41046664
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/hubble-cli@sha256:7863fe2f6e161406d38a749b0363dbe2ea2527f5b9bd7ad9595fed9acf876364
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/cilium/hubble-cli@sha256:7863fe2f6e161406d38a749b0363dbe2ea2527f5b9bd7ad9595fed9acf876364
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/hubble-cli@sha256:7863fe2f6e161406d38a749b0363dbe2ea2527f5b9bd7ad9595fed9acf876364
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/cilium/hubble-cli@sha256:7863fe2f6e161406d38a749b0363dbe2ea2527f5b9bd7ad9595fed9acf876364
+    sizeBytes: 39104641
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:26793b485ab958f283779e2be2df3e1c64e9d8772488bdf6604efb9ac463d854
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:26793b485ab958f283779e2be2df3e1c64e9d8772488bdf6604efb9ac463d854
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:26793b485ab958f283779e2be2df3e1c64e9d8772488bdf6604efb9ac463d854
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:26793b485ab958f283779e2be2df3e1c64e9d8772488bdf6604efb9ac463d854
+    sizeBytes: 37337116
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:9a0cbd409ef787c9d5478110f46ae8a36c0f076f819cb940c50f8cb7cc50d62b
+    sizeBytes: 37318999
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:808f8923cea558e7b01ad298e368d97a4bef340b74572fa114a39283e1e7e9d4
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:808f8923cea558e7b01ad298e368d97a4bef340b74572fa114a39283e1e7e9d4
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:808f8923cea558e7b01ad298e368d97a4bef340b74572fa114a39283e1e7e9d4
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:808f8923cea558e7b01ad298e368d97a4bef340b74572fa114a39283e1e7e9d4
+    sizeBytes: 37318661
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:41bb9b856d84668469f5db64911d57b3c01b7d6c4960cbc6972e788c5ab602c8
+    sizeBytes: 37255618
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/fluent-bit-gke-exporter@sha256:42db8e34d0fed1c9aad91634a0657358ee35a9eeb31b4c447bc56652948b445d
+    sizeBytes: 35672372
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-agent@sha256:4cc4daca02a5928dd1c38b03ff421c9b3bca9cbc1249ccf69f8acfe3948ac1df
+    sizeBytes: 31395961
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/anet/cni-writer@sha256:0f735b2650650dd85af6d226cfe2cf3171c69e5eedea2223a5c1c212c6b113c6
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/anet/cni-writer@sha256:0f735b2650650dd85af6d226cfe2cf3171c69e5eedea2223a5c1c212c6b113c6
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/anet/cni-writer@sha256:0f735b2650650dd85af6d226cfe2cf3171c69e5eedea2223a5c1c212c6b113c6
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/anet/cni-writer@sha256:0f735b2650650dd85af6d226cfe2cf3171c69e5eedea2223a5c1c212c6b113c6
+    sizeBytes: 28096905
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/netd@sha256:645b4f3ac38b9ae0c9dbe2c61b1416cd136f17361c9c57bd80ba41df8bc4473f
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/netd@sha256:645b4f3ac38b9ae0c9dbe2c61b1416cd136f17361c9c57bd80ba41df8bc4473f
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/netd@sha256:645b4f3ac38b9ae0c9dbe2c61b1416cd136f17361c9c57bd80ba41df8bc4473f
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/netd@sha256:645b4f3ac38b9ae0c9dbe2c61b1416cd136f17361c9c57bd80ba41df8bc4473f
+    sizeBytes: 26971928
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/hubble-relay@sha256:4f4c05b6c855155ef1c40bb7a273bbf6f3f46cd4a2f868d48f1e9abdc431ae9b
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/cilium/hubble-relay@sha256:4f4c05b6c855155ef1c40bb7a273bbf6f3f46cd4a2f868d48f1e9abdc431ae9b
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/cilium/hubble-relay@sha256:4f4c05b6c855155ef1c40bb7a273bbf6f3f46cd4a2f868d48f1e9abdc431ae9b
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/cilium/hubble-relay@sha256:4f4c05b6c855155ef1c40bb7a273bbf6f3f46cd4a2f868d48f1e9abdc431ae9b
+    sizeBytes: 26928781
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:4c8e8cc4f739fc539e35c1581af031232d8885ee10f28484cb2085f5dfbb2b7d
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:4c8e8cc4f739fc539e35c1581af031232d8885ee10f28484cb2085f5dfbb2b7d
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:4c8e8cc4f739fc539e35c1581af031232d8885ee10f28484cb2085f5dfbb2b7d
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:4c8e8cc4f739fc539e35c1581af031232d8885ee10f28484cb2085f5dfbb2b7d
+    sizeBytes: 25734122
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:0d590a9fb5339909d425b2eede28ac05cc76346092cbe82602c7618f047c25f0
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:0d590a9fb5339909d425b2eede28ac05cc76346092cbe82602c7618f047c25f0
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/gke-metrics-collector@sha256:0d590a9fb5339909d425b2eede28ac05cc76346092cbe82602c7618f047c25f0
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:0d590a9fb5339909d425b2eede28ac05cc76346092cbe82602c7618f047c25f0
+    sizeBytes: 25700281
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/gke-metrics-collector@sha256:aa1ed41571fa937da61b5bcd7cf842981c7f026b516c18655bc2f3a9362b1fa5
+    sizeBytes: 25459396
+  - names:
+    - asia-south1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/nvidia-partition-gpu@sha256:edcfa151f093ae83de32b0395c980584e88683ac13f87d233820cd4a4c674185
+    - asia-south1-artifactregistry.gcr.io/gke-release/gke-release/nvidia-partition-gpu@sha256:edcfa151f093ae83de32b0395c980584e88683ac13f87d233820cd4a4c674185
+    - us-central1-artifactregistry.gcr.io/gke-release-staging/gke-release-staging/nvidia-partition-gpu@sha256:edcfa151f093ae83de32b0395c980584e88683ac13f87d233820cd4a4c674185
+    - us-central1-artifactregistry.gcr.io/gke-release/gke-release/nvidia-partition-gpu@sha256:edcfa151f093ae83de32b0395c980584e88683ac13f87d233820cd4a4c674185
+    sizeBytes: 21476926
+  nodeInfo:
+    architecture: amd64
+    bootID: 629a34e8-2253-40b6-97b4-1418f03dd9b9
+    containerRuntimeVersion: containerd://2.2.7
+    kernelVersion: 6.12.113+
+    kubeProxyVersion: ""
+    kubeletVersion: v1.35.9-gke.1673000
+    machineID: 07af9ce4a3e3a02ea4fc9c97abe094cd
+    operatingSystem: linux
+    osImage: Container-Optimized OS from Google
+    systemUUID: 07af9ce4-a3e3-a02e-a4fc-9c97abe094cd
+  runtimeHandlers:
+  - features:
+      recursiveReadOnlyMounts: true
+      userNamespaces: true
+    name: ""
+  - features:
+      recursiveReadOnlyMounts: true
+      userNamespaces: true
+    name: runc
