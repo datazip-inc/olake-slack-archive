@@ -1,0 +1,645 @@
+[
+  {
+    "client_msg_id": "5815dcd5-731e-4499-8a97-510c4cc6aec4",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Hi Team,\nWhen does a job commits for cdc runs?",
+    "ts": "1795604816.084579",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GvG5l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hi Team,\nWhen does a job commits for cdc runs?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ffd5dd6d-687c-43c1-b0a1-b4d11dcde28f",
+    "type": "message",
+    "user": "U0BRSG8EMC6",
+    "text": "\u003c@U082APQJZNC\u003e getting 2 hour lag for order v2 table. Can your team connect with \u003c@U0BTUQGHDDF\u003e to look into it",
+    "ts": "1795604868.397189",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "P5GGE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U082APQJZNC"
+              },
+              {
+                "type": "text",
+                "text": " getting 2 hour lag for order v2 table. Can your team connect with "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " to look into it"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/5b7a715ffab91c804da93efa1bebddd1.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "manish.mishra2",
+      "real_name": "manish.mishra2",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "manish.mishra2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "68c47328-9f2a-4f50-af73-4721e61e7345",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0BRSG8EMC6\u003e can you verify from your end first from that verification job side (which was doing bulk updates)?",
+    "ts": "1795605795.442859",
+    "thread_ts": "1795405793.471969",
+    "edited": {
+      "user": "U082APQJZNC",
+      "ts": "1795606026.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TwZVz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BRSG8EMC6"
+              },
+              {
+                "type": "text",
+                "text": " can you verify from your end first from that verification job side (which was doing bulk updates)?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "374bb2ee-b8f6-4c46-9a14-5535125d3211",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "is that job started again? or any other reason for lag like bulk updates? cc \u003c@U08S0TP9R3P\u003e please take this forward",
+    "ts": "1795605805.686519",
+    "thread_ts": "1795405793.471969",
+    "edited": {
+      "user": "U082APQJZNC",
+      "ts": "1795605831.000000"
+    },
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08S0TP9R3P"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TsZxx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "is that job started again? or any other reason for lag like bulk updates? cc "
+              },
+              {
+                "type": "user",
+                "user_id": "U08S0TP9R3P"
+              },
+              {
+                "type": "text",
+                "text": " please take this forward"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "e5331e92-d2e3-468d-b803-f43b7a424639",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Yeah, It started again.\nCurrently cdc sync is goin on.\nThe job is set to 10 threads.\nHere are the logs",
+    "ts": "1795605877.555669",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0CMQ0TK4FJ",
+        "created": 1795605853,
+        "timestamp": 1795605853,
+        "name": "job-54-logs-2026-11-25-09-50-08.tar.gz",
+        "title": "job-54-logs-2026-11-25-09-50-08.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 11863,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CMQ0TK4FJ/job-54-logs-2026-11-25-09-50-08.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CMQ0TK4FJ/download/job-54-logs-2026-11-25-09-50-08.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CMQ0TK4FJ/job-54-logs-2026-11-25-09-50-08.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CMQ0TK4FJ-44f49293c7",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L3bgg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yeah, It started again.\nCurrently cdc sync is goin on.\nThe job is set to 10 threads.\nHere are the logs"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "20769f62-4df9-42d2-a643-239a1ab7d2ae",
+    "type": "message",
+    "user": "U082APQJZNC",
+    "text": "\u003c@U0BTUQGHDDF\u003e i am talking about that bulk-update-verification thing that was happening? are you also talking about the same thing?",
+    "ts": "1795605973.046999",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "llt8l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " i am talking about that bulk-update-verification thing that was happening? are you also talking about the same thing?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2024-11-20/8041478224599_fd6b11e4cda793c78c1f_72.jpg",
+      "first_name": "shubham",
+      "real_name": "shubham",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "shubham",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "ad96691d-0cad-40f9-8194-6c24ef18f004",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Yeah that is stopped now",
+    "ts": "1795606239.656349",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4GktQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Yeah that is stopped now"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "043a4d51-559d-42b8-9e56-80b37bb926ae",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "text": "Can we get on a call?",
+    "ts": "1795606950.441239",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ze3Jn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Can we get on a call?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "93796e88-222b-4532-a094-ec63ad749733",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "\u003c@U0BTUQGHDDF\u003e\n\n \u003chttps://meet.google.com/fcf-kzzy-wtv|meet.google.com/fcf-kzzy-wtv\u003e",
+    "ts": "1795607066.535349",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2r+HL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": "\n\n "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/fcf-kzzy-wtv",
+                "text": "meet.google.com/fcf-kzzy-wtv"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "87663fba-0897-46ad-8da8-b3f51f2f21d2",
+    "type": "message",
+    "user": "U0BTUQGHDDF",
+    "ts": "1795607761.410279",
+    "thread_ts": "1795405793.471969",
+    "parent_user_id": "U0BTUQGHDDF",
+    "files": [
+      {
+        "id": "F0CLXP4V4D7",
+        "created": 1795607759,
+        "timestamp": 1795607759,
+        "name": "job-54-logs-2026-11-25-11-10-20.tar.gz",
+        "title": "job-54-logs-2026-11-25-11-10-20.tar.gz",
+        "mimetype": "application/x-gzip",
+        "image_exif_rotation": 0,
+        "filetype": "gzip",
+        "pretty_type": "Gzip",
+        "user": "U0BTUQGHDDF",
+        "mode": "hosted",
+        "editable": false,
+        "is_external": false,
+        "external_type": "",
+        "size": 9069,
+        "url": "",
+        "url_download": "",
+        "url_private": "https://files.slack.com/files-pri/T0820LGJGRF-F0CLXP4V4D7/job-54-logs-2026-11-25-11-10-20.tar.gz",
+        "url_private_download": "https://files.slack.com/files-pri/T0820LGJGRF-F0CLXP4V4D7/download/job-54-logs-2026-11-25-11-10-20.tar.gz",
+        "original_h": 0,
+        "original_w": 0,
+        "thumb_64": "",
+        "thumb_80": "",
+        "thumb_160": "",
+        "thumb_360": "",
+        "thumb_360_gif": "",
+        "thumb_360_w": 0,
+        "thumb_360_h": 0,
+        "thumb_480": "",
+        "thumb_480_w": 0,
+        "thumb_480_h": 0,
+        "thumb_720": "",
+        "thumb_720_w": 0,
+        "thumb_720_h": 0,
+        "thumb_960": "",
+        "thumb_960_w": 0,
+        "thumb_960_h": 0,
+        "thumb_1024": "",
+        "thumb_1024_w": 0,
+        "thumb_1024_h": 0,
+        "permalink": "https://getolake.slack.com/files/U0BNPF3AGB0/F0CLXP4V4D7/job-54-logs-2026-11-25-11-10-20.tar.gz",
+        "permalink_public": "https://slack-files.com/T0820LGJGRF-F0CLXP4V4D7-3787dd617a",
+        "edit_link": "",
+        "preview": "",
+        "preview_highlight": "",
+        "lines": 0,
+        "lines_more": 0,
+        "is_public": true,
+        "public_url_shared": false,
+        "channels": null,
+        "groups": null,
+        "ims": null,
+        "initial_comment": {},
+        "comments_count": 0,
+        "num_stars": 0,
+        "is_starred": false,
+        "shares": {
+          "public": null,
+          "private": null
+        },
+        "subject": "",
+        "to": null,
+        "from": null,
+        "cc": null,
+        "headers": {
+          "date": "",
+          "in_reply_to": "",
+          "reply_to": "",
+          "message_id": ""
+        },
+        "plain_text": "",
+        "preview_plain_text": ""
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": null,
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/e25014ed78996d28ddac8c62aa41154a.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+      "first_name": "anant.sharan",
+      "real_name": "anant.sharan",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "anant.sharan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
