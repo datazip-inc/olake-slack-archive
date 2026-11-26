@@ -1,0 +1,199 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    kubernetes.io/limit-ranger: 'LimitRanger plugin set: memory limit for container
+      connector'
+    olake.io/connector-type: mongodb
+    olake.io/created-at: "2026-11-25T16:20:02Z"
+    olake.io/created-by-pod: olake.io/olake-workers/olake-workers-5c768bcd74-btcdg
+    olake.io/job-id: "54"
+    olake.io/operation-type: sync
+    olake.io/workflow-id: sync-123-54-2026-11-25T16:20:00Z
+  creationTimestamp: "2026-11-25T16:20:02Z"
+  generation: 1
+  labels:
+    app.kubernetes.io/component: mongodb-sync
+    app.kubernetes.io/managed-by: olake-workers
+    app.kubernetes.io/name: olake
+    olake.io/connector: mongodb
+    olake.io/job-id: "54"
+    olake.io/operation-type: sync
+    olake.io/workflow-id: sync-123-54-2026-11-25t16-20-00z
+    topology.kubernetes.io/region: asia-south1
+    topology.kubernetes.io/zone: asia-south1-a
+  name: sync-123-54-2026-11-25t16-20-00z
+  namespace: olake
+  resourceVersion: "1795623603847919015"
+  uid: 29221a6f-0b21-4db1-8175-e28978f7f074
+spec:
+  containers:
+  - args:
+    - sync
+    - --config
+    - /mnt/config/source.json
+    - --destination
+    - /mnt/config/destination.json
+    - --state
+    - /mnt/config/state.json
+    - --available-streams
+    - /mnt/config/available_streams.json
+    - --selected-streams
+    - /mnt/config/selected_streams.json
+    env:
+    - name: OLAKE_WORKFLOW_ID
+      value: sync-123-54-2026-11-25T16:20:00Z
+    - name: OLAKE_S3_CONFIG_FOLDER
+    - name: OLAKE_SECRET_KEY
+    envFrom:
+    - configMapRef:
+        name: olake-global-env
+        optional: true
+    image: olakego/source-mongodb:v1.2.2
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      exec:
+        command:
+        - /bin/sh
+        - -c
+        - echo ok > /mnt/config/.healthcheck
+      failureThreshold: 3
+      initialDelaySeconds: 10
+      periodSeconds: 30
+      successThreshold: 1
+      timeoutSeconds: 5
+    name: connector
+    resources:
+      limits:
+        memory: 55Gi
+      requests:
+        cpu: 100m
+        memory: 256Mi
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /mnt/config
+      name: job-storage
+      subPath: 11ad83cc9f8dd79f35f2aa1260ae8e5da3af912007ed4a7ea957b8b527ccefe9
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-fzkmp
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  nodeName: gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+  nodeSelector:
+    cloud.google.com/gke-nodepool: olake-orders-v2
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Never
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: olake-job
+  serviceAccountName: olake-job
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoSchedule
+    key: dedicated
+    operator: Equal
+    value: orders-v2
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: job-storage
+    persistentVolumeClaim:
+      claimName: olake-shared-storage
+  - name: kube-api-access-fzkmp
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2026-11-25T16:20:03Z"
+    observedGeneration: 1
+    status: "True"
+    type: PodReadyToStartContainers
+  - lastProbeTime: null
+    lastTransitionTime: "2026-11-25T16:20:02Z"
+    observedGeneration: 1
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2026-11-25T16:20:03Z"
+    observedGeneration: 1
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2026-11-25T16:20:03Z"
+    observedGeneration: 1
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2026-11-25T16:20:02Z"
+    observedGeneration: 1
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - allocatedResources:
+      cpu: 100m
+      memory: 256Mi
+    containerID: containerd://855e6c01527d2cd4b0403100b57d4a4d6579cbb51135c2a20934ee436c079774
+    image: docker.io/olakego/source-mongodb:v1.2.2
+    imageID: docker.io/olakego/source-mongodb@sha256:ac25240e6fe4f7e64c0cbe820f1cfe44bc5ffbb2a957929f21f0d5219d805b3a
+    lastState: {}
+    name: connector
+    ready: true
+    resources:
+      limits:
+        memory: 55Gi
+      requests:
+        cpu: 100m
+        memory: 256Mi
+    restartCount: 0
+    started: true
+    state:
+      running:
+        startedAt: "2026-11-25T16:20:03Z"
+    user:
+      linux:
+        gid: 0
+        supplementalGroups:
+        - 0
+        uid: 0
+    volumeMounts:
+    - mountPath: /mnt/config
+      name: job-storage
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-fzkmp
+      readOnly: true
+      recursiveReadOnly: Disabled
+  hostIP: 10.160.0.7
+  hostIPs:
+  - ip: 10.160.0.7
+  observedGeneration: 1
+  phase: Running
+  podIP: 10.120.3.5
+  podIPs:
+  - ip: 10.120.3.5
+  qosClass: Burstable
+  startTime: "2026-11-25T16:20:02Z"

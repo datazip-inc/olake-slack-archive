@@ -1,0 +1,133 @@
+Name:               gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+Roles:              <none>
+Labels:             addon.gke.io/node-local-dns-ds-ready=true
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=e2-highmem-8
+                    beta.kubernetes.io/os=linux
+                    cloud.google.com/gke-boot-disk=pd-balanced
+                    cloud.google.com/gke-container-runtime=containerd
+                    cloud.google.com/gke-cpu-scaling-level=8
+                    cloud.google.com/gke-logging-variant=DEFAULT
+                    cloud.google.com/gke-max-pods-per-node=110
+                    cloud.google.com/gke-memory-gb-scaling-level=65
+                    cloud.google.com/gke-netd-ready=true
+                    cloud.google.com/gke-nodepool=olake-orders-v2
+                    cloud.google.com/gke-os-distribution=cos
+                    cloud.google.com/gke-provisioning=standard
+                    cloud.google.com/gke-stack-type=IPV4
+                    cloud.google.com/machine-family=e2
+                    cloud.google.com/private-node=false
+                    disk-type.gke.io/pd-balanced=true
+                    disk-type.gke.io/pd-extreme=true
+                    disk-type.gke.io/pd-ssd=true
+                    disk-type.gke.io/pd-standard=true
+                    failure-domain.beta.kubernetes.io/region=asia-south1
+                    failure-domain.beta.kubernetes.io/zone=asia-south1-a
+                    iam.gke.io/gke-metadata-server-enabled=true
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+                    kubernetes.io/os=linux
+                    node.kubernetes.io/instance-type=e2-highmem-8
+                    topology.gke.io/zone=asia-south1-a
+                    topology.kubernetes.io/region=asia-south1
+                    topology.kubernetes.io/zone=asia-south1-a
+Annotations:        container.googleapis.com/instance_id: 30473204034918563
+                    csi.volume.kubernetes.io/nodeid:
+                      {"pd.csi.storage.gke.io":"projects/analytics-dataplatform-457708/zones/asia-south1-a/instances/gke-olake-gke-cluster-olake-orders-v2-3ccc9...
+                    node.alpha.kubernetes.io/ttl: 0
+                    node.gke.io/last-applied-node-labels:
+                      addon.gke.io/node-local-dns-ds-ready=true,cloud.google.com/gke-boot-disk=pd-balanced,cloud.google.com/gke-container-runtime=containerd,clo...
+                    node.gke.io/last-applied-node-taints: dedicated=orders-v2:NoSchedule
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Wed, 25 Nov 2026 13:45:30 +0000
+Taints:             dedicated=orders-v2:NoSchedule
+Unschedulable:      false
+Lease:
+  HolderIdentity:  gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+  AcquireTime:     <unset>
+  RenewTime:       Wed, 25 Nov 2026 16:21:09 +0000
+Conditions:
+  Type                                              Status  LastHeartbeatTime                 LastTransitionTime                Reason                                                       Message
+  ----                                              ------  -----------------                 ------------------                ------                                                       -------
+  Swap                                              False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   SwapNotDetected                                              Swap is not active
+  ReadOnlyRootFileSystem                            False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   ReadOnlyRootFileSystemNotDetected                            Root filesystem is not read only
+  KubeletConfigChanged                              False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   NoKubeletConfigChangeDetected                                No changes detected to the kubelet configuration file.
+  CorruptDockerOverlay2                             False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   NoCorruptDockerOverlay2                                      docker overlay2 is functioning properly
+  KernelDeadlock                                    False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   KernelHasNoDeadlock                                          kernel has no deadlock
+  XfsShutdown                                       False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   XfsHasNotShutDown                                            XFS has not shutdown
+  DeprecatedAuthsFieldInContainerdConfiguration     False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   DeprecatedAuthsFieldInContainerdConfigurationNotDetected     No deprecation risk: did not find any deprecated 'auths' field in containerd's config
+  DeprecatedOtherContainerdFeatures                 False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   DeprecatedOtherContainerdFeaturesNotDetected                 No deprecation risk: did not find any deprecations other than 3 configs fields (auths/configs/mirrors), pulling schema v1 images and using v1alpha2 CRI.
+  DeprecatedPullingSchemaV1Image                    False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   DeprecatedPullingSchemaV1ImageDetected                       No deprecation risk: did not pull any schema v1 images
+  DeprecatedUsingV1Alpha2Cri                        False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   DeprecatedUsingV1Alpha2CriNotDetected                        No deprecation risk: did not use v1alpha2 CRI
+  UnsupportedEBPFPrograms                           False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   UnsupportedEBPFProgramsNotDetected                           No unsupported EBPF programs detected
+  ResourceExhausted                                 False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   ResourcesOK                                                  System resources are within normal range.
+  FrequentDockerRestart                             False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   NoFrequentDockerRestart                                      docker is functioning properly
+  DeprecatedConfigsFieldInContainerdConfiguration   False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   DeprecatedConfigsFieldInContainerdConfigurationNotDetected   No deprecation risk: did not find any deprecated 'configs' field in containerd's config
+  StoragePressureRootFileSystem                     False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   StoragePressureRootFileSystemNotDetected                     Root filesystem has no storage pressure
+  DPv2MigrationUnsupportedCNI                       False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   DPv2MigrationUnsupportedCNINotDetected                       No unsupported CNI detected for DPv2 migration
+  FrequentKubeletRestart                            False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   NoFrequentKubeletRestart                                     kubelet is functioning properly
+  FrequentUnregisterNetDevice                       False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   NoFrequentUnregisterNetDevice                                node is functioning properly
+  SysctlChanged                                     True    Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   NodeSysctlChange                                             {"unmanaged": {"kernel.cad_pid": "1"}}
+  FrequentContainerdRestart                         False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   NoFrequentContainerdRestart                                  containerd is functioning properly
+  CperHardwareErrorFatal                            False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   CperHardwareHasNoFatalError                                  UEFI CPER has no fatal error
+  DeprecatedMirrorsFieldInContainerdConfiguration   False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   DeprecatedMirrorsFieldInContainerdConfigurationNotDetected   No deprecation risk: did not find any deprecated 'mirrors' field in containerd's config
+  NetworkUnavailable                                False   Wed, 25 Nov 2026 13:45:33 +0000   Wed, 25 Nov 2026 13:45:33 +0000   RouteCreated                                                 NodeController create implicit route
+  MemoryPressure                                    False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   KubeletHasSufficientMemory                                   kubelet has sufficient memory available
+  DiskPressure                                      False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   KubeletHasNoDiskPressure                                     kubelet has no disk pressure
+  PIDPressure                                       False   Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:29 +0000   KubeletHasSufficientPID                                      kubelet has sufficient PID available
+  Ready                                             True    Wed, 25 Nov 2026 16:20:56 +0000   Wed, 25 Nov 2026 13:45:34 +0000   KubeletReady                                                 kubelet is posting ready status
+Addresses:
+  InternalIP:  10.160.0.7
+  ExternalIP:  8.231.103.152
+  Hostname:    gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+Capacity:
+  cpu:                8
+  ephemeral-storage:  98831908Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             65850416Ki
+  pods:               110
+Allocatable:
+  cpu:                7910m
+  ephemeral-storage:  47060071478
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             60042288Ki
+  pods:               110
+System Info:
+  Machine ID:                 07af9ce4a3e3a02ea4fc9c97abe094cd
+  System UUID:                07af9ce4-a3e3-a02e-a4fc-9c97abe094cd
+  Boot ID:                    629a34e8-2253-40b6-97b4-1418f03dd9b9
+  Kernel Version:             6.12.113+
+  OS Image:                   Container-Optimized OS from Google
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://2.2.7
+  Kubelet Version:            v1.35.9-gke.1673000
+  Kube-Proxy Version:         
+PodCIDR:                      10.120.3.0/24
+PodCIDRs:                     10.120.3.0/24
+ProviderID:                   gce://analytics-dataplatform-457708/asia-south1-a/gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8
+Non-terminated Pods:          (10 in total)
+  Namespace                   Name                                                              CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                                              ------------  ----------  ---------------  -------------  ---
+  gmp-system                  collector-lbt68                                                   5m (0%)       0 (0%)      36M (0%)         3032M (4%)     155m
+  kube-system                 fluentbit-gke-77trc                                               105m (1%)     1 (12%)     230Mi (0%)       565Mi (0%)     155m
+  kube-system                 gke-metadata-server-7lcc2                                         100m (1%)     0 (0%)      100Mi (0%)       200Mi (0%)     155m
+  kube-system                 gke-metrics-agent-5qvwr                                           21m (0%)      1 (12%)     145Mi (0%)       180Mi (0%)     155m
+  kube-system                 ip-masq-agent-dl9nf                                               0 (0%)        0 (0%)      0 (0%)           0 (0%)         155m
+  kube-system                 kube-proxy-gke-olake-gke-cluster-olake-orders-v2-3ccc9028-0zn8    100m (1%)     0 (0%)      0 (0%)           0 (0%)         155m
+  kube-system                 netd-79w6d                                                        8m (0%)       1 (12%)     65Mi (0%)        65Mi (0%)      155m
+  kube-system                 node-local-dns-4lj8l                                              30m (0%)      1 (12%)     50Mi (0%)        65Mi (0%)      155m
+  kube-system                 pdcsi-node-dh882                                                  15m (0%)      1 (12%)     50Mi (0%)        530Mi (0%)     155m
+  olake                       sync-123-54-2026-11-25t16-20-00z                                  100m (1%)     0 (0%)      256Mi (0%)       55Gi (96%)     67s
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests        Limits
+  --------           --------        ------
+  cpu                484m (6%)       5 (63%)
+  memory             975524096 (1%)  63770764800 (103%)
+  ephemeral-storage  0 (0%)          0 (0%)
+  hugepages-1Gi      0 (0%)          0 (0%)
+  hugepages-2Mi      0 (0%)          0 (0%)
+Events:              <none>
