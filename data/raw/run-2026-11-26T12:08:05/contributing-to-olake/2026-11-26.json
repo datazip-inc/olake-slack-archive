@@ -1,0 +1,52 @@
+[
+  {
+    "client_msg_id": "94f121af-ceb4-4808-a0c2-34e43c78bb01",
+    "type": "message",
+    "user": "U0CLHQBKNS3",
+    "text": "\u003c@U09BK0WKBQR\u003e Hello, Can you look my PR?",
+    "ts": "1795690386.357499",
+    "thread_ts": "1795628182.159989",
+    "parent_user_id": "U0CLHQBKNS3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CWth6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " Hello, Can you look my PR?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-25/12711240802422_d7561e97c303a314b7fb_72.png",
+      "first_name": "Not",
+      "real_name": "Not Now",
+      "display_name": "Not Now",
+      "team": "T0820LGJGRF",
+      "name": "krutoi8727",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]

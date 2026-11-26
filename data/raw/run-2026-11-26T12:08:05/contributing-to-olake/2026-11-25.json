@@ -1,0 +1,68 @@
+[
+  {
+    "client_msg_id": "10561f0a-e2dc-4588-8ce1-0a694111fd4a",
+    "type": "message",
+    "user": "U0CLHQBKNS3",
+    "text": "Hello!\n\nCould someone take a look when you have a moment? This is the change proposed in \u003chttps://github.com/datazip-inc/olake-go/pull/1469|#1467\u003e: CDC writers are closed concurrently (bounded by max_threads), which cuts the end-of-run commit phase from the sum of all table commits to roughly the slowest one. Unit tests pass with -race; happy to adjust the limit (e.g. make it opt-in) if you prefer. Thanks!",
+    "ts": "1795628182.159989",
+    "thread_ts": "1795628182.159989",
+    "reply_count": 1,
+    "reply_users": [
+      "U0CLHQBKNS3"
+    ],
+    "replies": [
+      {
+        "user": "U0CLHQBKNS3",
+        "ts": "1795690386.357499"
+      }
+    ],
+    "latest_reply": "1795690386.357499",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DhXHi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hello!\n\nCould someone take a look when you have a moment? This is the change proposed in "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-go/pull/1469",
+                "text": "#1467"
+              },
+              {
+                "type": "text",
+                "text": ": CDC writers are closed concurrently (bounded by max_threads), which cuts the end-of-run commit phase from the sum of all table commits to roughly the slowest one. Unit tests pass with -race; happy to adjust the limit (e.g. make it opt-in) if you prefer. Thanks!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-25/12711240802422_d7561e97c303a314b7fb_72.png",
+      "first_name": "Not",
+      "real_name": "Not Now",
+      "display_name": "Not Now",
+      "team": "T0820LGJGRF",
+      "name": "krutoi8727",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 1
+  }
+]

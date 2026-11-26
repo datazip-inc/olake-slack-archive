@@ -1,0 +1,318 @@
+[
+  {
+    "client_msg_id": "5b1e0a71-f256-4606-a970-90c6c526a96f",
+    "type": "message",
+    "user": "U0BRSG8EMC6",
+    "text": "\u003c@U08S0TP9R3P\u003e As discussed with you, please share the monitoring query that you supposed to share with \u003c@U0BTUQGHDDF\u003e . As you know we are getting lag isssue while reading data from Atlas (mongo). This is super critical for us right now.\n\u003c@U0BMJKKJ694\u003e Please expedite this\ncc \u003c@U082APQJZNC\u003e",
+    "ts": "1795439241.477839",
+    "team": "T0820LGJGRF",
+    "reactions": [
+      {
+        "name": "eyes",
+        "count": 4,
+        "users": [
+          "U08S0TP9R3P",
+          "U0817E9CGRM",
+          "U0820LSJZRP",
+          "U0BMJKKJ694"
+        ]
+      }
+    ],
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "etZL0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08S0TP9R3P"
+              },
+              {
+                "type": "text",
+                "text": " As discussed with you, please share the monitoring query that you supposed to share with "
+              },
+              {
+                "type": "user",
+                "user_id": "U0BTUQGHDDF"
+              },
+              {
+                "type": "text",
+                "text": " . As you know we are getting lag isssue while reading data from Atlas (mongo). This is super critical for us right now.\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U0BMJKKJ694"
+              },
+              {
+                "type": "text",
+                "text": " Please expedite this\ncc "
+              },
+              {
+                "type": "user",
+                "user_id": "U082APQJZNC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/5b7a715ffab91c804da93efa1bebddd1.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+      "first_name": "manish.mishra2",
+      "real_name": "manish.mishra2",
+      "display_name": "",
+      "team": "T0820LGJGRF",
+      "name": "manish.mishra2",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "59b87067-6075-43ba-b08b-8b6076608654",
+    "type": "message",
+    "user": "U0CL0QSS929",
+    "text": "hi",
+    "ts": "1795441190.769959",
+    "thread_ts": "1795441190.769959",
+    "reply_count": 2,
+    "reply_users": [
+      "U08S0TP9R3P",
+      "U0CL0QSS929"
+    ],
+    "replies": [
+      {
+        "user": "U08S0TP9R3P",
+        "ts": "1795441692.749549"
+      },
+      {
+        "user": "U0CL0QSS929",
+        "ts": "1795441757.415329"
+      }
+    ],
+    "latest_reply": "1795441757.415329",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "a8bcU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hi"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-23/12714508405824_0b2081bb86002b0b2a4d_72.png",
+      "first_name": "Ajeet",
+      "real_name": "Ajeet Singh",
+      "display_name": "Ajeet Singh",
+      "team": "T0820LGJGRF",
+      "name": "ajeet.singh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    },
+    "reply_users_count": 2
+  },
+  {
+    "client_msg_id": "d6017a13-1507-4e0a-b9a2-d7bcdf732e9d",
+    "type": "message",
+    "user": "U08S0TP9R3P",
+    "text": "hey \u003c@U0CL0QSS929\u003e\nCould you please run the following two queries and share the output of each?\n\nEach query will run for *5 minutes*.\n\n*Query 1: Raw oplog read through mongos* ```const start = Math.floor(Date.now() / 1000) - 3600, began = Date.now();\nlet events = 0, pos = start;\nconst cs = db.getMongo().watch([], { startAtOperationTime: Timestamp({ t: start, i: 0 }) });\nwhile (Date.now() - began \u0026lt; 300000) {\n  const doc = cs.tryNext();\n  if (doc) { events++; pos = doc.clusterTime.getHighBits(); }\n  else { const tok = cs.getResumeToken(); if (tok \u0026amp;\u0026amp; tok._data) pos = parseInt(tok._data.substr(2, 8), 16); }\n}\ncs.close();\nconst wall = (Date.now() - began) / 1000;\nprint(`raw: oplog_covered=${pos - start}s speed=${((pos - start) / wall).toFixed(2)}x events=${events} events_per_sec=${(events / wall).toFixed(1)}`);``` \n*Query 2: OLake-style read of one collection* ```const start = Math.floor(Date.now() / 1000) - 3600, began = Date.now();\nlet events = 0, pos = start;\ndb.getMongo().setReadConcern(\"majority\");\nconst cs = db.getSiblingDB(\"juno_v2_prod_money\").generic_gv.watch(\n  [{ $match: { operationType: { $in: [\"insert\", \"update\", \"replace\", \"delete\"] } } }],\n  { startAtOperationTime: Timestamp({ t: start, i: 0 }), fullDocument: \"updateLookup\", fullDocumentBeforeChange: \"whenAvailable\", maxAwaitTimeMS: 2000 }\n);\nwhile (Date.now() - began \u0026lt; 300000) {\n  const doc = cs.tryNext();\n  if (doc) { events++; pos = doc.clusterTime.getHighBits(); }\n  else { const tok = cs.getResumeToken(); if (tok \u0026amp;\u0026amp; tok._data) pos = parseInt(tok._data.substr(2, 8), 16); }\n}\ncs.close();\nconst wall = (Date.now() - began) / 1000;\nprint(`olake: oplog_covered=${pos - start}s speed=${((pos - start) / wall).toFixed(2)}x events=${events} events_per_sec=${(events / wall).toFixed(1)}`);```",
+    "ts": "1795441692.749549",
+    "thread_ts": "1795441190.769959",
+    "parent_user_id": "U0CL0QSS929",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "a/Cm/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hey "
+              },
+              {
+                "type": "user",
+                "user_id": "U0CL0QSS929"
+              },
+              {
+                "type": "text",
+                "text": "\nCould you please run the following two queries and share the output of each?\n\nEach query will run for "
+              },
+              {
+                "type": "text",
+                "text": "5 minutes",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".\n\n"
+              },
+              {
+                "type": "text",
+                "text": "Query 1: Raw oplog read through mongos",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "rich_text",
+        "block_id": "GL2Ub",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "const start = Math.floor(Date.now() / 1000) - 3600, began = Date.now();\nlet events = 0, pos = start;\nconst cs = db.getMongo().watch([], { startAtOperationTime: Timestamp({ t: start, i: 0 }) });\nwhile (Date.now() - began \u003c 300000) {\n  const doc = cs.tryNext();\n  if (doc) { events++; pos = doc.clusterTime.getHighBits(); }\n  else { const tok = cs.getResumeToken(); if (tok \u0026\u0026 tok._data) pos = parseInt(tok._data.substr(2, 8), 16); }\n}\ncs.close();\nconst wall = (Date.now() - began) / 1000;\nprint(`raw: oplog_covered=${pos - start}s speed=${((pos - start) / wall).toFixed(2)}x events=${events} events_per_sec=${(events / wall).toFixed(1)}`);"
+              }
+            ],
+            "border": 0,
+            "language": "javascript"
+          }
+        ]
+      },
+      {
+        "type": "rich_text",
+        "block_id": "rJSJW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "Query 2: OLake-style read of one collection",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "rich_text",
+        "block_id": "YKcBC",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "const start = Math.floor(Date.now() / 1000) - 3600, began = Date.now();\nlet events = 0, pos = start;\ndb.getMongo().setReadConcern(\"majority\");\nconst cs = db.getSiblingDB(\"juno_v2_prod_money\").generic_gv.watch(\n  [{ $match: { operationType: { $in: [\"insert\", \"update\", \"replace\", \"delete\"] } } }],\n  { startAtOperationTime: Timestamp({ t: start, i: 0 }), fullDocument: \"updateLookup\", fullDocumentBeforeChange: \"whenAvailable\", maxAwaitTimeMS: 2000 }\n);\nwhile (Date.now() - began \u003c 300000) {\n  const doc = cs.tryNext();\n  if (doc) { events++; pos = doc.clusterTime.getHighBits(); }\n  else { const tok = cs.getResumeToken(); if (tok \u0026\u0026 tok._data) pos = parseInt(tok._data.substr(2, 8), 16); }\n}\ncs.close();\nconst wall = (Date.now() - began) / 1000;\nprint(`olake: oplog_covered=${pos - start}s speed=${((pos - start) / wall).toFixed(2)}x events=${events} events_per_sec=${(events / wall).toFixed(1)}`);"
+              }
+            ],
+            "border": 0,
+            "language": "javascript"
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-05-12/8884941736165_8980b95febb44ada5fd4_72.png",
+      "first_name": "Vishal",
+      "real_name": "Vishal M",
+      "display_name": "Vishal M",
+      "team": "T0820LGJGRF",
+      "name": "vishal",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "f3d3aa31-ff88-4373-bdec-f1cf2ae596f8",
+    "type": "message",
+    "user": "U0CL0QSS929",
+    "text": "okay",
+    "ts": "1795441757.415329",
+    "thread_ts": "1795441190.769959",
+    "parent_user_id": "U0CL0QSS929",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cixRH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "okay"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-23/12714508405824_0b2081bb86002b0b2a4d_72.png",
+      "first_name": "Ajeet",
+      "real_name": "Ajeet Singh",
+      "display_name": "Ajeet Singh",
+      "team": "T0820LGJGRF",
+      "name": "ajeet.singh",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
