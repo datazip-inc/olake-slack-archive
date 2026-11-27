@@ -1,0 +1,267 @@
+[
+  {
+    "client_msg_id": "94f121af-ceb4-4808-a0c2-34e43c78bb01",
+    "type": "message",
+    "user": "U0CLHQBKNS3",
+    "text": "\u003c@U09BK0WKBQR\u003e Hello, Can you look my PR?",
+    "ts": "1795690386.357499",
+    "thread_ts": "1795628182.159989",
+    "parent_user_id": "U0CLHQBKNS3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CWth6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " Hello, Can you look my PR?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-25/12711240802422_d7561e97c303a314b7fb_72.png",
+      "first_name": "Not",
+      "real_name": "Not Now",
+      "display_name": "Not Now",
+      "team": "T0820LGJGRF",
+      "name": "krutoi8727",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9dd66e1c-8be3-437c-b559-14ba8ec5f6a5",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0CLHQBKNS3\u003e Hey will look into your PR and would assign a reviewer too soon!",
+    "ts": "1795712988.121799",
+    "thread_ts": "1795628182.159989",
+    "parent_user_id": "U0CLHQBKNS3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nM7lb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0CLHQBKNS3"
+              },
+              {
+                "type": "text",
+                "text": " Hey will look into your PR and would assign a reviewer too soon!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "a1a6799f-f38a-403b-bc14-daf21e8db7c7",
+    "type": "message",
+    "user": "U0CM5K3J41Z",
+    "text": "Hey guys!\n\nI’ve raised 2 issues and opened 5 PRs in olake-go over the last few days. Here’s a quick overview of what I’ve worked on:\n\n*PRs:*\n• *#1449:* Fixed status code checks and some whitespace handling in telemetry.\n• *#1448:* Improved error handling so the original errors aren’t lost.\n• *#1447:* Added error checks for Oracle schema iteration.\n• *#1445:* Added missing error checks while fetching MySQL table names.\n• *#1444:* Removed an invalid timestamp format entry.\nAlso raised 2 issues:\n\u003chttps://github.com/datazip-inc/olake-go/issues?q=is%3Aissue+state%3Aopen+author%3Arajarshidattapy\u003e\n\nWould appreciate it if you guys could take a look at the PRs and share your feedback!\n\nPRs: \u003chttps://github.com/datazip-inc/olake-go/pulls?q=is%3Apr+state%3Aopen+author%3Arajarshidattapy\u003e",
+    "ts": "1795744294.093949",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PtPMl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey guys!\n\nI’ve raised 2 issues and opened 5 PRs in olake-go over the last few days. Here’s a quick overview of what I’ve worked on:\n\n"
+              },
+              {
+                "type": "text",
+                "text": "PRs:",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "#1449:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " Fixed status code checks and some whitespace handling in telemetry."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "#1448:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " Improved error handling so the original errors aren’t lost."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "#1447:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " Added error checks for Oracle schema iteration."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "#1445:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " Added missing error checks while fetching MySQL table names."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "#1444:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " Removed an invalid timestamp format entry."
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Also raised 2 issues:\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-go/issues?q=is%3Aissue+state%3Aopen+author%3Arajarshidattapy"
+              },
+              {
+                "type": "text",
+                "text": "\n\nWould appreciate it if you guys could take a look at the PRs and share your feedback!\n\nPRs: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-go/pulls?q=is%3Apr+state%3Aopen+author%3Arajarshidattapy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-26/12727767772049_db80f4adcb2eee7f05cf_72.jpg",
+      "first_name": "Rajarshi",
+      "real_name": "Rajarshi Datta",
+      "display_name": "Rajarshi Datta",
+      "team": "T0820LGJGRF",
+      "name": "rayan05rio",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
