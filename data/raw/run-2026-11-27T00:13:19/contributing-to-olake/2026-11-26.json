@@ -1,0 +1,102 @@
+[
+  {
+    "client_msg_id": "94f121af-ceb4-4808-a0c2-34e43c78bb01",
+    "type": "message",
+    "user": "U0CLHQBKNS3",
+    "text": "\u003c@U09BK0WKBQR\u003e Hello, Can you look my PR?",
+    "ts": "1795690386.357499",
+    "thread_ts": "1795628182.159989",
+    "parent_user_id": "U0CLHQBKNS3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CWth6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09BK0WKBQR"
+              },
+              {
+                "type": "text",
+                "text": " Hello, Can you look my PR?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2026-11-25/12711240802422_d7561e97c303a314b7fb_72.png",
+      "first_name": "Not",
+      "real_name": "Not Now",
+      "display_name": "Not Now",
+      "team": "T0820LGJGRF",
+      "name": "krutoi8727",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "9dd66e1c-8be3-437c-b559-14ba8ec5f6a5",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": "\u003c@U0CLHQBKNS3\u003e Hey will look into your PR and would assign a reviewer too soon!",
+    "ts": "1795712988.121799",
+    "thread_ts": "1795628182.159989",
+    "parent_user_id": "U0CLHQBKNS3",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nM7lb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0CLHQBKNS3"
+              },
+              {
+                "type": "text",
+                "text": " Hey will look into your PR and would assign a reviewer too soon!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
