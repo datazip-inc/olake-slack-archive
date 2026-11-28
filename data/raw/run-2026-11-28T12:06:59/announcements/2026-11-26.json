@@ -1,0 +1,593 @@
+[
+  {
+    "client_msg_id": "55D528A2-D32D-4784-93D7-36B2A73BE040",
+    "type": "message",
+    "user": "U0CHG36T49F",
+    "text": ":rotating_light: Reminder: OLake v1 Webinar\nWe’re going live in 45 mins to showcase OLake v1 what’s new, what’s improved, and how it makes data movement to Apache Iceberg easier.\n\nJoin us live and bring your questions\n\n:link: Register and join here: \u003chttps://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e|https://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e\u003e ",
+    "ts": "1795702422.923179",
+    "edited": {
+      "user": "U0CHG36T49F",
+      "ts": "1795702438.000000"
+    },
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uXxfW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " Reminder: OLake v1 Webinar\nWe’re going live "
+              },
+              {
+                "type": "text",
+                "text": "in 45 mins "
+              },
+              {
+                "type": "text",
+                "text": "to showcase OLake v1 what’s new, what’s improved, and how it makes data movement to Apache Iceberg easier.\n\nJoin us live and bring your questions\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " Register and join here: "
+              },
+              {
+                "type": "link",
+                "url": "https://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e",
+                "text": "https://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e",
+                "style": {
+                  "underline": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/f066abd560c0348a7b925fea7daecfc7.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+      "first_name": "Jay",
+      "real_name": "Jay Saadana",
+      "display_name": "Jay Saadana",
+      "team": "T0820LGJGRF",
+      "name": "jay.s",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "3B050B9A-5BDE-42D9-98F5-517E0E4509D0",
+    "type": "message",
+    "user": "U0CHG36T49F",
+    "text": "Hey everyone \nJoin us live for the Olake v1 webinar \n\u003chttps://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e|https://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e\u003e ",
+    "ts": "1795705412.084629",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xlr9E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Hey "
+              },
+              {
+                "type": "text",
+                "text": "everyone "
+              },
+              {
+                "type": "text",
+                "text": "\nJoin us live for the Olake v1 webinar \n"
+              },
+              {
+                "type": "link",
+                "url": "https://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e",
+                "text": "https://app.livestorm.co/p/cd9e990e-1d2e-42ba-ba27-339028c5b99e"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://secure.gravatar.com/avatar/f066abd560c0348a7b925fea7daecfc7.jpg?s=72\u0026d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+      "first_name": "Jay",
+      "real_name": "Jay Saadana",
+      "display_name": "Jay Saadana",
+      "team": "T0820LGJGRF",
+      "name": "jay.s",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  },
+  {
+    "client_msg_id": "cdaa5709-f8fa-4172-a93d-e945637bedbb",
+    "type": "message",
+    "user": "U09BK0WKBQR",
+    "text": ":rotating_light: OLake Fusion v0.2.2 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-fusion/releases/tag/v0.2.2|github.com/datazip-inc/olake-fusion/…/v0.2.2\u003e\n*What’s New*\n• feat(telemetry): classify and report catalog and table sync failures by \u003c@U0C510Q1PQC\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/78|#78\u003e\n• feat(telemetry): report optimizer startup failures by \u003c@U0C510Q1PQC\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/79|#79\u003e\n• feat: fusion nfs removal by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/51|#51\u003e\n• feat(telemetry): report compaction and table maintenance failures by \u003c@U0C510Q1PQC\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/82|#82\u003e\n• chore(optimizer): log executor memory and overhead requirements by \u003c@U0C510Q1PQC\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/100|#100\u003e\n• fix: iceberg v3 tables fail the run instead of being rejected by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/106|#106\u003e\n• feat(logs): nfs to s3 by \u003c@U0BF1NS2UJ0\u003e in \u003chttps://github.com/datazip-inc/olake-fusion/pull/105|#105\u003e (Works with helm chart \u0026gt;= \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.37|olake-0.0.37\u003e)\n:rotating_light: OLake Worker v0.5.2 Released:rotating_light:\nRelease: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/v0.5.2|github.com/datazip-inc/olake-helm/…/v0.5.2\u003e\n*What’s New*\n• fix(worker): bump Go to 1.26.11 for GO-2026-6859 by \u003c@U082APQJZNC\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/277|#277\u003e\n:rotating_light: OLake Helm v0.0.37 Released:rotating_light:\n:link: \u003chttps://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.37|github.com/datazip-inc/olake-helm/…/olake-0.0.37\u003e\n:rocket: Features \u0026amp; Fixes in this release:\n• chore: adding s3 upload in fusion by \u003c@U0817E9CGRM\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/282|#282\u003e\n• feat(helm): add extraVolumes for olake-ui and olake-worker by \u003c@U0BMJKKJ694\u003e in \u003chttps://github.com/datazip-inc/olake-helm/pull/279|#279\u003e\nThanks for the contribution!",
+    "ts": "1795714162.391579",
+    "team": "T0820LGJGRF",
+    "replace_original": false,
+    "delete_original": false,
+    "metadata": {
+      "event_type": "",
+      "event_payload": null
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D9Lo9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Fusion v0.2.2 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-fusion/releases/tag/v0.2.2",
+                "text": "github.com/datazip-inc/olake-fusion/…/v0.2.2"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(telemetry): classify and report catalog and table sync failures by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C510Q1PQC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/78",
+                    "text": "#78"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(telemetry): report optimizer startup failures by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C510Q1PQC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/79",
+                    "text": "#79"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat: fusion nfs removal by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/51",
+                    "text": "#51"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(telemetry): report compaction and table maintenance failures by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C510Q1PQC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/82",
+                    "text": "#82"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore(optimizer): log executor memory and overhead requirements by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0C510Q1PQC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/100",
+                    "text": "#100"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix: iceberg v3 tables fail the run instead of being rejected by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/106",
+                    "text": "#106"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(logs): nfs to s3 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BF1NS2UJ0"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-fusion/pull/105",
+                    "text": "#105"
+                  },
+                  {
+                    "type": "text",
+                    "text": " (Works with helm chart \u003e= "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.37",
+                    "text": "olake-0.0.37"
+                  },
+                  {
+                    "type": "text",
+                    "text": ")"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Worker v0.5.2 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\nRelease: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/v0.5.2",
+                "text": "github.com/datazip-inc/olake-helm/…/v0.5.2"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "What’s New",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "fix(worker): bump Go to 1.26.11 for GO-2026-6859 by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U082APQJZNC"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/277",
+                    "text": "#277"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": " OLake Helm v0.0.37 Released"
+              },
+              {
+                "type": "emoji",
+                "name": "rotating_light",
+                "unicode": "1f6a8"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/datazip-inc/olake-helm/releases/tag/olake-0.0.37",
+                "text": "github.com/datazip-inc/olake-helm/…/olake-0.0.37"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": " Features \u0026 Fixes in this release:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chore: adding s3 upload in fusion by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0817E9CGRM"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/282",
+                    "text": "#282"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "feat(helm): add extraVolumes for olake-ui and olake-worker by "
+                  },
+                  {
+                    "type": "user",
+                    "user_id": "U0BMJKKJ694"
+                  },
+                  {
+                    "type": "text",
+                    "text": " in "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/datazip-inc/olake-helm/pull/279",
+                    "text": "#279"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0,
+            "offset": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nThanks for the contribution!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_team": "T0820LGJGRF",
+    "source_team": "T0820LGJGRF",
+    "user_profile": {
+      "avatar_hash": "",
+      "image_72": "https://avatars.slack-edge.com/2025-08-20/9393030902353_a60c2150c1725a86dec8_72.png",
+      "first_name": "Nayan",
+      "real_name": "Nayan Joshi",
+      "display_name": "Nayan Joshi",
+      "team": "T0820LGJGRF",
+      "name": "nayan",
+      "is_restricted": false,
+      "is_ultra_restricted": false
+    }
+  }
+]
